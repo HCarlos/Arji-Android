@@ -87,19 +87,23 @@ public class dbLista_Elementos {
                         for (int i = 0;  i < jObj.length(); i++ ) {
                             rec = jObj.getJSONObject(i);
                             int idelemento = 0;
+                            int idelementodestinatario = 0;
                             String label = "";
                             switch (Type){
                                 case 0:
                                     idelemento = rec.getInt("idtarea");
+                                    idelementodestinatario = rec.getInt("idtareadestinatario");
                                     label = rec.getString("titulo_tarea");
+                                    MM.add( new Lista_Elementos(label,idelemento,idelementodestinatario,Type) );
                                     break;
                                 case 1:
-                                    idelemento = rec.getInt("idcommensajedestinatario");
+                                    idelemento = rec.getInt("idcommensaje");
+                                    idelementodestinatario = rec.getInt("idcommensajedestinatario");
                                     label = rec.getString("titulo_mensaje");
+                                    MM.add( new Lista_Elementos(idelemento,idelementodestinatario,label,Type) );
                                     break;
                             }
 
-                            MM.add( new Lista_Elementos( idelemento,label) );
                         }
 
                         Singleton.setRsElementos(MM);

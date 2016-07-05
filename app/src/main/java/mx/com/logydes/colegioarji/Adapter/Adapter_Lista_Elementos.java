@@ -51,15 +51,30 @@ public class Adapter_Lista_Elementos extends RecyclerView.Adapter<Adapter_Lista_
 
             final Lista_Elementos mm = MM.get(position);
 
-            cvh.tvElemento.setText(mm.getLabel() );
-            cvh.IdElemento = mm.getIdElemento();
+
+            cvh.TipoElemento = mm.getTipo();
+            switch (cvh.TipoElemento){
+                case 0:
+                    cvh.tvElemento.setText(mm.getLabel() );
+                    cvh.IdElemento = mm.getIdTarea();
+                    cvh.IdElementoDestinatario = mm.getIdTareaDestinatario();
+                    break;
+                case 1:
+                    cvh.tvElemento.setText(mm.getLabel() );
+                    cvh.IdElemento = mm.getIdComMensaje();
+                    cvh.IdElementoDestinatario = mm.getIdComMensajeDestinatario();
+                    break;
+            }
+
 
             cvh.lyElementos.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View view) {
                     Intent intent = new Intent(activity, Elemento.class);
-                    intent.putExtra(activity.getString(R.string.elemento), mm.getLabel() );
-                    intent.putExtra(activity.getString(R.string.idelemento), Singleton.getIdAlu() );
+                    intent.putExtra(activity.getString(R.string.elemento), cvh.tvElemento.getText() );
+                    intent.putExtra(activity.getString(R.string.idelemento), cvh.IdElemento );
+                    intent.putExtra(activity.getString(R.string.idelementodestinatario), cvh.IdElementoDestinatario );
+                    intent.putExtra(activity.getString(R.string.tipoelemento), cvh.TipoElemento );
                     activity.startActivity(intent);
                 }
             });
@@ -75,10 +90,14 @@ public class Adapter_Lista_Elementos extends RecyclerView.Adapter<Adapter_Lista_
             LinearLayout lyElementos;
             TextView tvElemento;
             int IdElemento;
+            int IdElementoDestinatario;
+            int TipoElemento;
 
             public AdapterElementosViewHolder(View itemView) {
                 super(itemView);
                 IdElemento = 0;
+                IdElementoDestinatario = 0;
+                TipoElemento = 0;
                 tvElemento = (TextView) itemView.findViewById(R.id.tvElemento);
                 lyElementos = (LinearLayout) itemView.findViewById(R.id.lyElementos);
 

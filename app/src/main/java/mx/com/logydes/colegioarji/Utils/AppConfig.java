@@ -41,7 +41,11 @@ public class AppConfig {
 
     public static String URL_GET_HIJOS = "http://platsource.mx/getListaHijos/";
 
-    public static String URL_TAREAS = "http://platsource.mx/getListaTutorTareas/";
+    public static String URL_TAREAS_CIRCULARES = "http://platsource.mx/getListaTutorTareas/";
+
+    public static String URL_TAREA = "http://platsource.mx/getHTMLTemplate/";
+    public static String URL_CIRCULARES = "http://platsource.mx/getCircularesHTMLTemplate/";
+
 
 
 }

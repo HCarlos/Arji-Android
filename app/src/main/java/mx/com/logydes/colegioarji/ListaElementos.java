@@ -32,10 +32,10 @@ public class ListaElementos extends AppCompatActivity {
         String strURL = "";
         switch (IdMenu){
             case 0:
-                strURL = AppConfig.URL_TAREAS;
+                strURL = AppConfig.URL_TAREAS_CIRCULARES;
                 break;
             case 1:
-                strURL = AppConfig.URL_TAREAS;
+                strURL = AppConfig.URL_TAREAS_CIRCULARES;
                 break;
 
         }

@@ -8,11 +8,15 @@ public class Lista_Elementos {
     private int IdObjAlu;
     private int IdObjMenu;
     private int IdObj;
+    private int IdTareaDestinatario;
     private int IdTarea;
     private int IdComMensaje;
+    private int IdComMensajeDestinatario;
     private String urlWeb;
     private String body;
     private String label;
+    private int Tipo;
+
 
     public int getIdElemento() {
         return IdElemento;
@@ -24,6 +28,37 @@ public class Lista_Elementos {
     public Lista_Elementos(int _IdElemento, String _label) {
         IdElemento = _IdElemento;
         label = _label;
+    }
+
+    public Lista_Elementos(String label, int idTarea, int idTareaDestinatario, int tipo) {
+        this.label = label;
+        IdTarea = idTarea;
+        IdTareaDestinatario = idTareaDestinatario;
+        Tipo = tipo;
+    }
+
+    public Lista_Elementos(int idComMensaje, int idComMensajeDestinatario, String label, int tipo) {
+        IdComMensaje = idComMensaje;
+        IdComMensajeDestinatario = idComMensajeDestinatario;
+        this.label = label;
+        Tipo = tipo;
+    }
+
+    public int getIdTareaDestinatario() {
+        return IdTareaDestinatario;
+    }
+
+
+    public void setIdTareaDestinatario(int idTareaDestinatario) {
+        IdTareaDestinatario = idTareaDestinatario;
+    }
+
+    public int getIdComMensajeDestinatario() {
+        return IdComMensajeDestinatario;
+    }
+
+    public void setIdComMensajeDestinatario(int idComMensajeDestinatario) {
+        IdComMensajeDestinatario = idComMensajeDestinatario;
     }
 
     public void setIdElemento(int idElemento) {
@@ -94,4 +129,11 @@ public class Lista_Elementos {
         this.label = label;
     }
 
+    public int getTipo() {
+        return Tipo;
+    }
+
+    public void setTipo(int tipo) {
+        Tipo = tipo;
+    }
 }

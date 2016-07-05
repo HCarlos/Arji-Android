@@ -428,6 +428,7 @@
     <string name="hint_password">Password</string>
     <string name="idalu">data</string>
     <string name="idelemento">IdElemento</string>
+    <string name="idelementodestinatario">IdElementoDestinatario</string>
     <string name="idmenu">0</string>
     <string name="menu">.</string>
     <string name="name">Fullname</string>
@@ -437,6 +438,7 @@
     <string name="prompt_email">Username</string>
     <string name="prompt_password">Password</string>
     <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="tipoelemento">TipoElemento</string>
     <string name="title_activity_boletin">Boletín Oficial</string>
     <string name="title_activity_hijos">Alumnos</string>
     <string name="title_activity_lactivityn">Sign in</string>

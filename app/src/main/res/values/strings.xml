@@ -70,5 +70,7 @@
 
     <string name="elemento">Elemento</string>
     <string name="idelemento">IdElemento</string>
+    <string name="idelementodestinatario">IdElementoDestinatario</string>
+    <string name="tipoelemento">TipoElemento</string>
 
 </resources>
