@@ -61,14 +61,11 @@ public class Adapter_Lista_Elementos extends RecyclerView.Adapter<Adapter_Lista_
                     intent.putExtra(activity.getString(R.string.elemento), mm.getLabel() );
                     intent.putExtra(activity.getString(R.string.idelemento), Singleton.getIdAlu() );
                     activity.startActivity(intent);
-
                 }
             });
-
         }
 
         public int getItemCount() {
-
             // Log.e(TAG+" TOTAL",String.valueOf(MM.size()));
             return MM.size();
         }
