@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/home/devch/AndroidStudioProjects/ColegioArji/app/build/intermediates/res/merged/debug/menu/menu_alumnos.xml",
+        "source": "/home/devch/AndroidStudioProjects/ColegioArji/app/src/main/res/menu/menu_alumnos.xml"
+    },
+    {
+        "merged": "/home/devch/AndroidStudioProjects/ColegioArji/app/build/intermediates/res/merged/debug/menu/menu_tutores.xml",
+        "source": "/home/devch/AndroidStudioProjects/ColegioArji/app/src/main/res/menu/menu_tutores.xml"
+    },
+    {
+        "merged": "/home/devch/AndroidStudioProjects/ColegioArji/app/build/intermediates/res/merged/debug/menu/activity_main_drawer.xml",
+        "source": "/home/devch/AndroidStudioProjects/ColegioArji/app/src/main/res/menu/activity_main_drawer.xml"
+    }
+]
