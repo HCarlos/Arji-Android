@@ -11,7 +11,7 @@ git status
 
 git add .
 
-git commit -m "Arjí - Update 11-C - Facturas, Pagos y Boleteas with Reload"
+git commit -m "Arjí - Update 11-D - Boleteas with WebView PDF "
 
 git push -u origin master --force
 

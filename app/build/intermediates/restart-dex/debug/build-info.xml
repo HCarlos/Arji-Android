@@ -4,12 +4,13 @@
     api-level="23"
     density="xxhdpi"
     format="7"
-    timestamp="9067041606224"
-    token="160330917825941602" >
+    timestamp="22868831810898"
+    token="160330917825941602"
+    verifier="METHOD_ADDED" >
 
     <task
         name="javac"
-        duration="175" />
+        duration="196" />
     <task
         name="instant-run-dex"
         duration="0" />
@@ -18,28 +19,32 @@
         duration="20" />
     <task
         name="verifier"
-        duration="1" />
+        duration="2" />
 
     <artifact
         location="/home/devch/AndroidStudioProjects/ColegioArji/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_1/classes.dex"
         type="DEX" />
 
-    <build timestamp="4575161478216" >
+    <build timestamp="14732110529281" >
         <artifact
             location="/home/devch/AndroidStudioProjects/ColegioArji/app/build/outputs/apk/app-debug.apk"
             type="MAIN" />
     </build>
+    <build timestamp="17881950365853" >
+        <artifact
+            location="/home/devch/AndroidStudioProjects/ColegioArji/app/build/intermediates/res/resources-debug.ap_"
+            type="RESOURCES" />
+    </build>
     <build
-        timestamp="5336810468848"
-        verifier="FIELD_ADDED" >
+        timestamp="22188969212330"
+        verifier="STATIC_INITIALIZER_CHANGE" >
         <artifact
-            location="/home/devch/AndroidStudioProjects/ColegioArji/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_8/classes.dex"
-            type="DEX" />
-        <artifact
-            location="/home/devch/AndroidStudioProjects/ColegioArji/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_7/classes.dex"
+            location="/home/devch/AndroidStudioProjects/ColegioArji/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_9/classes.dex"
             type="DEX" />
     </build>
-    <build timestamp="9067041606224" >
+    <build
+        timestamp="22868831810898"
+        verifier="METHOD_ADDED" >
         <artifact
             location="/home/devch/AndroidStudioProjects/ColegioArji/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_1/classes.dex"
             type="DEX" />
