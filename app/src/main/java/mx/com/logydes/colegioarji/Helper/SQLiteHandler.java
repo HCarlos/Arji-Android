@@ -90,6 +90,7 @@ public class SQLiteHandler extends SQLiteOpenHelper {
     public void onUpgrade(SQLiteDatabase db, int oldVersion, int newVersion) {
         // Drop older table if existed
         db.execSQL("DROP TABLE IF EXISTS " + TABLE_USER);
+        Singleton.reset();
 
         // Create tables again
         onCreate(db);

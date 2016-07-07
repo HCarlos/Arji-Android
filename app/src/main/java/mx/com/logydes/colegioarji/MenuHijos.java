@@ -15,6 +15,7 @@ import android.widget.TextView;
 
 import mx.com.logydes.colegioarji.Adapter.AdapterHijos;
 import mx.com.logydes.colegioarji.Adapter.Adapter_Menu_Tutores;
+import mx.com.logydes.colegioarji.Helper.Singleton;
 
 public class MenuHijos extends AppCompatActivity {
 
@@ -35,11 +36,25 @@ public class MenuHijos extends AppCompatActivity {
         llm.setOrientation(LinearLayoutManager.VERTICAL);
         listaMM.setLayoutManager(llm);
 
+        String Alumno = params.getString(getResources().getString(R.string.nombreAlumno));
+        int IdAlu = params.getInt(getResources().getString(R.string.idalu));
+        int IdUserAlu = params.getInt(getResources().getString(R.string.IdUserAlu));
+        String urlBoleta = params.getString(getResources().getString(R.string.urlBoleta));
+        String logoEmp = params.getString(getResources().getString(R.string.logoEmp));
+        String logoIB = params.getString(getResources().getString(R.string.logoIB));
+        int IsBoleta = params.getInt(getResources().getString(R.string.IsBoleta));
+        int IdGruAlu = params.getInt(getResources().getString(R.string.IdGruAlu));
+
+        Singleton.setIdUserAlu(IdUserAlu);
+        Singleton.setUrlBoleta(urlBoleta);
+        Singleton.setLogoEmp(logoEmp);
+        Singleton.setLogoIB(logoIB);
+        Singleton.setIsBoleta(IsBoleta);
+        Singleton.setIdGruAlu(IdGruAlu);
+
         Adapter_Menu_Tutores mad = new Adapter_Menu_Tutores(this);
         listaMM.setAdapter(mad);
 
-        String Alumno = params.getString(getResources().getString(R.string.nombreAlumno));
-        int IdAlu = params.getInt(getResources().getString(R.string.idalu));
         this.setTitle(Alumno);
 
     }

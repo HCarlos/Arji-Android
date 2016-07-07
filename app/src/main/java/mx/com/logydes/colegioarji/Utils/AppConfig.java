@@ -45,7 +45,8 @@ public class AppConfig {
 
     public static String URL_TAREA = "http://platsource.mx/getHTMLTemplate/";
     public static String URL_CIRCULARES = "http://platsource.mx/getCircularesHTMLTemplate/";
-
+    public static String URL_VIEW_PAGOS = "http://platsource.mx/getPagosPost/";
+    public static String URL_VIEW_BOLETAS = "http://platsource.mx/getBoletasPost/";
 
 
 }

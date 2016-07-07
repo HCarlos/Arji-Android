@@ -72,7 +72,16 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".MenuHijos" />
         </activity>
-        <activity android:name=".Elemento"></activity>
+        <activity android:name=".Elemento">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Elemento" />
+        </activity>
+        <activity android:name=".Boleta">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Boleta" />
+        </activity>
     </application>
 
 </manifest>

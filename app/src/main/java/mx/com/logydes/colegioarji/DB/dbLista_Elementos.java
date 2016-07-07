@@ -3,6 +3,7 @@ package mx.com.logydes.colegioarji.DB;
 import android.app.Activity;
 import android.app.ProgressDialog;
 import android.content.Context;
+import android.graphics.Path;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.util.Log;
@@ -42,10 +43,12 @@ public class dbLista_Elementos {
     private Activity activity;
     private Adapter_Lista_Elementos mad;
     private int Type;
+    private String Menu;
 
-    public dbLista_Elementos(Context context, Activity act) {
+    public dbLista_Elementos(Context context, Activity act, String _menu) {
         this.context = context;
         this.activity = act;
+        this.Menu = _menu;
         listaMM = (RecyclerView) act.findViewById(R.id.rvListaElementos);
         LinearLayoutManager llm = new LinearLayoutManager(context);
         llm.setOrientation(LinearLayoutManager.VERTICAL);
@@ -63,8 +66,6 @@ public class dbLista_Elementos {
         pDialog.setMessage("Cargando...");
         Utl = new Utilidades(pDialog);
         Utl.showDialog();
-
-        // Log.e(TAG, AppConfig.URL_GET_HIJOS );
 
         StringRequest strReq = new StringRequest(Request.Method.POST,
                 strURL, new Response.Listener<String>() {
@@ -102,13 +103,28 @@ public class dbLista_Elementos {
                                     label = rec.getString("titulo_mensaje");
                                     MM.add( new Lista_Elementos(idelemento,idelementodestinatario,label,Type) );
                                     break;
+                                case 2:
+                                    label = rec.getString("pdf");
+                                    idelemento = rec.getInt("idfactura");
+                                    String Directorio = rec.getString("directorio");
+                                    MM.add( new Lista_Elementos(label,Directorio,idelemento,Type) );
+                                    break;
+                                case 3:
+                                    idelemento = rec.getInt("idedocta");
+                                    int status_movto = rec.getInt("status_movto");
+                                    String mes = rec.getString("mes");
+                                    String conepto = rec.getString("concepto");
+                                    String FechaPago = rec.getString("fecha_de_pago");
+                                    int Vencido = rec.getInt("dias_que_faltan_para_vencer");
+                                    MM.add( new Lista_Elementos(status_movto,Vencido,FechaPago,conepto,mes,idelemento,Type) );
+                                    break;
                             }
 
                         }
 
                         Singleton.setRsElementos(MM);
 
-                        mad = new Adapter_Lista_Elementos(activity);  // new AdapterLista_Elementos(MM,activity);
+                        mad = new Adapter_Lista_Elementos(activity, Menu);  // new AdapterLista_Elementos(MM,activity);
                         listaMM.setAdapter(mad);
 
 
@@ -141,6 +157,18 @@ public class dbLista_Elementos {
                 /// Log.e(TAG,String.valueOf(Type));
                 Log.e(TAG,String.valueOf(Singleton.getIdAlu()));
                 Log.e(TAG,Singleton.getUsername());
+                switch (Type){
+                    case 0:
+                    case 1:
+                    case 2:
+                    case 3:
+                        params.put("username", Singleton.getUsername());
+                        params.put("sts", "0");
+                        params.put("iduseralu", String.valueOf( Singleton.getIdAlu() ) );
+                        params.put("tipoconsulta", String.valueOf( Type ) );
+                        break;
+                }
+                /*
                 if (Type == 0){
                     params.put("username", Singleton.getUsername());
                     params.put("sts", "0");
@@ -153,6 +181,13 @@ public class dbLista_Elementos {
                     params.put("iduseralu", String.valueOf( Singleton.getIdAlu() ) );
                     params.put("tipoconsulta", String.valueOf( Type ) );
                 }
+                if (Type == 2){
+                    params.put("username", Singleton.getUsername());
+                    params.put("sts", "0");
+                    params.put("iduseralu", String.valueOf( Singleton.getIdAlu() ) );
+                    params.put("tipoconsulta", String.valueOf( Type ) );
+                }
+                */
                 return params;
 
             }
@@ -164,7 +199,7 @@ public class dbLista_Elementos {
     }
 
     public void resfresh_Lista_Elementos(){
-        mad = new Adapter_Lista_Elementos(activity);  // new AdapterLista_Elementos(MM,activity);
+        mad = new Adapter_Lista_Elementos(activity, Menu);  // new AdapterLista_Elementos(MM,activity);
         listaMM.setAdapter(mad);
     }
 

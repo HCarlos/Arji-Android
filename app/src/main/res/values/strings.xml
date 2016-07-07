@@ -72,5 +72,22 @@
     <string name="idelemento">IdElemento</string>
     <string name="idelementodestinatario">IdElementoDestinatario</string>
     <string name="tipoelemento">TipoElemento</string>
+    <string name="menuelemento">MenuElemento</string>
+    <string name="PDF">PDF</string>
+    <string name="Directorio">Directorio</string>
+    <string name="Mes">Mes</string>
+    <string name="Concepto">Concepto</string>
+    <string name="FechaPago">FechaPago</string>
+    <string name="Status_Movto">Status_Movto</string>
+    <string name="Vencido">Vencido</string>
+    <string name="Username">Username</string>
+    <string name="IdUser">IdUser</string>
+    <string name="IdUserAlu">IdUserAlu</string>
+    <string name="IdGruAlu">IdGruAlu</string>
+    <string name="urlBoleta">urlBoleta</string>
+    <string name="logoEmp">logoEmp</string>
+    <string name="logoIB">logoIB</string>
+    <string name="IdEmp">IdEmp</string>
+    <string name="IsBoleta">IsBoleta</string>
 
 </resources>

@@ -11,6 +11,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.LinearLayout;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import java.util.ArrayList;
 import mx.com.logydes.colegioarji.Helper.Singleton;
@@ -55,16 +56,30 @@ public class AdapterHijos extends RecyclerView.Adapter<AdapterHijos.AdapterHijos
         cvh.tvHijo.setText(mm.getLabel());
         cvh.data = mm.getData();
         cvh.tvGrupo.setText(mm.getGrupo());
+        cvh.IdUserAlu = mm.getIdUserAlu();
+        cvh.IdGruAlu = mm.getIdGruAlu();
+        cvh.urlBoleta = mm.getUrlBoleta();
+        cvh.logoEmp = mm.getLogoEmp();
+        cvh.logoIB = mm.getLogoIB();
+        cvh.IsBoleta = mm.getIsBoleta();
+        Singleton.setIdUserAlu(mm.getIdUserAlu());
+
+        Log.e("IsBoleta: ", String.valueOf(cvh.IsBoleta));
 
         cvh.lyHijos.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Singleton.setIdAlu(mm.getData());
-                Intent intent = new Intent(activity, MenuHijos.class);
-                intent.putExtra(activity.getString(R.string.nombreAlumno), mm.getLabel() );
-                intent.putExtra(activity.getString(R.string.idalu), Singleton.getIdAlu() );
-                intent.putExtra("grupo",mm.getGrupo());
-                activity.startActivity(intent);
+                    Singleton.setIdAlu(mm.getData());
+                    Intent intent = new Intent(activity, MenuHijos.class);
+                    intent.putExtra(activity.getString(R.string.nombreAlumno), mm.getLabel());
+                    intent.putExtra(activity.getString(R.string.idalu), Singleton.getIdAlu());
+                    intent.putExtra("grupo", mm.getGrupo());
+                    intent.putExtra(activity.getString(R.string.IdUserAlu), mm.getIdUserAlu());
+                    intent.putExtra(activity.getString(R.string.urlBoleta), mm.getUrlBoleta());
+                    intent.putExtra(activity.getString(R.string.logoEmp), mm.getLogoEmp());
+                    intent.putExtra(activity.getString(R.string.logoIB), mm.getLogoIB());
+                    intent.putExtra(activity.getString(R.string.IsBoleta), mm.getIsBoleta());
+                    activity.startActivity(intent);
 
             }
         });
@@ -81,10 +96,22 @@ public class AdapterHijos extends RecyclerView.Adapter<AdapterHijos.AdapterHijos
         TextView tvHijo;
         TextView tvGrupo;
         int data;
+        int IdUserAlu;
+        String urlBoleta;
+        String logoEmp;
+        String logoIB;
+        int IsBoleta;
+        int IdGruAlu;
 
         public AdapterHijosViewHolder(View itemView) {
             super(itemView);
             data = 0;
+            IdUserAlu = 0;
+            urlBoleta = "";
+            logoEmp = "";
+            logoIB = "";
+            IsBoleta = 0;
+            IdGruAlu = 0;
             tvHijo = (TextView) itemView.findViewById(R.id.tvHijo);
             tvGrupo = (TextView) itemView.findViewById(R.id.tvGrupo);
             lyHijos = (LinearLayout) itemView.findViewById(R.id.lyHijos);

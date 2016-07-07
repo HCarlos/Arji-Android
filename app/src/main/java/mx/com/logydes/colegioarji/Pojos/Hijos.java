@@ -8,12 +8,24 @@ public class Hijos {
     private String label;
     private String grupo;
     private String msg;
+    private int IdUserAlu;
+    private String urlBoleta;
+    private String logoEmp;
+    private String logoIB;
+    private int IsBoleta;
+    private int IdGruAlu;
 
-    public Hijos(int data, String label, String grupo, String msg) {
+    public Hijos(int data, String label, String grupo, String msg, int idgrualu, String _urlBoleta, String _logoEmp, String _logoIB, int _IsBoleta, int _IdGruAlu) {
         this.data = data;
         this.label = label;
         this.grupo = grupo;
         this.msg = msg;
+        IdUserAlu = idgrualu;
+        urlBoleta = _urlBoleta;
+        logoEmp = _logoEmp;
+        logoIB = _logoIB;
+        IsBoleta = _IsBoleta;
+        IdGruAlu = _IdGruAlu;
     }
 
     public int getData() {
@@ -46,5 +58,53 @@ public class Hijos {
 
     public void setMsg(String msg) {
         this.msg = msg;
+    }
+
+    public int getIdUserAlu() {
+        return IdUserAlu;
+    }
+
+    public void setIdUserAlu(int idGruAlu) {
+        IdUserAlu = idGruAlu;
+    }
+
+    public String getUrlBoleta() {
+        return urlBoleta;
+    }
+
+    public void setUrlBoleta(String urlBoleta) {
+        this.urlBoleta = urlBoleta;
+    }
+
+    public String getLogoEmp() {
+        return logoEmp;
+    }
+
+    public void setLogoEmp(String logoEmp) {
+        this.logoEmp = logoEmp;
+    }
+
+    public String getLogoIB() {
+        return logoIB;
+    }
+
+    public void setLogoIB(String logoIB) {
+        this.logoIB = logoIB;
+    }
+
+    public int getIsBoleta() {
+        return IsBoleta;
+    }
+
+    public void setIsBoleta(int isBoleta) {
+        IsBoleta = isBoleta;
+    }
+
+    public int getIdGruAlu() {
+        return IdGruAlu;
+    }
+
+    public void setIdGruAlu(int idGruAlu) {
+        IdGruAlu = idGruAlu;
     }
 }

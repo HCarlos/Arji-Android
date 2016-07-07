@@ -15,6 +15,7 @@ import mx.com.logydes.colegioarji.Utils.AppConfig;
 
 public class ListaElementos extends AppCompatActivity {
     private int IdMenu;
+    private String Menu;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -23,18 +24,18 @@ public class ListaElementos extends AppCompatActivity {
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         Bundle params = getIntent().getExtras();
 
-        String Menu = params.getString(getResources().getString(R.string.menu));
+        Menu = params.getString(getResources().getString(R.string.menu));
         IdMenu = params.getInt(getResources().getString(R.string.idmenu));
         this.setTitle(Menu);
 
-        dbLista_Elementos cm = new dbLista_Elementos(this, this);
+        dbLista_Elementos cm = new dbLista_Elementos(this, this, Menu);
 
         String strURL = "";
         switch (IdMenu){
             case 0:
-                strURL = AppConfig.URL_TAREAS_CIRCULARES;
-                break;
             case 1:
+            case 2:
+            case 3:
                 strURL = AppConfig.URL_TAREAS_CIRCULARES;
                 break;
 

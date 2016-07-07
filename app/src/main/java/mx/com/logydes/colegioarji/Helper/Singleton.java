@@ -33,6 +33,13 @@ public class Singleton {
     private static ArrayList<Hijos> rsHijos;
     private static int rsHijosSize;
     private static int IdAlu;
+    private static int IdUserAlu;
+    private static String urlBoleta;
+    private static String logoEmp;
+    private static String logoIB;
+    private static int IsBoleta;
+    private static int IdGruAlu;
+
     private static ArrayList<Lista_Elementos> rsElementos;
     private static int rsElementosSize;
 
@@ -54,6 +61,7 @@ public class Singleton {
         rsHijos = new ArrayList<Hijos>();
         rsHijosSize = 0;
         IdAlu = 0;
+        IdUserAlu = 0;
         rsElementos = new ArrayList<Lista_Elementos>();
         rsElementosSize = 0;
     }
@@ -158,6 +166,14 @@ public class Singleton {
         return NombreCompletoUsuario;
     }
 
+    public static int getIdUserAlu() {
+        return IdUserAlu;
+    }
+
+    public static void setIdUserAlu(int idGruAlu) {
+        IdUserAlu = idGruAlu;
+    }
+
     public static void setNombreCompletoUsuario(String nombreCompletoUsuario) {
         NombreCompletoUsuario = nombreCompletoUsuario;
     }
@@ -188,6 +204,45 @@ public class Singleton {
         IdAlu = idAlu;
     }
 
+    public static String getUrlBoleta() {
+        return urlBoleta;
+    }
+
+    public static void setUrlBoleta(String urlBoleta) {
+        Singleton.urlBoleta = urlBoleta;
+    }
+
+    public static String getLogoEmp() {
+        return logoEmp;
+    }
+
+    public static void setLogoEmp(String logoEmp) {
+        Singleton.logoEmp = logoEmp;
+    }
+
+    public static String getLogoIB() {
+        return logoIB;
+    }
+
+    public static void setLogoIB(String logoIB) {
+        Singleton.logoIB = logoIB;
+    }
+
+    public static int getIsBoleta() {
+        return IsBoleta;
+    }
+
+    public static void setIsBoleta(int isBoleta) {
+        IsBoleta = isBoleta;
+    }
+
+    public static int getIdGruAlu() {
+        return IdGruAlu;
+    }
+
+    public static void setIdGruAlu(int idGruAlu) {
+        IdGruAlu = idGruAlu;
+    }
 
     public static ArrayList<Lista_Elementos> getRsElementos() {
         return rsElementos;
@@ -207,6 +262,11 @@ public class Singleton {
         Log.e("rsElementosSize", String.valueOf(rsElementosSize)  );
     }
 
+
+
+    public static void reset() {
+        ourInstance = new Singleton();
+    }
 
 
 }

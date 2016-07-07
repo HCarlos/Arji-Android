@@ -89,9 +89,15 @@ public class dbHijos {
                             int idalu = rec.getInt("data");
                             String nombreAlu = rec.getString("label");
                             String grupo = rec.getString("grupo");
+                            int iduseralu = rec.getInt("iduseralu");
+                            int idgrualu = rec.getInt("idgrualu");
+                            int IsBoleta = rec.getInt("IsBoleta");
+                            String urlBoleta = rec.getString("urlBoleta");
+                            String logoEmp = rec.getString("logoEmp");
+                            String logoIB = rec.getString("logoIB");
                             msg = rec.getString("msg");
 
-                            MM.add( new Hijos( idalu,nombreAlu,grupo,msg) );
+                            MM.add( new Hijos( idalu,nombreAlu,grupo,msg,iduseralu, urlBoleta, logoEmp, logoIB, IsBoleta, idgrualu) );
                         }
 
                         Singleton.setRsHijos(MM);
@@ -107,7 +113,7 @@ public class dbHijos {
 
                 } catch (JSONException e) {
                     e.printStackTrace();
-                    Toast.makeText(context, "Error: " + e.getMessage(), Toast.LENGTH_LONG).show();
+                    Toast.makeText(context, "dbHijos ::> Error: " + e.getMessage(), Toast.LENGTH_LONG).show();
                 }
 
             }

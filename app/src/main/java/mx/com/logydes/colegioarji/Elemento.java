@@ -13,6 +13,7 @@ import android.view.MenuItem;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
 import android.widget.LinearLayout;
+import android.widget.RelativeLayout;
 import android.widget.TextView;
 
 import org.apache.http.HttpResponse;
@@ -41,6 +42,17 @@ public class Elemento extends AppCompatActivity {
     private ProgressDialog pDialog;
     private Utilidades Utl;
     private String Elemento;
+    private int IdElemento;
+    private int IdElementoDestinatario;
+    private int TipoElemento;
+    private String Menu;
+    private String PDF;
+    private String Directorio;
+    private String Concepto;
+    private String Mes;
+    private String FechaPago;
+    private int Status_Movto;
+    private int Vencido;
 
     private WebView webview;
     private Activity context;
@@ -50,16 +62,34 @@ public class Elemento extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_elemento);
         // setContentView(R.layout.activity_lista_elementos);
-        context = this;
-        webview = (WebView) findViewById(R.id.wvEle);
+        this.context = this;
+        this.webview = (WebView) findViewById(R.id.wvEle);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         Bundle params = getIntent().getExtras();
 
         Elemento = params.getString(getResources().getString(R.string.elemento));
-        int IdElemento = params.getInt(getResources().getString(R.string.idelemento));
-        int IdElementoDestinatario = params.getInt(getResources().getString(R.string.idelementodestinatario));
-        int TipoElemento = params.getInt(getResources().getString(R.string.tipoelemento));
+        IdElemento = params.getInt(getResources().getString(R.string.idelemento));
+        IdElementoDestinatario = params.getInt(getResources().getString(R.string.idelementodestinatario));
+        TipoElemento = params.getInt(getResources().getString(R.string.tipoelemento));
+        Menu = params.getString(getResources().getString(R.string.menuelemento));
+        PDF = params.getString(getResources().getString(R.string.PDF));
+        Directorio = params.getString(getResources().getString(R.string.Directorio));
+
+        Mes = params.getString(getResources().getString(R.string.Mes));
+        Concepto = params.getString(getResources().getString(R.string.Concepto));
+        FechaPago = params.getString(getResources().getString(R.string.FechaPago));
+        Status_Movto = params.getInt(getResources().getString(R.string.Status_Movto));
+        Vencido = params.getInt(getResources().getString(R.string.Vencido));
+
+        //Log.e(TAG,Menu);
+        this.setTitle(Menu);
+
+        getDocuments();
+
+    }
+
+    private boolean getDocuments(){
 
         String postData = "";
         String url = "";
@@ -77,20 +107,44 @@ public class Elemento extends AppCompatActivity {
                         "&sts=0";
                 url = AppConfig.URL_CIRCULARES;
                 break;
-        }
-        Log.e(TAG,postData);
-        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.JELLY_BEAN)
-            webview.getSettings().setAllowUniversalAccessFromFileURLs(true);
-        webview.getSettings().setJavaScriptEnabled(true);
+            case 2:
+                url = "http://docs.google.com/gview?embedded=true&url=" + "http://platsource.mx/uw_fe/"+Directorio+PDF;
+                break;
 
-        this.pDialog = new ProgressDialog(this.context);
-        this.pDialog.setCancelable(false);
-        webview.postUrl(url, EncodingUtils.getBytes(postData, "BASE64"));
-        webview.setWebViewClient( new WebViewClient(){
+            case 3:
+                postData = "user="+Singleton.getUsername()+
+                        "&iduser="+String.valueOf( Singleton.getIdUser()  )+
+                        "&idedocta="+String.valueOf(IdElemento);
+                url = AppConfig.URL_VIEW_PAGOS;
+                break;
+        }
+
+        Log.e(TAG,url+postData);
+
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.JELLY_BEAN)
+            this.webview.getSettings().setAllowUniversalAccessFromFileURLs(true);
+        this.webview.getSettings().setJavaScriptEnabled(true);
+        this.webview.setWebViewClient(new Callback());
+        pDialog = new ProgressDialog(this.context);
+        pDialog.setCancelable(false);
+        String postGet = "";
+        switch (TipoElemento) {
+            case 0:
+            case 1:
+            case 3:
+                this.webview.postUrl(url, EncodingUtils.getBytes(postData, "BASE64"));
+                break;
+            case 2:
+                this.webview.loadUrl(url);
+                break;
+        }
+        this.webview.setWebViewClient( new WebViewClient(){
 
             @Override
             public void onPageStarted(WebView view, String url, Bitmap favicon) {
                 super.onPageStarted(view, url, favicon);
+                LinearLayout.LayoutParams lpView = new LinearLayout.LayoutParams(LinearLayout.LayoutParams.MATCH_PARENT, LinearLayout.LayoutParams.MATCH_PARENT);
+                view.setLayoutParams(lpView);
                 pDialog.setMessage("Cargando..."+Elemento);
                 Utl = new Utilidades(pDialog);
                 Utl.showDialog();
@@ -105,7 +159,29 @@ public class Elemento extends AppCompatActivity {
             }
 
         });
+
+        return true;
     }
+
+    private class Callback extends WebViewClient {
+        @Override
+        public void onPageStarted(WebView view, String url, Bitmap favicon) {
+            // TODO Auto-generated method stub
+            super.onPageStarted(view, url, favicon);
+        }
+
+        @Override
+        public boolean shouldOverrideUrlLoading(WebView view, String url) {
+            // TODO Auto-generated method stub
+
+            view.loadUrl(url);
+            return true;
+
+        }
+
+    }
+
+
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {

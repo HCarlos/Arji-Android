@@ -78,7 +78,16 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".MenuHijos" />
         </activity>
-        <activity android:name="mx.com.logydes.colegioarji.Elemento" />
+        <activity android:name="mx.com.logydes.colegioarji.Elemento" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Elemento" />
+        </activity>
+        <activity android:name="mx.com.logydes.colegioarji.Boleta" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Boleta" />
+        </activity>
         <activity
             android:name="com.google.android.gms.common.api.GoogleApiActivity"
             android:exported="false"

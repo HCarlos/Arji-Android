@@ -8,11 +8,16 @@ import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.webkit.WebView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import java.util.ArrayList;
 
+import mx.com.logydes.colegioarji.Boleta;
+import mx.com.logydes.colegioarji.Helper.Singleton;
+import mx.com.logydes.colegioarji.Inside.DocumentInside;
 import mx.com.logydes.colegioarji.ListaElementos;
 import mx.com.logydes.colegioarji.Pojos.Menu_Tutores;
 import mx.com.logydes.colegioarji.R;
@@ -30,10 +35,12 @@ import mx.com.logydes.colegioarji.Utils.Utilidades;
         private ArrayList<Menu_Tutores> MM;
         private Activity activity;
         private Context context;
+
         // private db_Menu_Tutores cm;
 
         public Adapter_Menu_Tutores(Activity _activity){
             this.activity = _activity;
+
             // Log.e(TAG, String.valueOf(MM.size()));
             MM = new ArrayList<Menu_Tutores>();
             MM.add(new Menu_Tutores(0,"Tareas"));
@@ -60,15 +67,40 @@ import mx.com.logydes.colegioarji.Utils.Utilidades;
             cvh.tvMenu.setText(mm.getMenu() );
             cvh.idmenu = mm.getIdmenu();
 
+
             // Log.e(TAG,mm.getGrupo());en
 
             cvh.lyTutores.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View view) {
-                    Intent intent = new Intent(activity, ListaElementos.class);
-                    intent.putExtra(activity.getString(R.string.menu), mm.getMenu() );
-                    intent.putExtra(activity.getString(R.string.idmenu), cvh.idmenu );
-                    activity.startActivity(intent);
+                    if (cvh.idmenu <= 3) {
+                        Intent intent = new Intent(activity, ListaElementos.class);
+                        intent.putExtra(activity.getString(R.string.menu), mm.getMenu());
+                        intent.putExtra(activity.getString(R.string.idmenu), cvh.idmenu);
+                        activity.startActivity(intent);
+                    }
+                    if (cvh.idmenu == 4) {
+                        if (Singleton.getIsBoleta() > 0) {
+
+                            Intent intent = new Intent(activity, Boleta.class);
+                            intent.putExtra(activity.getString(R.string.Username), Singleton.getUsername());
+                            intent.putExtra(activity.getString(R.string.IdUser), Singleton.getIdUser());
+                            intent.putExtra(activity.getString(R.string.IdUserAlu), Singleton.getIdUserAlu());
+                            intent.putExtra(activity.getString(R.string.IdEmp), Singleton.getIdEmp());
+
+                            intent.putExtra(activity.getString(R.string.urlBoleta), Singleton.getUrlBoleta());
+                            intent.putExtra(activity.getString(R.string.logoEmp), Singleton.getLogoEmp());
+                            intent.putExtra(activity.getString(R.string.logoIB), Singleton.getLogoIB());
+                            intent.putExtra(activity.getString(R.string.IsBoleta), Singleton.getIsBoleta());
+                            intent.putExtra(activity.getString(R.string.IdGruAlu), Singleton.getIdGruAlu());
+
+
+                            activity.startActivity(intent);
+                        }else{
+                            Toast.makeText(activity, "Boleta no esta disponible", Toast.LENGTH_LONG).show();
+                        }
+
+                    }
 
                 }
             });

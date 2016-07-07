@@ -29,6 +29,7 @@
             />
 
         <ImageView
+            android:id="@+id/imgRightElements"
             android:src="@mipmap/ic_flecha_derecha"
             android:layout_height="@dimen/em32"
             android:layout_width="@dimen/em32"

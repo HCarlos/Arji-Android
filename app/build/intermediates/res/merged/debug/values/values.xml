@@ -342,6 +342,19 @@
     <integer name="design_snackbar_text_max_lines">2</integer>
     <integer name="google_play_services_version">9080000</integer>
     <integer name="status_bar_notification_info_maxnum">999</integer>
+    <string name="Concepto">Concepto</string>
+    <string name="Directorio">Directorio</string>
+    <string name="FechaPago">FechaPago</string>
+    <string name="IdEmp">IdEmp</string>
+    <string name="IdGruAlu">IdGruAlu</string>
+    <string name="IdUser">IdUser</string>
+    <string name="IdUserAlu">IdUserAlu</string>
+    <string name="IsBoleta">IsBoleta</string>
+    <string name="Mes">Mes</string>
+    <string name="PDF">PDF</string>
+    <string name="Status_Movto">Status_Movto</string>
+    <string name="Username">Username</string>
+    <string name="Vencido">Vencido</string>
     <string name="abc_action_bar_home_description">Navigate home</string>
     <string name="abc_action_bar_home_description_format">%1$s, %2$s</string>
     <string name="abc_action_bar_home_subtitle_description_format">%1$s, %2$s, %3$s</string>
@@ -430,7 +443,10 @@
     <string name="idelemento">IdElemento</string>
     <string name="idelementodestinatario">IdElementoDestinatario</string>
     <string name="idmenu">0</string>
+    <string name="logoEmp">logoEmp</string>
+    <string name="logoIB">logoIB</string>
     <string name="menu">.</string>
+    <string name="menuelemento">MenuElemento</string>
     <string name="name">Fullname</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
@@ -446,6 +462,7 @@
     <string name="title_activity_login">Ingresar al Sistema</string>
     <string name="title_activity_menu">Alumnos</string>
     <string name="title_activity_menu_hijos">MenuHijos</string>
+    <string name="urlBoleta">urlBoleta</string>
     <string name="welcome">Welcome</string>
     <style name="AlertDialog.AppCompat" parent="Base.AlertDialog.AppCompat"/>
     <style name="AlertDialog.AppCompat.Light" parent="Base.AlertDialog.AppCompat.Light"/>
