@@ -1,17 +1,23 @@
 package mx.com.logydes.colegioarji;
 
 import android.app.Activity;
+import android.app.DownloadManager;
 import android.app.ProgressDialog;
+import android.content.ActivityNotFoundException;
 import android.content.Context;
+import android.content.Intent;
 import android.graphics.Bitmap;
+import android.net.Uri;
 import android.net.http.SslError;
 import android.os.Build;
+import android.os.Environment;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
 import android.util.Log;
 import android.view.KeyEvent;
 import android.view.MenuItem;
+import android.webkit.DownloadListener;
 import android.webkit.SslErrorHandler;
 import android.webkit.WebChromeClient;
 import android.webkit.WebSettings;
@@ -89,73 +95,7 @@ public class Boleta extends AppCompatActivity {
 
     }
 
-
-    public void postData() {
-        // Create a new HttpClient and Post Header
-        HttpClient httpclient = new DefaultHttpClient();
-        HttpPost httppost = new HttpPost(urlBoleta);
-
-        try {
-            // Add your data
-            String nc = "u=" + Username + "&strgrualu=" + IdGruAlu + "&logoEmp=" + logoEmp + "&logoIbo=" + logoIB;
-
-            List<NameValuePair> nameValuePairs = new ArrayList<NameValuePair>(2);
-            nameValuePairs.add(new BasicNameValuePair("o", "0"));
-            nameValuePairs.add(new BasicNameValuePair("t", "40"));
-            nameValuePairs.add(new BasicNameValuePair("c", nc));
-            nameValuePairs.add(new BasicNameValuePair("from", "0"));
-            nameValuePairs.add(new BasicNameValuePair("cantidad", "0"));
-            nameValuePairs.add(new BasicNameValuePair("s", " order by orden_impresion asc "));
 /*
-            httppost.setEntity(new UrlEncodedFormEntity(nameValuePairs));
-
-            // Execute HTTP Post Request
-            HttpResponse response = httpclient.execute(httppost);
-            this.webview.loadData(response.toString(),"application/pdf","utf8");
-            setContentView(this.webview);
-
-        } catch (ClientProtocolException e) {
-            // TODO Auto-generated catch block
-        } catch (IOException e) {
-            // TODO Auto-generated catch block
-        }
-*/
-
-            httpclient = new DefaultHttpClient();
-            httppost = new HttpPost(urlBoleta);
-            HttpResponse response = httpclient.execute(httppost);
-            httppost.setEntity(new UrlEncodedFormEntity(nameValuePairs));
-            String responseBody = EntityUtils.toString(response.getEntity());
-            System.out.println("Respnce body :: " + responseBody);
-            BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(response.getEntity().getContent()));
-
-            StringBuffer stringBuffer = new StringBuffer("");
-            String line = "";
-            String LineSeparator = System.getProperty("line.separator");
-
-            while ((line = bufferedReader.readLine()) != null) {
-                stringBuffer.append(line + LineSeparator);
-            }
-            bufferedReader.close();
-
-            //Toast.makeText(View_Materials_Activity.this, "Finished", Toast.LENGTH_LONG).show();
-
-            String webData = stringBuffer.toString();
-            String webData1 = URLDecoder.decode(webData);
-            System.out.println("data :; " + webData1);
-            this.webview.loadData(webData, "text/html", "UTF-8");
-            this.webview.loadDataWithBaseURL(urlBoleta, webData, "application/pdf", "UTF-8", "about:blank");
-
-
-        } catch (UnsupportedEncodingException e) {
-            e.printStackTrace();
-        } catch (ClientProtocolException e) {
-            e.printStackTrace();
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-    }
-
     private boolean getDocuments2(String urlBoleta, String _User, int _strGrualu, String _logoEmp, String _logoIB){
 
         // urlBoleta = "http://docs.google.com/gview?embedded=true&url=" + urlBoleta;
@@ -212,19 +152,21 @@ public class Boleta extends AppCompatActivity {
         return true;
     }
 
-
+*/
 
 
     private boolean getDocuments(String urlBoleta, String _User, int _strGrualu, String _logoEmp, String _logoIB){
 
+        /*
         String postData = "user="+Singleton.getUsername()+
                 "&iduser="+Singleton.getIdUser()+
                 "&idgrualu="+Singleton.getIdUserAlu()+
                 "&idemp="+Singleton.getIdEmp();
+        */
 
         String nc = "&u="+_User+"&strgrualu="+_strGrualu+"&logoEmp="+_logoEmp+"&logoIbo="+_logoIB;
         String s = " order by orden_impresion asc ";
-        // postData = "o=0&t=40&c=0&from=0&cantidad=0&s="+s+nc;
+        postData = "o=0&t=40&c=0&from=0&cantidad=0&s="+s+nc;
 
         // urlBoleta = "http://docs.google.com/gview?embedded=true&url=" + urlBoleta+"?"+postData;
 
@@ -242,12 +184,15 @@ public class Boleta extends AppCompatActivity {
         webview.getSettings().setDomStorageEnabled(true);
         webview.getSettings().setUseWideViewPort(true);
         webview.setWebChromeClient(new WebChromeClient());
-        // this.webview.setWebViewClient(new WebViewClient());
+        // webview.setWebViewClient(new WebViewClient());
 
-        // this.webview.setWebViewClient(new Callback());
+        // webview.setWebViewClient(new Callback());
         pDialog = new ProgressDialog(this.context);
         pDialog.setCancelable(false);
-        webview.postUrl(url, EncodingUtils.getBytes(postData, "BASE64"));
+        webview.postUrl(urlBoleta, EncodingUtils.getBytes(postData, "BASE64"));
+
+        setContentView(webview);
+
         // this.webview.loadUrl(url);
         webview.setWebViewClient( new WebViewClient(){
 
@@ -267,6 +212,12 @@ public class Boleta extends AppCompatActivity {
                 pDialog.setMessage("...");
                 Utl = new Utilidades(pDialog);
                 Utl.hideDialog();
+
+            }
+
+            public boolean shouldOverrideUrlLoading(WebView view, String url) {
+                // TODO Auto-generated method stub
+                return false;
             }
 
         });
