@@ -37,6 +37,7 @@ public class AdapterHijos extends RecyclerView.Adapter<AdapterHijos.AdapterHijos
 
     public AdapterHijos(Activity activity){
         this.MM = Singleton.getRsHijos(); // new ArrayList<Hijos>();
+        Log.e(TAG,String.valueOf(Singleton.getRsHijos()));
         this.activity = activity;
         // Log.e(TAG, String.valueOf(MM.size()));
     }
@@ -62,19 +63,26 @@ public class AdapterHijos extends RecyclerView.Adapter<AdapterHijos.AdapterHijos
         cvh.logoEmp = mm.getLogoEmp();
         cvh.logoIB = mm.getLogoIB();
         cvh.IsBoleta = mm.getIsBoleta();
-        Singleton.setIdUserAlu(mm.getIdUserAlu());
 
-        Log.e("IsBoleta: ", String.valueOf(cvh.IsBoleta));
+        // Log.e("IsBoleta: ", String.valueOf(cvh.IsBoleta));
+
+        // Log.e("IdGruAlu cvh: ", String.valueOf(mm.getIdGruAlu()));
 
         cvh.lyHijos.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                     Singleton.setIdAlu(mm.getData());
+                    Singleton.setIdUserAlu(mm.getIdUserAlu());
+                    Singleton.setIdGruAlu(mm.getIdGruAlu());
+
+                    Log.e("IdGruAlu Singleton: ", String.valueOf(Singleton.getIdGruAlu()));
+
                     Intent intent = new Intent(activity, MenuHijos.class);
                     intent.putExtra(activity.getString(R.string.nombreAlumno), mm.getLabel());
                     intent.putExtra(activity.getString(R.string.idalu), Singleton.getIdAlu());
                     intent.putExtra("grupo", mm.getGrupo());
                     intent.putExtra(activity.getString(R.string.IdUserAlu), mm.getIdUserAlu());
+                    intent.putExtra(activity.getString(R.string.IdGruAlu), mm.getIdGruAlu());
                     intent.putExtra(activity.getString(R.string.urlBoleta), mm.getUrlBoleta());
                     intent.putExtra(activity.getString(R.string.logoEmp), mm.getLogoEmp());
                     intent.putExtra(activity.getString(R.string.logoIB), mm.getLogoIB());

@@ -9,6 +9,8 @@ public class AppConfig {
     public static String TEXT_HTML = "text/html";
     public static String UTF_8 = "UTF-8";
 
+    public static String URL_HOME = "http://platsource.mx/";
+
     public static String URL_LOGIN = "http://platsource.mx/getLoginUserMobile/";
 
     // Server user register url
@@ -48,5 +50,7 @@ public class AppConfig {
     public static String URL_VIEW_PAGOS = "http://platsource.mx/getPagosPost/";
     public static String URL_VIEW_BOLETAS = "http://platsource.mx/getBoletasPost/";
 
+    public static String URL_CALENDARIO = URL_HOME + "getCalendario/";
+    public static int URL_CALENDARIO_TYPE = 8;
 
 }

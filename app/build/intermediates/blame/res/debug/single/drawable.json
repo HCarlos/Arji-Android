@@ -20,12 +20,12 @@
         "source": "/home/devch/AndroidStudioProjects/ColegioArji/app/src/main/res/drawable/round_corners.xml"
     },
     {
-        "merged": "/home/devch/AndroidStudioProjects/ColegioArji/app/build/intermediates/res/merged/debug/drawable/abc_dialog_material_background_light.xml",
-        "source": "/home/devch/AndroidStudioProjects/ColegioArji/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/drawable/abc_dialog_material_background_light.xml"
-    },
-    {
         "merged": "/home/devch/AndroidStudioProjects/ColegioArji/app/build/intermediates/res/merged/debug/drawable/abc_textfield_search_material.xml",
         "source": "/home/devch/AndroidStudioProjects/ColegioArji/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/drawable/abc_textfield_search_material.xml"
+    },
+    {
+        "merged": "/home/devch/AndroidStudioProjects/ColegioArji/app/build/intermediates/res/merged/debug/drawable/abc_dialog_material_background_light.xml",
+        "source": "/home/devch/AndroidStudioProjects/ColegioArji/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/drawable/abc_dialog_material_background_light.xml"
     },
     {
         "merged": "/home/devch/AndroidStudioProjects/ColegioArji/app/build/intermediates/res/merged/debug/drawable/abc_dialog_material_background_dark.xml",

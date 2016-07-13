@@ -90,9 +90,8 @@ public class SQLiteHandler extends SQLiteOpenHelper {
     public void onUpgrade(SQLiteDatabase db, int oldVersion, int newVersion) {
         // Drop older table if existed
         db.execSQL("DROP TABLE IF EXISTS " + TABLE_USER);
-        Singleton.reset();
-
         // Create tables again
+        Singleton.reset();
         onCreate(db);
     }
 
@@ -205,12 +204,10 @@ public class SQLiteHandler extends SQLiteOpenHelper {
      * */
     public void deleteUsers() {
         SQLiteDatabase db = this.getWritableDatabase();
-        // Delete All Rows
         db.delete(TABLE_USER, null, null);
+        Singleton.reset();
         onUpgrade(db, 0, 0);
-
         db.close();
-
         Log.d(TAG, "Deleted all user info from sqlite");
     }
 

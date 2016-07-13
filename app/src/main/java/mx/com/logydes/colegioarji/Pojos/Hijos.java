@@ -14,8 +14,9 @@ public class Hijos {
     private String logoIB;
     private int IsBoleta;
     private int IdGruAlu;
+    public int Clave_Nivel;
 
-    public Hijos(int data, String label, String grupo, String msg, int idgrualu, String _urlBoleta, String _logoEmp, String _logoIB, int _IsBoleta, int _IdGruAlu) {
+    public Hijos(int data, String label, String grupo, String msg, int idgrualu, String _urlBoleta, String _logoEmp, String _logoIB, int _IsBoleta, int _IdGruAlu, int _Clave_Nivel) {
         this.data = data;
         this.label = label;
         this.grupo = grupo;
@@ -26,6 +27,7 @@ public class Hijos {
         logoIB = _logoIB;
         IsBoleta = _IsBoleta;
         IdGruAlu = _IdGruAlu;
+        Clave_Nivel = _Clave_Nivel;
     }
 
     public int getData() {
@@ -106,5 +108,13 @@ public class Hijos {
 
     public void setIdGruAlu(int idGruAlu) {
         IdGruAlu = idGruAlu;
+    }
+
+    public int getClave_Nivel() {
+        return Clave_Nivel;
+    }
+
+    public void setClave_Nivel(int clave_Nivel) {
+        Clave_Nivel = clave_Nivel;
     }
 }

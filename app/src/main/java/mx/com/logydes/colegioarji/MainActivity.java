@@ -27,6 +27,7 @@ import com.google.android.gms.common.api.GoogleApiClient;
 import java.util.ArrayList;
 
 import mx.com.logydes.colegioarji.Adapter.AdapterHijos;
+import mx.com.logydes.colegioarji.Adapter.Adapter_Menu_Tutores;
 import mx.com.logydes.colegioarji.DB.dbHijos;
 import mx.com.logydes.colegioarji.Helper.SQLiteHandler;
 import mx.com.logydes.colegioarji.Helper.SessionManager;
@@ -48,6 +49,7 @@ public class MainActivity extends AppCompatActivity
     private GoogleApiClient client;
     private Singleton singleton;
     private TextView tv;
+    private RecyclerView listaMM;
 
 
     @Override
@@ -129,6 +131,12 @@ public class MainActivity extends AppCompatActivity
 
         }else if ( session.isLoggedIn() && singleton.getIdUserNivelAcceso() == 5) { // Alu
             getMenuInflater().inflate(R.menu.menu_alumnos, menu);
+            listaMM = (RecyclerView) findViewById(R.id.rvHijos);
+            LinearLayoutManager llm = new LinearLayoutManager(this);
+            llm.setOrientation(LinearLayoutManager.VERTICAL);
+            listaMM.setLayoutManager(llm);
+            Adapter_Menu_Tutores mad = new Adapter_Menu_Tutores(this);
+            listaMM.setAdapter(mad);
         }
 
         return true;
@@ -202,6 +210,7 @@ public class MainActivity extends AppCompatActivity
     private void logoutUser() {
         session.setLogin(false);
         db.deleteUsers();
+        Singleton.reset();
         Intent intent = new Intent(MainActivity.this, LoginActivity.class);
         startActivity(intent);
     }

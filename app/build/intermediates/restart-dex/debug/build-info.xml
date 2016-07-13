@@ -4,30 +4,55 @@
     api-level="23"
     density="xxhdpi"
     format="7"
-    timestamp="5886564625793"
+    timestamp="26354824681332"
     token="160330917825941602" >
 
     <task
         name="javac"
-        duration="436" />
+        duration="0" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="214" />
+        duration="0" />
     <task
         name="verifier"
-        duration="28" />
+        duration="0" />
 
     <artifact
-        location="/home/devch/AndroidStudioProjects/ColegioArji/app/build/outputs/apk/app-debug.apk"
-        type="MAIN" />
+        location="/home/devch/AndroidStudioProjects/ColegioArji/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_8/classes.dex"
+        type="DEX" />
 
-    <build timestamp="5886564625793" >
+    <build timestamp="23370457684396" >
         <artifact
             location="/home/devch/AndroidStudioProjects/ColegioArji/app/build/outputs/apk/app-debug.apk"
             type="MAIN" />
+    </build>
+    <build
+        timestamp="24690317347878"
+        verifier="METHOD_ADDED" >
+        <artifact
+            location="/home/devch/AndroidStudioProjects/ColegioArji/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_7/classes.dex"
+            type="DEX" />
+        <artifact
+            location="/home/devch/AndroidStudioProjects/ColegioArji/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_9/classes.dex"
+            type="DEX" />
+    </build>
+    <build timestamp="25007528760879" >
+        <artifact
+            location="/home/devch/AndroidStudioProjects/ColegioArji/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_2/classes.dex"
+            type="DEX" />
+    </build>
+    <build timestamp="25584295143328" >
+        <artifact
+            location="/home/devch/AndroidStudioProjects/ColegioArji/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_1/classes.dex"
+            type="DEX" />
+    </build>
+    <build timestamp="26354824681332" >
+        <artifact
+            location="/home/devch/AndroidStudioProjects/ColegioArji/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_8/classes.dex"
+            type="DEX" />
     </build>
 
 </instant-run>

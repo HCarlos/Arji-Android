@@ -2,7 +2,9 @@ package mx.com.logydes.colegioarji.Inside;
 
 import android.app.Activity;
 import android.app.ProgressDialog;
+import android.content.Intent;
 import android.graphics.Bitmap;
+import android.net.Uri;
 import android.os.Build;
 import android.util.Log;
 import android.webkit.WebView;
@@ -21,6 +23,7 @@ import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 
+import java.net.URISyntaxException;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -56,6 +59,17 @@ public class DocumentInside {
         return true;
 
     }
+    public boolean onGetRootDocument(String URL, int Type){
+
+        this.webview.getSettings().setJavaScriptEnabled(true);
+        this.webview.setWebViewClient(new Callback());
+        this.pDialog = new ProgressDialog(this.context);
+        this.pDialog.setCancelable(false);
+        this.Utl = new Utilidades(this.pDialog);
+        getDocument(URL,Type);
+        return true;
+
+    }
 
 
 
@@ -73,9 +87,12 @@ public class DocumentInside {
             @Override
             public void onPageStarted(WebView view, String url, Bitmap favicon) {
                 super.onPageStarted(view, url, favicon);
-                TextView tv = (TextView) context.findViewById(R.id.bienvenida);
                 LinearLayout.LayoutParams lpView = new LinearLayout.LayoutParams(LinearLayout.LayoutParams.MATCH_PARENT, LinearLayout.LayoutParams.MATCH_PARENT);
-                tv.setVisibility(0);
+
+                TextView tv = (TextView) context.findViewById(R.id.bienvenida);
+                if ( tv != null ) {
+                    tv.setVisibility(0);
+                }
                 webview.setLayoutParams(lpView);
                 pDialog.setMessage("Cargando...");
                 Utl = new Utilidades(pDialog);
@@ -89,6 +106,30 @@ public class DocumentInside {
                 Utl = new Utilidades(pDialog);
                 Utl.hideDialog();
             }
+
+            public boolean shouldOverrideUrlLoading(WebView view, String url) {
+                // TODO Auto-generated method stub
+
+                if(url.startsWith("mailto:")) {
+                    Intent intent = null;
+                    try {
+                        intent = Intent.parseUri(url, Intent.URI_INTENT_SCHEME);
+                    } catch (URISyntaxException e) {
+                        e.printStackTrace();
+                    }
+                    view.getContext().startActivity(intent);
+                }else if(url.startsWith("tel:")){
+                        Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse(url));
+                        view.getContext().startActivity(intent);
+                        return true;
+                }else{
+                    view.loadUrl(url);
+                }
+
+                return true;
+
+            }
+
 
         });
         return true;
@@ -111,7 +152,7 @@ public class DocumentInside {
                 Utl.hideDialog();
 
                 try {
-                    if (Type == 0) {
+                    if (Type == 0 || Type == 8) {
                         JSONArray jObj = new JSONArray(response);
                         JSONObject rec = jObj.getJSONObject(0);
 
@@ -122,7 +163,7 @@ public class DocumentInside {
 
                         if (!error) {
 
-                            if ( Type == 0 ){
+                            if ( Type == 0 ||  Type == 8){
                                 String ruta = "";
                                 Log.e(TAG, ruta);
                                 ruta = "http://docs.google.com/gview?embedded=true&url=" + rec.getString("ruta");
@@ -184,6 +225,16 @@ public class DocumentInside {
         @Override
         public boolean shouldOverrideUrlLoading(WebView view, String url) {
             // TODO Auto-generated method stub
+
+            if(url.startsWith("mailto:")){
+                Intent intent = null;
+                try {
+                    intent = Intent.parseUri(url, Intent.URI_INTENT_SCHEME);
+                } catch (URISyntaxException e) {
+                    e.printStackTrace();
+                }
+                view.getContext().startActivity(intent);
+            }
 
             view.loadUrl(url);
             return true;

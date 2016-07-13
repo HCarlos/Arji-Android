@@ -39,6 +39,7 @@ public class Singleton {
     private static String logoIB;
     private static int IsBoleta;
     private static int IdGruAlu;
+    private static int Clave_Nivel;
 
     private static ArrayList<Lista_Elementos> rsElementos;
     private static int rsElementosSize;
@@ -192,7 +193,11 @@ public class Singleton {
     }
 
     private static void setRsHijosSize() {
-        Singleton.rsHijosSize = rsHijos.size();
+        if (rsHijos != null) {
+            Singleton.rsHijosSize = rsHijos.size();
+        }else{
+            Singleton.rsHijosSize = 0;
+        }
         Log.e("rsHijosSize", String.valueOf(rsHijosSize)  );
     }
 
@@ -244,6 +249,14 @@ public class Singleton {
         IdGruAlu = idGruAlu;
     }
 
+    public static int getClave_Nivel() {
+        return Clave_Nivel;
+    }
+
+    public static void setClave_Nivel(int clave_Nivel) {
+        Clave_Nivel = clave_Nivel;
+    }
+
     public static ArrayList<Lista_Elementos> getRsElementos() {
         return rsElementos;
     }
@@ -258,13 +271,17 @@ public class Singleton {
     }
 
     private static void setRsElementosSize() {
-        Singleton.rsElementosSize = rsElementos.size();
+        if (rsElementos != null) {
+            Singleton.rsElementosSize = rsElementos.size();
+        }
         Log.e("rsElementosSize", String.valueOf(rsElementosSize)  );
     }
 
 
 
     public static void reset() {
+        setRsHijos(null);
+        setRsElementos(null);
         ourInstance = new Singleton();
     }
 

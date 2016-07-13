@@ -9,6 +9,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.Toolbar;
+import android.util.Log;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.TextView;
@@ -51,6 +52,8 @@ public class MenuHijos extends AppCompatActivity {
         Singleton.setLogoIB(logoIB);
         Singleton.setIsBoleta(IsBoleta);
         Singleton.setIdGruAlu(IdGruAlu);
+
+        Log.e("IdGruAlu: ",String.valueOf(Singleton.getIdGruAlu()));
 
         Adapter_Menu_Tutores mad = new Adapter_Menu_Tutores(this);
         listaMM.setAdapter(mad);

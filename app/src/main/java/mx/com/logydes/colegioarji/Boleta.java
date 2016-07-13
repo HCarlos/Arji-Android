@@ -168,6 +168,8 @@ public class Boleta extends AppCompatActivity {
         String s = " order by orden_impresion asc ";
         postData = "o=0&t=40&c=0&from=0&cantidad=0&s="+s+nc;
 
+        Log.e(TAG,postData);
+
         // urlBoleta = "http://docs.google.com/gview?embedded=true&url=" + urlBoleta+"?"+postData;
 
         String url = AppConfig.URL_VIEW_BOLETAS;
@@ -186,12 +188,12 @@ public class Boleta extends AppCompatActivity {
         webview.setWebChromeClient(new WebChromeClient());
         // webview.setWebViewClient(new WebViewClient());
 
-        // webview.setWebViewClient(new Callback());
+        webview.setWebViewClient(new Callback());
         pDialog = new ProgressDialog(this.context);
         pDialog.setCancelable(false);
         webview.postUrl(urlBoleta, EncodingUtils.getBytes(postData, "BASE64"));
 
-        setContentView(webview);
+        // setContentView(webview);
 
         // this.webview.loadUrl(url);
         webview.setWebViewClient( new WebViewClient(){

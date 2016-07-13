@@ -92,12 +92,15 @@ public class dbHijos {
                             int iduseralu = rec.getInt("iduseralu");
                             int idgrualu = rec.getInt("idgrualu");
                             int IsBoleta = rec.getInt("IsBoleta");
+                            int Clave_Nivel = 0;// rec.getInt("clave_nivel");
                             String urlBoleta = rec.getString("urlBoleta");
                             String logoEmp = rec.getString("logoEmp");
                             String logoIB = rec.getString("logoIB");
                             msg = rec.getString("msg");
 
-                            MM.add( new Hijos( idalu,nombreAlu,grupo,msg,iduseralu, urlBoleta, logoEmp, logoIB, IsBoleta, idgrualu) );
+                            Log.e(TAG,String.valueOf(idgrualu));
+
+                            MM.add( new Hijos( idalu,nombreAlu,grupo,msg,iduseralu, urlBoleta, logoEmp, logoIB, IsBoleta, idgrualu, Clave_Nivel) );
                         }
 
                         Singleton.setRsHijos(MM);

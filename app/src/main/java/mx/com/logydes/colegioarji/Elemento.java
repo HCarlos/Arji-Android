@@ -85,7 +85,15 @@ public class Elemento extends AppCompatActivity {
         //Log.e(TAG,Menu);
         this.setTitle(Menu);
 
-        getDocuments();
+        if ( TipoElemento <= 3) {
+            getDocuments();
+        }
+
+        if ( TipoElemento == 5) {
+            DocumentInside bi = new DocumentInside(webview,this);
+            String url = AppConfig.URL_CALENDARIO + Singleton.getIdUserAlu() + "/";
+            bi.onGetRootDocument(url, AppConfig.URL_CALENDARIO_TYPE);
+        }
 
     }
 
