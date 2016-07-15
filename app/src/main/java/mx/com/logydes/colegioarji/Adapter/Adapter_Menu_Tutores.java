@@ -31,71 +31,77 @@ import mx.com.logydes.colegioarji.Utils.Utilidades;
  * Created by devch on 24/06/16.
  */
 
-    public class Adapter_Menu_Tutores extends RecyclerView.Adapter<Adapter_Menu_Tutores.Adapter_Menu_TutoresViewHolder> {
-        private static final String TAG = "RESPUESTA MM";
-        private ProgressDialog pDialog;
-        private Utilidades Utl;
+public class Adapter_Menu_Tutores extends RecyclerView.Adapter<Adapter_Menu_Tutores.Adapter_Menu_TutoresViewHolder> {
+    private static final String TAG = "RESPUESTA MM";
+    private ProgressDialog pDialog;
+    private Utilidades Utl;
 
-        private ArrayList<Menu_Tutores> MM;
-        private Activity activity;
-        private Context context;
+    private ArrayList<Menu_Tutores> MM;
+    private Activity activity;
+    private Context context;
 
-        // private db_Menu_Tutores cm;
+    // private db_Menu_Tutores cm;
 
-        public Adapter_Menu_Tutores(Activity _activity){
-            this.activity = _activity;
+    public Adapter_Menu_Tutores(Activity _activity){
+        this.activity = _activity;
 
-            // Log.e(TAG, String.valueOf(MM.size()));
-            MM = new ArrayList<Menu_Tutores>();
-            if ( Singleton.getIdUserNivelAcceso() == 7 ) {
-                MM.add(new Menu_Tutores(0, "Tareas"));
-                MM.add(new Menu_Tutores(1, "Circulares"));
-                MM.add(new Menu_Tutores(2, "Facturas"));
-                MM.add(new Menu_Tutores(3, "Pagos"));
-                MM.add(new Menu_Tutores(4, "Boletas"));
-                MM.add(new Menu_Tutores(5, "Calendario"));
-            }
-
-            if ( Singleton.getIdUserNivelAcceso() == 5 ) {
-                MM.add(new Menu_Tutores(0, "Tareas"));
-                MM.add(new Menu_Tutores(1, "Circulares"));
-                MM.add(new Menu_Tutores(4, "Boletas"));
-                MM.add(new Menu_Tutores(5, "Calendario"));
-                Singleton.setIdGruAlu( Singleton.getIdUser() );
-                Singleton.setIdUserAlu( Singleton.getIdUser() );
-                Singleton.setIsBoleta(1);
-            }
-
+        // Log.e(TAG, String.valueOf(MM.size()));
+        MM = new ArrayList<Menu_Tutores>();
+        if ( Singleton.getIdUserNivelAcceso() == 7 ) {
+            MM.add(new Menu_Tutores(0, "Tareas"));
+            MM.add(new Menu_Tutores(1, "Circulares"));
+            MM.add(new Menu_Tutores(2, "Facturas"));
+            MM.add(new Menu_Tutores(3, "Pagos"));
+            MM.add(new Menu_Tutores(4, "Boletas"));
+            MM.add(new Menu_Tutores(5, "Calendario"));
         }
 
-        // Infla el Layout y lo pasa a cada elemento para que obtenga los view
-        @Override
-        public Adapter_Menu_TutoresViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
-            View v = LayoutInflater.from(parent.getContext()).inflate(R.layout.recycle_menu_tutores, parent, false);
-            return new Adapter_Menu_TutoresViewHolder(v);
+        if ( Singleton.getIdUserNivelAcceso() == 6 ||
+                Singleton.getIdUserNivelAcceso() == 18 ||
+                Singleton.getIdUserNivelAcceso() == 23 ) {
+            MM.add(new Menu_Tutores(1, "Circulares"));
         }
 
-        @Override
-        public void onBindViewHolder(final Adapter_Menu_TutoresViewHolder cvh, int position) {
+        if ( Singleton.getIdUserNivelAcceso() == 5 ) {
+            MM.add(new Menu_Tutores(0, "Tareas"));
+            MM.add(new Menu_Tutores(1, "Circulares"));
+            MM.add(new Menu_Tutores(4, "Boletas"));
+            MM.add(new Menu_Tutores(5, "Calendario"));
+            Singleton.setIdGruAlu( Singleton.getIdUser() );
+            Singleton.setIdUserAlu( Singleton.getIdUser() );
+            Singleton.setIsBoleta(1);
+        }
 
-            final Menu_Tutores mm = MM.get(position);
+    }
 
-            cvh.tvMenu.setText(mm.getMenu() );
-            cvh.idmenu = mm.getIdmenu();
+    // Infla el Layout y lo pasa a cada elemento para que obtenga los view
+    @Override
+    public Adapter_Menu_TutoresViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
+        View v = LayoutInflater.from(parent.getContext()).inflate(R.layout.recycle_menu_tutores, parent, false);
+        return new Adapter_Menu_TutoresViewHolder(v);
+    }
 
-            // Log.e(TAG,mm.getGrupo());en
+    @Override
+    public void onBindViewHolder(final Adapter_Menu_TutoresViewHolder cvh, int position) {
 
-            cvh.lyTutores.setOnClickListener(new View.OnClickListener() {
-                @Override
-                public void onClick(View view) {
-                    if (cvh.idmenu <= 3 ) {
-                        Intent intent = new Intent(activity, ListaElementos.class);
-                        intent.putExtra(activity.getString(R.string.menu), mm.getMenu());
-                        intent.putExtra(activity.getString(R.string.idmenu), cvh.idmenu);
-                        activity.startActivity(intent);
-                    }
-                    if (cvh.idmenu == 4) {
-                        if (Singleton.getIsBoleta() > 0) {
+        final Menu_Tutores mm = MM.get(position);
+
+        cvh.tvMenu.setText(mm.getMenu() );
+        cvh.idmenu = mm.getIdmenu();
+
+        // Log.e(TAG,mm.getGrupo());en
+
+        cvh.lyTutores.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                if (cvh.idmenu <= 3 ) {
+                    Intent intent = new Intent(activity, ListaElementos.class);
+                    intent.putExtra(activity.getString(R.string.menu), mm.getMenu());
+                    intent.putExtra(activity.getString(R.string.idmenu), cvh.idmenu);
+                    activity.startActivity(intent);
+                }
+                if (cvh.idmenu == 4) {
+                    if (Singleton.getIsBoleta() > 0) {
 
 /*
                             Intent intent = new Intent(activity, Boleta.class);
@@ -116,36 +122,36 @@ import mx.com.logydes.colegioarji.Utils.Utilidades;
 
 
 
-                            String url = "http://platsource.mx/php/01/mobile/boletas_layout.php?idgrualu="+Singleton.getIdUserAlu()+"&user="+Singleton.getUsername()+"&iduser="+Singleton.getIdUser()+"&idemp="+Singleton.getIdEmp();
+                        String url = "http://platsource.mx/php/01/mobile/boletas_layout.php?idgrualu="+Singleton.getIdUserAlu()+"&user="+Singleton.getUsername()+"&iduser="+Singleton.getIdUser()+"&idemp="+Singleton.getIdEmp();
 
-                            // String url = Singleton.getUrlBoleta();
+                        // String url = Singleton.getUrlBoleta();
 
-                            Log.e("URL BOLETA",url);
-
-
-                            if (!url.startsWith("http://") && !url.startsWith("https://"))
-                                url = "http://" + url;
-
-                            final Intent intent = new Intent(Intent.ACTION_VIEW).setData(Uri.parse(url));
-
-                            String nc = "u="+Singleton.getUsername()+
-                                        "&strgrualu="+Singleton.getIdUserAlu()+
-                                        "&logoEmp="+Singleton.getLogoEmp()+
-                                        "&logoIbo="+Singleton.getLogoIB();
-                            String s = " order by orden_impresion asc ";
-
-                            Log.e("NC",nc);
+                        Log.e("URL BOLETA",url);
 
 
-                            intent.putExtra("o","0");
-                            intent.putExtra("t","40");
-                            intent.putExtra("c",nc);
-                            intent.putExtra("from","0");
-                            intent.putExtra("cantidad","0");
-                            intent.putExtra("s", s);
+                        if (!url.startsWith("http://") && !url.startsWith("https://"))
+                            url = "http://" + url;
 
-                            activity.startActivity(intent);
-                            // getActivity().startActivity(intent);
+                        final Intent intent = new Intent(Intent.ACTION_VIEW).setData(Uri.parse(url));
+
+                        String nc = "u="+Singleton.getUsername()+
+                                "&strgrualu="+Singleton.getIdUserAlu()+
+                                "&logoEmp="+Singleton.getLogoEmp()+
+                                "&logoIbo="+Singleton.getLogoIB();
+                        String s = " order by orden_impresion asc ";
+
+                        Log.e("NC",nc);
+
+
+                        intent.putExtra("o","0");
+                        intent.putExtra("t","40");
+                        intent.putExtra("c",nc);
+                        intent.putExtra("from","0");
+                        intent.putExtra("cantidad","0");
+                        intent.putExtra("s", s);
+
+                        activity.startActivity(intent);
+                        // getActivity().startActivity(intent);
 
 
 
@@ -169,24 +175,24 @@ import mx.com.logydes.colegioarji.Utils.Utilidades;
                             */
 
 
-                        }else{
-                            Toast.makeText(activity, "Boleta no esta disponible", Toast.LENGTH_LONG).show();
-                        }
-
-                    }
-
-                    if (cvh.idmenu == 5) {
-                        Intent intent = new Intent(activity, Elemento.class);
-                        intent.putExtra(activity.getString(R.string.menuelemento), mm.getMenu() );
-                        intent.putExtra(activity.getString(R.string.tipoelemento), cvh.idmenu );
-                        intent.putExtra(activity.getString(R.string.elemento), mm.getMenu() );
-                        activity.startActivity(intent);
+                    }else{
+                        Toast.makeText(activity, "Boleta no esta disponible", Toast.LENGTH_LONG).show();
                     }
 
                 }
-            });
 
-        }
+                if (cvh.idmenu == 5) {
+                    Intent intent = new Intent(activity, Elemento.class);
+                    intent.putExtra(activity.getString(R.string.menuelemento), mm.getMenu() );
+                    intent.putExtra(activity.getString(R.string.tipoelemento), cvh.idmenu );
+                    intent.putExtra(activity.getString(R.string.elemento), mm.getMenu() );
+                    activity.startActivity(intent);
+                }
+
+            }
+        });
+
+    }
 
     /*
     public String getLikes(_Menu_Tutores mm){
@@ -196,26 +202,26 @@ import mx.com.logydes.colegioarji.Utils.Utilidades;
     }
     */
 
-        public int getItemCount() {
+    public int getItemCount() {
 
-            // Log.e(TAG+" TOTAL",String.valueOf(MM.size()));
-            return MM.size();
-        }
+        // Log.e(TAG+" TOTAL",String.valueOf(MM.size()));
+        return MM.size();
+    }
 
-        public static class Adapter_Menu_TutoresViewHolder extends RecyclerView.ViewHolder{
+    public static class Adapter_Menu_TutoresViewHolder extends RecyclerView.ViewHolder{
 
-            LinearLayout lyTutores;
-            TextView tvMenu;
-            int idmenu;
+        LinearLayout lyTutores;
+        TextView tvMenu;
+        int idmenu;
 
-            public Adapter_Menu_TutoresViewHolder(View itemView) {
-                super(itemView);
-                idmenu = 0;
-                tvMenu = (TextView) itemView.findViewById(R.id.tvMenu);
-                lyTutores = (LinearLayout) itemView.findViewById(R.id.lyTutores);
-
-            }
+        public Adapter_Menu_TutoresViewHolder(View itemView) {
+            super(itemView);
+            idmenu = 0;
+            tvMenu = (TextView) itemView.findViewById(R.id.tvMenu);
+            lyTutores = (LinearLayout) itemView.findViewById(R.id.lyTutores);
 
         }
 
     }
+
+}

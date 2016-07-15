@@ -3,7 +3,9 @@ package mx.com.logydes.colegioarji;
 import android.app.Activity;
 import android.app.ProgressDialog;
 import android.content.Context;
+import android.content.Intent;
 import android.graphics.Bitmap;
+import android.net.Uri;
 import android.os.Build;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -28,6 +30,7 @@ import org.apache.http.util.EncodingUtils;
 
 import java.io.IOException;
 import java.io.UnsupportedEncodingException;
+import java.net.URISyntaxException;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -53,6 +56,7 @@ public class Elemento extends AppCompatActivity {
     private String FechaPago;
     private int Status_Movto;
     private int Vencido;
+    private String postData;
 
     private WebView webview;
     private Activity context;
@@ -99,7 +103,7 @@ public class Elemento extends AppCompatActivity {
 
     private boolean getDocuments(){
 
-        String postData = "";
+        postData = "";
         String url = "";
         switch (TipoElemento){
             case 0:
@@ -132,7 +136,12 @@ public class Elemento extends AppCompatActivity {
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.JELLY_BEAN)
             this.webview.getSettings().setAllowUniversalAccessFromFileURLs(true);
         this.webview.getSettings().setJavaScriptEnabled(true);
-        this.webview.setWebViewClient(new Callback());
+        this.webview.getSettings().setUseWideViewPort(true);
+        this.webview.getSettings().setAllowContentAccess(true);
+        this.webview.getSettings().setJavaScriptCanOpenWindowsAutomatically(true);
+        this.webview.getSettings().setDomStorageEnabled(true);
+        this.webview.getSettings().setAllowFileAccess(true);
+        // this.webview.setWebViewClient(new Callback());
         pDialog = new ProgressDialog(this.context);
         pDialog.setCancelable(false);
         String postGet = "";
@@ -165,6 +174,38 @@ public class Elemento extends AppCompatActivity {
                 Utl = new Utilidades(pDialog);
                 Utl.hideDialog();
             }
+
+            public boolean shouldOverrideUrlLoading(WebView view, String url) {
+                // TODO Auto-generated method stub
+
+                if(url.startsWith("mailto:")) {
+                    Intent intent = null;
+                    try {
+                        intent = Intent.parseUri(url, Intent.URI_INTENT_SCHEME);
+                    } catch (URISyntaxException e) {
+                        e.printStackTrace();
+                    }
+                    view.getContext().startActivity(intent);
+                }else if(url.startsWith("tel:")){
+                    Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse(url));
+                    view.getContext().startActivity(intent);
+                    return true;
+                }else{
+
+                    if (TipoElemento == 0 || TipoElemento == 1) {
+                        Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse(url));
+                        view.getContext().startActivity(intent);
+                    }else{
+                        view.loadUrl(url);
+                    }
+
+                    return true;
+                }
+
+                return true;
+
+            }
+
 
         });
 

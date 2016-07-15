@@ -25,169 +25,169 @@
   <component name="ChangeListManager">
     <list default="true" id="ae7bcb5e-7063-4e08-a916-5a7c19a8fd82" name="Default" comment="">
       <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/instant-run-support/debug/reload-changes.txt" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/cache.properties.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/fileHashes.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/fileSnapshots.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/outputFileStates.bin" afterPath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/outputFileStates.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/taskArtifacts.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/tasks/_app_compileDebugAndroidTestJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" afterPath="$PROJECT_DIR$/.gradle/2.10/tasks/_app_compileDebugAndroidTestJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/tasks/_app_compileDebugAndroidTestJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.bin" afterPath="$PROJECT_DIR$/.gradle/2.10/tasks/_app_compileDebugAndroidTestJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/tasks/_app_compileDebugAndroidTestJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" afterPath="$PROJECT_DIR$/.gradle/2.10/tasks/_app_compileDebugAndroidTestJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/tasks/_app_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.bin" afterPath="$PROJECT_DIR$/.gradle/2.10/tasks/_app_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/tasks/_app_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" afterPath="$PROJECT_DIR$/.gradle/2.10/tasks/_app_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/tasks/_app_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" afterPath="$PROJECT_DIR$/.gradle/2.10/tasks/_app_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/tasks/_app_compileDebugUnitTestJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" afterPath="$PROJECT_DIR$/.gradle/2.10/tasks/_app_compileDebugUnitTestJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/tasks/_app_compileDebugUnitTestJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.bin" afterPath="$PROJECT_DIR$/.gradle/2.10/tasks/_app_compileDebugUnitTestJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/tasks/_app_compileDebugUnitTestJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" afterPath="$PROJECT_DIR$/.gradle/2.10/tasks/_app_compileDebugUnitTestJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/mx/com/logydes/colegioarji/Adapter/AdapterHijos$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/mx/com/logydes/colegioarji/Adapter/AdapterHijos$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/mx/com/logydes/colegioarji/Adapter/AdapterHijos$AdapterHijosViewHolder.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/mx/com/logydes/colegioarji/Adapter/AdapterHijos$AdapterHijosViewHolder.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/mx/com/logydes/colegioarji/Adapter/AdapterHijos.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/mx/com/logydes/colegioarji/Adapter/AdapterHijos.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/mx/com/logydes/colegioarji/Adapter/Adapter_Menu_Tutores$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/mx/com/logydes/colegioarji/Adapter/Adapter_Menu_Tutores$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/mx/com/logydes/colegioarji/Adapter/Adapter_Menu_Tutores$Adapter_Menu_TutoresViewHolder.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/mx/com/logydes/colegioarji/Adapter/Adapter_Menu_Tutores$Adapter_Menu_TutoresViewHolder.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/mx/com/logydes/colegioarji/Adapter/Adapter_Menu_Tutores.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/mx/com/logydes/colegioarji/Adapter/Adapter_Menu_Tutores.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/mx/com/logydes/colegioarji/Boleta$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/mx/com/logydes/colegioarji/Boleta$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/mx/com/logydes/colegioarji/Boleta$Callback.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/mx/com/logydes/colegioarji/Boleta$Callback.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/mx/com/logydes/colegioarji/Boleta.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/mx/com/logydes/colegioarji/Boleta.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/mx/com/logydes/colegioarji/DB/dbHijos$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/mx/com/logydes/colegioarji/DB/dbHijos$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/mx/com/logydes/colegioarji/Pojos/Hijos.java" afterPath="$PROJECT_DIR$/app/src/main/java/mx/com/logydes/colegioarji/Pojos/Hijos.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/mx/com/logydes/colegioarji/DB/dbHijos$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/mx/com/logydes/colegioarji/DB/dbHijos$1.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/mx/com/logydes/colegioarji/DB/dbHijos$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/mx/com/logydes/colegioarji/DB/dbHijos$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/mx/com/logydes/colegioarji/DB/dbHijos$3.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/mx/com/logydes/colegioarji/DB/dbHijos$3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/mx/com/logydes/colegioarji/DB/dbHijos.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/mx/com/logydes/colegioarji/DB/dbHijos.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/mx/com/logydes/colegioarji/Elemento$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/mx/com/logydes/colegioarji/Elemento$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/mx/com/logydes/colegioarji/Elemento$Callback.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/mx/com/logydes/colegioarji/Elemento$Callback.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_1/mx/com/logydes/colegioarji/MainActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_1/mx/com/logydes/colegioarji/MainActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/mx/com/logydes/colegioarji/Adapter/AdapterHijos.java" afterPath="$PROJECT_DIR$/app/src/main/java/mx/com/logydes/colegioarji/Adapter/AdapterHijos.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_6/mx/com/logydes/colegioarji/DB/dbHijos$3.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_6/mx/com/logydes/colegioarji/DB/dbHijos$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/mx/com/logydes/colegioarji/Inside/DocumentInside$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/mx/com/logydes/colegioarji/Inside/DocumentInside$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/mx/com/logydes/colegioarji/Inside/DocumentInside$3.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/mx/com/logydes/colegioarji/Inside/DocumentInside$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/mx/com/logydes/colegioarji/Adapter/AdapterHijos$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/mx/com/logydes/colegioarji/Adapter/AdapterHijos$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/cache.properties.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/mx/com/logydes/colegioarji/DB/dbHijos$3.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/mx/com/logydes/colegioarji/DB/dbHijos$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/mx/com/logydes/colegioarji/Adapter/Adapter_Menu_Tutores.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/mx/com/logydes/colegioarji/Adapter/Adapter_Menu_Tutores.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/mx/com/logydes/colegioarji/Pojos/Hijos.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/mx/com/logydes/colegioarji/Pojos/Hijos.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/mx/com/logydes/colegioarji/Inside/DocumentInside$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/mx/com/logydes/colegioarji/Inside/DocumentInside$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/mx/com/logydes/colegioarji/Utils/AppConfig.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/mx/com/logydes/colegioarji/Utils/AppConfig.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/mx/com/logydes/colegioarji/Helper/SQLiteHandler.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/mx/com/logydes/colegioarji/Helper/SQLiteHandler.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/mx/com/logydes/colegioarji/Elemento.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/mx/com/logydes/colegioarji/Elemento.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/mx/com/logydes/colegioarji/Helper/SQLiteHandler.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/mx/com/logydes/colegioarji/Helper/SQLiteHandler.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/mx/com/logydes/colegioarji/Helper/Singleton.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/mx/com/logydes/colegioarji/Helper/Singleton.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/mx/com/logydes/colegioarji/Inside/DocumentInside$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/mx/com/logydes/colegioarji/Inside/DocumentInside$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_7/mx/com/logydes/colegioarji/Adapter/AdapterHijos$AdapterHijosViewHolder.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_7/mx/com/logydes/colegioarji/Adapter/AdapterHijos$AdapterHijosViewHolder.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/mx/com/logydes/colegioarji/Elemento.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/mx/com/logydes/colegioarji/Elemento.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/mx/com/logydes/colegioarji/Pojos/Hijos.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/mx/com/logydes/colegioarji/Pojos/Hijos.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/tasks/_app_compileDebugUnitTestJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.bin" afterPath="$PROJECT_DIR$/.gradle/2.10/tasks/_app_compileDebugUnitTestJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_1/mx/com/logydes/colegioarji/ListaElementos.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_1/mx/com/logydes/colegioarji/ListaElementos.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_7/mx/com/logydes/colegioarji/Adapter/AdapterHijos$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_7/mx/com/logydes/colegioarji/Adapter/AdapterHijos$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/mx/com/logydes/colegioarji/Boleta$Callback.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/mx/com/logydes/colegioarji/Boleta$Callback.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/mx/com/logydes/colegioarji/MenuHijos.java" afterPath="$PROJECT_DIR$/app/src/main/java/mx/com/logydes/colegioarji/MenuHijos.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/mx/com/logydes/colegioarji/Elemento.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/mx/com/logydes/colegioarji/Elemento.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/mx/com/logydes/colegioarji/Inside/DocumentInside$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/mx/com/logydes/colegioarji/Inside/DocumentInside$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/mx/com/logydes/colegioarji/Inside/DocumentInside$3.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/mx/com/logydes/colegioarji/Inside/DocumentInside$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_7/mx/com/logydes/colegioarji/Adapter/Adapter_Menu_Tutores$Adapter_Menu_TutoresViewHolder.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_7/mx/com/logydes/colegioarji/Adapter/Adapter_Menu_Tutores$Adapter_Menu_TutoresViewHolder.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/tasks/_app_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.bin" afterPath="$PROJECT_DIR$/.gradle/2.10/tasks/_app_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/mx/com/logydes/colegioarji/MainActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/mx/com/logydes/colegioarji/MainActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/mx/com/logydes/colegioarji/Boleta$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/mx/com/logydes/colegioarji/Boleta$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/mx/com/logydes/colegioarji/DB/dbHijos.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/mx/com/logydes/colegioarji/DB/dbHijos.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/mx/com/logydes/colegioarji/Adapter/AdapterHijos$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/mx/com/logydes/colegioarji/Adapter/AdapterHijos$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/mx/com/logydes/colegioarji/Adapter/AdapterHijos.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/mx/com/logydes/colegioarji/Adapter/AdapterHijos.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_6/classes.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_6/classes.dex" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_7/mx/com/logydes/colegioarji/Adapter/Adapter_Menu_Tutores$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_7/mx/com/logydes/colegioarji/Adapter/Adapter_Menu_Tutores$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/mx/com/logydes/colegioarji/Adapter/AdapterHijos.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/mx/com/logydes/colegioarji/Adapter/AdapterHijos.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/mx/com/logydes/colegioarji/Adapter/Adapter_Menu_Tutores.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/mx/com/logydes/colegioarji/Adapter/Adapter_Menu_Tutores.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/generated/mockable-android-23.jar" afterPath="$PROJECT_DIR$/build/generated/mockable-android-23.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_1/mx/com/logydes/colegioarji/Boleta$Callback.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_1/mx/com/logydes/colegioarji/Boleta$Callback.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_9/mx/com/logydes/colegioarji/Utils/AppConfig.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_9/mx/com/logydes/colegioarji/Utils/AppConfig.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/mx/com/logydes/colegioarji/Inside/DocumentInside$4.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/mx/com/logydes/colegioarji/Inside/DocumentInside$4.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/mx/com/logydes/colegioarji/Helper/Singleton.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/mx/com/logydes/colegioarji/Helper/Singleton.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/mx/com/logydes/colegioarji/Elemento$Callback.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/mx/com/logydes/colegioarji/Elemento$Callback.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/resources-debug.ap_" afterPath="$PROJECT_DIR$/app/build/intermediates/res/resources-debug.ap_" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_6/mx/com/logydes/colegioarji/DB/dbHijos$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_6/mx/com/logydes/colegioarji/DB/dbHijos$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_1/mx/com/logydes/colegioarji/Elemento$Callback.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_1/mx/com/logydes/colegioarji/Elemento$Callback.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/mx/com/logydes/colegioarji/Helper/Singleton.java" afterPath="$PROJECT_DIR$/app/src/main/java/mx/com/logydes/colegioarji/Helper/Singleton.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_1/mx/com/logydes/colegioarji/Elemento.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_1/mx/com/logydes/colegioarji/Elemento.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_6/mx/com/logydes/colegioarji/DB/dbHijos$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_6/mx/com/logydes/colegioarji/DB/dbHijos$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/mx/com/logydes/colegioarji/Helper/SQLiteHandler.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/mx/com/logydes/colegioarji/Helper/SQLiteHandler.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/mx/com/logydes/colegioarji/Inside/DocumentInside$4.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/mx/com/logydes/colegioarji/Inside/DocumentInside$4.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/mx/com/logydes/colegioarji/Inside/DocumentInside$Callback.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/mx/com/logydes/colegioarji/Inside/DocumentInside$Callback.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/mx/com/logydes/colegioarji/Inside/DocumentInside.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/mx/com/logydes/colegioarji/Inside/DocumentInside.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/mx/com/logydes/colegioarji/DB/dbHijos$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/mx/com/logydes/colegioarji/DB/dbHijos$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/mx/com/logydes/colegioarji/Inside/DocumentInside$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/mx/com/logydes/colegioarji/Inside/DocumentInside$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/mx/com/logydes/colegioarji/Utils/AppConfig.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/mx/com/logydes/colegioarji/Utils/AppConfig.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/mx/com/logydes/colegioarji/Helper/Singleton.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/mx/com/logydes/colegioarji/Helper/Singleton.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/instant-run-support/debug/classes.zip" afterPath="$PROJECT_DIR$/app/build/intermediates/instant-run-support/debug/classes.zip" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/mx/com/logydes/colegioarji/Inside/DocumentInside$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/mx/com/logydes/colegioarji/Inside/DocumentInside$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/mx/com/logydes/colegioarji/Adapter/AdapterHijos$AdapterHijosViewHolder.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/mx/com/logydes/colegioarji/Adapter/AdapterHijos$AdapterHijosViewHolder.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/drawable.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/drawable.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_7/classes.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_7/classes.dex" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/mx/com/logydes/colegioarji/Elemento$Callback.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/mx/com/logydes/colegioarji/Elemento$Callback.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/mx/com/logydes/colegioarji/DB/dbHijos$3.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/mx/com/logydes/colegioarji/DB/dbHijos$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/mx/com/logydes/colegioarji/Boleta.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/mx/com/logydes/colegioarji/Boleta.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/mx/com/logydes/colegioarji/Boleta$Callback.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/mx/com/logydes/colegioarji/Boleta$Callback.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/mx/com/logydes/colegioarji/MenuHijos.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/mx/com/logydes/colegioarji/MenuHijos.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/mx/com/logydes/colegioarji/Helper/SQLiteHandler.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/mx/com/logydes/colegioarji/Helper/SQLiteHandler.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/mx/com/logydes/colegioarji/Adapter/AdapterHijos$AdapterHijosViewHolder.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/mx/com/logydes/colegioarji/Adapter/AdapterHijos$AdapterHijosViewHolder.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/mx/com/logydes/colegioarji/Inside/DocumentInside$Callback.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/mx/com/logydes/colegioarji/Inside/DocumentInside$Callback.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/mx/com/logydes/colegioarji/Elemento$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/mx/com/logydes/colegioarji/Elemento$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/mx/com/logydes/colegioarji/DB/dbHijos$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/mx/com/logydes/colegioarji/DB/dbHijos$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/mx/com/logydes/colegioarji/Elemento$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/mx/com/logydes/colegioarji/Elemento$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/mx/com/logydes/colegioarji/Boleta$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/mx/com/logydes/colegioarji/Boleta$1.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/mx/com/logydes/colegioarji/ListaElementos.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/mx/com/logydes/colegioarji/ListaElementos.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" afterPath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/mx/com/logydes/colegioarji/ListaElementos.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/mx/com/logydes/colegioarji/ListaElementos.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/mx/com/logydes/colegioarji/MenuHijos.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/mx/com/logydes/colegioarji/MenuHijos.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_1/mx/com/logydes/colegioarji/Boleta$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_1/mx/com/logydes/colegioarji/Boleta$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/mx/com/logydes/colegioarji/Inside/DocumentInside$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/mx/com/logydes/colegioarji/Inside/DocumentInside$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/mx/com/logydes/colegioarji/Adapter/Adapter_Menu_Tutores$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/mx/com/logydes/colegioarji/Adapter/Adapter_Menu_Tutores$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_2/classes.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_2/classes.dex" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/mx/com/logydes/colegioarji/DB/dbHijos.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/mx/com/logydes/colegioarji/DB/dbHijos.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/mx/com/logydes/colegioarji/Inside/DocumentInside$3.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/mx/com/logydes/colegioarji/Inside/DocumentInside$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_1/classes.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_1/classes.dex" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/mx/com/logydes/colegioarji/DB/dbHijos.java" afterPath="$PROJECT_DIR$/app/src/main/java/mx/com/logydes/colegioarji/DB/dbHijos.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/fileHashes.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/tasks/_app_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" afterPath="$PROJECT_DIR$/.gradle/2.10/tasks/_app_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/mx/com/logydes/colegioarji/Utils/AppConfig.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/mx/com/logydes/colegioarji/Utils/AppConfig.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_7/mx/com/logydes/colegioarji/Adapter/AdapterHijos.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_7/mx/com/logydes/colegioarji/Adapter/AdapterHijos.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/mx/com/logydes/colegioarji/Adapter/AdapterHijos.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/mx/com/logydes/colegioarji/Adapter/AdapterHijos.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/mx/com/logydes/colegioarji/Inside/DocumentInside$3.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/mx/com/logydes/colegioarji/Inside/DocumentInside$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_8/mx/com/logydes/colegioarji/Helper/Singleton.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_8/mx/com/logydes/colegioarji/Helper/Singleton.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/mx/com/logydes/colegioarji/Inside/DocumentInside$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/mx/com/logydes/colegioarji/Inside/DocumentInside$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/mx/com/logydes/colegioarji/ListaElementos.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/mx/com/logydes/colegioarji/ListaElementos.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/mx/com/logydes/colegioarji/Adapter/Adapter_Menu_Tutores$Adapter_Menu_TutoresViewHolder.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/mx/com/logydes/colegioarji/Adapter/Adapter_Menu_Tutores$Adapter_Menu_TutoresViewHolder.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/outputs/apk/app-debug-unaligned.apk" afterPath="$PROJECT_DIR$/app/build/outputs/apk/app-debug-unaligned.apk" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_6/mx/com/logydes/colegioarji/DB/dbHijos.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_6/mx/com/logydes/colegioarji/DB/dbHijos.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/mx/com/logydes/colegioarji/Helper/SQLiteHandler.java" afterPath="$PROJECT_DIR$/app/src/main/java/mx/com/logydes/colegioarji/Helper/SQLiteHandler.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/mx/com/logydes/colegioarji/MainActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/mx/com/logydes/colegioarji/MainActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/mx/com/logydes/colegioarji/Adapter/Adapter_Menu_Tutores$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/mx/com/logydes/colegioarji/Adapter/Adapter_Menu_Tutores$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/mx/com/logydes/colegioarji/Helper/Singleton.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/mx/com/logydes/colegioarji/Helper/Singleton.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/mx/com/logydes/colegioarji/Boleta.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/mx/com/logydes/colegioarji/Boleta.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/fileSnapshots.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/mx/com/logydes/colegioarji/DB/dbHijos$3.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/mx/com/logydes/colegioarji/DB/dbHijos$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/tasks/_app_compileDebugUnitTestJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" afterPath="$PROJECT_DIR$/.gradle/2.10/tasks/_app_compileDebugUnitTestJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/mx/com/logydes/colegioarji/Inside/DocumentInside$4.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/mx/com/logydes/colegioarji/Inside/DocumentInside$4.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/tasks/_app_compileDebugAndroidTestJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" afterPath="$PROJECT_DIR$/.gradle/2.10/tasks/_app_compileDebugAndroidTestJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/mx/com/logydes/colegioarji/Adapter/Adapter_Menu_Tutores$Adapter_Menu_TutoresViewHolder.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/mx/com/logydes/colegioarji/Adapter/Adapter_Menu_Tutores$Adapter_Menu_TutoresViewHolder.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/mx/com/logydes/colegioarji/Pojos/Hijos.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/mx/com/logydes/colegioarji/Pojos/Hijos.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/mx/com/logydes/colegioarji/Inside/DocumentInside$4.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/mx/com/logydes/colegioarji/Inside/DocumentInside$4.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/mx/com/logydes/colegioarji/Elemento.java" afterPath="$PROJECT_DIR$/app/src/main/java/mx/com/logydes/colegioarji/Elemento.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/mx/com/logydes/colegioarji/DB/dbHijos$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/mx/com/logydes/colegioarji/DB/dbHijos$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/mx/com/logydes/colegioarji/Boleta$Callback.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/mx/com/logydes/colegioarji/Boleta$Callback.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/mx/com/logydes/colegioarji/Adapter/Adapter_Menu_Tutores$Adapter_Menu_TutoresViewHolder.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/mx/com/logydes/colegioarji/Adapter/Adapter_Menu_Tutores$Adapter_Menu_TutoresViewHolder.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_1/mx/com/logydes/colegioarji/Boleta.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_1/mx/com/logydes/colegioarji/Boleta.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/mx/com/logydes/colegioarji/Inside/DocumentInside$3.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/mx/com/logydes/colegioarji/Inside/DocumentInside$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/mx/com/logydes/colegioarji/MainActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/mx/com/logydes/colegioarji/MainActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/instant-run-support/debug/resources.zip" afterPath="$PROJECT_DIR$/app/build/intermediates/instant-run-support/debug/resources.zip" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/mx/com/logydes/colegioarji/Adapter/AdapterHijos$AdapterHijosViewHolder.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/mx/com/logydes/colegioarji/Adapter/AdapterHijos$AdapterHijosViewHolder.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/restart-dex/debug/build-info.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/restart-dex/debug/build-info.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/mx/com/logydes/colegioarji/Boleta.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/mx/com/logydes/colegioarji/Boleta.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_1/mx/com/logydes/colegioarji/Elemento$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_1/mx/com/logydes/colegioarji/Elemento$1.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/mx/com/logydes/colegioarji/MainActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/mx/com/logydes/colegioarji/MainActivity.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/mx/com/logydes/colegioarji/MenuHijos.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/mx/com/logydes/colegioarji/MenuHijos.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/mx/com/logydes/colegioarji/Pojos/Hijos.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/mx/com/logydes/colegioarji/Pojos/Hijos.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/mx/com/logydes/colegioarji/Utils/AppConfig.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/mx/com/logydes/colegioarji/Utils/AppConfig.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/mx/com/logydes/colegioarji/Adapter/AdapterHijos$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/mx/com/logydes/colegioarji/Adapter/AdapterHijos$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/mx/com/logydes/colegioarji/Adapter/AdapterHijos$AdapterHijosViewHolder.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/mx/com/logydes/colegioarji/Adapter/AdapterHijos$AdapterHijosViewHolder.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/mx/com/logydes/colegioarji/Adapter/AdapterHijos.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/mx/com/logydes/colegioarji/Adapter/AdapterHijos.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/mx/com/logydes/colegioarji/Adapter/Adapter_Menu_Tutores$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/mx/com/logydes/colegioarji/Adapter/Adapter_Menu_Tutores$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/mx/com/logydes/colegioarji/Adapter/Adapter_Menu_Tutores$Adapter_Menu_TutoresViewHolder.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/mx/com/logydes/colegioarji/Adapter/Adapter_Menu_Tutores$Adapter_Menu_TutoresViewHolder.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/mx/com/logydes/colegioarji/Adapter/Adapter_Menu_Tutores.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/mx/com/logydes/colegioarji/Adapter/Adapter_Menu_Tutores.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/mx/com/logydes/colegioarji/Boleta$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/mx/com/logydes/colegioarji/Boleta$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/mx/com/logydes/colegioarji/Boleta$Callback.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/mx/com/logydes/colegioarji/Boleta$Callback.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/mx/com/logydes/colegioarji/Boleta.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/mx/com/logydes/colegioarji/Boleta.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/mx/com/logydes/colegioarji/DB/dbHijos$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/mx/com/logydes/colegioarji/DB/dbHijos$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/mx/com/logydes/colegioarji/DB/dbHijos$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/mx/com/logydes/colegioarji/DB/dbHijos$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/mx/com/logydes/colegioarji/DB/dbHijos$3.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/mx/com/logydes/colegioarji/DB/dbHijos$3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/mx/com/logydes/colegioarji/DB/dbHijos.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/mx/com/logydes/colegioarji/DB/dbHijos.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/mx/com/logydes/colegioarji/Elemento$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/mx/com/logydes/colegioarji/Elemento$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/mx/com/logydes/colegioarji/Elemento$Callback.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/mx/com/logydes/colegioarji/Elemento$Callback.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/mx/com/logydes/colegioarji/Elemento.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/mx/com/logydes/colegioarji/Elemento.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/mx/com/logydes/colegioarji/Helper/SQLiteHandler.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/mx/com/logydes/colegioarji/Helper/SQLiteHandler.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/mx/com/logydes/colegioarji/Helper/Singleton.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/mx/com/logydes/colegioarji/Helper/Singleton.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/mx/com/logydes/colegioarji/Inside/DocumentInside$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/mx/com/logydes/colegioarji/Inside/DocumentInside$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/mx/com/logydes/colegioarji/Inside/DocumentInside$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/mx/com/logydes/colegioarji/Inside/DocumentInside$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/mx/com/logydes/colegioarji/Inside/DocumentInside$3.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/mx/com/logydes/colegioarji/Inside/DocumentInside$3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/mx/com/logydes/colegioarji/Inside/DocumentInside$4.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/mx/com/logydes/colegioarji/Inside/DocumentInside$4.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/mx/com/logydes/colegioarji/Inside/DocumentInside$Callback.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/mx/com/logydes/colegioarji/Inside/DocumentInside$Callback.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/mx/com/logydes/colegioarji/Inside/DocumentInside.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/mx/com/logydes/colegioarji/Inside/DocumentInside.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/mx/com/logydes/colegioarji/ListaElementos.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/mx/com/logydes/colegioarji/ListaElementos.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/mx/com/logydes/colegioarji/MainActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/mx/com/logydes/colegioarji/MainActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/mx/com/logydes/colegioarji/MenuHijos.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/mx/com/logydes/colegioarji/MenuHijos.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/mx/com/logydes/colegioarji/Pojos/Hijos.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/mx/com/logydes/colegioarji/Pojos/Hijos.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/mx/com/logydes/colegioarji/Utils/AppConfig.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/mx/com/logydes/colegioarji/Utils/AppConfig.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/instant-run-support/debug/classes.zip" afterPath="$PROJECT_DIR$/app/build/intermediates/instant-run-support/debug/classes.zip" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/instant-run-support/debug/resources.zip" afterPath="$PROJECT_DIR$/app/build/intermediates/instant-run-support/debug/resources.zip" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/resources-debug-androidTest.ap_" afterPath="$PROJECT_DIR$/app/build/intermediates/res/resources-debug-androidTest.ap_" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/resources-debug.ap_" afterPath="$PROJECT_DIR$/app/build/intermediates/res/resources-debug.ap_" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_1/classes.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_1/classes.dex" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_2/classes.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_2/classes.dex" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_6/classes.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_6/classes.dex" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_7/classes.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_7/classes.dex" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_8/classes.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_8/classes.dex" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_9/classes.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_9/classes.dex" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/mx/com/logydes/colegioarji/Adapter/AdapterHijos$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/mx/com/logydes/colegioarji/Adapter/AdapterHijos$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/mx/com/logydes/colegioarji/Adapter/AdapterHijos$AdapterHijosViewHolder.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/mx/com/logydes/colegioarji/Adapter/AdapterHijos$AdapterHijosViewHolder.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/mx/com/logydes/colegioarji/Adapter/AdapterHijos.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/mx/com/logydes/colegioarji/Adapter/AdapterHijos.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/mx/com/logydes/colegioarji/Adapter/Adapter_Menu_Tutores$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/mx/com/logydes/colegioarji/Adapter/Adapter_Menu_Tutores$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/mx/com/logydes/colegioarji/Adapter/Adapter_Menu_Tutores$Adapter_Menu_TutoresViewHolder.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/mx/com/logydes/colegioarji/Adapter/Adapter_Menu_Tutores$Adapter_Menu_TutoresViewHolder.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/mx/com/logydes/colegioarji/Adapter/Adapter_Menu_Tutores.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/mx/com/logydes/colegioarji/Adapter/Adapter_Menu_Tutores.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/mx/com/logydes/colegioarji/Boleta$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/mx/com/logydes/colegioarji/Boleta$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/mx/com/logydes/colegioarji/Boleta$Callback.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/mx/com/logydes/colegioarji/Boleta$Callback.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/mx/com/logydes/colegioarji/Boleta.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/mx/com/logydes/colegioarji/Boleta.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/mx/com/logydes/colegioarji/DB/dbHijos$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/mx/com/logydes/colegioarji/DB/dbHijos$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/mx/com/logydes/colegioarji/DB/dbHijos$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/mx/com/logydes/colegioarji/DB/dbHijos$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/mx/com/logydes/colegioarji/DB/dbHijos$3.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/mx/com/logydes/colegioarji/DB/dbHijos$3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/mx/com/logydes/colegioarji/DB/dbHijos.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/mx/com/logydes/colegioarji/DB/dbHijos.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/mx/com/logydes/colegioarji/Elemento$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/mx/com/logydes/colegioarji/Elemento$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/mx/com/logydes/colegioarji/Elemento$Callback.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/mx/com/logydes/colegioarji/Elemento$Callback.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/mx/com/logydes/colegioarji/Elemento.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/mx/com/logydes/colegioarji/Elemento.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/mx/com/logydes/colegioarji/Helper/SQLiteHandler.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/mx/com/logydes/colegioarji/Helper/SQLiteHandler.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/mx/com/logydes/colegioarji/Helper/Singleton.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/mx/com/logydes/colegioarji/Helper/Singleton.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/mx/com/logydes/colegioarji/Inside/DocumentInside$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/mx/com/logydes/colegioarji/Inside/DocumentInside$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/mx/com/logydes/colegioarji/Inside/DocumentInside$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/mx/com/logydes/colegioarji/Inside/DocumentInside$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/mx/com/logydes/colegioarji/Inside/DocumentInside$3.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/mx/com/logydes/colegioarji/Inside/DocumentInside$3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/mx/com/logydes/colegioarji/Inside/DocumentInside$4.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/mx/com/logydes/colegioarji/Inside/DocumentInside$4.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/mx/com/logydes/colegioarji/Inside/DocumentInside$Callback.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/mx/com/logydes/colegioarji/Inside/DocumentInside$Callback.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/mx/com/logydes/colegioarji/Inside/DocumentInside.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/mx/com/logydes/colegioarji/Inside/DocumentInside.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/mx/com/logydes/colegioarji/ListaElementos.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/mx/com/logydes/colegioarji/ListaElementos.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/mx/com/logydes/colegioarji/MainActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/mx/com/logydes/colegioarji/MainActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/mx/com/logydes/colegioarji/MenuHijos.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/mx/com/logydes/colegioarji/MenuHijos.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/mx/com/logydes/colegioarji/Pojos/Hijos.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/mx/com/logydes/colegioarji/Pojos/Hijos.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/mx/com/logydes/colegioarji/Utils/AppConfig.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/mx/com/logydes/colegioarji/Utils/AppConfig.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_1/mx/com/logydes/colegioarji/Boleta$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_1/mx/com/logydes/colegioarji/Boleta$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_1/mx/com/logydes/colegioarji/Boleta$Callback.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_1/mx/com/logydes/colegioarji/Boleta$Callback.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_1/mx/com/logydes/colegioarji/Boleta.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_1/mx/com/logydes/colegioarji/Boleta.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_1/mx/com/logydes/colegioarji/Elemento$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_1/mx/com/logydes/colegioarji/Elemento$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_1/mx/com/logydes/colegioarji/Elemento$Callback.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_1/mx/com/logydes/colegioarji/Elemento$Callback.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_1/mx/com/logydes/colegioarji/Elemento.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_1/mx/com/logydes/colegioarji/Elemento.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_1/mx/com/logydes/colegioarji/ListaElementos.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_1/mx/com/logydes/colegioarji/ListaElementos.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_1/mx/com/logydes/colegioarji/MainActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_1/mx/com/logydes/colegioarji/MainActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_1/mx/com/logydes/colegioarji/MenuHijos.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_1/mx/com/logydes/colegioarji/MenuHijos.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_1/mx/com/logydes/colegioarji/Pojos/Hijos.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_1/mx/com/logydes/colegioarji/Pojos/Hijos.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/mx/com/logydes/colegioarji/Inside/DocumentInside$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/mx/com/logydes/colegioarji/Inside/DocumentInside$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/mx/com/logydes/colegioarji/Inside/DocumentInside$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/mx/com/logydes/colegioarji/Inside/DocumentInside$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/mx/com/logydes/colegioarji/Inside/DocumentInside$3.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/mx/com/logydes/colegioarji/Inside/DocumentInside$3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/mx/com/logydes/colegioarji/Inside/DocumentInside$4.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/mx/com/logydes/colegioarji/Inside/DocumentInside$4.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/mx/com/logydes/colegioarji/Inside/DocumentInside$Callback.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/mx/com/logydes/colegioarji/Inside/DocumentInside$Callback.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/mx/com/logydes/colegioarji/Inside/DocumentInside.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/mx/com/logydes/colegioarji/Inside/DocumentInside.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_6/mx/com/logydes/colegioarji/DB/dbHijos$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_6/mx/com/logydes/colegioarji/DB/dbHijos$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_6/mx/com/logydes/colegioarji/DB/dbHijos$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_6/mx/com/logydes/colegioarji/DB/dbHijos$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_6/mx/com/logydes/colegioarji/DB/dbHijos$3.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_6/mx/com/logydes/colegioarji/DB/dbHijos$3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_6/mx/com/logydes/colegioarji/DB/dbHijos.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_6/mx/com/logydes/colegioarji/DB/dbHijos.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_7/mx/com/logydes/colegioarji/Adapter/AdapterHijos$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_7/mx/com/logydes/colegioarji/Adapter/AdapterHijos$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_7/mx/com/logydes/colegioarji/Adapter/AdapterHijos$AdapterHijosViewHolder.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_7/mx/com/logydes/colegioarji/Adapter/AdapterHijos$AdapterHijosViewHolder.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_7/mx/com/logydes/colegioarji/Adapter/AdapterHijos.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_7/mx/com/logydes/colegioarji/Adapter/AdapterHijos.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_7/mx/com/logydes/colegioarji/Adapter/Adapter_Menu_Tutores$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_7/mx/com/logydes/colegioarji/Adapter/Adapter_Menu_Tutores$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_7/mx/com/logydes/colegioarji/Adapter/Adapter_Menu_Tutores$Adapter_Menu_TutoresViewHolder.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_7/mx/com/logydes/colegioarji/Adapter/Adapter_Menu_Tutores$Adapter_Menu_TutoresViewHolder.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_7/mx/com/logydes/colegioarji/Adapter/Adapter_Menu_Tutores.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_7/mx/com/logydes/colegioarji/Adapter/Adapter_Menu_Tutores.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_8/mx/com/logydes/colegioarji/Helper/SQLiteHandler.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_8/mx/com/logydes/colegioarji/Helper/SQLiteHandler.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_8/mx/com/logydes/colegioarji/Helper/Singleton.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_8/mx/com/logydes/colegioarji/Helper/Singleton.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_9/mx/com/logydes/colegioarji/Utils/AppConfig.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_9/mx/com/logydes/colegioarji/Utils/AppConfig.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/outputs/apk/app-debug-unaligned.apk" afterPath="$PROJECT_DIR$/app/build/outputs/apk/app-debug-unaligned.apk" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/resources-debug-androidTest.ap_" afterPath="$PROJECT_DIR$/app/build/intermediates/res/resources-debug-androidTest.ap_" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/outputFileStates.bin" afterPath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/outputFileStates.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/outputs/apk/app-debug.apk" afterPath="$PROJECT_DIR$/app/build/outputs/apk/app-debug.apk" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/generated/mockable-android-23.jar" afterPath="$PROJECT_DIR$/build/generated/mockable-android-23.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/drawable.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/drawable.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/restart-dex/debug/build-info.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/restart-dex/debug/build-info.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/mx/com/logydes/colegioarji/Adapter/AdapterHijos.java" afterPath="$PROJECT_DIR$/app/src/main/java/mx/com/logydes/colegioarji/Adapter/AdapterHijos.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/mx/com/logydes/colegioarji/Adapter/Adapter_Menu_Tutores.java" afterPath="$PROJECT_DIR$/app/src/main/java/mx/com/logydes/colegioarji/Adapter/Adapter_Menu_Tutores.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/mx/com/logydes/colegioarji/Boleta.java" afterPath="$PROJECT_DIR$/app/src/main/java/mx/com/logydes/colegioarji/Boleta.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/mx/com/logydes/colegioarji/DB/dbHijos.java" afterPath="$PROJECT_DIR$/app/src/main/java/mx/com/logydes/colegioarji/DB/dbHijos.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/mx/com/logydes/colegioarji/Elemento.java" afterPath="$PROJECT_DIR$/app/src/main/java/mx/com/logydes/colegioarji/Elemento.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/mx/com/logydes/colegioarji/Helper/SQLiteHandler.java" afterPath="$PROJECT_DIR$/app/src/main/java/mx/com/logydes/colegioarji/Helper/SQLiteHandler.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/mx/com/logydes/colegioarji/Helper/Singleton.java" afterPath="$PROJECT_DIR$/app/src/main/java/mx/com/logydes/colegioarji/Helper/Singleton.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/mx/com/logydes/colegioarji/Inside/DocumentInside.java" afterPath="$PROJECT_DIR$/app/src/main/java/mx/com/logydes/colegioarji/Inside/DocumentInside.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/tasks/_app_compileDebugAndroidTestJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" afterPath="$PROJECT_DIR$/.gradle/2.10/tasks/_app_compileDebugAndroidTestJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/mx/com/logydes/colegioarji/ListaElementos.java" afterPath="$PROJECT_DIR$/app/src/main/java/mx/com/logydes/colegioarji/ListaElementos.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/mx/com/logydes/colegioarji/MainActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/mx/com/logydes/colegioarji/MainActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/mx/com/logydes/colegioarji/MenuHijos.java" afterPath="$PROJECT_DIR$/app/src/main/java/mx/com/logydes/colegioarji/MenuHijos.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/mx/com/logydes/colegioarji/Pojos/Hijos.java" afterPath="$PROJECT_DIR$/app/src/main/java/mx/com/logydes/colegioarji/Pojos/Hijos.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/mx/com/logydes/colegioarji/DB/dbHijos.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/mx/com/logydes/colegioarji/DB/dbHijos.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/mx/com/logydes/colegioarji/Adapter/Adapter_Menu_Tutores.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/mx/com/logydes/colegioarji/Adapter/Adapter_Menu_Tutores.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/mx/com/logydes/colegioarji/Utils/AppConfig.java" afterPath="$PROJECT_DIR$/app/src/main/java/mx/com/logydes/colegioarji/Utils/AppConfig.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" afterPath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/mx/com/logydes/colegioarji/Inside/DocumentInside.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/mx/com/logydes/colegioarji/Inside/DocumentInside.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/tasks/_app_compileDebugUnitTestJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" afterPath="$PROJECT_DIR$/.gradle/2.10/tasks/_app_compileDebugUnitTestJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/mx/com/logydes/colegioarji/Adapter/Adapter_Menu_Tutores$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/mx/com/logydes/colegioarji/Adapter/Adapter_Menu_Tutores$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/mx/com/logydes/colegioarji/Inside/DocumentInside$Callback.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/mx/com/logydes/colegioarji/Inside/DocumentInside$Callback.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_8/mx/com/logydes/colegioarji/Helper/SQLiteHandler.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_8/mx/com/logydes/colegioarji/Helper/SQLiteHandler.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/mx/com/logydes/colegioarji/Boleta$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/mx/com/logydes/colegioarji/Boleta$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_1/mx/com/logydes/colegioarji/Pojos/Hijos.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_1/mx/com/logydes/colegioarji/Pojos/Hijos.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/mx/com/logydes/colegioarji/Inside/DocumentInside$Callback.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/mx/com/logydes/colegioarji/Inside/DocumentInside$Callback.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/mx/com/logydes/colegioarji/Elemento$Callback.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/mx/com/logydes/colegioarji/Elemento$Callback.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/mx/com/logydes/colegioarji/Inside/DocumentInside.java" afterPath="$PROJECT_DIR$/app/src/main/java/mx/com/logydes/colegioarji/Inside/DocumentInside.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/tasks/_app_compileDebugAndroidTestJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.bin" afterPath="$PROJECT_DIR$/.gradle/2.10/tasks/_app_compileDebugAndroidTestJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/mx/com/logydes/colegioarji/DB/dbHijos$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/mx/com/logydes/colegioarji/DB/dbHijos$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_1/mx/com/logydes/colegioarji/MenuHijos.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_1/mx/com/logydes/colegioarji/MenuHijos.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_7/mx/com/logydes/colegioarji/Adapter/Adapter_Menu_Tutores.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_7/mx/com/logydes/colegioarji/Adapter/Adapter_Menu_Tutores.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_9/classes.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_9/classes.dex" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/mx/com/logydes/colegioarji/Adapter/Adapter_Menu_Tutores.java" afterPath="$PROJECT_DIR$/app/src/main/java/mx/com/logydes/colegioarji/Adapter/Adapter_Menu_Tutores.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/mx/com/logydes/colegioarji/Inside/DocumentInside.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/mx/com/logydes/colegioarji/Inside/DocumentInside.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/mx/com/logydes/colegioarji/Inside/DocumentInside.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/mx/com/logydes/colegioarji/Inside/DocumentInside.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/mx/com/logydes/colegioarji/Inside/DocumentInside$Callback.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/mx/com/logydes/colegioarji/Inside/DocumentInside$Callback.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/mx/com/logydes/colegioarji/Elemento$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/mx/com/logydes/colegioarji/Elemento$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/mx/com/logydes/colegioarji/Inside/DocumentInside.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/mx/com/logydes/colegioarji/Inside/DocumentInside.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/tasks/_app_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" afterPath="$PROJECT_DIR$/.gradle/2.10/tasks/_app_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/mx/com/logydes/colegioarji/Boleta.java" afterPath="$PROJECT_DIR$/app/src/main/java/mx/com/logydes/colegioarji/Boleta.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/taskArtifacts.bin" />
     </list>
     <ignored path="ColegioArji.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -218,34 +218,48 @@
       <file leaf-file-name="MainActivity.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/mx/com/logydes/colegioarji/MainActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.48387095">
-              <caret line="152" column="9" selection-start-line="152" selection-start-column="9" selection-end-line="152" selection-end-column="9" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="280" column="0" selection-start-line="280" selection-start-column="0" selection-end-line="280" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#3014#3045#0" expanded="true" />
+                <element signature="e#3047#3079#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Singleton.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/mx/com/logydes/colegioarji/Helper/Singleton.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.43502825">
-              <caret line="279" column="0" selection-start-line="279" selection-start-column="0" selection-end-line="279" selection-end-column="0" />
-              <folding>
-                <element signature="e#6096#6097#0" expanded="true" />
-                <element signature="e#6130#6131#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Elemento.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/mx/com/logydes/colegioarji/Elemento.java">
+      <file leaf-file-name="Adapter_Menu_Tutores.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/mx/com/logydes/colegioarji/Adapter/Adapter_Menu_Tutores.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="95" column="9" selection-start-line="95" selection-start-column="9" selection-end-line="95" selection-end-column="9" />
-              <folding />
+              <caret line="17" column="27" selection-start-line="17" selection-start-column="27" selection-end-line="17" selection-end-column="27" />
+              <folding>
+                <element signature="e#7727#7764#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Elemento.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/mx/com/logydes/colegioarji/Elemento.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.6103896">
+              <caret line="199" column="0" selection-start-line="199" selection-start-column="0" selection-end-line="199" selection-end-column="0" />
+              <folding>
+                <element signature="e#2582#2625#0" expanded="true" />
+                <element signature="e#2663#2708#0" expanded="true" />
+                <element signature="e#2758#2815#0" expanded="true" />
+                <element signature="e#2855#2902#0" expanded="true" />
+                <element signature="e#2937#2984#0" expanded="true" />
+                <element signature="e#3018#3056#0" expanded="true" />
+                <element signature="e#3097#3142#0" expanded="true" />
+                <element signature="e#3177#3215#0" expanded="true" />
+                <element signature="e#3254#3297#0" expanded="true" />
+                <element signature="e#3337#3381#0" expanded="true" />
+                <element signature="e#3421#3468#0" expanded="true" />
+                <element signature="e#3503#3545#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -254,17 +268,7 @@
         <entry file="file://$PROJECT_DIR$/app/src/main/java/mx/com/logydes/colegioarji/Inside/DocumentInside.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="92" column="31" selection-start-line="92" selection-start-column="31" selection-end-line="92" selection-end-column="31" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SQLiteHandler.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/mx/com/logydes/colegioarji/Helper/SQLiteHandler.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="206" column="0" selection-start-line="206" selection-start-column="0" selection-end-line="206" selection-end-column="0" />
+              <caret line="131" column="0" selection-start-line="109" selection-start-column="0" selection-end-line="131" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -2030,13 +2034,13 @@
         <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/mx/com/logydes/colegioarji/MenuHijos.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/mx/com/logydes/colegioarji/ListaElementos.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/mx/com/logydes/colegioarji/Adapter/Adapter_Menu_Tutores.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/mx/com/logydes/colegioarji/Utils/AppConfig.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/mx/com/logydes/colegioarji/Elemento.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/mx/com/logydes/colegioarji/Inside/DocumentInside.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/mx/com/logydes/colegioarji/Helper/SQLiteHandler.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/mx/com/logydes/colegioarji/MainActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/mx/com/logydes/colegioarji/Helper/Singleton.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/mx/com/logydes/colegioarji/MainActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/mx/com/logydes/colegioarji/Adapter/Adapter_Menu_Tutores.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/mx/com/logydes/colegioarji/Elemento.java" />
       </list>
     </option>
   </component>
@@ -2098,28 +2102,6 @@
               <option name="myItemId" value="app" />
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ColegioArji" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="layout" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderTypeNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -2151,28 +2133,6 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="colegioarji" />
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ColegioArji" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="colegioarji" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Utils" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -2197,91 +2157,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ColegioArji" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="colegioarji" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Helper" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ColegioArji" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="colegioarji" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DB" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ColegioArji" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="colegioarji" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Adapter" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ColegioArji" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="manifests" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidManifestsGroupNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="Scratches" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -2648,8 +2528,7 @@
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32419354" sideWeight="0.5832669" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Android Monitor" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33064517" sideWeight="0.41673306" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32988048" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33064517" sideWeight="0.41673306" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32903227" sideWeight="0.4876494" order="9" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
@@ -2669,6 +2548,7 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24940239" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32988048" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32903227" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -2710,14 +2590,14 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_boletin.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
-      </provider>
-      <provider editor-type-id="android-designer">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/mx/com/logydes/colegioarji/Utils/JSONParser.java">
@@ -2728,14 +2608,14 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_boletin.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.5958084">
           <caret line="14" column="14" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
           <folding />
         </state>
-      </provider>
-      <provider editor-type-id="android-designer">
-        <state />
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/Android/Sdk/sources/android-23/android/os/Handler.java">
@@ -2760,14 +2640,14 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_login.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="13" />
           <folding />
         </state>
-      </provider>
-      <provider editor-type-id="android-designer">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/mx/com/logydes/colegioarji/LoginActivity.java">
@@ -2778,14 +2658,14 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/app_bar_main.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.5838323">
           <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
           <folding />
         </state>
-      </provider>
-      <provider editor-type-id="android-designer">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/menu/activity_main_drawer.xml">
@@ -2858,50 +2738,53 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/nav_header_main.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.49401197">
           <caret line="13" column="14" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="14" />
           <folding />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
       <provider editor-type-id="android-designer">
         <state />
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.8982036">
           <caret line="20" column="33" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="33" />
           <folding />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_elemento.xml">
       <provider editor-type-id="android-designer">
         <state />
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_elemento.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_menu_hijos.xml">
       <provider editor-type-id="android-designer">
         <state />
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_menu_hijos.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-4.6363635">
           <caret line="35" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
           <folding />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/recycle_hijos.xml">
       <provider editor-type-id="android-designer">
         <state />
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/recycle_hijos.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.6287425">
           <caret line="14" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
@@ -2927,19 +2810,16 @@
           </folding>
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/recycle_menu_tutores.xml">
       <provider editor-type-id="android-designer">
         <state />
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/recycle_menu_tutores.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.5838323">
           <caret line="13" column="34" selection-start-line="13" selection-start-column="34" selection-end-line="13" selection-end-column="34" />
           <folding />
         </state>
-      </provider>
-      <provider editor-type-id="android-designer">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/values/colors.xml">
@@ -2987,25 +2867,25 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_lista_elementos.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-1.7727273">
           <caret line="1" column="15" selection-start-line="1" selection-start-column="15" selection-end-line="1" selection-end-column="15" />
           <folding />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/recycle_elementos.xml">
       <provider editor-type-id="android-designer">
         <state />
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/recycle_elementos.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.47826087">
           <caret line="31" column="45" selection-start-line="31" selection-start-column="29" selection-end-line="31" selection-end-column="45" />
           <folding />
         </state>
-      </provider>
-      <provider editor-type-id="android-designer">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
@@ -3024,14 +2904,14 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_elemento.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.4245283">
           <caret line="9" column="42" selection-start-line="9" selection-start-column="42" selection-end-line="9" selection-end-column="42" />
           <folding />
         </state>
-      </provider>
-      <provider editor-type-id="android-designer">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/mx/com/logydes/colegioarji/Pojos/Hijos.java">
@@ -3052,9 +2932,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.4473684">
           <caret line="64" column="18" selection-start-line="64" selection-start-column="12" selection-end-line="64" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -3067,14 +2944,14 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/content_main.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.5538462">
           <caret line="39" column="32" selection-start-line="39" selection-start-column="25" selection-end-line="39" selection-end-column="32" />
           <folding />
         </state>
-      </provider>
-      <provider editor-type-id="android-designer">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/mx/com/logydes/colegioarji/DB/dbHijos.java">
@@ -3098,7 +2975,7 @@
         <state vertical-scroll-proportion="2.2">
           <caret line="81" column="94" selection-start-line="81" selection-start-column="94" selection-end-line="81" selection-end-column="94" />
           <folding>
-            <element signature="e#2926#2960#0" expanded="true" />
+            <element signature="e#2926#2960#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -3111,28 +2988,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/mx/com/logydes/colegioarji/Adapter/Adapter_Menu_Tutores.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="2.5631578">
-          <caret line="181" column="0" selection-start-line="181" selection-start-column="0" selection-end-line="181" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#3231#7995#0" expanded="true" />
-            <element signature="e#3503#3536#0" expanded="true" />
-            <element signature="e#3593#3628#0" expanded="true" />
-            <element signature="e#7634#7675#0" expanded="true" />
-            <element signature="e#7733#7774#0" expanded="true" />
-            <element signature="e#7830#7867#0" expanded="true" />
-            <element signature="e#7994#7995#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/mx/com/logydes/colegioarji/ListaElementos.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-1.0526316">
           <caret line="21" column="28" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="28" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3152,22 +3011,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/mx/com/logydes/colegioarji/Elemento.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="95" column="9" selection-start-line="95" selection-start-column="9" selection-end-line="95" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/mx/com/logydes/colegioarji/Inside/DocumentInside.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="92" column="31" selection-start-line="92" selection-start-column="31" selection-end-line="92" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/mx/com/logydes/colegioarji/Helper/SQLiteHandler.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -3176,23 +3019,61 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/mx/com/logydes/colegioarji/Helper/Singleton.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.09090909">
+          <caret line="250" column="0" selection-start-line="250" selection-start-column="0" selection-end-line="250" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/mx/com/logydes/colegioarji/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.48387095">
-          <caret line="152" column="9" selection-start-line="152" selection-start-column="9" selection-end-line="152" selection-end-column="9" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="280" column="0" selection-start-line="280" selection-start-column="0" selection-end-line="280" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#3014#3045#0" expanded="true" />
+            <element signature="e#3047#3079#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/mx/com/logydes/colegioarji/Helper/Singleton.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/mx/com/logydes/colegioarji/Adapter/Adapter_Menu_Tutores.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.43502825">
-          <caret line="279" column="0" selection-start-line="279" selection-start-column="0" selection-end-line="279" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="17" column="27" selection-start-line="17" selection-start-column="27" selection-end-line="17" selection-end-column="27" />
           <folding>
-            <element signature="e#6096#6097#0" expanded="true" />
-            <element signature="e#6130#6131#0" expanded="true" />
+            <element signature="e#7727#7764#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/mx/com/logydes/colegioarji/Inside/DocumentInside.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="131" column="0" selection-start-line="109" selection-start-column="0" selection-end-line="131" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/mx/com/logydes/colegioarji/Elemento.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6103896">
+          <caret line="199" column="0" selection-start-line="199" selection-start-column="0" selection-end-line="199" selection-end-column="0" />
+          <folding>
+            <element signature="e#2582#2625#0" expanded="true" />
+            <element signature="e#2663#2708#0" expanded="true" />
+            <element signature="e#2758#2815#0" expanded="true" />
+            <element signature="e#2855#2902#0" expanded="true" />
+            <element signature="e#2937#2984#0" expanded="true" />
+            <element signature="e#3018#3056#0" expanded="true" />
+            <element signature="e#3097#3142#0" expanded="true" />
+            <element signature="e#3177#3215#0" expanded="true" />
+            <element signature="e#3254#3297#0" expanded="true" />
+            <element signature="e#3337#3381#0" expanded="true" />
+            <element signature="e#3421#3468#0" expanded="true" />
+            <element signature="e#3503#3545#0" expanded="true" />
           </folding>
         </state>
       </provider>

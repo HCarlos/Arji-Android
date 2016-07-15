@@ -66,7 +66,7 @@ public class MainActivity extends AppCompatActivity
         if (session.isLoggedIn() && singleton.getRsHijosSize() <= 0) {
             db.getUserDetails();
             String nc = singleton.getNombreCompletoUsuario() ;
-            tv.setText( "Bienvenid@ " + nc );
+            // tv.setText( "Bienvenid@ " + nc );
         }
 
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
@@ -129,7 +129,21 @@ public class MainActivity extends AppCompatActivity
                 cm.resfreshHijos();
             }
 
+        }else if ( session.isLoggedIn() &&
+                (singleton.getIdUserNivelAcceso() == 6 ||
+                        singleton.getIdUserNivelAcceso() == 18 ||
+                        singleton.getIdUserNivelAcceso() == 23 ) ) { // Profesores
+            tv.setText( singleton.getNombreCompletoUsuario() + " "  );
+            getMenuInflater().inflate(R.menu.menu_alumnos, menu);
+            listaMM = (RecyclerView) findViewById(R.id.rvHijos);
+            LinearLayoutManager llm = new LinearLayoutManager(this);
+            llm.setOrientation(LinearLayoutManager.VERTICAL);
+            listaMM.setLayoutManager(llm);
+            Adapter_Menu_Tutores mad = new Adapter_Menu_Tutores(this);
+            listaMM.setAdapter(mad);
+
         }else if ( session.isLoggedIn() && singleton.getIdUserNivelAcceso() == 5) { // Alu
+            tv.setText( singleton.getNombreCompletoUsuario() + " "  );
             getMenuInflater().inflate(R.menu.menu_alumnos, menu);
             listaMM = (RecyclerView) findViewById(R.id.rvHijos);
             LinearLayoutManager llm = new LinearLayoutManager(this);
