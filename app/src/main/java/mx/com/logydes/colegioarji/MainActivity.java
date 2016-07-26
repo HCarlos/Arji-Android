@@ -2,7 +2,6 @@ package mx.com.logydes.colegioarji;
 
 import android.content.Intent;
 import android.net.Uri;
-import android.nfc.Tag;
 import android.os.Bundle;
 import android.support.design.widget.NavigationView;
 import android.support.v4.view.GravityCompat;
@@ -26,14 +25,12 @@ import com.google.android.gms.common.api.GoogleApiClient;
 
 import java.util.ArrayList;
 
-import mx.com.logydes.colegioarji.Adapter.AdapterHijos;
 import mx.com.logydes.colegioarji.Adapter.Adapter_Menu_Tutores;
 import mx.com.logydes.colegioarji.DB.dbHijos;
 import mx.com.logydes.colegioarji.Helper.SQLiteHandler;
 import mx.com.logydes.colegioarji.Helper.SessionManager;
 import mx.com.logydes.colegioarji.Helper.Singleton;
 import mx.com.logydes.colegioarji.Inside.DocumentInside;
-import mx.com.logydes.colegioarji.Pojos.Hijos;
 import mx.com.logydes.colegioarji.Utils.AppConfig;
 
 public class MainActivity extends AppCompatActivity
