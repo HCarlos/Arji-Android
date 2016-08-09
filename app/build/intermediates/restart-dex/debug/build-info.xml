@@ -4,27 +4,43 @@
     api-level="23"
     density="xxhdpi"
     format="7"
-    timestamp="13367534835195"
-    token="160330917825941602" >
+    timestamp="3478524558551"
+    token="160330917825941602"
+    verifier="COMPATIBLE" >
 
     <task
         name="javac"
-        duration="0" />
+        duration="254" />
     <task
         name="instant-run-dex"
-        duration="0" />
+        duration="698" />
     <task
         name="instant-run-transform"
-        duration="0" />
+        duration="90" />
     <task
         name="verifier"
-        duration="0" />
+        duration="24" />
 
-    <build timestamp="6216643982503" >
+    <artifact
+        location="/home/devch/AndroidStudioProjects/ColegioArji/app/build/intermediates/reload-dex/debug/classes.dex"
+        type="RELOAD_DEX" />
+
+    <build timestamp="2490477315647" >
         <artifact
             location="/home/devch/AndroidStudioProjects/ColegioArji/app/build/outputs/apk/app-debug.apk"
             type="MAIN" />
     </build>
-    <build timestamp="13367534835195" />
+    <build
+        timestamp="3478524558551"
+        verifier="COMPATIBLE" >
+        <artifact
+            location="/home/devch/AndroidStudioProjects/ColegioArji/app/build/intermediates/reload-dex/debug/classes.dex"
+            type="RELOAD_DEX" />
+    </build>
+    <build timestamp="10017019091072" >
+        <artifact
+            location="/home/devch/AndroidStudioProjects/ColegioArji/app/build/intermediates/res/resources-debug.ap_"
+            type="RESOURCES" />
+    </build>
 
 </instant-run>

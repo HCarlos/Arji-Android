@@ -21,13 +21,14 @@
     </WebView>
 
     <TextView
-        android:id="@+id/bienvenida"
+        android:id="@+id/txtBienvenida"
         android:layout_width="match_parent"
         android:layout_height="@dimen/em32"
         android:layout_marginRight="@dimen/em8"
         android:layout_marginLeft="@dimen/em8"
         android:layout_marginBottom="@dimen/cvBottomMarginHijos"
         android:layout_marginTop="@dimen/cvBottomMarginHijos"
+        android:paddingTop="@dimen/em6"
         android:background="@drawable/round_corners"
         android:textColor="@color/white"
         android:gravity="center_horizontal"

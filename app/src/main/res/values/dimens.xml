@@ -10,7 +10,9 @@
     <dimen name="lema_app_left_bar">11dp</dimen>
     <dimen name="titulo_app_left_bar_padding_top">16dp</dimen>
     <dimen name="app_left_bar_padding_left">10dp</dimen>
+    <dimen name="em2">2dp</dimen>
     <dimen name="em4">4dp</dimen>
+    <dimen name="em6">6dp</dimen>
     <dimen name="em8">8dp</dimen>
     <dimen name="em10">10dp</dimen>
     <dimen name="em12">12dp</dimen>

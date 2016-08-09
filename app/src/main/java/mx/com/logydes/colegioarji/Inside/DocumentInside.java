@@ -89,9 +89,10 @@ public class DocumentInside {
                 super.onPageStarted(view, url, favicon);
                 LinearLayout.LayoutParams lpView = new LinearLayout.LayoutParams(LinearLayout.LayoutParams.MATCH_PARENT, LinearLayout.LayoutParams.MATCH_PARENT);
 
-                TextView tv = (TextView) context.findViewById(R.id.bienvenida);
+                TextView tv = (TextView) context.findViewById(R.id.txtBienvenida);
                 if ( tv != null ) {
-                    tv.setVisibility(0);
+                    // tv.setVisibility(0);
+                    tv.setVisibility(tv.INVISIBLE);
                 }
                 webview.setLayoutParams(lpView);
                 pDialog.setMessage("Cargando...");

@@ -292,9 +292,11 @@
     <dimen name="em12">12dp</dimen>
     <dimen name="em14">14dp</dimen>
     <dimen name="em16">16dp</dimen>
+    <dimen name="em2">2dp</dimen>
     <dimen name="em24">24dp</dimen>
     <dimen name="em32">32dp</dimen>
     <dimen name="em4">4dp</dimen>
+    <dimen name="em6">6dp</dimen>
     <dimen name="em64">64dp</dimen>
     <dimen name="em8">8dp</dimen>
     <dimen name="fab_margin">16dp</dimen>

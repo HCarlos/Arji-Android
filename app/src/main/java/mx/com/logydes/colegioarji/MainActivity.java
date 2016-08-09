@@ -1,7 +1,10 @@
 package mx.com.logydes.colegioarji;
 
+import android.content.Context;
 import android.content.Intent;
+import android.graphics.drawable.Drawable;
 import android.net.Uri;
+import android.os.Build;
 import android.os.Bundle;
 import android.support.design.widget.NavigationView;
 import android.support.v4.view.GravityCompat;
@@ -58,7 +61,7 @@ public class MainActivity extends AppCompatActivity
 
         db = new SQLiteHandler(getApplicationContext());
         session = new SessionManager(getApplicationContext());
-        tv = (TextView) findViewById(R.id.bienvenida);
+        tv = (TextView) findViewById(R.id.txtBienvenida);
 
         if (session.isLoggedIn() && singleton.getRsHijosSize() <= 0) {
             db.getUserDetails();
@@ -70,14 +73,19 @@ public class MainActivity extends AppCompatActivity
         setSupportActionBar(toolbar);
 
         webview = (WebView) findViewById(R.id.webview);
+        DrawerLayout dl = (DrawerLayout) findViewById(R.id.drawer_layout);
 
-        /*
-        HashMap<String, String> user = db.getUserDetails();
-        String username = user.get("label");
-        tv.setText( "Bienvenido " + username );
-        */
-
-        // String email = user.get("email");
+        if (!session.isLoggedIn()){
+            if ( tv != null ) {
+                tv.setVisibility(tv.INVISIBLE);
+                dl.setBackgroundResource(R.color.colorBackground);
+            }
+        }else{
+            if ( tv != null ) {
+                tv.setVisibility(tv.VISIBLE);
+                dl.setBackgroundResource(R.drawable.background_1_arji);
+            }
+        }
 
 
         drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
