@@ -78,7 +78,8 @@ public class MainActivity extends AppCompatActivity
         if (!session.isLoggedIn()){
             if ( tv != null ) {
                 tv.setVisibility(tv.INVISIBLE);
-                dl.setBackgroundResource(R.color.colorBackground);
+                // dl.setBackgroundResource(R.color.colorBackground);
+                dl.setBackgroundResource(R.drawable.background_2_arji);
             }
         }else{
             if ( tv != null ) {
@@ -99,8 +100,8 @@ public class MainActivity extends AppCompatActivity
         toggle.syncState();
 
 
-        navigationView = (NavigationView) findViewById(R.id.nav_view);
-        navigationView.setNavigationItemSelectedListener(this);
+        // navigationView = (NavigationView) findViewById(R.id.nav_view);
+        // navigationView.setNavigationItemSelectedListener(this);
 
 
         // ATTENTION: This was auto-generated to implement the App Indexing API.
@@ -139,7 +140,7 @@ public class MainActivity extends AppCompatActivity
                         singleton.getIdUserNivelAcceso() == 18 ||
                         singleton.getIdUserNivelAcceso() == 23 ) ) { // Profesores
             tv.setText( singleton.getNombreCompletoUsuario() + " "  );
-            getMenuInflater().inflate(R.menu.menu_alumnos, menu);
+            // getMenuInflater().inflate(R.menu.menu_alumnos, menu);
             listaMM = (RecyclerView) findViewById(R.id.rvHijos);
             LinearLayoutManager llm = new LinearLayoutManager(this);
             llm.setOrientation(LinearLayoutManager.VERTICAL);
@@ -149,7 +150,7 @@ public class MainActivity extends AppCompatActivity
 
         }else if ( session.isLoggedIn() && singleton.getIdUserNivelAcceso() == 5) { // Alu
             tv.setText( singleton.getNombreCompletoUsuario() + " "  );
-            getMenuInflater().inflate(R.menu.menu_alumnos, menu);
+            // getMenuInflater().inflate(R.menu.menu_alumnos, menu);
             listaMM = (RecyclerView) findViewById(R.id.rvHijos);
             LinearLayoutManager llm = new LinearLayoutManager(this);
             llm.setOrientation(LinearLayoutManager.VERTICAL);
