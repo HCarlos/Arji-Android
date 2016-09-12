@@ -4,50 +4,30 @@
     api-level="23"
     density="xxhdpi"
     format="7"
-    timestamp="20344457860994"
-    token="160330917825941602"
-    verifier="COMPATIBLE" >
+    timestamp="18562335655060"
+    token="160330917825941602" >
 
     <task
         name="javac"
-        duration="322" />
+        duration="0" />
     <task
         name="instant-run-dex"
-        duration="535" />
+        duration="0" />
     <task
         name="instant-run-transform"
-        duration="37" />
+        duration="0" />
     <task
         name="verifier"
-        duration="2" />
+        duration="0" />
 
     <artifact
-        location="/home/devch/AndroidStudioProjects/ColegioArji/app/build/intermediates/reload-dex/debug/classes.dex"
-        type="RELOAD_DEX" />
+        location="/home/devch/AndroidStudioProjects/ColegioArji/app/build/outputs/apk/app-debug.apk"
+        type="MAIN" />
 
-    <build timestamp="17945783082917" >
+    <build timestamp="26296442609551" >
         <artifact
-            location="/home/devch/AndroidStudioProjects/ColegioArji/app/build/outputs/apk/app-debug.apk"
-            type="MAIN" />
-    </build>
-    <build timestamp="20070894043099" >
-        <artifact
-            location="/home/devch/AndroidStudioProjects/ColegioArji/app/build/intermediates/res/resources-debug.ap_"
-            type="RESOURCES" />
-    </build>
-    <build
-        timestamp="20256545447757"
-        verifier="COMPATIBLE" >
-        <artifact
-            location="/home/devch/AndroidStudioProjects/ColegioArji/app/build/intermediates/builds/debug/20256545447757/classes.dex"
-            type="RELOAD_DEX" />
-    </build>
-    <build
-        timestamp="20344457860994"
-        verifier="COMPATIBLE" >
-        <artifact
-            location="/home/devch/AndroidStudioProjects/ColegioArji/app/build/intermediates/reload-dex/debug/classes.dex"
-            type="RELOAD_DEX" />
+            location="/home/devch/AndroidStudioProjects/ColegioArji/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_1/classes.dex"
+            type="DEX" />
     </build>
 
 </instant-run>

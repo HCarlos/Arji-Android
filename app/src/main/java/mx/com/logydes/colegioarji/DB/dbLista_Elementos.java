@@ -163,8 +163,8 @@ public class dbLista_Elementos {
                     case 2:
                     case 3:
                         params.put("username", Singleton.getUsername());
-                        params.put("sts", "0");
-                        params.put("iduseralu", String.valueOf( Singleton.getIdAlu() ) );
+                        params.put("sts", "-1");
+                        params.put("iduseralu", String.valueOf( Singleton.getIdUserAlu() ) );
                         params.put("tipoconsulta", String.valueOf( Type ) );
                         break;
                 }

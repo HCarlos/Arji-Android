@@ -18772,23 +18772,24 @@ mx.com.logydes.colegioarji.LoginActivity$4 -> mx.com.logydes.colegioarji.k:
     189:200:java.util.Map getParams() -> l
 mx.com.logydes.colegioarji.MainActivity -> mx.com.logydes.colegioarji.MainActivity:
     android.support.v4.widget.DrawerLayout drawer -> l
-    mx.com.logydes.colegioarji.Helper.SQLiteHandler db -> m
-    mx.com.logydes.colegioarji.Helper.SessionManager session -> n
-    android.webkit.WebView webview -> o
-    com.google.android.gms.common.api.GoogleApiClient client -> p
-    mx.com.logydes.colegioarji.Helper.Singleton singleton -> q
-    android.widget.TextView tv -> r
-    android.support.v7.widget.RecyclerView listaMM -> s
+    android.support.design.widget.NavigationView navigationView -> m
+    mx.com.logydes.colegioarji.Helper.SQLiteHandler db -> n
+    mx.com.logydes.colegioarji.Helper.SessionManager session -> o
+    android.webkit.WebView webview -> p
+    com.google.android.gms.common.api.GoogleApiClient client -> q
+    mx.com.logydes.colegioarji.Helper.Singleton singleton -> r
+    android.widget.TextView tv -> s
+    android.support.v7.widget.RecyclerView listaMM -> t
     39:39:void <init>() -> <init>
-    57:110:void onCreate(android.os.Bundle) -> onCreate
-    114:120:void onBackPressed() -> onBackPressed
-    125:162:boolean onCreateOptionsMenu(android.view.Menu) -> onCreateOptionsMenu
-    169:174:boolean onOptionsItemSelected(android.view.MenuItem) -> onOptionsItemSelected
-    181:226:boolean onNavigationItemSelected(android.view.MenuItem) -> a
-    231:236:void logoutUser() -> k
-    240:256:void onStart() -> onStart
-    260:276:void onStop() -> onStop
-    281:283:void onResume() -> onResume
+    57:108:void onCreate(android.os.Bundle) -> onCreate
+    112:119:void onBackPressed() -> onBackPressed
+    124:161:boolean onCreateOptionsMenu(android.view.Menu) -> onCreateOptionsMenu
+    168:174:boolean onOptionsItemSelected(android.view.MenuItem) -> onOptionsItemSelected
+    181:227:boolean onNavigationItemSelected(android.view.MenuItem) -> a
+    232:237:void logoutUser() -> k
+    241:257:void onStart() -> onStart
+    261:277:void onStop() -> onStop
+    282:284:void onResume() -> onResume
 mx.com.logydes.colegioarji.MenuHijos -> mx.com.logydes.colegioarji.MenuHijos:
     android.support.v7.widget.RecyclerView listaMM -> l
     21:21:void <init>() -> <init>

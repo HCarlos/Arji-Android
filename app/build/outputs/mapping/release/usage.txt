@@ -6751,7 +6751,6 @@ mx.com.logydes.colegioarji.LoginActivity:
     private static final java.lang.String TAG
 mx.com.logydes.colegioarji.MainActivity:
     private static final java.lang.String TAG
-    private android.support.design.widget.NavigationView navigationView
 mx.com.logydes.colegioarji.MenuHijos:
     private android.content.Context context
     private mx.com.logydes.colegioarji.Adapter.AdapterHijos mad

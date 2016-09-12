@@ -99,10 +99,8 @@ public class MainActivity extends AppCompatActivity
 
         toggle.syncState();
 
-
-        // navigationView = (NavigationView) findViewById(R.id.nav_view);
-        // navigationView.setNavigationItemSelectedListener(this);
-
+        navigationView = (NavigationView) findViewById(R.id.nav_view);
+        navigationView.setNavigationItemSelectedListener(this);
 
         // ATTENTION: This was auto-generated to implement the App Indexing API.
         // See https://g.co/AppIndexing/AndroidStudio for more information.
@@ -112,6 +110,7 @@ public class MainActivity extends AppCompatActivity
     @Override
     public void onBackPressed() {
         drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
+
         if (drawer.isDrawerOpen(GravityCompat.START)) {
             drawer.closeDrawer(GravityCompat.START);
         } else {
@@ -166,6 +165,7 @@ public class MainActivity extends AppCompatActivity
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
 
+        Log.e("ENTRO??","SI 10");
         int id = item.getItemId();
         if (id == R.id.action_tareas) {
             Toast.makeText(this, "Lista_Elementos", Toast.LENGTH_SHORT).show();
@@ -178,6 +178,7 @@ public class MainActivity extends AppCompatActivity
     @Override
     public boolean onNavigationItemSelected(MenuItem item) {
         // Handle navigation view item clicks here.
+        Log.e("ENTRO??","SI 20");
         int id = item.getItemId();
         DocumentInside bi = new DocumentInside(webview,this);
         String URL = "";
