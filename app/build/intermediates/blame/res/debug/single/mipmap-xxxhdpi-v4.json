@@ -16,6 +16,10 @@
         "source": "/home/devch/AndroidStudioProjects/ColegioArji/app/src/main/res/mipmap-xxxhdpi/ic_proceso_admision.png"
     },
     {
+        "merged": "/home/devch/AndroidStudioProjects/ColegioArji/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi-v4/ic_aviso_privacidad.png",
+        "source": "/home/devch/AndroidStudioProjects/ColegioArji/app/src/main/res/mipmap-xxxhdpi/ic_aviso_privacidad.png"
+    },
+    {
         "merged": "/home/devch/AndroidStudioProjects/ColegioArji/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi-v4/ic_programmer.png",
         "source": "/home/devch/AndroidStudioProjects/ColegioArji/app/src/main/res/mipmap-xxxhdpi/ic_programmer.png"
     },

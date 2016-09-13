@@ -94,33 +94,33 @@
 # view res/layout/abc_screen_simple_overlay_action_mode.xml #generated:32
 -keep class android.support.v7.widget.ViewStubCompat { <init>(...); }
 
-# view AndroidManifest.xml #generated:100
+# view AndroidManifest.xml #generated:99
 -keep class com.google.android.gms.common.api.GoogleApiActivity { <init>(...); }
 
-# view AndroidManifest.xml #generated:105
+# view AndroidManifest.xml #generated:104
 -keep class com.google.firebase.provider.FirebaseInitProvider { <init>(...); }
 
-# view AndroidManifest.xml #generated:93
+# view AndroidManifest.xml #generated:92
 -keep class mx.com.logydes.colegioarji.Boleta { <init>(...); }
 
-# view AndroidManifest.xml #generated:48
+# view AndroidManifest.xml #generated:47
 -keep class mx.com.logydes.colegioarji.BoletinActivity { <init>(...); }
 
-# view AndroidManifest.xml #generated:86
+# view AndroidManifest.xml #generated:85
 -keep class mx.com.logydes.colegioarji.Elemento { <init>(...); }
 
-# view AndroidManifest.xml #generated:77
+# view AndroidManifest.xml #generated:76
 -keep class mx.com.logydes.colegioarji.ListaElementos { <init>(...); }
 
-# view AndroidManifest.xml #generated:37
+# view AndroidManifest.xml #generated:36
 -keep class mx.com.logydes.colegioarji.LoginActivity { <init>(...); }
 
-# view AndroidManifest.xml #generated:26
+# view AndroidManifest.xml #generated:25
 -keep class mx.com.logydes.colegioarji.MainActivity { <init>(...); }
 
-# view AndroidManifest.xml #generated:68
+# view AndroidManifest.xml #generated:67
 -keep class mx.com.logydes.colegioarji.MenuHijos { <init>(...); }
 
-# view AndroidManifest.xml #generated:19
+# view AndroidManifest.xml #generated:18
 -keep class mx.com.logydes.colegioarji.Utils.AppController { <init>(...); }
 

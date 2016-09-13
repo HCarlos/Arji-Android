@@ -48,6 +48,10 @@
         "source": "/home/devch/AndroidStudioProjects/ColegioArji/app/src/main/res/mipmap-xxhdpi/ic_launcher.png"
     },
     {
+        "merged": "/home/devch/AndroidStudioProjects/ColegioArji/app/build/intermediates/res/merged/release/mipmap-xxhdpi-v4/ic_aviso_privacidad.png",
+        "source": "/home/devch/AndroidStudioProjects/ColegioArji/app/src/main/res/mipmap-xxhdpi/ic_aviso_privacidad.png"
+    },
+    {
         "merged": "/home/devch/AndroidStudioProjects/ColegioArji/app/build/intermediates/res/merged/release/mipmap-xxhdpi-v4/ic_directorio.png",
         "source": "/home/devch/AndroidStudioProjects/ColegioArji/app/src/main/res/mipmap-xxhdpi/ic_directorio.png"
     }

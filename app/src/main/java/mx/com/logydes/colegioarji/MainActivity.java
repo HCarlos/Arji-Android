@@ -16,6 +16,7 @@ import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.Toolbar;
 
 import android.util.Log;
+import android.view.KeyEvent;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.webkit.WebView;
@@ -116,6 +117,9 @@ public class MainActivity extends AppCompatActivity
         } else {
             super.onBackPressed();
         }
+        if ( listaMM != null ) {
+            callAdapter(false);
+        }
     }
 
     @Override
@@ -137,28 +141,34 @@ public class MainActivity extends AppCompatActivity
         }else if ( session.isLoggedIn() &&
                 (singleton.getIdUserNivelAcceso() == 6 ||
                         singleton.getIdUserNivelAcceso() == 18 ||
-                        singleton.getIdUserNivelAcceso() == 23 ) ) { // Profesores
+                        singleton.getIdUserNivelAcceso() == 23 ) ) {
             tv.setText( singleton.getNombreCompletoUsuario() + " "  );
-            // getMenuInflater().inflate(R.menu.menu_alumnos, menu);
-            listaMM = (RecyclerView) findViewById(R.id.rvHijos);
-            LinearLayoutManager llm = new LinearLayoutManager(this);
-            llm.setOrientation(LinearLayoutManager.VERTICAL);
-            listaMM.setLayoutManager(llm);
-            Adapter_Menu_Tutores mad = new Adapter_Menu_Tutores(this);
-            listaMM.setAdapter(mad);
+
+            callAdapter(true);
 
         }else if ( session.isLoggedIn() && singleton.getIdUserNivelAcceso() == 5) { // Alu
             tv.setText( singleton.getNombreCompletoUsuario() + " "  );
             // getMenuInflater().inflate(R.menu.menu_alumnos, menu);
-            listaMM = (RecyclerView) findViewById(R.id.rvHijos);
-            LinearLayoutManager llm = new LinearLayoutManager(this);
-            llm.setOrientation(LinearLayoutManager.VERTICAL);
-            listaMM.setLayoutManager(llm);
-            Adapter_Menu_Tutores mad = new Adapter_Menu_Tutores(this);
-            listaMM.setAdapter(mad);
+            callAdapter(true);
         }
 
         return true;
+
+    }
+
+    private void callAdapter(boolean isNull){
+
+        listaMM = (RecyclerView) findViewById(R.id.rvHijos);
+        LinearLayoutManager llm;
+        if (isNull){
+            llm = new LinearLayoutManager(this);
+        }else{
+            llm = new LinearLayoutManager(null);
+        }
+        llm.setOrientation(LinearLayoutManager.VERTICAL);
+        listaMM.setLayoutManager(llm);
+        Adapter_Menu_Tutores mad = new Adapter_Menu_Tutores(this);
+        listaMM.setAdapter(mad);
 
     }
 
@@ -218,6 +228,10 @@ public class MainActivity extends AppCompatActivity
                 URL = AppConfig.URL_BENEFICIOS;
                 Type = AppConfig.URL_BENEFICIOS_TYPE;
                 break;
+            case R.id.nav_aviso_privacidad:
+                URL = AppConfig.URL_AVISO_PRIVACIDAD;
+                Type = AppConfig.URL_AVISO_PRIVACIDAD_TYPE;
+                break;
             case R.id.nav_desarrollador:
                 URL = AppConfig.URL_DESARROLLADOR;
                 Type = AppConfig.URL_DESARROLLADOR_TYPE;
@@ -232,6 +246,7 @@ public class MainActivity extends AppCompatActivity
         session.setLogin(false);
         db.deleteUsers();
         Singleton.reset();
+
         Intent intent = new Intent(MainActivity.this, LoginActivity.class);
         startActivity(intent);
     }
@@ -282,6 +297,5 @@ public class MainActivity extends AppCompatActivity
         super.onResume();
         webview.reload();
     }
-
 
 }

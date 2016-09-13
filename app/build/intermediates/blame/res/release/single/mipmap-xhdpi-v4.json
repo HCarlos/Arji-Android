@@ -50,5 +50,9 @@
     {
         "merged": "/home/devch/AndroidStudioProjects/ColegioArji/app/build/intermediates/res/merged/release/mipmap-xhdpi-v4/ic_logout.png",
         "source": "/home/devch/AndroidStudioProjects/ColegioArji/app/src/main/res/mipmap-xhdpi/ic_logout.png"
+    },
+    {
+        "merged": "/home/devch/AndroidStudioProjects/ColegioArji/app/build/intermediates/res/merged/release/mipmap-xhdpi-v4/ic_aviso_privacidad.png",
+        "source": "/home/devch/AndroidStudioProjects/ColegioArji/app/src/main/res/mipmap-xhdpi/ic_aviso_privacidad.png"
     }
 ]

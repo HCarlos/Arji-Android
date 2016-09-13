@@ -376,6 +376,7 @@
     <string name="abc_shareactionprovider_share_with">Share with</string>
     <string name="abc_shareactionprovider_share_with_application">Share with %s</string>
     <string name="abc_toolbar_collapse_description">Collapse</string>
+    <string name="action_aviso_privacidad">Aviso de Privacidad</string>
     <string name="action_beneficios">Beneficios</string>
     <string name="action_boletas">Boleta</string>
     <string name="action_boletin">Boletin Oficial</string>

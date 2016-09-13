@@ -53,4 +53,8 @@ public class AppConfig {
     public static String URL_CALENDARIO = URL_HOME + "getCalendario/";
     public static int URL_CALENDARIO_TYPE = 8;
 
+    public static String URL_AVISO_PRIVACIDAD = "http://platsource.mx/getAvisoPrivacidad/";
+    public static int URL_AVISO_PRIVACIDAD_TYPE = 9;
+
+
 }

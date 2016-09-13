@@ -5955,6 +5955,7 @@ mx.com.logydes.colegioarji.R$id: int media_actions
 mx.com.logydes.colegioarji.R$id: int middle
 mx.com.logydes.colegioarji.R$id: int mini
 mx.com.logydes.colegioarji.R$id: int multiply
+mx.com.logydes.colegioarji.R$id: int nav_aviso_privacidad
 mx.com.logydes.colegioarji.R$id: int nav_beneficios
 mx.com.logydes.colegioarji.R$id: int nav_boletin
 mx.com.logydes.colegioarji.R$id: int nav_cerrar_session
@@ -6118,6 +6119,7 @@ mx.com.logydes.colegioarji.R$layout: int support_simple_spinner_dropdown_item
 mx.com.logydes.colegioarji.R$menu: int activity_main_drawer
 mx.com.logydes.colegioarji.R$menu: int menu_alumnos
 mx.com.logydes.colegioarji.R$menu: int menu_tutores
+mx.com.logydes.colegioarji.R$mipmap: int ic_aviso_privacidad
 mx.com.logydes.colegioarji.R$mipmap: int ic_beneficios
 mx.com.logydes.colegioarji.R$mipmap: int ic_boletin
 mx.com.logydes.colegioarji.R$mipmap: int ic_certificaciones
@@ -6163,6 +6165,7 @@ mx.com.logydes.colegioarji.R$string: int abc_searchview_description_voice
 mx.com.logydes.colegioarji.R$string: int abc_shareactionprovider_share_with
 mx.com.logydes.colegioarji.R$string: int abc_shareactionprovider_share_with_application
 mx.com.logydes.colegioarji.R$string: int abc_toolbar_collapse_description
+mx.com.logydes.colegioarji.R$string: int action_aviso_privacidad
 mx.com.logydes.colegioarji.R$string: int action_beneficios
 mx.com.logydes.colegioarji.R$string: int action_boletas
 mx.com.logydes.colegioarji.R$string: int action_boletin

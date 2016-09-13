@@ -16,6 +16,7 @@
     <string name="action_proceso_admision">Proceso de Admisión</string>
     <string name="action_mapa_ubicacion">Mapa de Ubicación</string>
     <string name="action_beneficios">Beneficios</string>
+    <string name="action_aviso_privacidad">Aviso de Privacidad</string>
     <string name="action_desarrollador">Desarrollador</string>
 
     <!-- Menu Tutores y Alumnos -->

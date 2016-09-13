@@ -18738,38 +18738,39 @@ mx.com.logydes.colegioarji.LoginActivity -> mx.com.logydes.colegioarji.LoginActi
     mx.com.logydes.colegioarji.Helper.SessionManager session -> p
     mx.com.logydes.colegioarji.Helper.SQLiteHandler db -> q
     com.google.android.gms.common.api.GoogleApiClient client -> r
-    37:37:void <init>() -> <init>
-    54:109:void onCreate(android.os.Bundle) -> onCreate
-    116:207:void checkLogin(java.lang.String,java.lang.String) -> a
-    210:212:void showDialog() -> k
-    215:217:void hideDialog() -> l
-    221:237:void onStart() -> onStart
-    241:257:void onStop() -> onStop
-    37:37:android.widget.EditText access$000(mx.com.logydes.colegioarji.LoginActivity) -> a
-    37:37:android.widget.EditText access$100(mx.com.logydes.colegioarji.LoginActivity) -> b
-    37:37:void access$200(mx.com.logydes.colegioarji.LoginActivity,java.lang.String,java.lang.String) -> a
-    37:37:void access$300(mx.com.logydes.colegioarji.LoginActivity) -> c
-    37:37:mx.com.logydes.colegioarji.Helper.SQLiteHandler access$400(mx.com.logydes.colegioarji.LoginActivity) -> d
-    37:37:mx.com.logydes.colegioarji.Helper.SessionManager access$500(mx.com.logydes.colegioarji.LoginActivity) -> e
+    38:38:void <init>() -> <init>
+    55:110:void onCreate(android.os.Bundle) -> onCreate
+    117:208:void checkLogin(java.lang.String,java.lang.String) -> a
+    211:213:void showDialog() -> k
+    216:218:void hideDialog() -> l
+    222:238:void onStart() -> onStart
+    242:258:void onStop() -> onStop
+    264:268:boolean onKeyDown(int,android.view.KeyEvent) -> onKeyDown
+    38:38:android.widget.EditText access$000(mx.com.logydes.colegioarji.LoginActivity) -> a
+    38:38:android.widget.EditText access$100(mx.com.logydes.colegioarji.LoginActivity) -> b
+    38:38:void access$200(mx.com.logydes.colegioarji.LoginActivity,java.lang.String,java.lang.String) -> a
+    38:38:void access$300(mx.com.logydes.colegioarji.LoginActivity) -> c
+    38:38:mx.com.logydes.colegioarji.Helper.SQLiteHandler access$400(mx.com.logydes.colegioarji.LoginActivity) -> d
+    38:38:mx.com.logydes.colegioarji.Helper.SessionManager access$500(mx.com.logydes.colegioarji.LoginActivity) -> e
 mx.com.logydes.colegioarji.LoginActivity$1 -> mx.com.logydes.colegioarji.h:
     mx.com.logydes.colegioarji.LoginActivity this$0 -> a
-    86:86:void <init>(mx.com.logydes.colegioarji.LoginActivity) -> <init>
-    89:102:void onClick(android.view.View) -> onClick
+    87:87:void <init>(mx.com.logydes.colegioarji.LoginActivity) -> <init>
+    90:103:void onClick(android.view.View) -> onClick
 mx.com.logydes.colegioarji.LoginActivity$2 -> mx.com.logydes.colegioarji.i:
     mx.com.logydes.colegioarji.LoginActivity this$0 -> a
-    122:122:void <init>(mx.com.logydes.colegioarji.LoginActivity) -> <init>
-    126:172:void onResponse(java.lang.String) -> a
-    122:122:void onResponse(java.lang.Object) -> a
+    123:123:void <init>(mx.com.logydes.colegioarji.LoginActivity) -> <init>
+    127:173:void onResponse(java.lang.String) -> a
+    123:123:void onResponse(java.lang.Object) -> a
 mx.com.logydes.colegioarji.LoginActivity$3 -> mx.com.logydes.colegioarji.j:
     mx.com.logydes.colegioarji.LoginActivity this$0 -> a
-    173:173:void <init>(mx.com.logydes.colegioarji.LoginActivity) -> <init>
-    177:181:void onErrorResponse(com.android.volley.VolleyError) -> a
+    174:174:void <init>(mx.com.logydes.colegioarji.LoginActivity) -> <init>
+    178:182:void onErrorResponse(com.android.volley.VolleyError) -> a
 mx.com.logydes.colegioarji.LoginActivity$4 -> mx.com.logydes.colegioarji.k:
     java.lang.String val$email -> a
     java.lang.String val$password -> b
     mx.com.logydes.colegioarji.LoginActivity this$0 -> c
-    182:182:void <init>(mx.com.logydes.colegioarji.LoginActivity,int,java.lang.String,com.android.volley.Response$Listener,com.android.volley.Response$ErrorListener,java.lang.String,java.lang.String) -> <init>
-    189:200:java.util.Map getParams() -> l
+    183:183:void <init>(mx.com.logydes.colegioarji.LoginActivity,int,java.lang.String,com.android.volley.Response$Listener,com.android.volley.Response$ErrorListener,java.lang.String,java.lang.String) -> <init>
+    190:201:java.util.Map getParams() -> l
 mx.com.logydes.colegioarji.MainActivity -> mx.com.logydes.colegioarji.MainActivity:
     android.support.v4.widget.DrawerLayout drawer -> l
     android.support.design.widget.NavigationView navigationView -> m
@@ -18780,21 +18781,23 @@ mx.com.logydes.colegioarji.MainActivity -> mx.com.logydes.colegioarji.MainActivi
     mx.com.logydes.colegioarji.Helper.Singleton singleton -> r
     android.widget.TextView tv -> s
     android.support.v7.widget.RecyclerView listaMM -> t
-    39:39:void <init>() -> <init>
-    57:108:void onCreate(android.os.Bundle) -> onCreate
-    112:119:void onBackPressed() -> onBackPressed
-    124:161:boolean onCreateOptionsMenu(android.view.Menu) -> onCreateOptionsMenu
-    168:174:boolean onOptionsItemSelected(android.view.MenuItem) -> onOptionsItemSelected
-    181:227:boolean onNavigationItemSelected(android.view.MenuItem) -> a
-    232:237:void logoutUser() -> k
-    241:257:void onStart() -> onStart
-    261:277:void onStop() -> onStop
-    282:284:void onResume() -> onResume
+    40:40:void <init>() -> <init>
+    58:109:void onCreate(android.os.Bundle) -> onCreate
+    113:123:void onBackPressed() -> onBackPressed
+    128:155:boolean onCreateOptionsMenu(android.view.Menu) -> onCreateOptionsMenu
+    161:173:void callAdapter(boolean) -> b
+    178:184:boolean onOptionsItemSelected(android.view.MenuItem) -> onOptionsItemSelected
+    191:241:boolean onNavigationItemSelected(android.view.MenuItem) -> a
+    246:252:void logoutUser() -> k
+    256:272:void onStart() -> onStart
+    276:292:void onStop() -> onStop
+    297:299:void onResume() -> onResume
 mx.com.logydes.colegioarji.MenuHijos -> mx.com.logydes.colegioarji.MenuHijos:
     android.support.v7.widget.RecyclerView listaMM -> l
-    21:21:void <init>() -> <init>
-    29:63:void onCreate(android.os.Bundle) -> onCreate
-    67:68:void onResume() -> onResume
+    22:22:void <init>() -> <init>
+    30:64:void onCreate(android.os.Bundle) -> onCreate
+    68:69:void onResume() -> onResume
+    75:79:boolean onKeyDown(int,android.view.KeyEvent) -> onKeyDown
 mx.com.logydes.colegioarji.Pojos.Hijos -> mx.com.logydes.colegioarji.e.a:
     int data -> b
     java.lang.String label -> c
@@ -18890,7 +18893,9 @@ mx.com.logydes.colegioarji.Utils.AppConfig -> mx.com.logydes.colegioarji.Utils.a
     java.lang.String URL_VIEW_BOLETAS -> A
     java.lang.String URL_CALENDARIO -> B
     int URL_CALENDARIO_TYPE -> C
-    9:54:void <clinit>() -> <clinit>
+    java.lang.String URL_AVISO_PRIVACIDAD -> D
+    int URL_AVISO_PRIVACIDAD_TYPE -> E
+    9:57:void <clinit>() -> <clinit>
 mx.com.logydes.colegioarji.Utils.AppController -> mx.com.logydes.colegioarji.Utils.AppController:
     java.lang.String TAG -> a
     com.android.volley.RequestQueue mRequestQueue -> b

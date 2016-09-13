@@ -35,6 +35,10 @@
             android:icon="@mipmap/ic_beneficios"
             android:title="@string/action_beneficios" />
         <item
+            android:id="@+id/nav_aviso_privacidad"
+            android:icon="@mipmap/ic_aviso_privacidad"
+            android:title="@string/action_aviso_privacidad" />
+        <item
             android:id="@+id/nav_desarrollador"
             android:icon="@mipmap/ic_programmer"
             android:title="@string/action_desarrollador" />
