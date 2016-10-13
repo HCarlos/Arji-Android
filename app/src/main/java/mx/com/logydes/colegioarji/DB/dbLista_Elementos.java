@@ -13,6 +13,7 @@ import com.android.volley.Request;
 import com.android.volley.Response;
 import com.android.volley.VolleyError;
 import com.android.volley.toolbox.StringRequest;
+import com.google.gson.Gson;
 
 import org.json.JSONArray;
 import org.json.JSONException;
@@ -26,8 +27,13 @@ import mx.com.logydes.colegioarji.Adapter.Adapter_Lista_Elementos;
 import mx.com.logydes.colegioarji.Helper.Singleton;
 import mx.com.logydes.colegioarji.Pojos.Lista_Elementos;
 import mx.com.logydes.colegioarji.R;
+import mx.com.logydes.colegioarji.RestAPI.Adapter.RestAPIAdapter;
+import mx.com.logydes.colegioarji.RestAPI.EndPointsAPI;
+import mx.com.logydes.colegioarji.RestAPI.Model.TareasResponse;
 import mx.com.logydes.colegioarji.Utils.AppController;
 import mx.com.logydes.colegioarji.Utils.Utilidades;
+import retrofit2.Call;
+import retrofit2.Callback;
 
 /**
  * Created by devch on 24/06/16.
@@ -168,26 +174,6 @@ public class dbLista_Elementos {
                         params.put("tipoconsulta", String.valueOf( Type ) );
                         break;
                 }
-                /*
-                if (Type == 0){
-                    params.put("username", Singleton.getUsername());
-                    params.put("sts", "0");
-                    params.put("iduseralu", String.valueOf( Singleton.getIdAlu() ) );
-                    params.put("tipoconsulta", String.valueOf( Type ) );
-                }
-                if (Type == 1){
-                    params.put("username", Singleton.getUsername());
-                    params.put("sts", "0");
-                    params.put("iduseralu", String.valueOf( Singleton.getIdAlu() ) );
-                    params.put("tipoconsulta", String.valueOf( Type ) );
-                }
-                if (Type == 2){
-                    params.put("username", Singleton.getUsername());
-                    params.put("sts", "0");
-                    params.put("iduseralu", String.valueOf( Singleton.getIdAlu() ) );
-                    params.put("tipoconsulta", String.valueOf( Type ) );
-                }
-                */
                 return params;
 
             }
@@ -202,5 +188,44 @@ public class dbLista_Elementos {
         mad = new Adapter_Lista_Elementos(activity, Menu);  // new AdapterLista_Elementos(MM,activity);
         listaMM.setAdapter(mad);
     }
+
+    public void obtenerDatosRetroFit(String strURL, int _Type) {
+        Type = _Type;
+
+        HashMap<String, String> params = new HashMap<String, String>();
+        params.put("username", Singleton.getUsername());
+        params.put("sts", "-1");
+        params.put("iduseralu", String.valueOf( Singleton.getIdUserAlu() ) );
+        params.put("tipoconsulta", String.valueOf( Type ) );
+
+        RestAPIAdapter restApiAdapter = new RestAPIAdapter();
+        Gson gsonMediaRecent = restApiAdapter.construyeGsonDeserializadorMediaRecent();
+        EndPointsAPI endpointsApi = restApiAdapter.establecerConexionPlatSource(gsonMediaRecent);
+        Call<TareasResponse> contactoResponseCall = endpointsApi.getRecentMedia(params);
+
+        Log.w("TODO BIEN HASTA ","AQUI antes del enqueue");
+
+        contactoResponseCall.enqueue(new Callback<TareasResponse>() {
+            @Override
+            public void onResponse(Call<TareasResponse> call, retrofit2.Response<TareasResponse> response) {
+                TareasResponse TareasResponse = response.body();
+
+                Singleton.setRsElementos( TareasResponse.getLista_elementoses() );
+
+                // mostrarContactosRV();
+                resfresh_Lista_Elementos();
+
+            }
+
+            @Override
+            public void onFailure(Call<TareasResponse> call, Throwable t) {
+                Toast.makeText(context, "¡Algo pasó en la conexión! Intenta de nuevo", Toast.LENGTH_LONG).show();
+                Log.e("FALLO LA CONEXION", t.getLocalizedMessage());
+            }
+
+        });
+
+    }
+
 
 }

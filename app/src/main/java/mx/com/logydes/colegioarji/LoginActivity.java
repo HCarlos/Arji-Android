@@ -22,6 +22,7 @@ import com.android.volley.toolbox.StringRequest;
 import com.google.android.gms.appindexing.Action;
 import com.google.android.gms.appindexing.AppIndex;
 import com.google.android.gms.common.api.GoogleApiClient;
+import com.google.firebase.iid.FirebaseInstanceId;
 
 import org.json.JSONArray;
 import org.json.JSONException;
@@ -189,14 +190,16 @@ public class LoginActivity extends AppCompatActivity {
 
                 String uuid = Settings.Secure.getString(getApplicationContext().getContentResolver(),
                         Settings.Secure.ANDROID_ID);
+                String token = FirebaseInstanceId.getInstance().getToken();
                 Log.e(TAG,"ANDROID ID: "+uuid);
+                Log.e(TAG,"TOKEN ID: "+token);
 
                 Map<String, String> params = new HashMap<String, String>();
                 params.put("username", email);
                 params.put("passwordL", password);
                 params.put("UUID", uuid);
                 params.put("tD", "2");
-                params.put("device_token", uuid);
+                params.put("device_token", token);
 
                 return params;
             }

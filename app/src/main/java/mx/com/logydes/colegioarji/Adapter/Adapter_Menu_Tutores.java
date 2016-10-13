@@ -56,10 +56,15 @@ public class Adapter_Menu_Tutores extends RecyclerView.Adapter<Adapter_Menu_Tuto
             MM.add(new Menu_Tutores(5, "Calendario"));
         }
 
-        if ( Singleton.getIdUserNivelAcceso() == 6 ||
+        if (
+                Singleton.getIdUserNivelAcceso() == 3 ||
+                Singleton.getIdUserNivelAcceso() == 6 ||
                 Singleton.getIdUserNivelAcceso() == 18 ||
-                Singleton.getIdUserNivelAcceso() == 23 ) {
+                Singleton.getIdUserNivelAcceso() == 23
+            ) {
+
             MM.add(new Menu_Tutores(1, "Circulares"));
+
         }
 
         if ( Singleton.getIdUserNivelAcceso() == 5 ) {

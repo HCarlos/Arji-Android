@@ -1,14 +1,6 @@
 [
     {
         "merged": "/home/devch/AndroidStudioProjects/ColegioArji/app/build/intermediates/res/merged/release/drawable-ldpi-v4/common_ic_googleplayservices.png",
-        "source": "/home/devch/AndroidStudioProjects/ColegioArji/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.0.2/res/drawable-ldpi-v4/common_ic_googleplayservices.png"
-    },
-    {
-        "merged": "/home/devch/AndroidStudioProjects/ColegioArji/app/build/intermediates/res/merged/release/drawable-ldpi-v4/background_1_arji.png",
-        "source": "/home/devch/AndroidStudioProjects/ColegioArji/app/src/main/res/drawable-ldpi/background_1_arji.png"
-    },
-    {
-        "merged": "/home/devch/AndroidStudioProjects/ColegioArji/app/build/intermediates/res/merged/release/drawable-ldpi-v4/background_2_arji.png",
-        "source": "/home/devch/AndroidStudioProjects/ColegioArji/app/src/main/res/drawable-ldpi/background_2_arji.png"
+        "source": "/home/devch/AndroidStudioProjects/ColegioArji/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.6.1/res/drawable-ldpi-v4/common_ic_googleplayservices.png"
     }
 ]

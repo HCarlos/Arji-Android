@@ -44,6 +44,7 @@ public class ListaElementos extends AppCompatActivity {
             case 3:
                 strURL = AppConfig.URL_TAREAS_CIRCULARES;
                 cm.obtenerDatos(strURL,IdMenu);
+                // cm.obtenerDatosRetroFit(strURL,IdMenu);
                 break;
 
         }

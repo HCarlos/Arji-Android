@@ -1,10 +1,7 @@
 package mx.com.logydes.colegioarji;
 
-import android.content.Context;
 import android.content.Intent;
-import android.graphics.drawable.Drawable;
 import android.net.Uri;
-import android.os.Build;
 import android.os.Bundle;
 import android.support.design.widget.NavigationView;
 import android.support.v4.view.GravityCompat;
@@ -16,7 +13,6 @@ import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.Toolbar;
 
 import android.util.Log;
-import android.view.KeyEvent;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.webkit.WebView;
@@ -26,8 +22,7 @@ import android.widget.Toast;
 import com.google.android.gms.appindexing.Action;
 import com.google.android.gms.appindexing.AppIndex;
 import com.google.android.gms.common.api.GoogleApiClient;
-
-import java.util.ArrayList;
+import com.google.firebase.iid.FirebaseInstanceId;
 
 import mx.com.logydes.colegioarji.Adapter.Adapter_Menu_Tutores;
 import mx.com.logydes.colegioarji.DB.dbHijos;
@@ -57,6 +52,10 @@ public class MainActivity extends AppCompatActivity
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        // String refreshedToken = FirebaseInstanceId.getInstance().getToken();
+
+        // Log.w(TAG, "TOKEN ::> "+refreshedToken);
 
         singleton = new Singleton();
 
@@ -221,9 +220,12 @@ public class MainActivity extends AppCompatActivity
                 Type = AppConfig.URL_PROCESO_ADMISION_TYPE;
                 break;
             case R.id.nav_mapa:
-                URL = AppConfig.URL_MAPA;
-                Type = AppConfig.URL_MAPA_TYPE;
-                break;
+                // URL = AppConfig.URL_MAPA;
+                // Type = AppConfig.URL_MAPA_TYPE;
+                // break;
+                Intent intentMap = new Intent(MainActivity.this, MapsActivity.class);
+                startActivity(intentMap);
+                return true;
             case R.id.nav_beneficios:
                 URL = AppConfig.URL_BENEFICIOS;
                 Type = AppConfig.URL_BENEFICIOS_TYPE;

@@ -14,7 +14,6 @@
     <string name="action_cerrar_session">Logout</string>
     <string name="action_directorio">Directorio</string>
     <string name="action_proceso_admision">Proceso de Admisión</string>
-    <string name="action_mapa_ubicacion">Mapa de Ubicación</string>
     <string name="action_beneficios">Beneficios</string>
     <string name="action_aviso_privacidad">Aviso de Privacidad</string>
     <string name="action_desarrollador">Desarrollador</string>
@@ -90,5 +89,7 @@
     <string name="logoIB">logoIB</string>
     <string name="IdEmp">IdEmp</string>
     <string name="IsBoleta">IsBoleta</string>
+    <string name="action_mapa_ubicacion">Mapa de Ubicación</string>
+    <string name="title_bar_mapa_ubicacion">Av. México Núm. 2, Col. del Bosque, Villahermosa, Tabasco, MX. CP. 86160</string>
 
 </resources>

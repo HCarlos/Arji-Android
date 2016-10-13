@@ -4,11 +4,14 @@
 
     <!-- To auto-complete the email text field in the login form with the user's emails -->
     <uses-permission android:name="android.permission.INTERNET" />
-    <!-- <uses-permission android:name="android.permission.BLUETOOTH" /> -->
-    <!-- <uses-permission android:name="android.permission.CALL_PHONE" /> -->
 
-    <!-- To auto-complete the email text field in the login form with the user's emails -->
-    <!-- <uses-permission android:name="android.permission.READ_PHONE_STATE" /> -->
+    <!--
+         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+         Google Maps Android API v2, but you must specify either coarse or fine
+         location permissions for the 'MyLocation' functionality. 
+    -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
     <application
         android:name=".Utils.AppController"
         android:allowBackup="true"
@@ -30,19 +33,20 @@
         <activity
             android:name=".LoginActivity"
             android:label="@string/title_activity_login"
-            android:screenOrientation="portrait"
-            android:parentActivityName=".MainActivity">
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait">
 
             <!-- Soporte ver 4.0 o preview -->
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".MainActivity" />
         </activity>
+
         <activity
             android:name=".BoletinActivity"
             android:label="@string/title_activity_boletin"
-            android:screenOrientation="portrait"
-            android:parentActivityName=".MainActivity">
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait">
 
             <!-- Soporte ver 4.0 o preview -->
             <meta-data
@@ -61,8 +65,8 @@
         <activity
             android:name=".MenuHijos"
             android:label="@string/title_activity_hijos"
-            android:screenOrientation="portrait"
-            android:parentActivityName=".MainActivity">
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".MainActivity" />
@@ -70,26 +74,63 @@
         <activity
             android:name=".ListaElementos"
             android:label="@string/title_activity_hijos"
-            android:screenOrientation="portrait"
-            android:parentActivityName=".MenuHijos">
+            android:parentActivityName=".MenuHijos"
+            android:screenOrientation="portrait">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".MenuHijos" />
         </activity>
-        <activity android:name=".Elemento"
-            android:screenOrientation="portrait"
-            >
+        <activity
+            android:name=".Elemento"
+            android:screenOrientation="portrait">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".Elemento" />
         </activity>
-        <activity android:name=".Boleta"
-            android:screenOrientation="portrait"
-            >
+        <activity
+            android:name=".Boleta"
+            android:screenOrientation="portrait">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".Boleta" />
         </activity>
+        <!--
+             The API key for Google Maps-based APIs is defined as a string resource.
+             (See the file "res/values/google_maps_api.xml").
+             Note that the API key is linked to the encryption key used to sign the APK.
+             You need a different API key for each encryption key, including the release key that is used to
+             sign the APK for publishing.
+             You can define the keys for the debug and release targets in src/debug/ and src/release/. 
+        -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <activity
+            android:name=".MapsActivity"
+            android:label="@string/action_mapa_ubicacion"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+
+        <service
+            android:name=".Utils.NotificationService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT"/>
+            </intent-filter>
+        </service>
+
+        <service
+            android:name=".Utils.NotificacionIDTokenService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT"/>
+            </intent-filter>
+        </service>
+
     </application>
+
 
 </manifest>

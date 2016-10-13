@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/home/devch/AndroidStudioProjects/ColegioArji/app/build/intermediates/res/merged/debug/drawable-ldpi/background_1_arji.png",
+        "source": "/home/devch/AndroidStudioProjects/ColegioArji/app/src/main/res/drawable-ldpi/background_1_arji.png"
+    },
+    {
+        "merged": "/home/devch/AndroidStudioProjects/ColegioArji/app/build/intermediates/res/merged/debug/drawable-ldpi/background_2_arji.png",
+        "source": "/home/devch/AndroidStudioProjects/ColegioArji/app/src/main/res/drawable-ldpi/background_2_arji.png"
+    }
+]
