@@ -126,7 +126,8 @@ public class MainActivity extends AppCompatActivity
         // Inflate the menu; this adds items to the action bar if it is present.
         Log.e("getIdUserNivelAcceso:", String.valueOf(singleton.getIdUserNivelAcceso() ) );
 
-        if ( session.isLoggedIn() && singleton.getIdUserNivelAcceso() == 7) { // Tutores
+        if ( session.isLoggedIn() && ( singleton.getIdUserNivelAcceso() == 7 ||
+                                        singleton.getIdUserNivelAcceso() == 25 ) ) { // Tutores
             //getMenuInflater().inflate(R.menu.menu_tutores, menu);
             tv.setText( "Bienvenid@ " + singleton.getNombreCompletoUsuario() );
             dbHijos cm = new dbHijos(this, this);

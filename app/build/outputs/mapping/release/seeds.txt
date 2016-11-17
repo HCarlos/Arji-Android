@@ -1597,9 +1597,6 @@ android.support.design.widget.BottomSheetBehavior: BottomSheetBehavior()
 android.support.design.widget.BottomSheetBehavior: BottomSheetBehavior(android.content.Context,android.util.AttributeSet)
 android.support.design.widget.BottomSheetBehavior$SavedState
 android.support.design.widget.BottomSheetBehavior$SavedState: android.os.Parcelable$Creator CREATOR
-android.support.design.widget.CollapsingToolbarLayout: CollapsingToolbarLayout(android.content.Context)
-android.support.design.widget.CollapsingToolbarLayout: CollapsingToolbarLayout(android.content.Context,android.util.AttributeSet)
-android.support.design.widget.CollapsingToolbarLayout: CollapsingToolbarLayout(android.content.Context,android.util.AttributeSet,int)
 android.support.design.widget.CollapsingToolbarLayout: void setTitle(java.lang.CharSequence)
 android.support.design.widget.CollapsingToolbarLayout: java.lang.CharSequence getTitle()
 android.support.design.widget.CollapsingToolbarLayout: void setTitleEnabled(boolean)
@@ -1652,9 +1649,6 @@ android.support.design.widget.CoordinatorLayout$Behavior: CoordinatorLayout$Beha
 android.support.design.widget.CoordinatorLayout$Behavior: CoordinatorLayout$Behavior(android.content.Context,android.util.AttributeSet)
 android.support.design.widget.CoordinatorLayout$SavedState
 android.support.design.widget.CoordinatorLayout$SavedState: android.os.Parcelable$Creator CREATOR
-android.support.design.widget.FloatingActionButton: FloatingActionButton(android.content.Context)
-android.support.design.widget.FloatingActionButton: FloatingActionButton(android.content.Context,android.util.AttributeSet)
-android.support.design.widget.FloatingActionButton: FloatingActionButton(android.content.Context,android.util.AttributeSet,int)
 android.support.design.widget.FloatingActionButton: void setRippleColor(int)
 android.support.design.widget.FloatingActionButton: android.content.res.ColorStateList getBackgroundTintList()
 android.support.design.widget.FloatingActionButton: void setBackgroundTintList(android.content.res.ColorStateList)
@@ -1706,11 +1700,6 @@ android.support.design.widget.Snackbar$SnackbarLayout: void setOnLayoutChangeLis
 android.support.design.widget.Snackbar$SnackbarLayout: void setOnAttachStateChangeListener(android.support.design.widget.Snackbar$SnackbarLayout$OnAttachStateChangeListener)
 android.support.design.widget.SwipeDismissBehavior
 android.support.design.widget.SwipeDismissBehavior: SwipeDismissBehavior()
-android.support.design.widget.TabItem: TabItem(android.content.Context)
-android.support.design.widget.TabItem: TabItem(android.content.Context,android.util.AttributeSet)
-android.support.design.widget.TabLayout: TabLayout(android.content.Context)
-android.support.design.widget.TabLayout: TabLayout(android.content.Context,android.util.AttributeSet)
-android.support.design.widget.TabLayout: TabLayout(android.content.Context,android.util.AttributeSet,int)
 android.support.design.widget.TabLayout: void setSelectedTabIndicatorColor(int)
 android.support.design.widget.TabLayout: void setSelectedTabIndicatorHeight(int)
 android.support.design.widget.TabLayout: float getScrollPosition()
@@ -1730,9 +1719,6 @@ android.support.design.widget.TabLayout: void setSelectedTabView(int)
 android.support.design.widget.TabLayout: int getDefaultHeight()
 android.support.design.widget.TabLayout: int getTabMinWidth()
 android.support.design.widget.TabLayout: int getTabMaxWidth()
-android.support.design.widget.TextInputEditText: TextInputEditText(android.content.Context)
-android.support.design.widget.TextInputEditText: TextInputEditText(android.content.Context,android.util.AttributeSet)
-android.support.design.widget.TextInputEditText: TextInputEditText(android.content.Context,android.util.AttributeSet,int)
 android.support.design.widget.TextInputLayout
 android.support.design.widget.TextInputLayout: TextInputLayout(android.content.Context)
 android.support.design.widget.TextInputLayout: TextInputLayout(android.content.Context,android.util.AttributeSet)
@@ -1757,9 +1743,6 @@ android.support.design.widget.TextInputLayout$SavedState
 android.support.design.widget.TextInputLayout$SavedState: android.os.Parcelable$Creator CREATOR
 android.support.design.widget.ViewOffsetBehavior: ViewOffsetBehavior()
 android.support.design.widget.ViewOffsetBehavior: ViewOffsetBehavior(android.content.Context,android.util.AttributeSet)
-android.support.design.widget.VisibilityAwareImageButton: VisibilityAwareImageButton(android.content.Context)
-android.support.design.widget.VisibilityAwareImageButton: VisibilityAwareImageButton(android.content.Context,android.util.AttributeSet)
-android.support.design.widget.VisibilityAwareImageButton: VisibilityAwareImageButton(android.content.Context,android.util.AttributeSet,int)
 android.support.design.widget.VisibilityAwareImageButton: void setVisibility(int)
 android.support.design.widget.VisibilityAwareImageButton: int getUserSetVisibility()
 android.support.v4.app.BackStackState
@@ -1776,8 +1759,6 @@ android.support.v4.app.FragmentManagerState
 android.support.v4.app.FragmentManagerState: android.os.Parcelable$Creator CREATOR
 android.support.v4.app.FragmentState
 android.support.v4.app.FragmentState: android.os.Parcelable$Creator CREATOR
-android.support.v4.app.FragmentTabHost: FragmentTabHost(android.content.Context)
-android.support.v4.app.FragmentTabHost: FragmentTabHost(android.content.Context,android.util.AttributeSet)
 android.support.v4.app.FragmentTabHost: void setOnTabChangedListener(android.widget.TabHost$OnTabChangeListener)
 android.support.v4.app.FragmentTabHost$SavedState
 android.support.v4.app.FragmentTabHost$SavedState: android.os.Parcelable$Creator CREATOR
@@ -1810,8 +1791,6 @@ android.support.v4.os.ResultReceiver: android.os.Parcelable$Creator CREATOR
 android.support.v4.view.AbsSavedState
 android.support.v4.view.AbsSavedState: android.os.Parcelable$Creator CREATOR
 android.support.v4.view.AbsSavedState$1
-android.support.v4.view.PagerTabStrip: PagerTabStrip(android.content.Context)
-android.support.v4.view.PagerTabStrip: PagerTabStrip(android.content.Context,android.util.AttributeSet)
 android.support.v4.view.PagerTabStrip: void setTabIndicatorColor(int)
 android.support.v4.view.PagerTabStrip: void setTabIndicatorColorResource(int)
 android.support.v4.view.PagerTabStrip: int getTabIndicatorColor()
@@ -1823,16 +1802,12 @@ android.support.v4.view.PagerTabStrip: void setDrawFullUnderline(boolean)
 android.support.v4.view.PagerTabStrip: boolean getDrawFullUnderline()
 android.support.v4.view.PagerTabStrip: int getMinHeight()
 android.support.v4.view.PagerTitleStrip: void setSingleLineAllCaps(android.widget.TextView)
-android.support.v4.view.PagerTitleStrip: PagerTitleStrip(android.content.Context)
-android.support.v4.view.PagerTitleStrip: PagerTitleStrip(android.content.Context,android.util.AttributeSet)
 android.support.v4.view.PagerTitleStrip: void setTextSpacing(int)
 android.support.v4.view.PagerTitleStrip: int getTextSpacing()
 android.support.v4.view.PagerTitleStrip: void setNonPrimaryAlpha(float)
 android.support.v4.view.PagerTitleStrip: void setTextColor(int)
 android.support.v4.view.PagerTitleStrip: void setGravity(int)
 android.support.v4.view.PagerTitleStrip: int getMinHeight()
-android.support.v4.view.ViewPager: ViewPager(android.content.Context)
-android.support.v4.view.ViewPager: ViewPager(android.content.Context,android.util.AttributeSet)
 android.support.v4.view.ViewPager: void setScrollState(int)
 android.support.v4.view.ViewPager: void setAdapter(android.support.v4.view.PagerAdapter)
 android.support.v4.view.ViewPager: android.support.v4.view.PagerAdapter getAdapter()
@@ -1850,8 +1825,6 @@ android.support.v4.view.ViewPager: void setPageMarginDrawable(int)
 android.support.v4.view.ViewPager: void setScrollingCacheEnabled(boolean)
 android.support.v4.view.ViewPager$SavedState
 android.support.v4.view.ViewPager$SavedState: android.os.Parcelable$Creator CREATOR
-android.support.v4.widget.ContentLoadingProgressBar: ContentLoadingProgressBar(android.content.Context)
-android.support.v4.widget.ContentLoadingProgressBar: ContentLoadingProgressBar(android.content.Context,android.util.AttributeSet)
 android.support.v4.widget.DrawerLayout
 android.support.v4.widget.DrawerLayout: DrawerLayout(android.content.Context)
 android.support.v4.widget.DrawerLayout: DrawerLayout(android.content.Context,android.util.AttributeSet)
@@ -1883,10 +1856,6 @@ android.support.v4.widget.NestedScrollView: float getVerticalScrollFactorCompat(
 android.support.v4.widget.NestedScrollView: int getScrollRange()
 android.support.v4.widget.NestedScrollView$SavedState
 android.support.v4.widget.NestedScrollView$SavedState: android.os.Parcelable$Creator CREATOR
-android.support.v4.widget.SearchViewCompatIcs$MySearchView: SearchViewCompatIcs$MySearchView(android.content.Context)
-android.support.v4.widget.SlidingPaneLayout: SlidingPaneLayout(android.content.Context)
-android.support.v4.widget.SlidingPaneLayout: SlidingPaneLayout(android.content.Context,android.util.AttributeSet)
-android.support.v4.widget.SlidingPaneLayout: SlidingPaneLayout(android.content.Context,android.util.AttributeSet,int)
 android.support.v4.widget.SlidingPaneLayout: void setParallaxDistance(int)
 android.support.v4.widget.SlidingPaneLayout: int getParallaxDistance()
 android.support.v4.widget.SlidingPaneLayout: void setSliderFadeColor(int)
@@ -1908,8 +1877,6 @@ android.support.v4.widget.Space: Space(android.content.Context,android.util.Attr
 android.support.v4.widget.Space: Space(android.content.Context)
 android.support.v4.widget.SwipeRefreshLayout: void setColorViewAlpha(int)
 android.support.v4.widget.SwipeRefreshLayout: void setSize(int)
-android.support.v4.widget.SwipeRefreshLayout: SwipeRefreshLayout(android.content.Context)
-android.support.v4.widget.SwipeRefreshLayout: SwipeRefreshLayout(android.content.Context,android.util.AttributeSet)
 android.support.v4.widget.SwipeRefreshLayout: void setOnRefreshListener(android.support.v4.widget.SwipeRefreshLayout$OnRefreshListener)
 android.support.v4.widget.SwipeRefreshLayout: void setRefreshing(boolean)
 android.support.v4.widget.SwipeRefreshLayout: void setAnimationProgress(float)
@@ -1927,9 +1894,6 @@ android.support.v7.app.AppCompatActivity: AppCompatActivity()
 android.support.v7.app.AppCompatActivity: void setContentView(android.view.View)
 android.support.v7.app.AppCompatDelegateImplV7$PanelFeatureState$SavedState
 android.support.v7.app.AppCompatDelegateImplV7$PanelFeatureState$SavedState: android.os.Parcelable$Creator CREATOR
-android.support.v7.app.MediaRouteButton: MediaRouteButton(android.content.Context)
-android.support.v7.app.MediaRouteButton: MediaRouteButton(android.content.Context,android.util.AttributeSet)
-android.support.v7.app.MediaRouteButton: MediaRouteButton(android.content.Context,android.util.AttributeSet,int)
 android.support.v7.app.MediaRouteButton: android.support.v7.media.MediaRouteSelector getRouteSelector()
 android.support.v7.app.MediaRouteButton: void setRouteSelector(android.support.v7.media.MediaRouteSelector)
 android.support.v7.app.MediaRouteButton: android.support.v7.app.MediaRouteDialogFactory getDialogFactory()
@@ -5019,9 +4983,6 @@ android.support.v7.widget.ActionMenuView: void setOverflowReserved(boolean)
 android.support.v7.widget.ActionMenuView: int getWindowAnimations()
 android.support.v7.widget.ActionMenuView: android.view.Menu getMenu()
 android.support.v7.widget.ActionMenuView: void setExpandedActionViewsExclusive(boolean)
-android.support.v7.widget.ActivityChooserView: ActivityChooserView(android.content.Context)
-android.support.v7.widget.ActivityChooserView: ActivityChooserView(android.content.Context,android.util.AttributeSet)
-android.support.v7.widget.ActivityChooserView: ActivityChooserView(android.content.Context,android.util.AttributeSet,int)
 android.support.v7.widget.ActivityChooserView: void setActivityChooserModel(android.support.v7.widget.ActivityChooserModel)
 android.support.v7.widget.ActivityChooserView: void setExpandActivityOverflowButtonDrawable(android.graphics.drawable.Drawable)
 android.support.v7.widget.ActivityChooserView: void setExpandActivityOverflowButtonContentDescription(int)
@@ -5043,9 +5004,6 @@ android.support.v7.widget.AppCompatAutoCompleteTextView: void setSupportBackgrou
 android.support.v7.widget.AppCompatAutoCompleteTextView: android.content.res.ColorStateList getSupportBackgroundTintList()
 android.support.v7.widget.AppCompatAutoCompleteTextView: void setSupportBackgroundTintMode(android.graphics.PorterDuff$Mode)
 android.support.v7.widget.AppCompatAutoCompleteTextView: android.graphics.PorterDuff$Mode getSupportBackgroundTintMode()
-android.support.v7.widget.AppCompatButton: AppCompatButton(android.content.Context)
-android.support.v7.widget.AppCompatButton: AppCompatButton(android.content.Context,android.util.AttributeSet)
-android.support.v7.widget.AppCompatButton: AppCompatButton(android.content.Context,android.util.AttributeSet,int)
 android.support.v7.widget.AppCompatButton: void setBackgroundResource(int)
 android.support.v7.widget.AppCompatButton: void setBackgroundDrawable(android.graphics.drawable.Drawable)
 android.support.v7.widget.AppCompatButton: void setSupportBackgroundTintList(android.content.res.ColorStateList)
@@ -5053,9 +5011,6 @@ android.support.v7.widget.AppCompatButton: android.content.res.ColorStateList ge
 android.support.v7.widget.AppCompatButton: void setSupportBackgroundTintMode(android.graphics.PorterDuff$Mode)
 android.support.v7.widget.AppCompatButton: android.graphics.PorterDuff$Mode getSupportBackgroundTintMode()
 android.support.v7.widget.AppCompatButton: void setSupportAllCaps(boolean)
-android.support.v7.widget.AppCompatCheckBox: AppCompatCheckBox(android.content.Context)
-android.support.v7.widget.AppCompatCheckBox: AppCompatCheckBox(android.content.Context,android.util.AttributeSet)
-android.support.v7.widget.AppCompatCheckBox: AppCompatCheckBox(android.content.Context,android.util.AttributeSet,int)
 android.support.v7.widget.AppCompatCheckBox: void setButtonDrawable(android.graphics.drawable.Drawable)
 android.support.v7.widget.AppCompatCheckBox: void setButtonDrawable(int)
 android.support.v7.widget.AppCompatCheckBox: int getCompoundPaddingLeft()
@@ -5063,22 +5018,13 @@ android.support.v7.widget.AppCompatCheckBox: void setSupportButtonTintList(andro
 android.support.v7.widget.AppCompatCheckBox: android.content.res.ColorStateList getSupportButtonTintList()
 android.support.v7.widget.AppCompatCheckBox: void setSupportButtonTintMode(android.graphics.PorterDuff$Mode)
 android.support.v7.widget.AppCompatCheckBox: android.graphics.PorterDuff$Mode getSupportButtonTintMode()
-android.support.v7.widget.AppCompatCheckedTextView: AppCompatCheckedTextView(android.content.Context)
-android.support.v7.widget.AppCompatCheckedTextView: AppCompatCheckedTextView(android.content.Context,android.util.AttributeSet)
-android.support.v7.widget.AppCompatCheckedTextView: AppCompatCheckedTextView(android.content.Context,android.util.AttributeSet,int)
 android.support.v7.widget.AppCompatCheckedTextView: void setCheckMarkDrawable(int)
-android.support.v7.widget.AppCompatEditText: AppCompatEditText(android.content.Context)
-android.support.v7.widget.AppCompatEditText: AppCompatEditText(android.content.Context,android.util.AttributeSet)
-android.support.v7.widget.AppCompatEditText: AppCompatEditText(android.content.Context,android.util.AttributeSet,int)
 android.support.v7.widget.AppCompatEditText: void setBackgroundResource(int)
 android.support.v7.widget.AppCompatEditText: void setBackgroundDrawable(android.graphics.drawable.Drawable)
 android.support.v7.widget.AppCompatEditText: void setSupportBackgroundTintList(android.content.res.ColorStateList)
 android.support.v7.widget.AppCompatEditText: android.content.res.ColorStateList getSupportBackgroundTintList()
 android.support.v7.widget.AppCompatEditText: void setSupportBackgroundTintMode(android.graphics.PorterDuff$Mode)
 android.support.v7.widget.AppCompatEditText: android.graphics.PorterDuff$Mode getSupportBackgroundTintMode()
-android.support.v7.widget.AppCompatImageButton: AppCompatImageButton(android.content.Context)
-android.support.v7.widget.AppCompatImageButton: AppCompatImageButton(android.content.Context,android.util.AttributeSet)
-android.support.v7.widget.AppCompatImageButton: AppCompatImageButton(android.content.Context,android.util.AttributeSet,int)
 android.support.v7.widget.AppCompatImageButton: void setImageResource(int)
 android.support.v7.widget.AppCompatImageButton: void setBackgroundResource(int)
 android.support.v7.widget.AppCompatImageButton: void setBackgroundDrawable(android.graphics.drawable.Drawable)
@@ -5086,9 +5032,6 @@ android.support.v7.widget.AppCompatImageButton: void setSupportBackgroundTintLis
 android.support.v7.widget.AppCompatImageButton: android.content.res.ColorStateList getSupportBackgroundTintList()
 android.support.v7.widget.AppCompatImageButton: void setSupportBackgroundTintMode(android.graphics.PorterDuff$Mode)
 android.support.v7.widget.AppCompatImageButton: android.graphics.PorterDuff$Mode getSupportBackgroundTintMode()
-android.support.v7.widget.AppCompatImageView: AppCompatImageView(android.content.Context)
-android.support.v7.widget.AppCompatImageView: AppCompatImageView(android.content.Context,android.util.AttributeSet)
-android.support.v7.widget.AppCompatImageView: AppCompatImageView(android.content.Context,android.util.AttributeSet,int)
 android.support.v7.widget.AppCompatImageView: void setImageResource(int)
 android.support.v7.widget.AppCompatImageView: void setBackgroundResource(int)
 android.support.v7.widget.AppCompatImageView: void setBackgroundDrawable(android.graphics.drawable.Drawable)
@@ -5096,9 +5039,6 @@ android.support.v7.widget.AppCompatImageView: void setSupportBackgroundTintList(
 android.support.v7.widget.AppCompatImageView: android.content.res.ColorStateList getSupportBackgroundTintList()
 android.support.v7.widget.AppCompatImageView: void setSupportBackgroundTintMode(android.graphics.PorterDuff$Mode)
 android.support.v7.widget.AppCompatImageView: android.graphics.PorterDuff$Mode getSupportBackgroundTintMode()
-android.support.v7.widget.AppCompatMultiAutoCompleteTextView: AppCompatMultiAutoCompleteTextView(android.content.Context)
-android.support.v7.widget.AppCompatMultiAutoCompleteTextView: AppCompatMultiAutoCompleteTextView(android.content.Context,android.util.AttributeSet)
-android.support.v7.widget.AppCompatMultiAutoCompleteTextView: AppCompatMultiAutoCompleteTextView(android.content.Context,android.util.AttributeSet,int)
 android.support.v7.widget.AppCompatMultiAutoCompleteTextView: void setDropDownBackgroundResource(int)
 android.support.v7.widget.AppCompatMultiAutoCompleteTextView: void setBackgroundResource(int)
 android.support.v7.widget.AppCompatMultiAutoCompleteTextView: void setBackgroundDrawable(android.graphics.drawable.Drawable)
@@ -5106,9 +5046,6 @@ android.support.v7.widget.AppCompatMultiAutoCompleteTextView: void setSupportBac
 android.support.v7.widget.AppCompatMultiAutoCompleteTextView: android.content.res.ColorStateList getSupportBackgroundTintList()
 android.support.v7.widget.AppCompatMultiAutoCompleteTextView: void setSupportBackgroundTintMode(android.graphics.PorterDuff$Mode)
 android.support.v7.widget.AppCompatMultiAutoCompleteTextView: android.graphics.PorterDuff$Mode getSupportBackgroundTintMode()
-android.support.v7.widget.AppCompatRadioButton: AppCompatRadioButton(android.content.Context)
-android.support.v7.widget.AppCompatRadioButton: AppCompatRadioButton(android.content.Context,android.util.AttributeSet)
-android.support.v7.widget.AppCompatRadioButton: AppCompatRadioButton(android.content.Context,android.util.AttributeSet,int)
 android.support.v7.widget.AppCompatRadioButton: void setButtonDrawable(android.graphics.drawable.Drawable)
 android.support.v7.widget.AppCompatRadioButton: void setButtonDrawable(int)
 android.support.v7.widget.AppCompatRadioButton: int getCompoundPaddingLeft()
@@ -5116,15 +5053,9 @@ android.support.v7.widget.AppCompatRadioButton: void setSupportButtonTintList(an
 android.support.v7.widget.AppCompatRadioButton: android.content.res.ColorStateList getSupportButtonTintList()
 android.support.v7.widget.AppCompatRadioButton: void setSupportButtonTintMode(android.graphics.PorterDuff$Mode)
 android.support.v7.widget.AppCompatRadioButton: android.graphics.PorterDuff$Mode getSupportButtonTintMode()
-android.support.v7.widget.AppCompatRatingBar: AppCompatRatingBar(android.content.Context)
-android.support.v7.widget.AppCompatRatingBar: AppCompatRatingBar(android.content.Context,android.util.AttributeSet)
-android.support.v7.widget.AppCompatRatingBar: AppCompatRatingBar(android.content.Context,android.util.AttributeSet,int)
 android.support.v7.widget.AppCompatSeekBar: AppCompatSeekBar(android.content.Context)
 android.support.v7.widget.AppCompatSeekBar: AppCompatSeekBar(android.content.Context,android.util.AttributeSet)
 android.support.v7.widget.AppCompatSeekBar: AppCompatSeekBar(android.content.Context,android.util.AttributeSet,int)
-android.support.v7.widget.AppCompatSpinner: AppCompatSpinner(android.content.Context)
-android.support.v7.widget.AppCompatSpinner: AppCompatSpinner(android.content.Context,android.util.AttributeSet)
-android.support.v7.widget.AppCompatSpinner: AppCompatSpinner(android.content.Context,android.util.AttributeSet,int)
 android.support.v7.widget.AppCompatSpinner: android.content.Context getPopupContext()
 android.support.v7.widget.AppCompatSpinner: void setPopupBackgroundDrawable(android.graphics.drawable.Drawable)
 android.support.v7.widget.AppCompatSpinner: void setPopupBackgroundResource(int)
@@ -5236,9 +5167,6 @@ android.support.v7.widget.LinearLayoutManager: LinearLayoutManager(android.conte
 android.support.v7.widget.LinearLayoutManager: LinearLayoutManager(android.content.Context,android.util.AttributeSet,int,int)
 android.support.v7.widget.LinearLayoutManager$SavedState
 android.support.v7.widget.LinearLayoutManager$SavedState: android.os.Parcelable$Creator CREATOR
-android.support.v7.widget.ListViewCompat: ListViewCompat(android.content.Context)
-android.support.v7.widget.ListViewCompat: ListViewCompat(android.content.Context,android.util.AttributeSet)
-android.support.v7.widget.ListViewCompat: ListViewCompat(android.content.Context,android.util.AttributeSet,int)
 android.support.v7.widget.ListViewCompat: void setSelector(android.graphics.drawable.Drawable)
 android.support.v7.widget.ListViewCompat: void setSelectorEnabled(boolean)
 android.support.v7.widget.MenuPopupWindow$MenuDropDownListView: void setHoverListener(android.support.v7.widget.MenuItemHoverListener)
@@ -5276,13 +5204,9 @@ android.support.v7.widget.RecyclerView: android.support.v4.view.NestedScrollingC
 android.support.v7.widget.RecyclerView$LayoutManager: RecyclerView$LayoutManager()
 android.support.v7.widget.RecyclerView$SavedState
 android.support.v7.widget.RecyclerView$SavedState: android.os.Parcelable$Creator CREATOR
-android.support.v7.widget.ScrollingTabContainerView: ScrollingTabContainerView(android.content.Context)
 android.support.v7.widget.ScrollingTabContainerView: void setAllowCollapse(boolean)
 android.support.v7.widget.ScrollingTabContainerView: void setTabSelected(int)
 android.support.v7.widget.ScrollingTabContainerView: void setContentHeight(int)
-android.support.v7.widget.SearchView: SearchView(android.content.Context)
-android.support.v7.widget.SearchView: SearchView(android.content.Context,android.util.AttributeSet)
-android.support.v7.widget.SearchView: SearchView(android.content.Context,android.util.AttributeSet,int)
 android.support.v7.widget.SearchView: int getSuggestionRowLayout()
 android.support.v7.widget.SearchView: int getSuggestionCommitIconResId()
 android.support.v7.widget.SearchView: void setSearchableInfo(android.app.SearchableInfo)
@@ -5327,9 +5251,6 @@ android.support.v7.widget.StaggeredGridLayoutManager$LazySpanLookup$FullSpanItem
 android.support.v7.widget.StaggeredGridLayoutManager$LazySpanLookup$FullSpanItem: android.os.Parcelable$Creator CREATOR
 android.support.v7.widget.StaggeredGridLayoutManager$SavedState
 android.support.v7.widget.StaggeredGridLayoutManager$SavedState: android.os.Parcelable$Creator CREATOR
-android.support.v7.widget.SwitchCompat: SwitchCompat(android.content.Context)
-android.support.v7.widget.SwitchCompat: SwitchCompat(android.content.Context,android.util.AttributeSet)
-android.support.v7.widget.SwitchCompat: SwitchCompat(android.content.Context,android.util.AttributeSet,int)
 android.support.v7.widget.SwitchCompat: void setSwitchTypeface(android.graphics.Typeface)
 android.support.v7.widget.SwitchCompat: void setSwitchPadding(int)
 android.support.v7.widget.SwitchCompat: int getSwitchPadding()
@@ -5435,9 +5356,6 @@ android.support.v7.widget.ViewStubCompat: void setVisibility(int)
 android.support.v7.widget.ViewStubCompat: void setOnInflateListener(android.support.v7.widget.ViewStubCompat$OnInflateListener)
 com.android.volley.Request$Priority: com.android.volley.Request$Priority[] values()
 com.android.volley.Request$Priority: com.android.volley.Request$Priority valueOf(java.lang.String)
-com.android.volley.toolbox.NetworkImageView: NetworkImageView(android.content.Context)
-com.android.volley.toolbox.NetworkImageView: NetworkImageView(android.content.Context,android.util.AttributeSet)
-com.android.volley.toolbox.NetworkImageView: NetworkImageView(android.content.Context,android.util.AttributeSet,int)
 com.android.volley.toolbox.NetworkImageView: void setDefaultImageResId(int)
 com.android.volley.toolbox.NetworkImageView: void setErrorImageResId(int)
 com.google.ads.AdRequest$ErrorCode: com.google.ads.AdRequest$ErrorCode[] values()
@@ -6125,9 +6043,6 @@ com.google.android.gms.R$styleable: int WalletFragmentStyle_maskedWalletDetailsT
 com.google.android.gms.ads.AdActivity
 com.google.android.gms.ads.AdActivity: AdActivity()
 com.google.android.gms.ads.AdActivity: void setContentView(android.view.View)
-com.google.android.gms.ads.AdView: AdView(android.content.Context)
-com.google.android.gms.ads.AdView: AdView(android.content.Context,android.util.AttributeSet)
-com.google.android.gms.ads.AdView: AdView(android.content.Context,android.util.AttributeSet,int)
 com.google.android.gms.ads.AdView: java.lang.String getMediationAdapterClassName()
 com.google.android.gms.ads.AdView: void setInAppPurchaseListener(com.google.android.gms.ads.purchase.InAppPurchaseListener)
 com.google.android.gms.ads.AdView: void setAdUnitId(java.lang.String)
@@ -6137,7 +6052,6 @@ com.google.android.gms.ads.AdView: com.google.android.gms.ads.purchase.InAppPurc
 com.google.android.gms.ads.AdView: java.lang.String getAdUnitId()
 com.google.android.gms.ads.AdView: com.google.android.gms.ads.AdSize getAdSize()
 com.google.android.gms.ads.AdView: com.google.android.gms.ads.AdListener getAdListener()
-com.google.android.gms.ads.BaseAdView: BaseAdView(android.content.Context,android.util.AttributeSet,int)
 com.google.android.gms.ads.BaseAdView: com.google.android.gms.ads.AdListener getAdListener()
 com.google.android.gms.ads.BaseAdView: com.google.android.gms.ads.AdSize getAdSize()
 com.google.android.gms.ads.BaseAdView: java.lang.String getAdUnitId()
@@ -6147,9 +6061,6 @@ com.google.android.gms.ads.BaseAdView: void setAdSize(com.google.android.gms.ads
 com.google.android.gms.ads.BaseAdView: void setAdUnitId(java.lang.String)
 com.google.android.gms.ads.BaseAdView: void setInAppPurchaseListener(com.google.android.gms.ads.purchase.InAppPurchaseListener)
 com.google.android.gms.ads.BaseAdView: java.lang.String getMediationAdapterClassName()
-com.google.android.gms.ads.NativeExpressAdView: NativeExpressAdView(android.content.Context)
-com.google.android.gms.ads.NativeExpressAdView: NativeExpressAdView(android.content.Context,android.util.AttributeSet)
-com.google.android.gms.ads.NativeExpressAdView: NativeExpressAdView(android.content.Context,android.util.AttributeSet,int)
 com.google.android.gms.ads.NativeExpressAdView: com.google.android.gms.ads.VideoController getVideoController()
 com.google.android.gms.ads.NativeExpressAdView: void setVideoOptions(com.google.android.gms.ads.VideoOptions)
 com.google.android.gms.ads.NativeExpressAdView: com.google.android.gms.ads.VideoOptions getVideoOptions()
@@ -6162,9 +6073,6 @@ com.google.android.gms.ads.NativeExpressAdView: com.google.android.gms.ads.purch
 com.google.android.gms.ads.NativeExpressAdView: java.lang.String getAdUnitId()
 com.google.android.gms.ads.NativeExpressAdView: com.google.android.gms.ads.AdSize getAdSize()
 com.google.android.gms.ads.NativeExpressAdView: com.google.android.gms.ads.AdListener getAdListener()
-com.google.android.gms.ads.doubleclick.PublisherAdView: PublisherAdView(android.content.Context)
-com.google.android.gms.ads.doubleclick.PublisherAdView: PublisherAdView(android.content.Context,android.util.AttributeSet)
-com.google.android.gms.ads.doubleclick.PublisherAdView: PublisherAdView(android.content.Context,android.util.AttributeSet,int)
 com.google.android.gms.ads.doubleclick.PublisherAdView: com.google.android.gms.ads.AdListener getAdListener()
 com.google.android.gms.ads.doubleclick.PublisherAdView: com.google.android.gms.ads.AdSize getAdSize()
 com.google.android.gms.ads.doubleclick.PublisherAdView: com.google.android.gms.ads.AdSize[] getAdSizes()
@@ -6179,16 +6087,7 @@ com.google.android.gms.ads.doubleclick.PublisherAdView: void setAppEventListener
 com.google.android.gms.ads.doubleclick.PublisherAdView: void setCorrelator(com.google.android.gms.ads.Correlator)
 com.google.android.gms.ads.doubleclick.PublisherAdView: void setOnCustomRenderedAdLoadedListener(com.google.android.gms.ads.doubleclick.OnCustomRenderedAdLoadedListener)
 com.google.android.gms.ads.doubleclick.PublisherAdView: java.lang.String getMediationAdapterClassName()
-com.google.android.gms.ads.formats.MediaView: MediaView(android.content.Context)
-com.google.android.gms.ads.formats.MediaView: MediaView(android.content.Context,android.util.AttributeSet)
-com.google.android.gms.ads.formats.MediaView: MediaView(android.content.Context,android.util.AttributeSet,int)
-com.google.android.gms.ads.formats.NativeAdView: NativeAdView(android.content.Context)
-com.google.android.gms.ads.formats.NativeAdView: NativeAdView(android.content.Context,android.util.AttributeSet)
-com.google.android.gms.ads.formats.NativeAdView: NativeAdView(android.content.Context,android.util.AttributeSet,int)
 com.google.android.gms.ads.formats.NativeAdView: void setNativeAd(com.google.android.gms.ads.formats.NativeAd)
-com.google.android.gms.ads.formats.NativeAppInstallAdView: NativeAppInstallAdView(android.content.Context)
-com.google.android.gms.ads.formats.NativeAppInstallAdView: NativeAppInstallAdView(android.content.Context,android.util.AttributeSet)
-com.google.android.gms.ads.formats.NativeAppInstallAdView: NativeAppInstallAdView(android.content.Context,android.util.AttributeSet,int)
 com.google.android.gms.ads.formats.NativeAppInstallAdView: void setHeadlineView(android.view.View)
 com.google.android.gms.ads.formats.NativeAppInstallAdView: void setCallToActionView(android.view.View)
 com.google.android.gms.ads.formats.NativeAppInstallAdView: void setIconView(android.view.View)
@@ -6207,9 +6106,6 @@ com.google.android.gms.ads.formats.NativeAppInstallAdView: android.view.View get
 com.google.android.gms.ads.formats.NativeAppInstallAdView: android.view.View getImageView()
 com.google.android.gms.ads.formats.NativeAppInstallAdView: android.view.View getStarRatingView()
 com.google.android.gms.ads.formats.NativeAppInstallAdView: com.google.android.gms.ads.formats.MediaView getMediaView()
-com.google.android.gms.ads.formats.NativeContentAdView: NativeContentAdView(android.content.Context)
-com.google.android.gms.ads.formats.NativeContentAdView: NativeContentAdView(android.content.Context,android.util.AttributeSet)
-com.google.android.gms.ads.formats.NativeContentAdView: NativeContentAdView(android.content.Context,android.util.AttributeSet,int)
 com.google.android.gms.ads.formats.NativeContentAdView: void setHeadlineView(android.view.View)
 com.google.android.gms.ads.formats.NativeContentAdView: void setBodyView(android.view.View)
 com.google.android.gms.ads.formats.NativeContentAdView: void setCallToActionView(android.view.View)
@@ -6265,7 +6161,6 @@ com.google.android.gms.ads.internal.overlay.zzc: int getDuration()
 com.google.android.gms.ads.internal.overlay.zzc: int getCurrentPosition()
 com.google.android.gms.ads.internal.overlay.zzc: int getVideoWidth()
 com.google.android.gms.ads.internal.overlay.zzc: int getVideoHeight()
-com.google.android.gms.ads.internal.overlay.zzi: zzi(android.content.Context)
 com.google.android.gms.ads.internal.overlay.zzi: void setVideoPath(java.lang.String)
 com.google.android.gms.ads.internal.overlay.zzi: int getCurrentPosition()
 com.google.android.gms.ads.internal.overlay.zzi: int getDuration()
@@ -6296,9 +6191,6 @@ com.google.android.gms.ads.internal.util.client.VersionInfoParcel: com.google.an
 com.google.android.gms.ads.mediation.customevent.CustomEventAdapter
 com.google.android.gms.ads.purchase.InAppPurchaseActivity
 com.google.android.gms.ads.purchase.InAppPurchaseActivity: InAppPurchaseActivity()
-com.google.android.gms.ads.search.SearchAdView: SearchAdView(android.content.Context)
-com.google.android.gms.ads.search.SearchAdView: SearchAdView(android.content.Context,android.util.AttributeSet)
-com.google.android.gms.ads.search.SearchAdView: SearchAdView(android.content.Context,android.util.AttributeSet,int)
 com.google.android.gms.ads.search.SearchAdView: com.google.android.gms.ads.AdListener getAdListener()
 com.google.android.gms.ads.search.SearchAdView: com.google.android.gms.ads.AdSize getAdSize()
 com.google.android.gms.ads.search.SearchAdView: java.lang.String getAdUnitId()
@@ -6433,7 +6325,6 @@ com.google.android.gms.cast.framework.internal.featurehighlight.HelpTextView: vo
 com.google.android.gms.cast.framework.internal.featurehighlight.HelpTextView: void setText(java.lang.CharSequence,java.lang.CharSequence)
 com.google.android.gms.cast.framework.internal.featurehighlight.HelpTextView: android.view.View asView()
 com.google.android.gms.cast.framework.internal.featurehighlight.HelpTextView: void zza(android.widget.TextView,java.lang.CharSequence)
-com.google.android.gms.cast.framework.internal.featurehighlight.zza: zza(android.content.Context)
 com.google.android.gms.cast.framework.media.CastMediaOptions
 com.google.android.gms.cast.framework.media.CastMediaOptions: android.os.Parcelable$Creator CREATOR
 com.google.android.gms.cast.framework.media.MediaIntentReceiver
@@ -6450,9 +6341,6 @@ com.google.android.gms.clearcut.LogEventParcelable
 com.google.android.gms.clearcut.LogEventParcelable: com.google.android.gms.clearcut.zzd CREATOR
 com.google.android.gms.common.ConnectionResult
 com.google.android.gms.common.ConnectionResult: android.os.Parcelable$Creator CREATOR
-com.google.android.gms.common.SignInButton: SignInButton(android.content.Context)
-com.google.android.gms.common.SignInButton: SignInButton(android.content.Context,android.util.AttributeSet)
-com.google.android.gms.common.SignInButton: SignInButton(android.content.Context,android.util.AttributeSet,int)
 com.google.android.gms.common.SignInButton: void setSize(int)
 com.google.android.gms.common.SignInButton: void setColorScheme(int)
 com.google.android.gms.common.SignInButton: void setScopes(com.google.android.gms.common.api.Scope[])
@@ -6491,8 +6379,6 @@ com.google.android.gms.common.internal.ValidateAccountRequest: android.os.Parcel
 com.google.android.gms.common.internal.safeparcel.AbstractSafeParcelable
 com.google.android.gms.common.internal.safeparcel.SafeParcelable
 com.google.android.gms.common.internal.safeparcel.SafeParcelable: java.lang.String NULL
-com.google.android.gms.common.internal.zzah: zzah(android.content.Context)
-com.google.android.gms.common.internal.zzah: zzah(android.content.Context,android.util.AttributeSet)
 com.google.android.gms.common.server.FavaDiagnosticsEntity
 com.google.android.gms.common.server.FavaDiagnosticsEntity: com.google.android.gms.common.server.zza CREATOR
 com.google.android.gms.common.server.converter.ConverterWrapper
@@ -7169,7 +7055,6 @@ com.google.android.gms.internal.zzaor: com.google.android.gms.internal.zzaor[] v
 com.google.android.gms.internal.zzapz: com.google.android.gms.internal.zzapz[] values()
 com.google.android.gms.internal.zzk$zza: com.google.android.gms.internal.zzk$zza[] values()
 com.google.android.gms.internal.zznu: com.google.android.gms.internal.zznu[] values()
-com.google.android.gms.internal.zzok: zzok(android.content.Context)
 com.google.android.gms.internal.zzuz$zza: zzuz$zza()
 com.google.android.gms.internal.zzuz$zza: com.google.android.gms.internal.zzuz asInterface(android.os.IBinder)
 com.google.android.gms.internal.zzuz$zza: android.os.IBinder asBinder()
@@ -7254,14 +7139,8 @@ com.google.android.gms.location.places.personalized.PlaceUserData
 com.google.android.gms.location.places.personalized.PlaceUserData: com.google.android.gms.location.places.personalized.zzf CREATOR
 com.google.android.gms.maps.GoogleMapOptions
 com.google.android.gms.maps.GoogleMapOptions: com.google.android.gms.maps.zza CREATOR
-com.google.android.gms.maps.MapView: MapView(android.content.Context)
-com.google.android.gms.maps.MapView: MapView(android.content.Context,android.util.AttributeSet)
-com.google.android.gms.maps.MapView: MapView(android.content.Context,android.util.AttributeSet,int)
 com.google.android.gms.maps.StreetViewPanoramaOptions
 com.google.android.gms.maps.StreetViewPanoramaOptions: com.google.android.gms.maps.zzb CREATOR
-com.google.android.gms.maps.StreetViewPanoramaView: StreetViewPanoramaView(android.content.Context)
-com.google.android.gms.maps.StreetViewPanoramaView: StreetViewPanoramaView(android.content.Context,android.util.AttributeSet)
-com.google.android.gms.maps.StreetViewPanoramaView: StreetViewPanoramaView(android.content.Context,android.util.AttributeSet,int)
 com.google.android.gms.maps.StreetViewPanoramaView: com.google.android.gms.maps.StreetViewPanorama getStreetViewPanorama()
 com.google.android.gms.maps.SupportMapFragment
 com.google.android.gms.maps.SupportMapFragment: SupportMapFragment()
@@ -7441,8 +7320,6 @@ com.google.android.gms.phenotype.Flag
 com.google.android.gms.phenotype.Flag: android.os.Parcelable$Creator CREATOR
 com.google.android.gms.playlog.internal.PlayLoggerContext
 com.google.android.gms.playlog.internal.PlayLoggerContext: com.google.android.gms.playlog.internal.zza CREATOR
-com.google.android.gms.plus.PlusOneButton: PlusOneButton(android.content.Context)
-com.google.android.gms.plus.PlusOneButton: PlusOneButton(android.content.Context,android.util.AttributeSet)
 com.google.android.gms.plus.PlusOneButton: void setOnPlusOneClickListener(com.google.android.gms.plus.PlusOneButton$OnPlusOneClickListener)
 com.google.android.gms.plus.PlusOneButton: void setAnnotation(int)
 com.google.android.gms.plus.PlusOneButton: void setSize(int)

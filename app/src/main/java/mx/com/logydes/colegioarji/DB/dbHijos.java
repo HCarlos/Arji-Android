@@ -136,6 +136,7 @@ public class dbHijos {
 
                 Map<String, String> params = new HashMap<String, String>();
                 params.put("username", Singleton.getUsername());
+                params.put("idusernivelacceso", String.valueOf( Singleton.getClave() ) );
                 return params;
 
             }

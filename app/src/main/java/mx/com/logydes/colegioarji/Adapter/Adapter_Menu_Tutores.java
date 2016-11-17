@@ -47,6 +47,7 @@ public class Adapter_Menu_Tutores extends RecyclerView.Adapter<Adapter_Menu_Tuto
 
         // Log.e(TAG, String.valueOf(MM.size()));
         MM = new ArrayList<Menu_Tutores>();
+
         if ( Singleton.getIdUserNivelAcceso() == 7 ) {
             MM.add(new Menu_Tutores(0, "Tareas"));
             MM.add(new Menu_Tutores(1, "Circulares"));
@@ -76,6 +77,15 @@ public class Adapter_Menu_Tutores extends RecyclerView.Adapter<Adapter_Menu_Tuto
             Singleton.setIdUserAlu( Singleton.getIdUser() );
             Singleton.setIsBoleta(1);
         }
+
+        if ( Singleton.getIdUserNivelAcceso() == 25 ) {
+            MM.add(new Menu_Tutores(0, "Tareas"));
+            MM.add(new Menu_Tutores(1, "Circulares"));
+            MM.add(new Menu_Tutores(4, "Boletas"));
+            MM.add(new Menu_Tutores(5, "Calendario"));
+        }
+
+
 
     }
 
@@ -107,25 +117,6 @@ public class Adapter_Menu_Tutores extends RecyclerView.Adapter<Adapter_Menu_Tuto
                 }
                 if (cvh.idmenu == 4) {
                     if (Singleton.getIsBoleta() > 0) {
-
-/*
-                            Intent intent = new Intent(activity, Boleta.class);
-                            intent.putExtra(activity.getString(R.string.Username), Singleton.getUsername());
-                            intent.putExtra(activity.getString(R.string.IdUser), Singleton.getIdUser());
-                            intent.putExtra(activity.getString(R.string.IdUserAlu), Singleton.getIdUserAlu());
-                            intent.putExtra(activity.getString(R.string.IdEmp), Singleton.getIdEmp());
-
-                            intent.putExtra(activity.getString(R.string.urlBoleta), Singleton.getUrlBoleta());
-                            intent.putExtra(activity.getString(R.string.logoEmp), Singleton.getLogoEmp());
-                            intent.putExtra(activity.getString(R.string.logoIB), Singleton.getLogoIB());
-                            intent.putExtra(activity.getString(R.string.IsBoleta), Singleton.getIsBoleta());
-                            intent.putExtra(activity.getString(R.string.IdGruAlu), Singleton.getIdUserAlu());
-
-
-                            activity.startActivity(intent);
-*/
-
-
 
                         String url = "http://platsource.mx/php/01/mobile/boletas_layout.php?idgrualu="+Singleton.getIdUserAlu()+"&user="+Singleton.getUsername()+"&iduser="+Singleton.getIdUser()+"&idemp="+Singleton.getIdEmp();
 

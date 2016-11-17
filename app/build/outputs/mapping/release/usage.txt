@@ -139,6 +139,10 @@ android.support.design.widget.BottomSheetDialog$2
 android.support.design.widget.BottomSheetDialogFragment
 android.support.design.widget.CircularBorderDrawable:
     private static final float DRAW_STROKE_WIDTH_MULTIPLE
+    44:64:public CircularBorderDrawable()
+    68:72:void setGradientColors(int,int,int,int)
+    78:84:void setBorderWidth(float)
+android.support.design.widget.CircularBorderDrawableLollipop
 android.support.design.widget.CollapsingTextHelper:
     private static final boolean DEBUG_DRAW
     133:137:void setCollapsedTextSize(float)
@@ -174,15 +178,34 @@ android.support.design.widget.FloatingActionButton:
     private static final java.lang.String LOG_TAG
     private static final int SIZE_MINI
     private static final int SIZE_NORMAL
+    private int mBorderWidth
+    106:107:public FloatingActionButton(android.content.Context)
+    110:111:public FloatingActionButton(android.content.Context,android.util.AttributeSet)
+    99:144:public FloatingActionButton(android.content.Context,android.util.AttributeSet,int)
     259:260:public void show()
     269:270:public void show(android.support.design.widget.FloatingActionButton$OnVisibilityChangedListener)
     281:282:public void hide()
     291:292:public void hide(android.support.design.widget.FloatingActionButton$OnVisibilityChangedListener)
     390:398:public boolean getContentRect(android.graphics.Rect)
+    435:447:static android.graphics.PorterDuff$Mode parseTintMode(int,android.graphics.PorterDuff$Mode)
 android.support.design.widget.FloatingActionButton$OnVisibilityChangedListener:
     68:68:public FloatingActionButton$OnVisibilityChangedListener()
+android.support.design.widget.FloatingActionButtonEclairMr1:
+    66:99:void setBackgroundDrawable(android.content.res.ColorStateList,android.graphics.PorterDuff$Mode,int,int)
+    140:144:void onTranslationZChanged(float)
 android.support.design.widget.FloatingActionButtonImpl:
     static final int SHOW_HIDE_ANIM_DURATION
+    abstract void setBackgroundDrawable(android.content.res.ColorStateList,android.graphics.PorterDuff$Mode,int,int)
+    84:88:final void setPressedTranslationZ(float)
+    abstract void onTranslationZChanged(float)
+    138:147:android.support.design.widget.CircularBorderDrawable createBorderDrawable(int,android.content.res.ColorStateList)
+    151:151:android.support.design.widget.CircularBorderDrawable newCircularDrawable()
+    170:173:android.graphics.drawable.GradientDrawable createShapeDrawable()
+android.support.design.widget.FloatingActionButtonLollipop:
+    55:76:void setBackgroundDrawable(android.content.res.ColorStateList,android.graphics.PorterDuff$Mode,int,int)
+    97:111:void onTranslationZChanged(float)
+    150:151:private android.animation.Animator setupAnimator(android.animation.Animator)
+    156:156:android.support.design.widget.CircularBorderDrawable newCircularDrawable()
 android.support.design.widget.HeaderBehavior:
     private static final int INVALID_POINTER
 android.support.design.widget.HeaderScrollingViewBehavior:
@@ -199,8 +222,11 @@ android.support.design.widget.ShadowDrawableWrapper:
     static final float SHADOW_TOP_SCALE
     static final float SHADOW_HORIZ_SCALE
     static final float SHADOW_BOTTOM_SCALE
+    66:96:public ShadowDrawableWrapper(android.content.res.Resources,android.graphics.drawable.Drawable,float,float,float)
+    107:109:public void setAddPaddingForCorners(boolean)
     180:187:public void setCornerRadius(float)
     334:334:public float getCornerRadius()
+    342:343:public void setMaxShadowSize(float)
     350:350:public float getMaxShadowSize()
     354:356:public float getMinWidth()
     360:362:public float getMinHeight()
@@ -286,6 +312,10 @@ android.support.design.widget.TabLayout$TabGravity
 android.support.design.widget.TabLayout$TabLayoutOnPageChangeListener
 android.support.design.widget.TabLayout$TabView
 android.support.design.widget.TabLayout$ViewPagerOnTabSelectedListener
+android.support.design.widget.TextInputEditText:
+    35:36:public TextInputEditText(android.content.Context)
+    39:40:public TextInputEditText(android.content.Context,android.util.AttributeSet)
+    43:44:public TextInputEditText(android.content.Context,android.util.AttributeSet,int)
 android.support.design.widget.TextInputLayout:
     private static final int ANIMATION_DURATION
     private static final int INVALID_MAX_LENGTH
@@ -334,6 +364,10 @@ android.support.design.widget.ViewUtils:
     22:45:ViewUtils()
 android.support.design.widget.ViewUtilsLollipop:
     22:22:ViewUtilsLollipop()
+android.support.design.widget.VisibilityAwareImageButton:
+    28:29:public VisibilityAwareImageButton(android.content.Context)
+    32:33:public VisibilityAwareImageButton(android.content.Context,android.util.AttributeSet)
+    36:38:public VisibilityAwareImageButton(android.content.Context,android.util.AttributeSet,int)
 android.support.graphics.drawable.AndroidResources:
     static final int styleable_VectorDrawable_alpha
     static final int styleable_VectorDrawable_autoMirrored
@@ -2391,6 +2425,7 @@ android.support.v4.view.KeyEventCompat:
     190:190:public static boolean metaStateHasModifiers(int,int)
     194:194:public static boolean metaStateHasNoModifiers(int)
     198:198:public static boolean hasModifiers(android.view.KeyEvent,int)
+    202:202:public static boolean hasNoModifiers(android.view.KeyEvent)
     210:210:public static boolean isTracking(android.view.KeyEvent)
     214:214:public static java.lang.Object getKeyDispatcherState(android.view.View)
     219:219:public static boolean dispatch(android.view.KeyEvent,android.view.KeyEvent$Callback,java.lang.Object,java.lang.Object)
@@ -2399,7 +2434,9 @@ android.support.v4.view.KeyEventCompat$BaseKeyEventVersionImpl:
     private static final int META_MODIFIER_MASK
     private static final int META_ALL_MASK
     55:67:private static int metaStateFilterDirectionalModifiers(int,int,int,int,int)
+    73:79:public int normalizeMetaState(int)
     84:89:public boolean metaStateHasModifiers(int,int)
+    94:94:public boolean metaStateHasNoModifiers(int)
     103:103:public boolean isTracking(android.view.KeyEvent)
     108:108:public java.lang.Object getKeyDispatcherState(android.view.View)
     114:114:public boolean dispatch(android.view.KeyEvent,android.view.KeyEvent$Callback,java.lang.Object,java.lang.Object)
@@ -2408,10 +2445,13 @@ android.support.v4.view.KeyEventCompat$EclairKeyEventVersionImpl:
     136:136:public java.lang.Object getKeyDispatcherState(android.view.View)
     142:142:public boolean dispatch(android.view.KeyEvent,android.view.KeyEvent$Callback,java.lang.Object,java.lang.Object)
 android.support.v4.view.KeyEventCompat$HoneycombKeyEventVersionImpl:
+    152:152:public int normalizeMetaState(int)
     157:157:public boolean metaStateHasModifiers(int,int)
+    162:162:public boolean metaStateHasNoModifiers(int)
 android.support.v4.view.KeyEventCompat$KeyEventVersionImpl:
     public abstract int normalizeMetaState(int)
     public abstract boolean metaStateHasModifiers(int,int)
+    public abstract boolean metaStateHasNoModifiers(int)
     public abstract boolean isTracking(android.view.KeyEvent)
     public abstract java.lang.Object getKeyDispatcherState(android.view.View)
     public abstract boolean dispatch(android.view.KeyEvent,android.view.KeyEvent$Callback,java.lang.Object,java.lang.Object)
@@ -2422,7 +2462,9 @@ android.support.v4.view.KeyEventCompatEclair:
     38:38:public static boolean isTracking(android.view.KeyEvent)
 android.support.v4.view.KeyEventCompatHoneycomb:
     24:24:KeyEventCompatHoneycomb()
+    26:26:public static int normalizeMetaState(int)
     30:30:public static boolean metaStateHasModifiers(int,int)
+    34:34:public static boolean metaStateHasNoModifiers(int)
 android.support.v4.view.LayoutInflaterCompat:
     74:75:private LayoutInflaterCompat()
 android.support.v4.view.LayoutInflaterCompatBase:
@@ -5239,16 +5281,35 @@ android.support.v7.widget.ActivityChooserModel:
     588:597:public void setActivitySorter(android.support.v7.widget.ActivityChooserModel$ActivitySorter)
     613:623:public void setHistoryMaxSize(int)
     631:633:public int getHistoryMaxSize()
+    642:645:public int getHistorySize()
 android.support.v7.widget.ActivityChooserModel$ActivityChooserModelClient
 android.support.v7.widget.ActivityChooserModel$DefaultSorter
 android.support.v7.widget.ActivityChooserView:
     private static final java.lang.String LOG_TAG
+    private final android.graphics.drawable.Drawable mActivityChooserContentBackground
+    private final android.widget.ImageView mDefaultActivityButtonImage
+    191:192:public ActivityChooserView(android.content.Context)
+    201:202:public ActivityChooserView(android.content.Context,android.util.AttributeSet)
+    125:276:public ActivityChooserView(android.content.Context,android.util.AttributeSet,int)
+    520:548:private void updateAppearance()
+    67:67:static synthetic android.support.v7.widget.ListPopupWindow access$100(android.support.v7.widget.ActivityChooserView)
+    67:67:static synthetic void access$400(android.support.v7.widget.ActivityChooserView)
+android.support.v7.widget.ActivityChooserView$1
+android.support.v7.widget.ActivityChooserView$2
+android.support.v7.widget.ActivityChooserView$3
+android.support.v7.widget.ActivityChooserView$4
 android.support.v7.widget.ActivityChooserView$ActivityChooserViewAdapter:
     public static final int MAX_ACTIVITY_COUNT_UNLIMITED
     public static final int MAX_ACTIVITY_COUNT_DEFAULT
     private static final int ITEM_VIEW_TYPE_ACTIVITY
     private static final int ITEM_VIEW_TYPE_FOOTER
     private static final int ITEM_VIEW_TYPE_COUNT
+    638:652:private ActivityChooserView$ActivityChooserViewAdapter(android.support.v7.widget.ActivityChooserView)
+    803:803:public int getHistorySize()
+    638:638:synthetic ActivityChooserView$ActivityChooserViewAdapter(android.support.v7.widget.ActivityChooserView,android.support.v7.widget.ActivityChooserView$1)
+android.support.v7.widget.ActivityChooserView$Callbacks:
+    553:553:private ActivityChooserView$Callbacks(android.support.v7.widget.ActivityChooserView)
+    553:553:synthetic ActivityChooserView$Callbacks(android.support.v7.widget.ActivityChooserView,android.support.v7.widget.ActivityChooserView$1)
 android.support.v7.widget.AdapterHelper:
     static final int POSITION_TYPE_INVISIBLE
     static final int POSITION_TYPE_NEW_OR_LAID_OUT
@@ -5265,6 +5326,12 @@ android.support.v7.widget.AdapterHelper$UpdateOp:
     static final int UPDATE
     static final int MOVE
     static final int POOL_SIZE
+android.support.v7.widget.AppCompatButton:
+    54:55:public AppCompatButton(android.content.Context)
+android.support.v7.widget.AppCompatCheckBox:
+    50:51:public AppCompatCheckBox(android.content.Context)
+android.support.v7.widget.AppCompatCheckedTextView:
+    40:41:public AppCompatCheckedTextView(android.content.Context)
 android.support.v7.widget.AppCompatCompoundButtonHelper$DirectSetButtonDrawableInterface
 android.support.v7.widget.AppCompatDrawableManager:
     private static final java.lang.String TAG
@@ -5272,9 +5339,21 @@ android.support.v7.widget.AppCompatDrawableManager:
     private static final java.lang.String SKIP_DRAWABLE_TAG
     private static final java.lang.String PLATFORM_VD_CLAZZ
     482:485:private void removeDelegate(java.lang.String,android.support.v7.widget.AppCompatDrawableManager$InflateDelegate)
+android.support.v7.widget.AppCompatEditText:
+    52:53:public AppCompatEditText(android.content.Context)
+android.support.v7.widget.AppCompatImageButton:
+    49:50:public AppCompatImageButton(android.content.Context)
+android.support.v7.widget.AppCompatImageView:
+    49:50:public AppCompatImageView(android.content.Context)
+android.support.v7.widget.AppCompatMultiAutoCompleteTextView:
+    57:58:public AppCompatMultiAutoCompleteTextView(android.content.Context)
 android.support.v7.widget.AppCompatPopupWindow:
     private static final java.lang.String TAG
     165:168:public boolean getSupportOverlapAnchor()
+android.support.v7.widget.AppCompatRadioButton:
+    50:51:public AppCompatRadioButton(android.content.Context)
+android.support.v7.widget.AppCompatRatingBar:
+    38:39:public AppCompatRatingBar(android.content.Context)
 android.support.v7.widget.AppCompatSeekBarHelper:
     95:95:android.graphics.drawable.Drawable getTickMark()
     99:103:void setTickMarkTintList(android.content.res.ColorStateList)
@@ -5287,6 +5366,7 @@ android.support.v7.widget.AppCompatSpinner:
     private static final int MODE_DIALOG
     private static final int MODE_DROPDOWN
     private static final int MODE_THEME
+    108:109:public AppCompatSpinner(android.content.Context)
     123:124:public AppCompatSpinner(android.content.Context,int)
 android.support.v7.widget.ButtonBarLayout:
     private static final int ALLOW_STACKING_MIN_HEIGHT_DP
@@ -5457,6 +5537,8 @@ android.support.v7.widget.ListPopupWindow$1:
 android.support.v7.widget.ListViewCompat:
     public static final int INVALID_POSITION
     public static final int NO_POSITION
+    61:62:public ListViewCompat(android.content.Context)
+    65:66:public ListViewCompat(android.content.Context,android.util.AttributeSet)
     157:184:public int lookForSelectablePosition(int,boolean)
 android.support.v7.widget.MenuPopupWindow:
     private static final java.lang.String TAG
@@ -5681,22 +5763,95 @@ android.support.v7.widget.ScrollbarHelper:
     23:23:ScrollbarHelper()
 android.support.v7.widget.ScrollingTabContainerView:
     private static final java.lang.String TAG
+    protected android.support.v4.view.ViewPropertyAnimatorCompat mVisibilityAnim
+    protected final android.support.v7.widget.ScrollingTabContainerView$VisibilityAnimListener mVisAnimListener
     private static final int FADE_DURATION
+    71:89:public ScrollingTabContainerView(android.content.Context)
+    200:206:private android.support.v7.widget.LinearLayoutCompat createTabLayout()
     232:254:public void animateToVisibility(int)
     306:318:public void addTab(android.support.v7.app.ActionBar$Tab,boolean)
     321:333:public void addTab(android.support.v7.app.ActionBar$Tab,int,boolean)
     336:343:public void updateTab(int)
     346:353:public void removeTabAt(int)
     356:363:public void removeAllTabs()
-android.support.v7.widget.ScrollingTabContainerView$VisibilityAnimListener:
-    589:591:public android.support.v7.widget.ScrollingTabContainerView$VisibilityAnimListener withFinalVisibility(android.support.v4.view.ViewPropertyAnimatorCompat,int)
+android.support.v7.widget.ScrollingTabContainerView$VisibilityAnimListener
 android.support.v7.widget.SearchView:
     private static final boolean DBG
     private static final java.lang.String LOG_TAG
     private static final java.lang.String IME_OPTION_NO_MICROPHONE
+    private final android.view.View mSearchPlate
+    private final android.view.View mDropDownAnchor
+    private java.lang.CharSequence mOldQueryText
+    private final android.support.v7.widget.AppCompatDrawableManager mDrawableManager
+    private final android.view.View$OnClickListener mOnClickListener
+    android.view.View$OnKeyListener mTextKeyListener
+    private final android.widget.TextView$OnEditorActionListener mOnEditorActionListener
+    private final android.widget.AdapterView$OnItemClickListener mOnItemClickListener
+    private final android.widget.AdapterView$OnItemSelectedListener mOnItemSelectedListener
+    private android.text.TextWatcher mTextWatcher
+    286:287:public SearchView(android.content.Context)
+    290:291:public SearchView(android.content.Context,android.util.AttributeSet)
+    136:1759:public SearchView(android.content.Context,android.util.AttributeSet,int)
+    405:412:private void addOnLayoutChangeListenerToDropDownAnchorSDK11()
+    415:422:private void addOnLayoutChangeListenerToDropDownAnchorBase()
     693:693:public boolean isIconfiedByDefault()
     743:743:public boolean isSubmitButtonEnabled()
     773:773:public boolean isQueryRefinementEnabled()
+    986:997:private void updateFocusedState()
+    1094:1133:private boolean onSuggestionsKey(android.view.View,int,android.view.KeyEvent)
+    1225:1236:private void onTextChanged(java.lang.CharSequence)
+    1288:1307:private void onVoiceClicked()
+    1412:1433:private void adjustDropDownSizeAndPosition()
+    1436:1443:private boolean onItemClicked(int,int,java.lang.String)
+    1447:1452:private boolean onItemSelected(int)
+    1489:1509:private void rewriteQueryFromSuggestion(int)
+    1522:1532:private boolean launchSuggestion(int,int,java.lang.String)
+    1539:1549:private void launchIntent(android.content.Intent)
+    1615:1619:private android.content.Intent createVoiceWebSearchIntent(android.content.Intent,android.app.SearchableInfo)
+    1631:1687:private android.content.Intent createVoiceAppSearchIntent(android.content.Intent,android.app.SearchableInfo)
+    1706:1742:private android.content.Intent createIntentFromSuggestion(android.database.Cursor,int,java.lang.String)
+    113:113:static synthetic void access$000(android.support.v7.widget.SearchView)
+    113:113:static synthetic android.support.v4.widget.CursorAdapter access$100(android.support.v7.widget.SearchView)
+    113:113:static synthetic android.view.View$OnFocusChangeListener access$200(android.support.v7.widget.SearchView)
+    113:113:static synthetic void access$300(android.support.v7.widget.SearchView)
+    113:113:static synthetic android.widget.ImageView access$400(android.support.v7.widget.SearchView)
+    113:113:static synthetic void access$500(android.support.v7.widget.SearchView)
+    113:113:static synthetic android.widget.ImageView access$600(android.support.v7.widget.SearchView)
+    113:113:static synthetic void access$700(android.support.v7.widget.SearchView)
+    113:113:static synthetic android.widget.ImageView access$800(android.support.v7.widget.SearchView)
+    113:113:static synthetic void access$900(android.support.v7.widget.SearchView)
+    113:113:static synthetic android.widget.ImageView access$1000(android.support.v7.widget.SearchView)
+    113:113:static synthetic void access$1100(android.support.v7.widget.SearchView)
+    113:113:static synthetic android.support.v7.widget.SearchView$SearchAutoComplete access$1200(android.support.v7.widget.SearchView)
+    113:113:static synthetic void access$1300(android.support.v7.widget.SearchView)
+    113:113:static synthetic android.app.SearchableInfo access$1400(android.support.v7.widget.SearchView)
+    113:113:static synthetic boolean access$1500(android.support.v7.widget.SearchView,android.view.View,int,android.view.KeyEvent)
+    113:113:static synthetic void access$1700(android.support.v7.widget.SearchView,int,java.lang.String,java.lang.String)
+    113:113:static synthetic boolean access$1800(android.support.v7.widget.SearchView,int,int,java.lang.String)
+    113:113:static synthetic boolean access$1900(android.support.v7.widget.SearchView,int)
+    113:113:static synthetic void access$2000(android.support.v7.widget.SearchView,java.lang.CharSequence)
+android.support.v7.widget.SearchView$1
+android.support.v7.widget.SearchView$10
+android.support.v7.widget.SearchView$11
+android.support.v7.widget.SearchView$12
+android.support.v7.widget.SearchView$2
+android.support.v7.widget.SearchView$3
+android.support.v7.widget.SearchView$4
+android.support.v7.widget.SearchView$5
+android.support.v7.widget.SearchView$6
+android.support.v7.widget.SearchView$7
+android.support.v7.widget.SearchView$8
+android.support.v7.widget.SearchView$9
+android.support.v7.widget.SearchView$AutoCompleteTextViewReflector:
+    2075:2085:void showSoftInputUnchecked(android.view.inputmethod.InputMethodManager,android.view.View,int)
+android.support.v7.widget.SearchView$OnQueryTextListener:
+    public abstract boolean onQueryTextChange(java.lang.String)
+android.support.v7.widget.SearchView$OnSuggestionListener:
+    public abstract boolean onSuggestionSelect(int)
+    public abstract boolean onSuggestionClick(int)
+android.support.v7.widget.SearchView$SearchAutoComplete:
+    1911:1911:private boolean isEmpty()
+    1871:1871:static synthetic boolean access$1600(android.support.v7.widget.SearchView$SearchAutoComplete)
 android.support.v7.widget.ShareActionProvider
 android.support.v7.widget.ShareActionProvider$1
 android.support.v7.widget.ShareActionProvider$OnShareTargetSelectedListener
@@ -6065,9 +6220,13 @@ com.google.android.gms.ads.AdSize:
     public boolean isAutoHeight()
     public boolean isFullWidth()
 com.google.android.gms.ads.AdView:
+    public AdView(android.content.Context,android.util.AttributeSet)
+    public AdView(android.content.Context,android.util.AttributeSet,int)
     public bridge synthetic void setPlayStorePurchaseParams(com.google.android.gms.ads.purchase.PlayStorePurchaseListener,java.lang.String)
     public bridge synthetic boolean isLoading()
 com.google.android.gms.ads.BaseAdView:
+    public BaseAdView(android.content.Context,android.util.AttributeSet,int)
+    public BaseAdView(android.content.Context,android.util.AttributeSet,int,int)
     public boolean isLoading()
     public void setPlayStorePurchaseParams(com.google.android.gms.ads.purchase.PlayStorePurchaseListener,java.lang.String)
 com.google.android.gms.ads.Correlator:
@@ -6101,6 +6260,9 @@ com.google.android.gms.ads.doubleclick.PublisherAdRequest
 com.google.android.gms.ads.doubleclick.PublisherAdRequest$1
 com.google.android.gms.ads.doubleclick.PublisherAdRequest$Builder
 com.google.android.gms.ads.doubleclick.PublisherAdView:
+    public PublisherAdView(android.content.Context)
+    public PublisherAdView(android.content.Context,android.util.AttributeSet)
+    public PublisherAdView(android.content.Context,android.util.AttributeSet,int)
     public void destroy()
     public void loadAd(com.google.android.gms.ads.doubleclick.PublisherAdRequest)
     public void pause()
@@ -6135,10 +6297,16 @@ com.google.android.gms.ads.formats.NativeAdOptions:
     public static final int ADCHOICES_BOTTOM_LEFT
 com.google.android.gms.ads.formats.NativeAdOptions$AdChoicesPlacement
 com.google.android.gms.ads.formats.NativeAdView:
+    public NativeAdView(android.content.Context)
+    public NativeAdView(android.content.Context,android.util.AttributeSet)
+    public NativeAdView(android.content.Context,android.util.AttributeSet,int)
     public NativeAdView(android.content.Context,android.util.AttributeSet,int,int)
     protected void zza(java.lang.String,android.view.View)
     protected android.view.View zzs(java.lang.String)
     public void destroy()
+    private android.widget.FrameLayout zze(android.content.Context)
+    android.widget.FrameLayout zzf(android.content.Context)
+    private com.google.android.gms.internal.zzdz zzdm()
 com.google.android.gms.ads.formats.NativeAppInstallAd:
     public abstract android.os.Bundle getExtras()
     public abstract void destroy()
@@ -6163,6 +6331,9 @@ com.google.android.gms.ads.internal.client.zzad$zza:
     public void zzf(java.lang.String,java.lang.String)
     public void zzao(java.lang.String)
 com.google.android.gms.ads.internal.client.zzae:
+    public zzae(android.view.ViewGroup)
+    public zzae(android.view.ViewGroup,android.util.AttributeSet,boolean)
+    public zzae(android.view.ViewGroup,android.util.AttributeSet,boolean,boolean)
     public void recordManualImpression()
     public void setPlayStorePurchaseParams(com.google.android.gms.ads.purchase.PlayStorePurchaseListener,java.lang.String)
     public boolean isLoading()
@@ -6189,16 +6360,20 @@ com.google.android.gms.ads.internal.client.zzah
 com.google.android.gms.ads.internal.client.zzai:
     public com.google.android.gms.ads.internal.client.zzz zzm(android.content.Context)
 com.google.android.gms.ads.internal.client.zzal
+com.google.android.gms.ads.internal.client.zzam
 com.google.android.gms.ads.internal.client.zzan
 com.google.android.gms.ads.internal.client.zzan$1
 com.google.android.gms.ads.internal.client.zzh:
     public com.google.android.gms.ads.internal.reward.client.RewardedVideoAdRequestParcel zza(android.content.Context,com.google.android.gms.ads.internal.client.zzad,java.lang.String)
 com.google.android.gms.ads.internal.client.zzl:
     public com.google.android.gms.ads.internal.client.zzz zzl(android.content.Context)
+    public com.google.android.gms.internal.zzdz zza(android.content.Context,android.widget.FrameLayout,android.widget.FrameLayout)
     public com.google.android.gms.ads.internal.reward.client.zzb zza(android.content.Context,com.google.android.gms.internal.zzgq)
     static synthetic com.google.android.gms.ads.internal.client.zzai zzd(com.google.android.gms.ads.internal.client.zzl)
+    static synthetic com.google.android.gms.internal.zzel zze(com.google.android.gms.ads.internal.client.zzl)
     static synthetic com.google.android.gms.ads.internal.reward.client.zzf zzf(com.google.android.gms.ads.internal.client.zzl)
 com.google.android.gms.ads.internal.client.zzl$5
+com.google.android.gms.ads.internal.client.zzl$6
 com.google.android.gms.ads.internal.client.zzl$7
 com.google.android.gms.ads.internal.client.zzn:
     private final java.util.Random zzayg
@@ -6310,6 +6485,9 @@ com.google.android.gms.ads.search.SearchAdRequest:
 com.google.android.gms.ads.search.SearchAdRequest$1
 com.google.android.gms.ads.search.SearchAdRequest$Builder
 com.google.android.gms.ads.search.SearchAdView:
+    public SearchAdView(android.content.Context)
+    public SearchAdView(android.content.Context,android.util.AttributeSet)
+    public SearchAdView(android.content.Context,android.util.AttributeSet,int)
     public void destroy()
     public void loadAd(com.google.android.gms.ads.search.SearchAdRequest)
     public void loadAd(com.google.android.gms.ads.search.DynamicHeightSearchAdRequest)
@@ -9909,6 +10087,8 @@ com.google.android.gms.internal.zzej$zza:
     public zzej$zza()
 com.google.android.gms.internal.zzek$zza:
     public zzek$zza()
+com.google.android.gms.internal.zzel:
+    public com.google.android.gms.internal.zzdz zzb(android.content.Context,android.widget.FrameLayout,android.widget.FrameLayout)
 com.google.android.gms.internal.zzeo
 com.google.android.gms.internal.zzep
 com.google.android.gms.internal.zzgy:
@@ -13420,7 +13600,6 @@ mx.com.logydes.colegioarji.Helper.Singleton:
     91:92:public static void setIdUser(int)
     99:100:public static void setIdEmp(int)
     107:108:public static void setIdUserNivelAcceso(int)
-    111:111:public static int getClave()
     115:116:public static void setClave(int)
     119:119:public static int getParam1()
     123:124:public static void setParam1(int)
