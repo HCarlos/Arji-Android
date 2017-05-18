@@ -54,7 +54,8 @@ public class Adapter_Lista_Elementos extends RecyclerView.Adapter<Adapter_Lista_
         public void onBindViewHolder(final AdapterElementosViewHolder cvh, int position) {
 
             final Lista_Elementos mm = MM.get(position);
-
+            boolean primerElemento = false;
+            int elementoEncontrado = -1;
 
             cvh.TipoElemento = mm.getTipo();
             switch (cvh.TipoElemento){
@@ -77,15 +78,24 @@ public class Adapter_Lista_Elementos extends RecyclerView.Adapter<Adapter_Lista_
                 case 3:
                     cvh.Vencido = mm.getVencido();
                     cvh.Status_Movto = mm.getStatus_movto();
-                    if (cvh.Vencido > 0) {
+                    cvh.IdConcepto = mm.getIdConcepto();
+                    cvh.FechaPago = mm.getFechaPago();
+                    if (cvh.Vencido < 0 && cvh.Status_Movto == 0) {
                         cvh.tvElemento.setText(mm.getLabel() + "(Vencido)");
                     }else{
-                        cvh.tvElemento.setText(mm.getLabel() );
+                        if ( cvh.Status_Movto == 1 ) {
+                            cvh.tvElemento.setText(mm.getLabel() + " " + cvh.FechaPago);
+                        }else{
+                            cvh.tvElemento.setText(mm.getLabel() );
+                        }
                     }
 
-                    if (cvh.Status_Movto > 0) {
+                    if ( cvh.IdConcepto > 0 ) {
+                        cvh.imgRightElements.setVisibility(View.VISIBLE);
+                    }else{
                         cvh.imgRightElements.setVisibility(View.INVISIBLE);
                     }
+
 
                     cvh.IdElemento = mm.getIdElemento();
                     cvh.Concepto = mm.getConcepto();
@@ -111,6 +121,8 @@ public class Adapter_Lista_Elementos extends RecyclerView.Adapter<Adapter_Lista_
                     intent.putExtra(activity.getString(R.string.FechaPago), cvh.FechaPago );
                     intent.putExtra(activity.getString(R.string.Status_Movto), cvh.Status_Movto );
                     intent.putExtra(activity.getString(R.string.Vencido), cvh.Vencido );
+                    intent.putExtra(activity.getString(R.string.IdConcepto), cvh.IdConcepto );
+                    intent.putExtra(activity.getString(R.string.PagosDiv), cvh.PagosDiv );
 
                     activity.startActivity(intent);
                 }
@@ -137,7 +149,8 @@ public class Adapter_Lista_Elementos extends RecyclerView.Adapter<Adapter_Lista_
             String FechaPago;
             int Status_Movto;
             int Vencido;
-
+            int IdConcepto;
+            int PagosDiv;
 
             public AdapterElementosViewHolder(View itemView, String _menu) {
                 super(itemView);
@@ -152,10 +165,11 @@ public class Adapter_Lista_Elementos extends RecyclerView.Adapter<Adapter_Lista_
                 FechaPago = "";
                 Status_Movto = 0;
                 Vencido = 0;
+                IdConcepto = 0;
+                PagosDiv = 0;
                 tvElemento = (TextView) itemView.findViewById(R.id.tvElemento);
                 lyElementos = (LinearLayout) itemView.findViewById(R.id.lyElementos);
                 imgRightElements = (ImageView) itemView.findViewById(R.id.imgRightElements);
-
             }
 
         }

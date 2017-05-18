@@ -16,6 +16,10 @@
         "source": "/home/devch/AndroidStudioProjects/ColegioArji/app/src/main/res/drawable-xxxhdpi/background_1_arji.png"
     },
     {
+        "merged": "/home/devch/AndroidStudioProjects/ColegioArji/app/build/intermediates/res/merged/release/drawable-xxxhdpi/ic_cloud_black_48dp.png",
+        "source": "/home/devch/AndroidStudioProjects/ColegioArji/app/src/main/res/drawable-xxxhdpi/ic_cloud_black_48dp.png"
+    },
+    {
         "merged": "/home/devch/AndroidStudioProjects/ColegioArji/app/build/intermediates/res/merged/release/drawable-xxxhdpi/logo_arji.png",
         "source": "/home/devch/AndroidStudioProjects/ColegioArji/app/src/main/res/drawable-xxxhdpi/logo_arji.png"
     }

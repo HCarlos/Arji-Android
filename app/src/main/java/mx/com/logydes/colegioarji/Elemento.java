@@ -40,6 +40,8 @@ public class Elemento extends AppCompatActivity {
     private String FechaPago;
     private int Status_Movto;
     private int Vencido;
+    private int IdConcepto;
+    private int PagosDiv;
     private String postData;
 
     private WebView webview;
@@ -69,6 +71,8 @@ public class Elemento extends AppCompatActivity {
         FechaPago = params.getString(getResources().getString(R.string.FechaPago));
         Status_Movto = params.getInt(getResources().getString(R.string.Status_Movto));
         Vencido = params.getInt(getResources().getString(R.string.Vencido));
+        IdConcepto = params.getInt(getResources().getString(R.string.IdConcepto));
+        PagosDiv = params.getInt(getResources().getString(R.string.PagosDiv));
 
         //Log.e(TAG,Menu);
         this.setTitle(Menu);
@@ -110,7 +114,8 @@ public class Elemento extends AppCompatActivity {
             case 3:
                 postData = "user="+Singleton.getUsername()+
                         "&iduser="+String.valueOf( Singleton.getIdUser()  )+
-                        "&idedocta="+String.valueOf(IdElemento);
+                        "&idedocta="+String.valueOf(IdElemento) +
+                        "&idconcepto="+String.valueOf(IdConcepto);
                 url = AppConfig.URL_VIEW_PAGOS;
                 break;
         }

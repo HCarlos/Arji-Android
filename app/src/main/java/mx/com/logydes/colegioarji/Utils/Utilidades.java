@@ -22,6 +22,6 @@ public class Utilidades {
 
     public void hideDialog() {
         if (pDialog.isShowing())
-            this.pDialog.dismiss();
+            this.pDialog.hide();
     }
 }

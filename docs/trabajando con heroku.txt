@@ -1,0 +1,33 @@
+sudo add-apt-repository "deb https://cli-assets.heroku.com/branches/stable/apt ./"
+curl -L https://cli-assets.heroku.com/apt/release.key | sudo apt-key add -
+
+sudo apt-get update
+
+sudo apt-get install heroku 
+
+
+https://powerful-chamber-61111.herokuapp.com/
+https://devcenter.heroku.com/articles/git
+
+heroku logs --tail
+
+npm install --save --save-exact {libreria}
+npm install --save --save-exact cool-ascii-faces // instalar una libreria localmente
+npm install --save --save-exact body-parser // instalar una libreria localmente
+npm install --save --save-exact firebase // instalar una libreria localmente
+npm install --save --save-exact fcm-push // instalar una libreria localmente
+	
+	
+git add .
+git commit -m "Path /Modif 1c"
+git push heroku master
+heroku open
+
+
+daJzDasaxJ0:APA91bF3xM6uPY_ZtrHkwWlKpoYrf1gFkA-3eLXH6QFnh-JBN7qPkfQt6A-jP1ATZRjaSym-yKtz2QmReVF1UChod0mmn2pdRKJw7HhUg2Hz9qCZWd3LB7YhvIeEqtJt49yCTVpEd3oJ
+daJzDasaxJ0:APA91bF3xM6uPY_ZtrHkwWlKpoYrf1gFkA-3eLXH6QFnh-JBN7qPkfQt6A-jP1ATZRjaSym-yKtz2QmReVF1UChod0mmn2pdRKJw7HhUg2Hz9qCZWd3LB7YhvIeEqtJt49yCTVpEd3oJ
+
+daJzDasaxJ0:APA91bF3xM6uPY_ZtrHkwWlKpoYrf1gFkA-3eLXH6QFnh-JBN7qPkfQt6A-jP1ATZRjaSym-yKtz2QmReVF1UChod0mmn2pdRKJw7HhUg2Hz9qCZWd3LB7YhvIeEqtJt49yCTVpEd3oJ
+
+
+

@@ -19,6 +19,7 @@ import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 
+import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Map;
@@ -91,10 +92,17 @@ public class dbLista_Elementos {
 
                     if (!error) {
                         ArrayList<Lista_Elementos> MM = new ArrayList<Lista_Elementos>();
+
+                        Integer[] ElementosVarios = new Integer[20];
+                        for (int i = 0;  i < ElementosVarios.length; i++ ) {
+                            ElementosVarios[i] = 0;
+                        }
+
                         for (int i = 0;  i < jObj.length(); i++ ) {
                             rec = jObj.getJSONObject(i);
                             int idelemento = 0;
                             int idelementodestinatario = 0;
+                            int counter = 0;
                             String label = "";
                             switch (Type){
                                 case 0:
@@ -122,7 +130,27 @@ public class dbLista_Elementos {
                                     String conepto = rec.getString("concepto");
                                     String FechaPago = rec.getString("fecha_de_pago");
                                     int Vencido = rec.getInt("dias_que_faltan_para_vencer");
-                                    MM.add( new Lista_Elementos(status_movto,Vencido,FechaPago,conepto,mes,idelemento,Type) );
+                                    int PagosDiv = rec.getInt("is_pagos_diversos");
+                                    Integer IdConcepto = rec.getInt("idconcepto");
+
+                                    boolean encontrado = false;
+
+                                    for (int j = 0;  j < ElementosVarios.length; j++ ) {
+                                        if( ElementosVarios[j].equals(IdConcepto) ) {
+                                            encontrado = true;
+                                            break;
+                                        }
+                                    }
+
+                                    if ( !encontrado && status_movto == 0){
+                                        ElementosVarios[counter] = IdConcepto;
+                                        counter++;
+                                    }else{
+                                        IdConcepto = 0;
+                                    }
+
+
+                                    MM.add( new Lista_Elementos(status_movto,Vencido,FechaPago,conepto,mes,idelemento,Type, PagosDiv, IdConcepto) );
                                     break;
                             }
 

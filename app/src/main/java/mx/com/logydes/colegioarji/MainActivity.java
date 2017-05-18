@@ -31,6 +31,7 @@ import mx.com.logydes.colegioarji.Helper.SessionManager;
 import mx.com.logydes.colegioarji.Helper.Singleton;
 import mx.com.logydes.colegioarji.Inside.DocumentInside;
 import mx.com.logydes.colegioarji.Utils.AppConfig;
+import mx.com.logydes.colegioarji.Utils.RegistrationService;
 
 public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
@@ -53,9 +54,9 @@ public class MainActivity extends AppCompatActivity
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        // String refreshedToken = FirebaseInstanceId.getInstance().getToken();
+        String refreshedToken = FirebaseInstanceId.getInstance().getToken();
 
-        // Log.w(TAG, "TOKEN ::> "+refreshedToken);
+        Log.v(TAG, "TOKEN ::> " + refreshedToken);
 
         singleton = new Singleton();
 
@@ -101,6 +102,9 @@ public class MainActivity extends AppCompatActivity
 
         navigationView = (NavigationView) findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);
+
+        // Intent i = new Intent(this, RegistrationService.class);
+        // startService(i);
 
         // ATTENTION: This was auto-generated to implement the App Indexing API.
         // See https://g.co/AppIndexing/AndroidStudio for more information.

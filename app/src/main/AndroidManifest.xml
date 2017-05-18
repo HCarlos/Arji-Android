@@ -12,6 +12,27 @@
     -->
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
 
+    <!--
+
+    <permission
+        android:name="com.github.hathibelagal.pn.permission.C2D_MESSAGE"
+        android:protectionLevel="signature" />
+
+    <uses-permission
+        android:name="com.github.hathibelagal.pn.permission.C2D_MESSAGE" />
+
+    <receiver
+        android:name="com.google.android.gms.gcm.GcmReceiver"
+        android:exported="true"
+        android:permission="com.google.android.c2dm.permission.SEND" >
+        <intent-filter>
+            <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+            <category android:name="com.github.hathibelagal.pn" />
+        </intent-filter>
+    </receiver>
+
+    -->
+
     <application
         android:name=".Utils.AppController"
         android:allowBackup="true"
@@ -26,9 +47,9 @@
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+
         </activity>
         <activity
             android:name=".LoginActivity"
@@ -40,6 +61,7 @@
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".MainActivity" />
+
         </activity>
 
         <activity
@@ -116,6 +138,8 @@
                 android:value=".MainActivity" />
         </activity>
 
+
+
         <service
             android:name=".Utils.NotificationService">
             <intent-filter>
@@ -123,12 +147,37 @@
             </intent-filter>
         </service>
 
+
+
         <service
             android:name=".Utils.NotificacionIDTokenService">
             <intent-filter>
-                <action android:name="com.google.firebase.MESSAGING_EVENT"/>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT"/>
             </intent-filter>
         </service>
+
+        <!--
+
+        <service android:name=".Utils.RegistrationService"
+            android:exported="false" />
+
+        <service
+            android:name=".Utils.TokenRefreshListenerService"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.google.android.gms.iid.InstanceID" />
+            </intent-filter>
+        </service>
+
+        <service
+            android:name=".Utils.NotificationsListenerService"
+            android:exported="false" >
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+            </intent-filter>
+        </service>
+
+        -->
 
     </application>
 

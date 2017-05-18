@@ -80,6 +80,8 @@
     <string name="FechaPago">FechaPago</string>
     <string name="Status_Movto">Status_Movto</string>
     <string name="Vencido">Vencido</string>
+    <string name="IdConcepto">idconcepto</string>
+    <string name="PagosDiv">pagosdiv</string>
     <string name="Username">Username</string>
     <string name="IdUser">IdUser</string>
     <string name="IdUserAlu">IdUserAlu</string>
@@ -91,5 +93,5 @@
     <string name="IsBoleta">IsBoleta</string>
     <string name="action_mapa_ubicacion">Mapa de Ubicación</string>
     <string name="title_bar_mapa_ubicacion">Av. México Núm. 2, Col. del Bosque, Villahermosa, Tabasco, MX. CP. 86160</string>
-
+    <!-- <string name="gcm_defaultSenderId">1071598435992</string> -->
 </resources>

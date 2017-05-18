@@ -26,7 +26,9 @@ public class Lista_Elementos {
     private String FechaPago;
     private int Vencido;
     private int status_movto;
-    
+    private int IdConcepto;
+    private int PagosDiv;
+
     private int Tipo;
 
 
@@ -82,7 +84,7 @@ public class Lista_Elementos {
         Tipo = tipo;
     }
 
-    public Lista_Elementos(int status_movto, int vencido, String fechaPago, String concepto, String mes, int IdEdoCta, int tipo) {
+    public Lista_Elementos(int status_movto, int vencido, String fechaPago, String concepto, String mes, int IdEdoCta, int tipo, int pagosDiv, int idconcepto) {
         this.status_movto = status_movto;
         label = concepto + " " + mes;
         Vencido = vencido;
@@ -92,6 +94,8 @@ public class Lista_Elementos {
         IdElemento = IdEdoCta;
         this.IdEdoCta = IdEdoCta;
         Tipo = tipo;
+        PagosDiv = pagosDiv;
+        IdConcepto = idconcepto;
     }
 
     public void setIdElemento(int idElemento) {
@@ -240,5 +244,21 @@ public class Lista_Elementos {
 
     public void setStatus_movto(int status_movto) {
         this.status_movto = status_movto;
+    }
+
+    public int getIdConcepto() {
+        return IdConcepto;
+    }
+
+    public void setIdConcepto(int idConcepto) {
+        IdConcepto = idConcepto;
+    }
+
+    public int getPagosDiv() {
+        return PagosDiv;
+    }
+
+    public void setPagosDiv(int pagosDiv) {
+        PagosDiv = pagosDiv;
     }
 }

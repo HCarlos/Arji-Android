@@ -149,28 +149,6 @@ public class Adapter_Menu_Tutores extends RecyclerView.Adapter<Adapter_Menu_Tuto
                         activity.startActivity(intent);
                         // getActivity().startActivity(intent);
 
-
-
-                            /*
-
-                            String nc = "u="+Singleton.getUsername()+
-                                    "&strgrualu="+Singleton.getIdUserAlu()+
-                                    "&logoEmp="+Singleton.getLogoEmp()+
-                                    "&logoIbo="+Singleton.getLogoIB();
-
-                            String s = " order by orden_impresion asc ";
-
-                            String postData = "o=0&t=40&c=0&from=0&cantidad=0&s="+s+nc;
-
-                            String params = URLEncoder.encode(postData);
-                            String url = Singleton.getUrlBoleta()+ "?" + params;
-
-                            Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse(url));
-                            activity.startActivity(browserIntent);
-
-                            */
-
-
                     }else{
                         Toast.makeText(activity, "Boleta no esta disponible", Toast.LENGTH_LONG).show();
                     }

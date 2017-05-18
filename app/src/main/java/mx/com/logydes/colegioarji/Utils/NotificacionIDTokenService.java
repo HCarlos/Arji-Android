@@ -37,7 +37,7 @@ public class NotificacionIDTokenService extends FirebaseInstanceIdService {
     private void sendRegistrationToServer(String token) {
 
         // TODO: Implement this method to send token to your app server.
-        Log.e(TAG, "Refreshed token: " + token);
+        Log.e(TAG, "Refreshed Token DEVCH: " + token);
 
     }
 
