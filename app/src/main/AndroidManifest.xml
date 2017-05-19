@@ -13,7 +13,6 @@
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
 
     <!--
-
     <permission
         android:name="com.github.hathibelagal.pn.permission.C2D_MESSAGE"
         android:protectionLevel="signature" />
@@ -30,9 +29,7 @@
             <category android:name="com.github.hathibelagal.pn" />
         </intent-filter>
     </receiver>
-
     -->
-
     <application
         android:name=".Utils.AppController"
         android:allowBackup="true"
@@ -47,9 +44,9 @@
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-
         </activity>
         <activity
             android:name=".LoginActivity"
@@ -61,9 +58,7 @@
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".MainActivity" />
-
         </activity>
-
         <activity
             android:name=".BoletinActivity"
             android:label="@string/title_activity_boletin"
@@ -138,26 +133,29 @@
                 android:value=".MainActivity" />
         </activity>
 
+        <activity
+            android:name=".SystemActivity"
+            android:label="@string/title_activity_hijos"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
 
 
-        <service
-            android:name=".Utils.NotificationService">
+        <service android:name=".Utils.NotificationService">
             <intent-filter>
-                <action android:name="com.google.firebase.MESSAGING_EVENT"/>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
             </intent-filter>
         </service>
-
-
-
-        <service
-            android:name=".Utils.NotificacionIDTokenService">
+        <service android:name=".Utils.NotificacionIDTokenService">
             <intent-filter>
-                <action android:name="com.google.firebase.INSTANCE_ID_EVENT"/>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
             </intent-filter>
         </service>
 
         <!--
-
         <service android:name=".Utils.RegistrationService"
             android:exported="false" />
 
@@ -176,10 +174,9 @@
                 <action android:name="com.google.android.c2dm.intent.RECEIVE" />
             </intent-filter>
         </service>
-
         -->
 
+        <activity android:name=".SystemActivity"></activity>
     </application>
-
 
 </manifest>

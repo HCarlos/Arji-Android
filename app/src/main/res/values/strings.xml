@@ -17,6 +17,7 @@
     <string name="action_beneficios">Beneficios</string>
     <string name="action_aviso_privacidad">Aviso de Privacidad</string>
     <string name="action_desarrollador">Desarrollador</string>
+    <string name="action_system">Sistema</string>
 
     <!-- Menu Tutores y Alumnos -->
     <string name="action_tareas">Tareas</string>

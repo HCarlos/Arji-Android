@@ -31,7 +31,6 @@ import mx.com.logydes.colegioarji.Helper.SessionManager;
 import mx.com.logydes.colegioarji.Helper.Singleton;
 import mx.com.logydes.colegioarji.Inside.DocumentInside;
 import mx.com.logydes.colegioarji.Utils.AppConfig;
-import mx.com.logydes.colegioarji.Utils.RegistrationService;
 
 public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
@@ -55,8 +54,10 @@ public class MainActivity extends AppCompatActivity
         setContentView(R.layout.activity_main);
 
         String refreshedToken = FirebaseInstanceId.getInstance().getToken();
+        String refreshedTokenID = FirebaseInstanceId.getInstance().getId();
 
-        Log.v(TAG, "TOKEN ::> " + refreshedToken);
+        Log.i(TAG, "TOKEN ::> " + refreshedToken);
+        Log.w(TAG, "ID TOKEN ::> " + refreshedTokenID);
 
         singleton = new Singleton();
 
@@ -243,6 +244,10 @@ public class MainActivity extends AppCompatActivity
                 URL = AppConfig.URL_DESARROLLADOR;
                 Type = AppConfig.URL_DESARROLLADOR_TYPE;
                 break;
+            case R.id.nav_system:
+                Intent intentAS = new Intent(MainActivity.this, SystemActivity.class);
+                startActivity(intentAS);
+                return true;
         }
         drawer.closeDrawer(GravityCompat.START);
         return  bi.onCreateObject(URL, Type);

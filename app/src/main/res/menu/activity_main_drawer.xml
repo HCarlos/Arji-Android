@@ -43,6 +43,10 @@
             android:icon="@mipmap/ic_programmer"
             android:title="@string/action_desarrollador" />
         <item
+            android:id="@+id/nav_system"
+            android:icon="@drawable/ic_system"
+            android:title="@string/action_system" />
+        <item
             android:id="@+id/nav_cerrar_session"
             android:icon="@mipmap/ic_logout"
             android:title="@string/action_cerrar_session" />
