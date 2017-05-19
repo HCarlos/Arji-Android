@@ -29,6 +29,9 @@
 
 # view res/layout/activity_login.xml #generated:24
 # view res/layout/activity_login.xml #generated:39
+# view res/layout/activity_system.xml #generated:111
+# view res/layout/activity_system.xml #generated:132
+# view res/layout/activity_system.xml #generated:154
 # view res/layout/activity_system.xml #generated:45
 # view res/layout/activity_system.xml #generated:69
 # view res/layout/activity_system.xml #generated:90

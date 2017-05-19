@@ -9961,6 +9961,7 @@ mx.com.logydes.colegioarji.R$id: int nav_system
 mx.com.logydes.colegioarji.R$id: int nav_view
 mx.com.logydes.colegioarji.R$id: int navigation_header_container
 mx.com.logydes.colegioarji.R$id: int never
+mx.com.logydes.colegioarji.R$id: int nombrecompletousuario_info
 mx.com.logydes.colegioarji.R$id: int none
 mx.com.logydes.colegioarji.R$id: int normal
 mx.com.logydes.colegioarji.R$id: int notification_background
@@ -10080,6 +10081,8 @@ mx.com.logydes.colegioarji.R$id: int txtBienvenida
 mx.com.logydes.colegioarji.R$id: int up
 mx.com.logydes.colegioarji.R$id: int url
 mx.com.logydes.colegioarji.R$id: int useLogo
+mx.com.logydes.colegioarji.R$id: int username_info
+mx.com.logydes.colegioarji.R$id: int version_info
 mx.com.logydes.colegioarji.R$id: int view_offset_helper
 mx.com.logydes.colegioarji.R$id: int visible
 mx.com.logydes.colegioarji.R$id: int volume_item_container
@@ -10398,6 +10401,8 @@ mx.com.logydes.colegioarji.R$string: int name
 mx.com.logydes.colegioarji.R$string: int navigation_drawer_close
 mx.com.logydes.colegioarji.R$string: int navigation_drawer_open
 mx.com.logydes.colegioarji.R$string: int nombreAlumno
+mx.com.logydes.colegioarji.R$string: int nombrecompletousuario_info
+mx.com.logydes.colegioarji.R$string: int nombrecompletousuario_info_label
 mx.com.logydes.colegioarji.R$string: int password_toggle_content_description
 mx.com.logydes.colegioarji.R$string: int path_password_eye
 mx.com.logydes.colegioarji.R$string: int path_password_eye_mask_strike_through
@@ -10429,6 +10434,10 @@ mx.com.logydes.colegioarji.R$string: int token_info
 mx.com.logydes.colegioarji.R$string: int token_info_header_label
 mx.com.logydes.colegioarji.R$string: int token_info_label
 mx.com.logydes.colegioarji.R$string: int urlBoleta
+mx.com.logydes.colegioarji.R$string: int username_info
+mx.com.logydes.colegioarji.R$string: int username_info_label
+mx.com.logydes.colegioarji.R$string: int version_info
+mx.com.logydes.colegioarji.R$string: int version_info_label
 mx.com.logydes.colegioarji.R$string: int wallet_buy_button_place_holder
 mx.com.logydes.colegioarji.R$string: int welcome
 mx.com.logydes.colegioarji.R$style: int AlertDialog_AppCompat

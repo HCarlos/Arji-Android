@@ -107,6 +107,70 @@
 
             </android.support.design.widget.TextInputLayout>
 
+            <!-- Versión -->
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:background="@color/primary_light"
+                android:layout_height="wrap_content">
+
+                <AutoCompleteTextView
+                    android:id="@+id/version_info"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/version_info_label"
+                    android:inputType="textMultiLine"
+                    android:maxLines="5"
+                    android:focusable="true"
+                    android:elegantTextHeight="true"
+                    android:textSize="@dimen/em16"
+                    android:imeOptions="actionNext"
+                    />
+
+            </android.support.design.widget.TextInputLayout>
+
+            <!-- Username -->
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:background="@color/primary_light"
+                android:layout_height="wrap_content">
+
+                <AutoCompleteTextView
+                    android:id="@+id/username_info"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/username_info_label"
+                    android:inputType="textMultiLine"
+                    android:maxLines="5"
+                    android:focusable="true"
+                    android:elegantTextHeight="true"
+                    android:textSize="@dimen/em16"
+                    android:imeOptions="actionNext"
+                    />
+
+            </android.support.design.widget.TextInputLayout>
+
+
+            <!-- Nombre completo Usuario -->
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:background="@color/primary_light"
+                android:layout_height="wrap_content">
+
+                <AutoCompleteTextView
+                    android:id="@+id/nombrecompletousuario_info"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/nombrecompletousuario_info_label"
+                    android:inputType="textMultiLine"
+                    android:maxLines="5"
+                    android:focusable="true"
+                    android:elegantTextHeight="true"
+                    android:textSize="@dimen/em16"
+                    android:imeOptions="actionNext"
+                    />
+
+            </android.support.design.widget.TextInputLayout>
+
 
         </LinearLayout>
 

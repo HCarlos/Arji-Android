@@ -102,9 +102,15 @@
     <string name="token_info_label">TOKEN</string>
     <string name="token_id_info_label">TOKEN ID</string>
     <string name="iduser_info_label">ID USER</string>
+    <string name="version_info_label">VERSION</string>
+    <string name="username_info_label">USERNAME</string>
+    <string name="nombrecompletousuario_info_label">USER</string>
 
     <string name="token_info"></string>
     <string name="token_id_info"></string>
     <string name="iduser_info"></string>
+    <string name="version_info"></string>
+    <string name="username_info"></string>
+    <string name="nombrecompletousuario_info"></string>
 
 </resources>

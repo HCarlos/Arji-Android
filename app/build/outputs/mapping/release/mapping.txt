@@ -48349,8 +48349,11 @@ mx.com.logydes.colegioarji.SystemActivity -> mx.com.logydes.colegioarji.SystemAc
     android.widget.AutoCompleteTextView token -> n
     android.widget.AutoCompleteTextView token_id -> o
     android.widget.AutoCompleteTextView iduser -> p
-    12:12:void <init>() -> <init>
-    20:35:void onCreate(android.os.Bundle) -> onCreate
+    android.widget.AutoCompleteTextView version_info -> q
+    android.widget.AutoCompleteTextView username -> r
+    android.widget.AutoCompleteTextView user -> s
+    13:13:void <init>() -> <init>
+    24:50:void onCreate(android.os.Bundle) -> onCreate
 mx.com.logydes.colegioarji.Utils.AppConfig -> mx.com.logydes.colegioarji.Utils.a:
     java.lang.String TEXT_HTML -> a
     java.lang.String UTF_8 -> b
