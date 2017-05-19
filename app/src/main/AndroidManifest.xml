@@ -176,7 +176,6 @@
         </service>
         -->
 
-        <activity android:name=".SystemActivity"></activity>
     </application>
 
 </manifest>

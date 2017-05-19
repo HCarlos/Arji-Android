@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/home/devch/AndroidStudioProjects/ColegioArji/app/build/intermediates/res/merged/release/drawable-ldpi/background_1_arji.png",
+        "source": "/home/devch/AndroidStudioProjects/ColegioArji/app/src/main/res/drawable-ldpi/background_1_arji.png"
+    },
+    {
+        "merged": "/home/devch/AndroidStudioProjects/ColegioArji/app/build/intermediates/res/merged/release/drawable-ldpi/background_2_arji.png",
+        "source": "/home/devch/AndroidStudioProjects/ColegioArji/app/src/main/res/drawable-ldpi/background_2_arji.png"
+    },
+    {
+        "merged": "/home/devch/AndroidStudioProjects/ColegioArji/app/build/intermediates/res/merged/release/drawable-ldpi/icon_notification.png",
+        "source": "/home/devch/AndroidStudioProjects/ColegioArji/app/src/main/res/drawable-ldpi/icon_notification.png"
+    },
+    {
+        "merged": "/home/devch/AndroidStudioProjects/ColegioArji/app/build/intermediates/res/merged/release/drawable-ldpi/ic_system.png",
+        "source": "/home/devch/AndroidStudioProjects/ColegioArji/app/src/main/res/drawable-ldpi/ic_system.png"
+    }
+]

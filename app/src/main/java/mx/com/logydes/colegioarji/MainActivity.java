@@ -30,6 +30,7 @@ import mx.com.logydes.colegioarji.Helper.SQLiteHandler;
 import mx.com.logydes.colegioarji.Helper.SessionManager;
 import mx.com.logydes.colegioarji.Helper.Singleton;
 import mx.com.logydes.colegioarji.Inside.DocumentInside;
+import mx.com.logydes.colegioarji.Pojos.Sistema_Info;
 import mx.com.logydes.colegioarji.Utils.AppConfig;
 
 public class MainActivity extends AppCompatActivity
@@ -46,12 +47,15 @@ public class MainActivity extends AppCompatActivity
     private Singleton singleton;
     private TextView tv;
     private RecyclerView listaMM;
-
+    private Sistema_Info sinfo;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        singleton = new Singleton();
+        sinfo = new Sistema_Info("","",0);
 
         String refreshedToken = FirebaseInstanceId.getInstance().getToken();
         String refreshedTokenID = FirebaseInstanceId.getInstance().getId();
@@ -59,7 +63,8 @@ public class MainActivity extends AppCompatActivity
         Log.i(TAG, "TOKEN ::> " + refreshedToken);
         Log.w(TAG, "ID TOKEN ::> " + refreshedTokenID);
 
-        singleton = new Singleton();
+        sinfo.setToken(refreshedToken);
+        sinfo.setToken_ID(refreshedTokenID);
 
         db = new SQLiteHandler(getApplicationContext());
         session = new SessionManager(getApplicationContext());
@@ -130,6 +135,8 @@ public class MainActivity extends AppCompatActivity
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
         Log.e("getIdUserNivelAcceso:", String.valueOf(singleton.getIdUserNivelAcceso() ) );
+
+        sinfo.setIdUser( singleton.getIdUser() );
 
         if ( session.isLoggedIn() && ( singleton.getIdUserNivelAcceso() == 7 ||
                                         singleton.getIdUserNivelAcceso() == 25 ) ) { // Tutores

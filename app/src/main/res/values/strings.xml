@@ -95,4 +95,16 @@
     <string name="action_mapa_ubicacion">Mapa de Ubicación</string>
     <string name="title_bar_mapa_ubicacion">Av. México Núm. 2, Col. del Bosque, Villahermosa, Tabasco, MX. CP. 86160</string>
     <!-- <string name="gcm_defaultSenderId">1071598435992</string> -->
+
+
+    <!-- Sistem Info -->
+    <string name="token_info_header_label">DATOS IMPORTANTES DEL SISTEMA</string>
+    <string name="token_info_label">TOKEN</string>
+    <string name="token_id_info_label">TOKEN ID</string>
+    <string name="iduser_info_label">ID USER</string>
+
+    <string name="token_info"></string>
+    <string name="token_id_info"></string>
+    <string name="iduser_info"></string>
+
 </resources>

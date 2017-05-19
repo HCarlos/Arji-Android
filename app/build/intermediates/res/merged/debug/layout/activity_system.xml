@@ -1,11 +1,113 @@
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/colorBackground"
-    android:gravity="center_horizontal"
-    android:orientation="vertical"
+    android:paddingLeft="@dimen/em8"
+    android:paddingRight="@dimen/em8"
+    android:paddingTop="@dimen/em8"
+    android:background="@color/primary_light"
     tools:context="mx.com.logydes.colegioarji.SystemActivity">
 
-</LinearLayout>
+    <LinearLayout
+        android:id="@+id/MENO"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="128dp"
+        android:orientation="vertical">
+
+
+    </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/doss"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <!-- Token Info -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/em32"
+                android:layout_marginBottom="@dimen/em16"
+                android:paddingTop="@dimen/em6"
+                android:background="@drawable/round_corners"
+                android:textColor="@color/white"
+                android:gravity="center_horizontal"
+                android:layout_gravity="center_vertical"
+                android:textStyle="bold"
+                android:text="@string/token_info_header_label"
+                />
+
+
+            <!-- Token Info -->
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:background="@color/primary_light"
+                android:layout_height="wrap_content"
+                >
+
+                <AutoCompleteTextView
+                    android:id="@+id/token_info"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/token_info_label"
+                    android:inputType="textMultiLine"
+                    android:maxLines="7"
+                    android:focusable="true"
+                    android:elegantTextHeight="true"
+                    android:textSize="@dimen/em16"
+                    android:imeOptions="actionNext"
+
+                    />
+
+            </android.support.design.widget.TextInputLayout>
+
+
+            <!-- Token Info ID -->
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:background="@color/primary_light"
+                android:layout_height="wrap_content">
+
+                <AutoCompleteTextView
+                    android:id="@+id/token_id_info"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/token_id_info_label"
+                    android:inputType="textMultiLine"
+                    android:maxLines="5"
+                    android:focusable="true"
+                    android:elegantTextHeight="true"
+                    android:textSize="@dimen/em16"
+                    android:imeOptions="actionNext"
+                    />
+
+            </android.support.design.widget.TextInputLayout>
+
+            <!-- Id User -->
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:background="@color/primary_light"
+                android:layout_height="wrap_content">
+
+                <AutoCompleteTextView
+                    android:id="@+id/iduser_info"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/iduser_info_label"
+                    android:inputType="textMultiLine"
+                    android:maxLines="5"
+                    android:focusable="true"
+                    android:elegantTextHeight="true"
+                    android:textSize="@dimen/em16"
+                    android:imeOptions="actionNext"
+                    />
+
+            </android.support.design.widget.TextInputLayout>
+
+
+        </LinearLayout>
+
+</RelativeLayout>

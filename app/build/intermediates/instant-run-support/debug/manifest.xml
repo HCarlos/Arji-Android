@@ -155,6 +155,15 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".MainActivity" />
         </activity>
+        <activity
+            android:name="mx.com.logydes.colegioarji.SystemActivity"
+            android:label="@string/title_activity_hijos"
+            android:parentActivityName="mx.com.logydes.colegioarji.MainActivity"
+            android:screenOrientation="portrait" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
 
         <service android:name="mx.com.logydes.colegioarji.Utils.NotificationService" >
             <intent-filter>
@@ -188,7 +197,7 @@
         </service>
         -->
 
-        <activity android:name="mx.com.logydes.colegioarji.SystemActivity" />
+
         <!-- Include the AdActivity and InAppPurchaseActivity configChanges and themes. -->
         <activity
             android:name="com.google.android.gms.ads.AdActivity"

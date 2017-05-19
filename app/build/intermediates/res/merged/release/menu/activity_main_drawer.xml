@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_inicio"
+            android:icon="@mipmap/ic_login"
+            android:title="@string/action_inicio" />
+        <item
+            android:id="@+id/nav_boletin"
+            android:icon="@mipmap/ic_boletin"
+            android:title="@string/action_boletin" />
+        <item
+            android:id="@+id/nav_quienes_somos"
+            android:icon="@mipmap/ic_quinesomos"
+            android:title="@string/action_quienes_somos" />
+        <item
+            android:id="@+id/nav_certificaciones"
+            android:icon="@mipmap/ic_certificaciones"
+            android:title="@string/action_certificaciones" />
+        <item
+            android:id="@+id/nav_directorio"
+            android:icon="@mipmap/ic_directorio"
+            android:title="@string/action_directorio" />
+        <item
+            android:id="@+id/nav_proceso_admision"
+            android:icon="@mipmap/ic_proceso_admision"
+            android:title="@string/action_proceso_admision" />
+        <item
+            android:id="@+id/nav_mapa"
+            android:icon="@mipmap/ic_mapa"
+            android:title="@string/action_mapa_ubicacion" />
+        <item
+            android:id="@+id/nav_beneficios"
+            android:icon="@mipmap/ic_beneficios"
+            android:title="@string/action_beneficios" />
+        <item
+            android:id="@+id/nav_aviso_privacidad"
+            android:icon="@mipmap/ic_aviso_privacidad"
+            android:title="@string/action_aviso_privacidad" />
+        <item
+            android:id="@+id/nav_desarrollador"
+            android:icon="@mipmap/ic_programmer"
+            android:title="@string/action_desarrollador" />
+        <item
+            android:id="@+id/nav_system"
+            android:icon="@drawable/ic_system"
+            android:title="@string/action_system" />
+        <item
+            android:id="@+id/nav_cerrar_session"
+            android:icon="@mipmap/ic_logout"
+            android:title="@string/action_cerrar_session" />
+    </group>
+<!--
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Send" />
+        </menu>
+    </item>
+-->
+</menu>

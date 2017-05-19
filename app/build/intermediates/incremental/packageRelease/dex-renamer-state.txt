@@ -1,0 +1,4 @@
+#Fri May 19 12:06:25 CDT 2017
+base.0=/home/devch/AndroidStudioProjects/ColegioArji/app/build/intermediates/transforms/dex/release/folders/1000/1f/main
+renamed.0=classes.dex
+file.0=/home/devch/AndroidStudioProjects/ColegioArji/app/build/intermediates/transforms/dex/release/folders/1000/1f/main/classes.dex
