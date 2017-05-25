@@ -9252,10 +9252,18 @@ mx.com.logydes.colegioarji.R$dimen: int design_tab_text_size_2line
 mx.com.logydes.colegioarji.R$dimen: int disabled_alpha_material_dark
 mx.com.logydes.colegioarji.R$dimen: int disabled_alpha_material_light
 mx.com.logydes.colegioarji.R$dimen: int em10
+mx.com.logydes.colegioarji.R$dimen: int em100
+mx.com.logydes.colegioarji.R$dimen: int em11
+mx.com.logydes.colegioarji.R$dimen: int em112
 mx.com.logydes.colegioarji.R$dimen: int em12
+mx.com.logydes.colegioarji.R$dimen: int em128
 mx.com.logydes.colegioarji.R$dimen: int em14
+mx.com.logydes.colegioarji.R$dimen: int em144
 mx.com.logydes.colegioarji.R$dimen: int em16
+mx.com.logydes.colegioarji.R$dimen: int em160
 mx.com.logydes.colegioarji.R$dimen: int em18
+mx.com.logydes.colegioarji.R$dimen: int em184
+mx.com.logydes.colegioarji.R$dimen: int em196
 mx.com.logydes.colegioarji.R$dimen: int em2
 mx.com.logydes.colegioarji.R$dimen: int em20
 mx.com.logydes.colegioarji.R$dimen: int em22
@@ -9268,6 +9276,8 @@ mx.com.logydes.colegioarji.R$dimen: int em42
 mx.com.logydes.colegioarji.R$dimen: int em6
 mx.com.logydes.colegioarji.R$dimen: int em64
 mx.com.logydes.colegioarji.R$dimen: int em8
+mx.com.logydes.colegioarji.R$dimen: int em84
+mx.com.logydes.colegioarji.R$dimen: int em96
 mx.com.logydes.colegioarji.R$dimen: int fab_margin
 mx.com.logydes.colegioarji.R$dimen: int highlight_alpha_material_colored
 mx.com.logydes.colegioarji.R$dimen: int highlight_alpha_material_dark
@@ -10073,6 +10083,7 @@ mx.com.logydes.colegioarji.R$id: int touch_outside
 mx.com.logydes.colegioarji.R$id: int transition_current_scene
 mx.com.logydes.colegioarji.R$id: int transition_scene_layoutid_cache
 mx.com.logydes.colegioarji.R$id: int tvElemento
+mx.com.logydes.colegioarji.R$id: int tvElemento_Detail
 mx.com.logydes.colegioarji.R$id: int tvGrupo
 mx.com.logydes.colegioarji.R$id: int tvHijo
 mx.com.logydes.colegioarji.R$id: int tvMenu
@@ -10438,6 +10449,7 @@ mx.com.logydes.colegioarji.R$string: int username_info
 mx.com.logydes.colegioarji.R$string: int username_info_label
 mx.com.logydes.colegioarji.R$string: int version_info
 mx.com.logydes.colegioarji.R$string: int version_info_label
+mx.com.logydes.colegioarji.R$string: int w1
 mx.com.logydes.colegioarji.R$string: int wallet_buy_button_place_holder
 mx.com.logydes.colegioarji.R$string: int welcome
 mx.com.logydes.colegioarji.R$style: int AlertDialog_AppCompat

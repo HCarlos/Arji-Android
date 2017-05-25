@@ -5,24 +5,27 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:id="@+id/cardview_elementos"
-    android:layout_marginRight="@dimen/em2"
-    android:layout_marginLeft="@dimen/em2"
+    android:layout_marginRight="@dimen/em6"
+    android:layout_marginLeft="@dimen/em6"
     card_view:cardCornerRadius="@dimen/cvRadioCornerHijos"
-    android:layout_marginBottom="@dimen/cvBottomMarginHijos">
+    android:layout_marginBottom="@dimen/cvBottomMarginHijos"
+    android:padding="@dimen/em6"
+    >
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
+        android:padding="@dimen/em8"
         >
 
         <LinearLayout
             android:id="@+id/lyElementos"
-            android:layout_width="@dimen/em128"
+            android:layout_width="@dimen/em196"
             android:layout_height="wrap_content"
             android:layout_weight="@string/w1"
             android:orientation="vertical"
-            android:paddingLeft="@dimen/em6"
+            android:paddingLeft="@dimen/em8"
             >
 
             <TextView
@@ -41,10 +44,10 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_vertical"
-                android:textColor="@color/input_login_hint"
+                android:textColor="@color/bg_login"
                 android:layout_weight="@string/cvImgLeftHijos"
-                android:text="Hola Mundo"
                 android:textStyle="normal"
+                android:textSize="@dimen/em12"
 
 
                 />
@@ -54,10 +57,10 @@
         <ImageView
             android:id="@+id/imgRightElements"
             android:src="@mipmap/ic_flecha_derecha"
+            android:layout_width="@dimen/em24"
             android:layout_height="@dimen/em24"
-            android:layout_width="@dimen/em4"
+            android:layout_weight="0.01"
             android:layout_gravity="center_vertical"
-            android:layout_weight="0"
             />
 
     </LinearLayout>

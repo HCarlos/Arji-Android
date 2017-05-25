@@ -138,8 +138,10 @@ public class MainActivity extends AppCompatActivity
 
         sinfo.setIdUser( singleton.getIdUser() );
 
-        if ( session.isLoggedIn() && ( singleton.getIdUserNivelAcceso() == 7 ||
-                                        singleton.getIdUserNivelAcceso() == 25 ) ) { // Tutores
+        if ( session.isLoggedIn() && (
+                                        singleton.getIdUserNivelAcceso() == 7 ||
+                                        singleton.getIdUserNivelAcceso() == 25
+                                    ) ) { // Tutores
             //getMenuInflater().inflate(R.menu.menu_tutores, menu);
             tv.setText( "Bienvenid@ " + singleton.getNombreCompletoUsuario() );
             dbHijos cm = new dbHijos(this, this);

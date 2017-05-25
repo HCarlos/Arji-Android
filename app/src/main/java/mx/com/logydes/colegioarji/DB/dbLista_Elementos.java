@@ -106,6 +106,7 @@ public class dbLista_Elementos {
                             String label = "";
                             String lblProfesor = "";
                             String lblDirector = "";
+                            String xml = "";
                             switch (Type){
                                 case 0:
                                     idelemento = rec.getInt("idtarea");
@@ -122,10 +123,11 @@ public class dbLista_Elementos {
                                     MM.add( new Lista_Elementos(idelemento,idelementodestinatario,label,lblDirector,Type) );
                                     break;
                                 case 2:
-                                    label = rec.getString("pdf");
-                                    idelemento = rec.getInt("idfactura");
+                                    label             = rec.getString("pdf");
+                                    xml               = rec.getString("xml");
+                                    idelemento        = rec.getInt("idfactura");
                                     String Directorio = rec.getString("directorio");
-                                    MM.add( new Lista_Elementos(label,Directorio,idelemento,Type) );
+                                    MM.add( new Lista_Elementos(label,xml,Directorio,idelemento,Type) );
                                     break;
                                 case 3:
                                     idelemento = rec.getInt("idedocta");
@@ -133,6 +135,7 @@ public class dbLista_Elementos {
                                     String mes = rec.getString("mes");
                                     String conepto = rec.getString("concepto");
                                     String FechaPago = rec.getString("fecha_de_pago");
+                                    String Vencimiento = rec.getString("vencimiento");
                                     int Vencido = rec.getInt("dias_que_faltan_para_vencer");
                                     int PagosDiv = rec.getInt("is_pagos_diversos");
                                     Integer IdConcepto = rec.getInt("idconcepto");
@@ -154,7 +157,7 @@ public class dbLista_Elementos {
                                     }
 
 
-                                    MM.add( new Lista_Elementos(status_movto,Vencido,FechaPago,conepto,mes,idelemento,Type, PagosDiv, IdConcepto) );
+                                    MM.add( new Lista_Elementos(status_movto,Vencido,FechaPago,Vencimiento,conepto,mes,idelemento,Type, PagosDiv, IdConcepto) );
                                     break;
                             }
 

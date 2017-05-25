@@ -5,36 +5,62 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:id="@+id/cardview_elementos"
-    android:layout_marginRight="@dimen/em8"
-    android:layout_marginLeft="@dimen/em8"
+    android:layout_marginRight="@dimen/em6"
+    android:layout_marginLeft="@dimen/em6"
     card_view:cardCornerRadius="@dimen/cvRadioCornerHijos"
-    android:layout_marginBottom="@dimen/cvBottomMarginHijos">
+    android:layout_marginBottom="@dimen/cvBottomMarginHijos"
+    android:padding="@dimen/em6"
+    >
 
     <LinearLayout
-        android:id="@+id/lyElementos"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
+        android:padding="@dimen/em8"
         >
 
-        <TextView
-            android:id="@+id/tvElemento"
-            android:layout_width="match_parent"
+        <LinearLayout
+            android:id="@+id/lyElementos"
+            android:layout_width="@dimen/em196"
             android:layout_height="wrap_content"
-            android:textSize="@dimen/em16"
-            android:layout_gravity="center_vertical"
-            android:paddingLeft="@dimen/em16"
-            android:layout_weight="@string/cvTextHijo"
+            android:layout_weight="@string/w1"
+            android:orientation="vertical"
+            android:paddingLeft="@dimen/em8"
+            >
 
-            />
+            <TextView
+                android:id="@+id/tvElemento"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/em16"
+                android:textColor="@color/input_register_hint"
+                android:textStyle="bold"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="@string/cvImgLeftHijos"
+                />
+
+            <TextView
+                android:id="@+id/tvElemento_Detail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:textColor="@color/bg_login"
+                android:layout_weight="@string/cvImgLeftHijos"
+                android:textStyle="normal"
+                android:textSize="@dimen/em12"
+
+
+                />
+
+        </LinearLayout>
 
         <ImageView
             android:id="@+id/imgRightElements"
             android:src="@mipmap/ic_flecha_derecha"
-            android:layout_height="@dimen/em32"
-            android:layout_width="@dimen/em32"
-            android:layout_gravity="right"
-            android:layout_weight="@string/cvImgRightHijos"
+            android:layout_width="@dimen/em24"
+            android:layout_height="@dimen/em24"
+            android:layout_weight="0.01"
+            android:layout_gravity="center_vertical"
             />
 
     </LinearLayout>

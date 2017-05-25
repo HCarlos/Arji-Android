@@ -15,17 +15,20 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
+        android:padding="@dimen/em10"
         >
 
         <ImageView
             android:src="@mipmap/ic_student"
-            android:layout_height="@dimen/em32"
-            android:layout_width="@dimen/em4"
-            android:layout_weight="@string/cvImgLeftHijos"
-            android:paddingTop="@dimen/em8"/>
+            android:layout_width="@dimen/em24"
+            android:layout_height="@dimen/em24"
+            android:layout_weight="0.01"
+            android:layout_gravity="center_vertical"
+            android:layout_marginRight="@dimen/em6"
+            />
 
         <LinearLayout
-            android:layout_width="@dimen/em64"
+            android:layout_width="@dimen/em196"
             android:layout_height="wrap_content"
             android:layout_weight="@string/cvTextHijo"
             android:orientation="vertical">
@@ -48,7 +51,7 @@
                 android:layout_height="wrap_content"
                 android:textSize="@dimen/em12"
                 android:layout_gravity="center_vertical"
-                android:textColor="@color/input_login_hint"
+                android:textColor="@color/bg_login"
                 android:layout_weight="@string/cvImgLeftHijos"
 
                 />
@@ -58,11 +61,10 @@
 
         <ImageView
             android:src="@mipmap/ic_flecha_derecha"
-            android:layout_height="@dimen/em32"
-            android:layout_width="@dimen/em4"
-            android:layout_gravity="right"
-            android:layout_weight="@string/cvImgRightHijos"
-            android:paddingTop="@dimen/em8"
+            android:layout_width="@dimen/em24"
+            android:layout_height="@dimen/em24"
+            android:layout_weight="0.01"
+            android:layout_gravity="center_vertical"
             />
 
     </LinearLayout>

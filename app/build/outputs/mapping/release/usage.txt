@@ -13962,6 +13962,9 @@ mx.com.logydes.colegioarji.Adapter.Adapter_Lista_Elementos:
     private android.app.ProgressDialog pDialog
     private mx.com.logydes.colegioarji.Utils.Utilidades Utl
     private android.content.Context context
+mx.com.logydes.colegioarji.Adapter.Adapter_Lista_Elementos$AdapterElementosViewHolder:
+    java.lang.String lblProfesor
+    java.lang.String lblDirector
 mx.com.logydes.colegioarji.Adapter.Adapter_Menu_Tutores:
     private static final java.lang.String TAG
     private android.app.ProgressDialog pDialog
@@ -13979,8 +13982,8 @@ mx.com.logydes.colegioarji.DB.dbHijos:
 mx.com.logydes.colegioarji.DB.dbLista_Elementos:
     private static final java.lang.String TAG
     private java.util.ArrayList mm
-    216:218:public void resfresh_Lista_Elementos()
-    221:256:public void obtenerDatosRetroFit(java.lang.String,int)
+    223:225:public void resfresh_Lista_Elementos()
+    228:263:public void obtenerDatosRetroFit(java.lang.String,int)
 mx.com.logydes.colegioarji.DB.dbLista_Elementos$4
 mx.com.logydes.colegioarji.Elemento:
     private static final java.lang.String TAG
@@ -14068,37 +14071,41 @@ mx.com.logydes.colegioarji.Pojos.Lista_Elementos:
     private int IdObj
     private java.lang.String urlWeb
     private java.lang.String body
-    42:45:public Lista_Elementos(int,java.lang.String)
-    69:70:public void setIdTareaDestinatario(int)
-    77:78:public void setIdComMensajeDestinatario(int)
-    102:103:public void setIdElemento(int)
-    106:106:public int getIdObjAlu()
-    110:111:public void setIdObjAlu(int)
-    114:114:public int getIdObjMenu()
-    118:119:public void setIdObjMenu(int)
-    122:122:public int getIdObj()
-    126:127:public void setIdObj(int)
-    134:135:public void setIdTarea(int)
-    142:143:public void setIdComMensaje(int)
-    146:146:public java.lang.String getUrlWeb()
-    150:151:public void setUrlWeb(java.lang.String)
-    154:154:public java.lang.String getBody()
-    158:159:public void setBody(java.lang.String)
-    166:167:public void setLabel(java.lang.String)
-    174:175:public void setTipo(int)
-    182:183:public void setIdFactura(int)
-    186:186:public int getIdEdoCta()
-    190:191:public void setIdEdoCta(int)
-    198:199:public void setPDF(java.lang.String)
-    206:207:public void setDirectorio(java.lang.String)
-    214:215:public void setMes(java.lang.String)
-    222:223:public void setConcepto(java.lang.String)
-    230:231:public void setFechaPago(java.lang.String)
-    238:239:public void setVencido(int)
-    246:247:public void setStatus_movto(int)
-    254:255:public void setIdConcepto(int)
-    258:258:public int getPagosDiv()
-    262:263:public void setPagosDiv(int)
+    46:49:public Lista_Elementos(int,java.lang.String)
+    73:74:public void setIdTareaDestinatario(int)
+    81:82:public void setIdComMensajeDestinatario(int)
+    108:109:public void setIdElemento(int)
+    112:112:public int getIdObjAlu()
+    116:117:public void setIdObjAlu(int)
+    120:120:public int getIdObjMenu()
+    124:125:public void setIdObjMenu(int)
+    128:128:public int getIdObj()
+    132:133:public void setIdObj(int)
+    140:141:public void setIdTarea(int)
+    148:149:public void setIdComMensaje(int)
+    152:152:public java.lang.String getUrlWeb()
+    156:157:public void setUrlWeb(java.lang.String)
+    160:160:public java.lang.String getBody()
+    164:165:public void setBody(java.lang.String)
+    172:173:public void setLabel(java.lang.String)
+    180:181:public void setTipo(int)
+    188:189:public void setIdFactura(int)
+    192:192:public int getIdEdoCta()
+    196:197:public void setIdEdoCta(int)
+    204:205:public void setPDF(java.lang.String)
+    212:213:public void setXML(java.lang.String)
+    220:221:public void setDirectorio(java.lang.String)
+    228:229:public void setMes(java.lang.String)
+    236:237:public void setConcepto(java.lang.String)
+    244:245:public void setFechaPago(java.lang.String)
+    252:253:public void setVencido(int)
+    260:261:public void setVencimiento(java.lang.String)
+    268:269:public void setStatus_movto(int)
+    276:277:public void setIdConcepto(int)
+    280:280:public int getPagosDiv()
+    284:285:public void setPagosDiv(int)
+    292:293:public void setProfesor(java.lang.String)
+    300:301:public void setDirector(java.lang.String)
 mx.com.logydes.colegioarji.Pojos.Menu_Tutores:
     20:21:public void setIdmenu(int)
     28:29:public void setMenu(java.lang.String)

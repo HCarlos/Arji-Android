@@ -30,7 +30,7 @@ import static java.lang.String.valueOf;
 public class TareaDeserializador implements JsonDeserializer<TareasResponse> {
     @Override
     public TareasResponse deserialize(JsonElement json, Type typeOfT, JsonDeserializationContext context) throws JsonParseException {
-        Log.w("Hasta aqui entro","bien 0");
+        // Log.w("Hasta aqui entro","bien 0");
         Gson gson = new Gson();
         TareasResponse tareasResponse = gson.fromJson(json, TareasResponse.class);
         JsonArray contactoResponseData = json.getAsJsonObject().getAsJsonArray();
@@ -44,11 +44,11 @@ public class TareaDeserializador implements JsonDeserializer<TareasResponse> {
 
         ArrayList<Lista_Elementos> tareas = new ArrayList<>();
 
-        Log.w("Hasta aqui entro","bien 1");
+        // Log.w("Hasta aqui entro","bien 1");
 
         for (int i = 0; i < contactoResponseData.size() ; i++) {
 
-            Log.w("Hasta aqui entro bien 1 - ", String.valueOf(i));
+            // Log.w("Hasta aqui entro bien 1 - ", String.valueOf(i));
 
             JsonObject rec = contactoResponseData.get(i).getAsJsonObject();
 

@@ -47853,43 +47853,46 @@ mx.com.logydes.colegioarji.Adapter.Adapter_Lista_Elementos -> mx.com.logydes.col
     java.util.ArrayList MM -> a
     android.app.Activity activity -> b
     java.lang.String menu -> c
-    39:44:void <init>(android.app.Activity,java.lang.String) -> <init>
-    49:50:mx.com.logydes.colegioarji.Adapter.Adapter_Lista_Elementos$AdapterElementosViewHolder onCreateViewHolder(android.view.ViewGroup,int) -> a
-    56:130:void onBindViewHolder(mx.com.logydes.colegioarji.Adapter.Adapter_Lista_Elementos$AdapterElementosViewHolder,int) -> a
-    133:133:int getItemCount() -> a
-    27:27:void onBindViewHolder(android.support.v7.widget.RecyclerView$ViewHolder,int) -> a
-    27:27:android.support.v7.widget.RecyclerView$ViewHolder onCreateViewHolder(android.view.ViewGroup,int) -> b
-    27:27:android.app.Activity access$000(mx.com.logydes.colegioarji.Adapter.Adapter_Lista_Elementos) -> a
+    41:46:void <init>(android.app.Activity,java.lang.String) -> <init>
+    51:52:mx.com.logydes.colegioarji.Adapter.Adapter_Lista_Elementos$AdapterElementosViewHolder onCreateViewHolder(android.view.ViewGroup,int) -> a
+    58:149:void onBindViewHolder(mx.com.logydes.colegioarji.Adapter.Adapter_Lista_Elementos$AdapterElementosViewHolder,int) -> a
+    152:152:int getItemCount() -> a
+    29:29:void onBindViewHolder(android.support.v7.widget.RecyclerView$ViewHolder,int) -> a
+    29:29:android.support.v7.widget.RecyclerView$ViewHolder onCreateViewHolder(android.view.ViewGroup,int) -> b
+    29:29:android.app.Activity access$000(mx.com.logydes.colegioarji.Adapter.Adapter_Lista_Elementos) -> a
 mx.com.logydes.colegioarji.Adapter.Adapter_Lista_Elementos$1 -> mx.com.logydes.colegioarji.a.b$1:
     mx.com.logydes.colegioarji.Adapter.Adapter_Lista_Elementos$AdapterElementosViewHolder val$cvh -> a
     mx.com.logydes.colegioarji.Adapter.Adapter_Lista_Elementos this$0 -> b
-    108:108:void <init>(mx.com.logydes.colegioarji.Adapter.Adapter_Lista_Elementos,mx.com.logydes.colegioarji.Adapter.Adapter_Lista_Elementos$AdapterElementosViewHolder) -> <init>
-    111:128:void onClick(android.view.View) -> onClick
+    127:127:void <init>(mx.com.logydes.colegioarji.Adapter.Adapter_Lista_Elementos,mx.com.logydes.colegioarji.Adapter.Adapter_Lista_Elementos$AdapterElementosViewHolder) -> <init>
+    130:147:void onClick(android.view.View) -> onClick
 mx.com.logydes.colegioarji.Adapter.Adapter_Lista_Elementos$AdapterElementosViewHolder -> mx.com.logydes.colegioarji.a.b$a:
     android.widget.LinearLayout lyElementos -> n
     android.widget.TextView tvElemento -> o
-    android.widget.ImageView imgRightElements -> p
-    int IdElemento -> q
-    int IdElementoDestinatario -> r
-    int TipoElemento -> s
-    java.lang.String Menu -> t
-    java.lang.String PDF -> u
-    java.lang.String Directorio -> v
-    java.lang.String Concepto -> w
-    java.lang.String Mes -> x
-    java.lang.String FechaPago -> y
-    int Status_Movto -> z
-    int Vencido -> A
-    int IdConcepto -> B
-    int PagosDiv -> C
-    156:173:void <init>(android.view.View,java.lang.String) -> <init>
+    android.widget.TextView tvElemento_Detail -> p
+    android.widget.ImageView imgRightElements -> q
+    int IdElemento -> r
+    int IdElementoDestinatario -> s
+    int TipoElemento -> t
+    java.lang.String Menu -> u
+    java.lang.String PDF -> v
+    java.lang.String XML -> w
+    java.lang.String Directorio -> x
+    java.lang.String Concepto -> y
+    java.lang.String Mes -> z
+    java.lang.String FechaPago -> A
+    java.lang.String Vencimiento -> B
+    int Status_Movto -> C
+    int Vencido -> D
+    int IdConcepto -> E
+    int PagosDiv -> F
+    180:201:void <init>(android.view.View,java.lang.String) -> <init>
 mx.com.logydes.colegioarji.Adapter.Adapter_Menu_Tutores -> mx.com.logydes.colegioarji.a.c:
     java.util.ArrayList MM -> a
     android.app.Activity activity -> b
     45:90:void <init>(android.app.Activity) -> <init>
     95:96:mx.com.logydes.colegioarji.Adapter.Adapter_Menu_Tutores$Adapter_Menu_TutoresViewHolder onCreateViewHolder(android.view.ViewGroup,int) -> a
-    102:169:void onBindViewHolder(mx.com.logydes.colegioarji.Adapter.Adapter_Menu_Tutores$Adapter_Menu_TutoresViewHolder,int) -> a
-    182:182:int getItemCount() -> a
+    102:174:void onBindViewHolder(mx.com.logydes.colegioarji.Adapter.Adapter_Menu_Tutores$Adapter_Menu_TutoresViewHolder,int) -> a
+    187:187:int getItemCount() -> a
     34:34:void onBindViewHolder(android.support.v7.widget.RecyclerView$ViewHolder,int) -> a
     34:34:android.support.v7.widget.RecyclerView$ViewHolder onCreateViewHolder(android.view.ViewGroup,int) -> b
     34:34:android.app.Activity access$000(mx.com.logydes.colegioarji.Adapter.Adapter_Menu_Tutores) -> a
@@ -47898,12 +47901,12 @@ mx.com.logydes.colegioarji.Adapter.Adapter_Menu_Tutores$1 -> mx.com.logydes.cole
     mx.com.logydes.colegioarji.Pojos.Menu_Tutores val$mm -> b
     mx.com.logydes.colegioarji.Adapter.Adapter_Menu_Tutores this$0 -> c
     109:109:void <init>(mx.com.logydes.colegioarji.Adapter.Adapter_Menu_Tutores,mx.com.logydes.colegioarji.Adapter.Adapter_Menu_Tutores$Adapter_Menu_TutoresViewHolder,mx.com.logydes.colegioarji.Pojos.Menu_Tutores) -> <init>
-    112:166:void onClick(android.view.View) -> onClick
+    112:171:void onClick(android.view.View) -> onClick
 mx.com.logydes.colegioarji.Adapter.Adapter_Menu_Tutores$Adapter_Menu_TutoresViewHolder -> mx.com.logydes.colegioarji.a.c$a:
     android.widget.LinearLayout lyTutores -> n
     android.widget.TextView tvMenu -> o
     int idmenu -> p
-    192:197:void <init>(android.view.View) -> <init>
+    197:202:void <init>(android.view.View) -> <init>
 mx.com.logydes.colegioarji.Boleta -> mx.com.logydes.colegioarji.Boleta:
     android.app.ProgressDialog pDialog -> m
     mx.com.logydes.colegioarji.Utils.Utilidades Utl -> n
@@ -48009,7 +48012,7 @@ mx.com.logydes.colegioarji.DB.dbLista_Elementos -> mx.com.logydes.colegioarji.b.
     int Type -> g
     java.lang.String Menu -> h
     55:63:void <init>(android.content.Context,android.app.Activity,java.lang.String) -> <init>
-    67:213:void obtenerDatos(java.lang.String,int) -> a
+    67:220:void obtenerDatos(java.lang.String,int) -> a
     43:43:mx.com.logydes.colegioarji.Utils.Utilidades access$000(mx.com.logydes.colegioarji.DB.dbLista_Elementos) -> a
     43:43:int access$100(mx.com.logydes.colegioarji.DB.dbLista_Elementos) -> b
     43:43:mx.com.logydes.colegioarji.Adapter.Adapter_Lista_Elementos access$202(mx.com.logydes.colegioarji.DB.dbLista_Elementos,mx.com.logydes.colegioarji.Adapter.Adapter_Lista_Elementos) -> a
@@ -48021,16 +48024,16 @@ mx.com.logydes.colegioarji.DB.dbLista_Elementos -> mx.com.logydes.colegioarji.b.
 mx.com.logydes.colegioarji.DB.dbLista_Elementos$1 -> mx.com.logydes.colegioarji.b.b$1:
     mx.com.logydes.colegioarji.DB.dbLista_Elementos this$0 -> a
     78:78:void <init>(mx.com.logydes.colegioarji.DB.dbLista_Elementos) -> <init>
-    82:175:void onResponse(java.lang.String) -> a
+    82:182:void onResponse(java.lang.String) -> a
     78:78:void onResponse(java.lang.Object) -> a
 mx.com.logydes.colegioarji.DB.dbLista_Elementos$2 -> mx.com.logydes.colegioarji.b.b$2:
     mx.com.logydes.colegioarji.DB.dbLista_Elementos this$0 -> a
-    176:176:void <init>(mx.com.logydes.colegioarji.DB.dbLista_Elementos) -> <init>
-    180:184:void onErrorResponse(com.android.volley.VolleyError) -> a
+    183:183:void <init>(mx.com.logydes.colegioarji.DB.dbLista_Elementos) -> <init>
+    187:191:void onErrorResponse(com.android.volley.VolleyError) -> a
 mx.com.logydes.colegioarji.DB.dbLista_Elementos$3 -> mx.com.logydes.colegioarji.b.b$3:
     mx.com.logydes.colegioarji.DB.dbLista_Elementos this$0 -> a
-    185:185:void <init>(mx.com.logydes.colegioarji.DB.dbLista_Elementos,int,java.lang.String,com.android.volley.Response$Listener,com.android.volley.Response$ErrorListener) -> <init>
-    190:205:java.util.Map getParams() -> l
+    192:192:void <init>(mx.com.logydes.colegioarji.DB.dbLista_Elementos,int,java.lang.String,com.android.volley.Response$Listener,com.android.volley.Response$ErrorListener) -> <init>
+    197:212:java.util.Map getParams() -> l
 mx.com.logydes.colegioarji.Elemento -> mx.com.logydes.colegioarji.Elemento:
     android.app.ProgressDialog pDialog -> m
     mx.com.logydes.colegioarji.Utils.Utilidades Utl -> n
@@ -48243,14 +48246,14 @@ mx.com.logydes.colegioarji.MainActivity -> mx.com.logydes.colegioarji.MainActivi
     36:36:void <init>() -> <init>
     54:118:void onCreate(android.os.Bundle) -> onCreate
     122:132:void onBackPressed() -> onBackPressed
-    137:167:boolean onCreateOptionsMenu(android.view.Menu) -> onCreateOptionsMenu
-    173:185:void callAdapter(boolean) -> b
-    190:196:boolean onOptionsItemSelected(android.view.MenuItem) -> onOptionsItemSelected
-    203:260:boolean onNavigationItemSelected(android.view.MenuItem) -> a
-    265:271:void logoutUser() -> k
-    275:291:void onStart() -> onStart
-    295:311:void onStop() -> onStop
-    316:318:void onResume() -> onResume
+    137:169:boolean onCreateOptionsMenu(android.view.Menu) -> onCreateOptionsMenu
+    175:187:void callAdapter(boolean) -> b
+    192:198:boolean onOptionsItemSelected(android.view.MenuItem) -> onOptionsItemSelected
+    205:262:boolean onNavigationItemSelected(android.view.MenuItem) -> a
+    267:273:void logoutUser() -> k
+    277:293:void onStart() -> onStart
+    297:313:void onStop() -> onStop
+    318:320:void onResume() -> onResume
 mx.com.logydes.colegioarji.MapsActivity -> mx.com.logydes.colegioarji.MapsActivity:
     com.google.android.gms.maps.GoogleMap mMap -> m
     15:15:void <init>() -> <init>
@@ -48293,37 +48296,45 @@ mx.com.logydes.colegioarji.Pojos.Lista_Elementos -> mx.com.logydes.colegioarji.e
     int IdComMensaje -> f
     int IdComMensajeDestinatario -> g
     java.lang.String label -> h
-    java.lang.String Directorio -> i
-    java.lang.String PDF -> j
-    java.lang.String Mes -> k
-    java.lang.String Concepto -> l
-    java.lang.String FechaPago -> m
-    int Vencido -> n
-    int status_movto -> o
-    int IdConcepto -> p
-    int PagosDiv -> q
-    int Tipo -> r
-    36:36:int getIdElemento() -> a
-    39:40:void <init>() -> <init>
-    47:52:void <init>(java.lang.String,int,int,int) -> <init>
-    54:59:void <init>(int,int,java.lang.String,int) -> <init>
-    64:64:int getIdTareaDestinatario() -> b
-    73:73:int getIdComMensajeDestinatario() -> c
-    80:85:void <init>(java.lang.String,java.lang.String,int,int) -> <init>
-    87:99:void <init>(int,int,java.lang.String,java.lang.String,java.lang.String,int,int,int,int) -> <init>
-    130:130:int getIdTarea() -> d
-    138:138:int getIdComMensaje() -> e
-    162:162:java.lang.String getLabel() -> f
-    170:170:int getTipo() -> g
-    178:178:int getIdFactura() -> h
-    194:194:java.lang.String getPDF() -> i
-    202:202:java.lang.String getDirectorio() -> j
-    210:210:java.lang.String getMes() -> k
-    218:218:java.lang.String getConcepto() -> l
-    226:226:java.lang.String getFechaPago() -> m
-    234:234:int getVencido() -> n
-    242:242:int getStatus_movto() -> o
-    250:250:int getIdConcepto() -> p
+    java.lang.String Profesor -> i
+    java.lang.String Director -> j
+    java.lang.String Directorio -> k
+    java.lang.String PDF -> l
+    java.lang.String XML -> m
+    java.lang.String Mes -> n
+    java.lang.String Concepto -> o
+    java.lang.String FechaPago -> p
+    java.lang.String Vencimiento -> q
+    int Vencido -> r
+    int status_movto -> s
+    int IdConcepto -> t
+    int PagosDiv -> u
+    int Tipo -> v
+    40:40:int getIdElemento() -> a
+    43:44:void <init>() -> <init>
+    51:57:void <init>(java.lang.String,java.lang.String,int,int,int) -> <init>
+    59:65:void <init>(int,int,java.lang.String,java.lang.String,int) -> <init>
+    68:68:int getIdTareaDestinatario() -> b
+    77:77:int getIdComMensajeDestinatario() -> c
+    84:90:void <init>(java.lang.String,java.lang.String,java.lang.String,int,int) -> <init>
+    92:105:void <init>(int,int,java.lang.String,java.lang.String,java.lang.String,java.lang.String,int,int,int,int) -> <init>
+    136:136:int getIdTarea() -> d
+    144:144:int getIdComMensaje() -> e
+    168:168:java.lang.String getLabel() -> f
+    176:176:int getTipo() -> g
+    184:184:int getIdFactura() -> h
+    200:200:java.lang.String getPDF() -> i
+    208:208:java.lang.String getXML() -> j
+    216:216:java.lang.String getDirectorio() -> k
+    224:224:java.lang.String getMes() -> l
+    232:232:java.lang.String getConcepto() -> m
+    240:240:java.lang.String getFechaPago() -> n
+    248:248:int getVencido() -> o
+    256:256:java.lang.String getVencimiento() -> p
+    264:264:int getStatus_movto() -> q
+    272:272:int getIdConcepto() -> r
+    288:288:java.lang.String getProfesor() -> s
+    296:296:java.lang.String getDirector() -> t
 mx.com.logydes.colegioarji.Pojos.Menu_Tutores -> mx.com.logydes.colegioarji.e.c:
     int idmenu -> a
     java.lang.String menu -> b
@@ -48353,7 +48364,7 @@ mx.com.logydes.colegioarji.SystemActivity -> mx.com.logydes.colegioarji.SystemAc
     android.widget.AutoCompleteTextView username -> r
     android.widget.AutoCompleteTextView user -> s
     13:13:void <init>() -> <init>
-    24:50:void onCreate(android.os.Bundle) -> onCreate
+    24:48:void onCreate(android.os.Bundle) -> onCreate
 mx.com.logydes.colegioarji.Utils.AppConfig -> mx.com.logydes.colegioarji.Utils.a:
     java.lang.String TEXT_HTML -> a
     java.lang.String UTF_8 -> b

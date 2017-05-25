@@ -109,7 +109,12 @@ public class Adapter_Menu_Tutores extends RecyclerView.Adapter<Adapter_Menu_Tuto
         cvh.lyTutores.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                if (cvh.idmenu <= 3 ) {
+                if (
+                        cvh.idmenu == 0 ||
+                                cvh.idmenu == 1 ||
+                                cvh.idmenu == 2 ||
+                                cvh.idmenu == 3
+                        ) {
                     Intent intent = new Intent(activity, ListaElementos.class);
                     intent.putExtra(activity.getString(R.string.menu), mm.getMenu());
                     intent.putExtra(activity.getString(R.string.idmenu), cvh.idmenu);

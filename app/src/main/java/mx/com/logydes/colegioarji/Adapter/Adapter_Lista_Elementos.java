@@ -4,8 +4,10 @@ import android.app.Activity;
 import android.app.ProgressDialog;
 import android.content.Context;
 import android.content.Intent;
+import android.graphics.Typeface;
 import android.support.v7.widget.RecyclerView;
 import android.util.Log;
+import android.util.TypedValue;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -75,18 +77,34 @@ public class Adapter_Lista_Elementos extends RecyclerView.Adapter<Adapter_Lista_
                     cvh.tvElemento.setText(mm.getPDF() );
                     cvh.IdElemento = mm.getIdFactura();
                     cvh.PDF = mm.getPDF();
+                    cvh.XML = mm.getXML();
+                    cvh.tvElemento_Detail.setText(mm.getXML() );
                     cvh.Directorio = mm.getDirectorio();
                     break;
                 case 3:
                     cvh.Vencido = mm.getVencido();
                     cvh.Status_Movto = mm.getStatus_movto();
                     cvh.IdConcepto = mm.getIdConcepto();
+                    cvh.tvElemento_Detail.setText("");
                     cvh.FechaPago = mm.getFechaPago();
+                    cvh.Vencimiento = mm.getVencimiento();
+
+                    String[] fecha = cvh.FechaPago.substring(0,10).split("-");
+                    String FechaPago = fecha[2]+"-"+fecha[1]+"-"+fecha[0]+" "+cvh.FechaPago.substring(11,cvh.FechaPago.length());
+
+                    fecha = cvh.Vencimiento.split("-");
+                    String Vencimiento = fecha[2]+"-"+fecha[1]+"-"+fecha[0];
+
                     if (cvh.Vencido < 0 && cvh.Status_Movto == 0) {
                         cvh.tvElemento.setText(mm.getLabel() + "(Vencido)");
+                        cvh.tvElemento_Detail.setText("Vencido el " + Vencimiento );
+                        cvh.tvElemento_Detail.setTextColor(R.color.backgroud_text);
+                        cvh.tvElemento_Detail.setTypeface(null, Typeface.BOLD);
                     }else{
                         if ( cvh.Status_Movto == 1 ) {
-                            cvh.tvElemento.setText(mm.getLabel() + " " + cvh.FechaPago);
+                            cvh.tvElemento.setText(mm.getLabel());
+                            cvh.tvElemento_Detail.setText("Pagado el " + FechaPago );
+                            // cvh.tvElemento_Detail.setTextColor(R.color.colorAccent);
                         }else{
                             cvh.tvElemento.setText(mm.getLabel() );
                         }
@@ -97,7 +115,6 @@ public class Adapter_Lista_Elementos extends RecyclerView.Adapter<Adapter_Lista_
                     }else{
                         cvh.imgRightElements.setVisibility(View.INVISIBLE);
                     }
-
 
                     cvh.IdElemento = mm.getIdElemento();
                     cvh.Concepto = mm.getConcepto();
@@ -146,10 +163,12 @@ public class Adapter_Lista_Elementos extends RecyclerView.Adapter<Adapter_Lista_
             int TipoElemento;
             String Menu;
             String PDF;
+            String XML;
             String Directorio;
             String Concepto;
             String Mes;
             String FechaPago;
+            String Vencimiento;
             int Status_Movto;
             int Vencido;
             int IdConcepto;
@@ -164,10 +183,12 @@ public class Adapter_Lista_Elementos extends RecyclerView.Adapter<Adapter_Lista_
                 TipoElemento = 0;
                 Menu = _menu;
                 PDF = "";
+                XML = "";
                 Directorio = "";
                 Concepto = "";
                 Mes = "";
                 FechaPago = "";
+                Vencimiento = "";
                 Status_Movto = 0;
                 Vencido = 0;
                 IdConcepto = 0;

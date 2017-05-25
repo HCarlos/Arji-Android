@@ -11,29 +11,49 @@
     >
 
     <LinearLayout
-        android:id="@+id/lyTutores"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
+        android:padding="@dimen/em10"
         >
 
-        <TextView
-            android:id="@+id/tvMenu"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:textSize="@dimen/em16"
+        <ImageView
+            android:src="@mipmap/ic_student"
+            android:layout_width="@dimen/em24"
+            android:layout_height="@dimen/em24"
+            android:layout_weight="0.01"
             android:layout_gravity="center_vertical"
-            android:paddingLeft="@dimen/em16"
-            android:layout_weight="@string/cvTextHijo"
-
+            android:layout_marginRight="@dimen/em6"
             />
+
+        <LinearLayout
+            android:id="@+id/lyTutores"
+            android:layout_width="@dimen/em196"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_weight="1"
+            android:padding="@dimen/em10"
+            >
+
+            <TextView
+                android:id="@+id/tvMenu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/em16"
+                android:layout_gravity="center_vertical"
+                android:paddingLeft="@dimen/em2"
+                android:layout_weight="@string/cvTextHijo"
+
+                />
+
+        </LinearLayout>
 
         <ImageView
             android:src="@mipmap/ic_flecha_derecha"
-            android:layout_height="@dimen/em32"
-            android:layout_width="@dimen/em32"
-            android:layout_gravity="right"
-            android:layout_weight="@string/cvImgRightHijos"
+            android:layout_width="@dimen/em24"
+            android:layout_height="@dimen/em24"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="0.01"
             />
 
     </LinearLayout>

@@ -340,12 +340,12 @@
         "source": "/home/devch/.android/build-cache/7f92580b55284743e9dd029bd37d8273d99aef23/output/res/drawable-xhdpi-v4/ic_media_route_connecting_04_dark.png"
     },
     {
-        "merged": "/home/devch/AndroidStudioProjects/ColegioArji/app/build/intermediates/res/merged/release/drawable-xhdpi-v4/abc_btn_switch_to_on_mtrl_00001.9.png",
-        "source": "/home/devch/.android/build-cache/59f2315c01240a226ab37afdfae3f5e0397da19b/output/res/drawable-xhdpi-v4/abc_btn_switch_to_on_mtrl_00001.9.png"
-    },
-    {
         "merged": "/home/devch/AndroidStudioProjects/ColegioArji/app/build/intermediates/res/merged/release/drawable-xhdpi-v4/quantum_ic_cast_white_36.png",
         "source": "/home/devch/.android/build-cache/6caced23444a67e08e80761f4942e33603160eba/output/res/drawable-xhdpi-v4/quantum_ic_cast_white_36.png"
+    },
+    {
+        "merged": "/home/devch/AndroidStudioProjects/ColegioArji/app/build/intermediates/res/merged/release/drawable-xhdpi-v4/abc_btn_switch_to_on_mtrl_00001.9.png",
+        "source": "/home/devch/.android/build-cache/59f2315c01240a226ab37afdfae3f5e0397da19b/output/res/drawable-xhdpi-v4/abc_btn_switch_to_on_mtrl_00001.9.png"
     },
     {
         "merged": "/home/devch/AndroidStudioProjects/ColegioArji/app/build/intermediates/res/merged/release/drawable-xhdpi-v4/quantum_ic_keyboard_arrow_down_white_36.png",

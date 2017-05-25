@@ -112,8 +112,8 @@
 # view res/layout/abc_screen_simple.xml #generated:17
 -keep class android.support.v7.widget.FitWindowsLinearLayout { <init>(...); }
 
-# view res/layout/activity_lista_elementos.xml #generated:30
-# view res/layout/activity_menu_hijos.xml #generated:30
+# view res/layout/activity_lista_elementos.xml #generated:31
+# view res/layout/activity_menu_hijos.xml #generated:31
 # view res/layout/content_main.xml #generated:40
 -keep class android.support.v7.widget.RecyclerView { <init>(...); }
 

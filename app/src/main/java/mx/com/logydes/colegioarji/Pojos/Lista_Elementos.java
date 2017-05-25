@@ -23,9 +23,11 @@ public class Lista_Elementos {
     private String Director;
     private String Directorio;
     private String PDF;
+    private String XML;
     private String Mes;
     private String Concepto;
     private String FechaPago;
+    private String Vencimiento;
     private int Vencido;
     private int status_movto;
     private int IdConcepto;
@@ -62,8 +64,6 @@ public class Lista_Elementos {
         Director = Remitente;
     }
 
-
-
     public int getIdTareaDestinatario() {
         return IdTareaDestinatario;
     }
@@ -81,18 +81,20 @@ public class Lista_Elementos {
         IdComMensajeDestinatario = idComMensajeDestinatario;
     }
 
-    public Lista_Elementos(String PDF, String directorio, int idFactura, int tipo) {
+    public Lista_Elementos(String PDF, String XML, String directorio, int idFactura, int tipo) {
         this.PDF = PDF;
+        this.XML = XML;
         Directorio = directorio;
         IdFactura = idFactura;
         Tipo = tipo;
     }
 
-    public Lista_Elementos(int status_movto, int vencido, String fechaPago, String concepto, String mes, int IdEdoCta, int tipo, int pagosDiv, int idconcepto) {
+    public Lista_Elementos(int status_movto, int vencido, String fechaPago, String vencimiento, String concepto, String mes, int IdEdoCta, int tipo, int pagosDiv, int idconcepto) {
         this.status_movto = status_movto;
         label = concepto + " " + mes;
         Vencido = vencido;
         FechaPago = fechaPago;
+        Vencimiento = vencimiento;
         Concepto = concepto;
         Mes = mes;
         IdElemento = IdEdoCta;
@@ -202,6 +204,14 @@ public class Lista_Elementos {
         this.PDF = PDF;
     }
 
+    public String getXML() {
+        return XML;
+    }
+
+    public void setXML(String XML) {
+        this.XML = XML;
+    }
+
     public String getDirectorio() {
         return Directorio;
     }
@@ -240,6 +250,14 @@ public class Lista_Elementos {
 
     public void setVencido(int vencido) {
         Vencido = vencido;
+    }
+
+    public String getVencimiento() {
+        return Vencimiento;
+    }
+
+    public void setVencimiento(String vencimiento) {
+        Vencimiento = vencimiento;
     }
 
     public int getStatus_movto() {
