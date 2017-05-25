@@ -55,8 +55,9 @@ public class TareaDeserializador implements JsonDeserializer<TareasResponse> {
             int idelemento              = rec.get("idtarea").getAsInt();
             int idelementodestinatario  = rec.get("idtareadestinatario").getAsInt();
             String label                = rec.get("titulo_tarea").getAsString();
+            String Profesor             = rec.get("profesor").getAsString();
 
-            tareas.add( new Lista_Elementos(label,idelemento,idelementodestinatario, 0) );
+            tareas.add( new Lista_Elementos(label,Profesor,idelemento,idelementodestinatario, 0) );
 
         }
         return tareas;

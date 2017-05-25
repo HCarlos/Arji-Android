@@ -19,6 +19,8 @@ public class Lista_Elementos {
     private String urlWeb;
     private String body;
     private String label;
+    private String Profesor;
+    private String Director;
     private String Directorio;
     private String PDF;
     private String Mes;
@@ -44,18 +46,20 @@ public class Lista_Elementos {
         label = _label;
     }
 
-    public Lista_Elementos(String label, int idTarea, int idTareaDestinatario, int tipo) {
+    public Lista_Elementos(String label, String profesor, int idTarea, int idTareaDestinatario, int tipo) {
         this.label = label;
         IdTarea = idTarea;
         IdTareaDestinatario = idTareaDestinatario;
         Tipo = tipo;
+        Profesor = profesor;
     }
 
-    public Lista_Elementos(int idComMensaje, int idComMensajeDestinatario, String label, int tipo) {
+    public Lista_Elementos(int idComMensaje, int idComMensajeDestinatario, String label, String Remitente, int tipo) {
         IdComMensaje = idComMensaje;
         IdComMensajeDestinatario = idComMensajeDestinatario;
         this.label = label;
         Tipo = tipo;
+        Director = Remitente;
     }
 
 
@@ -260,5 +264,21 @@ public class Lista_Elementos {
 
     public void setPagosDiv(int pagosDiv) {
         PagosDiv = pagosDiv;
+    }
+
+    public String getProfesor() {
+        return Profesor;
+    }
+
+    public void setProfesor(String profesor) {
+        Profesor = profesor;
+    }
+
+    public String getDirector() {
+        return Director;
+    }
+
+    public void setDirector(String director) {
+        Director = director;
     }
 }

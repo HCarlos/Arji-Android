@@ -426,18 +426,18 @@ public final class R {
         public static final int abc_text_size_title_material_toolbar = 0x7f0a0004;
         public static final int disabled_alpha_material_dark = 0x7f0a00a3;
         public static final int disabled_alpha_material_light = 0x7f0a00a4;
-        public static final int highlight_alpha_material_colored = 0x7f0a00b7;
-        public static final int highlight_alpha_material_dark = 0x7f0a00b8;
-        public static final int highlight_alpha_material_light = 0x7f0a00b9;
+        public static final int highlight_alpha_material_colored = 0x7f0a00c1;
+        public static final int highlight_alpha_material_dark = 0x7f0a00c2;
+        public static final int highlight_alpha_material_light = 0x7f0a00c3;
         public static final int mr_controller_volume_group_list_item_height = 0x7f0a0009;
         public static final int mr_controller_volume_group_list_item_icon_size = 0x7f0a000a;
         public static final int mr_controller_volume_group_list_max_height = 0x7f0a000b;
-        public static final int mr_controller_volume_group_list_padding_top = 0x7f0a00c2;
+        public static final int mr_controller_volume_group_list_padding_top = 0x7f0a00cc;
         public static final int mr_dialog_fixed_width_major = 0x7f0a001f;
         public static final int mr_dialog_fixed_width_minor = 0x7f0a0020;
-        public static final int notification_large_icon_height = 0x7f0a00c8;
-        public static final int notification_large_icon_width = 0x7f0a00c9;
-        public static final int notification_subtext_size = 0x7f0a00cd;
+        public static final int notification_large_icon_height = 0x7f0a00d2;
+        public static final int notification_large_icon_width = 0x7f0a00d3;
+        public static final int notification_subtext_size = 0x7f0a00d7;
     }
     public static final class drawable {
         public static final int abc_ab_share_pack_mtrl_alpha = 0x7f020000;

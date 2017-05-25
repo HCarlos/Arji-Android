@@ -104,18 +104,22 @@ public class dbLista_Elementos {
                             int idelementodestinatario = 0;
                             int counter = 0;
                             String label = "";
+                            String lblProfesor = "";
+                            String lblDirector = "";
                             switch (Type){
                                 case 0:
                                     idelemento = rec.getInt("idtarea");
                                     idelementodestinatario = rec.getInt("idtareadestinatario");
                                     label = rec.getString("titulo_tarea");
-                                    MM.add( new Lista_Elementos(label,idelemento,idelementodestinatario,Type) );
+                                    lblProfesor = rec.getString("profesor");
+                                    MM.add( new Lista_Elementos(label,lblProfesor,idelemento,idelementodestinatario,Type) );
                                     break;
                                 case 1:
                                     idelemento = rec.getInt("idcommensaje");
                                     idelementodestinatario = rec.getInt("idcommensajedestinatario");
                                     label = rec.getString("titulo_mensaje");
-                                    MM.add( new Lista_Elementos(idelemento,idelementodestinatario,label,Type) );
+                                    lblDirector = rec.getString("nombre_remitente");
+                                    MM.add( new Lista_Elementos(idelemento,idelementodestinatario,label,lblDirector,Type) );
                                     break;
                                 case 2:
                                     label = rec.getString("pdf");

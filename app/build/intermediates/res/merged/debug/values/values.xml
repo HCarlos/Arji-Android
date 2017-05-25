@@ -914,10 +914,18 @@
     <item format="float" name="disabled_alpha_material_dark" type="dimen">0.30</item>
     <item format="float" name="disabled_alpha_material_light" type="dimen">0.26</item>
     <dimen name="em10">10dp</dimen>
+    <dimen name="em100">100dp</dimen>
+    <dimen name="em11">11dp</dimen>
+    <dimen name="em112">112dp</dimen>
     <dimen name="em12">12dp</dimen>
+    <dimen name="em128">128dp</dimen>
     <dimen name="em14">14dp</dimen>
+    <dimen name="em144">144dp</dimen>
     <dimen name="em16">16dp</dimen>
+    <dimen name="em160">160dp</dimen>
     <dimen name="em18">18dp</dimen>
+    <dimen name="em184">184dp</dimen>
+    <dimen name="em196">196dp</dimen>
     <dimen name="em2">2dp</dimen>
     <dimen name="em20">20dp</dimen>
     <dimen name="em22">22dp</dimen>
@@ -930,6 +938,8 @@
     <dimen name="em6">6dp</dimen>
     <dimen name="em64">64dp</dimen>
     <dimen name="em8">8dp</dimen>
+    <dimen name="em84">84dp</dimen>
+    <dimen name="em96">96dp</dimen>
     <dimen name="fab_margin">16dp</dimen>
     <item format="float" name="highlight_alpha_material_colored" type="dimen">0.26</item>
     <item format="float" name="highlight_alpha_material_dark" type="dimen">0.20</item>
@@ -1255,6 +1265,7 @@
     <string name="username_info_label">USERNAME</string>
     <string name="version_info"/>
     <string name="version_info_label">VERSION</string>
+    <string name="w1">1</string>
     <string name="wallet_buy_button_place_holder">Buy with Google</string>
     <string name="welcome">Welcome</string>
     <style name="AlertDialog.AppCompat" parent="Base.AlertDialog.AppCompat"/>

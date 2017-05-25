@@ -63,11 +63,13 @@ public class Adapter_Lista_Elementos extends RecyclerView.Adapter<Adapter_Lista_
                     cvh.tvElemento.setText(mm.getLabel() );
                     cvh.IdElemento = mm.getIdTarea();
                     cvh.IdElementoDestinatario = mm.getIdTareaDestinatario();
+                    cvh.tvElemento_Detail.setText(mm.getProfesor() );
                     break;
                 case 1:
                     cvh.tvElemento.setText(mm.getLabel() );
                     cvh.IdElemento = mm.getIdComMensaje();
                     cvh.IdElementoDestinatario = mm.getIdComMensajeDestinatario();
+                    cvh.tvElemento_Detail.setText(mm.getDirector() );
                     break;
                 case 2:
                     cvh.tvElemento.setText(mm.getPDF() );
@@ -137,6 +139,7 @@ public class Adapter_Lista_Elementos extends RecyclerView.Adapter<Adapter_Lista_
 
             LinearLayout lyElementos;
             TextView tvElemento;
+            TextView tvElemento_Detail;
             ImageView imgRightElements;
             int IdElemento;
             int IdElementoDestinatario;
@@ -151,6 +154,8 @@ public class Adapter_Lista_Elementos extends RecyclerView.Adapter<Adapter_Lista_
             int Vencido;
             int IdConcepto;
             int PagosDiv;
+            String lblProfesor;
+            String lblDirector;
 
             public AdapterElementosViewHolder(View itemView, String _menu) {
                 super(itemView);
@@ -170,6 +175,8 @@ public class Adapter_Lista_Elementos extends RecyclerView.Adapter<Adapter_Lista_
                 tvElemento = (TextView) itemView.findViewById(R.id.tvElemento);
                 lyElementos = (LinearLayout) itemView.findViewById(R.id.lyElementos);
                 imgRightElements = (ImageView) itemView.findViewById(R.id.imgRightElements);
+                tvElemento_Detail = (TextView) itemView.findViewById(R.id.tvElemento_Detail);
+
             }
 
         }

@@ -63,6 +63,7 @@
     <string name="cvImgLeftHijos">0.25</string>
     <string name="cvTextHijo">0.75</string>
     <string name="cvImgRightHijos">0.25</string>
+    <string name="w1">1</string>
     <string name="title_activity_lista_elementos">ListaElementos</string>
 
     <!-- Otros -->
