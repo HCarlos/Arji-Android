@@ -190,11 +190,13 @@ public class MainActivity extends AppCompatActivity
     public boolean onOptionsItemSelected(MenuItem item) {
 
         Log.e("ENTRO??","SI 10");
+        /*
         int id = item.getItemId();
         if (id == R.id.action_tareas) {
             Toast.makeText(this, "Lista_Elementos", Toast.LENGTH_SHORT).show();
             return true;
         }
+        */
         return super.onOptionsItemSelected(item);
     }
 

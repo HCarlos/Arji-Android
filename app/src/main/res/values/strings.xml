@@ -20,33 +20,16 @@
     <string name="action_system">Sistema</string>
 
     <!-- Menu Tutores y Alumnos -->
-    <string name="action_tareas">Tareas</string>
-    <string name="action_circulares">Circulares</string>
-    <string name="action_facturas">Facturas</string>
-    <string name="action_pagos">Pagos</string>
-    <string name="action_boletas">Boleta</string>
 
     <string name="title_activity_login">Ingresar al Sistema</string>
     <string name="title_activity_boletin">Boletín Oficial</string>
     <string name="title_activity_hijos">Alumnos</string>
-    <string name="title_activity_menu">Alumnos</string>
-
-    <string name="hint_email">Username</string>
-    <string name="hint_password">Password</string>
-    <string name="hint_name">Fullname</string>
-    <string name="btn_login">LOGIN</string>
-    <string name="btn_link_to_login">Already registred! Login Me.</string>
-    <string name="welcome">Welcome</string>
-    <string name="btn_logout">LOGOUT</string>
-    <string name="name">Fullname</string>
-    <string name="title_activity_lactivityn">Sign in</string>
 
     <!-- Strings related to login -->
     <string name="prompt_email">Username</string>
     <string name="prompt_password">Password</string>
     <string name="action_sign_in">Login</string>
     <string name="action_sign_in_short">Login</string>
-    <string name="title_activity_menu_hijos">MenuHijos</string>
     <!--
     <string name="error_invalid_email">This email address is invalid</string>
     <string name="error_invalid_password">This password is too short</string>
@@ -57,14 +40,11 @@
     </string>
     -->
     <!-- Cardview Hijos-->
-    <string name="headerHijosTable">Alumnos</string>
     <string name="nombreAlumno">label</string>
     <string name="idalu">data</string>
     <string name="cvImgLeftHijos">0.25</string>
     <string name="cvTextHijo">0.75</string>
-    <string name="cvImgRightHijos">0.25</string>
     <string name="w1">1</string>
-    <string name="title_activity_lista_elementos">ListaElementos</string>
 
     <!-- Otros -->
     <string name="menu">.</string>
@@ -106,12 +86,5 @@
     <string name="version_info_label">VERSION</string>
     <string name="username_info_label">USERNAME</string>
     <string name="nombrecompletousuario_info_label">USER</string>
-
-    <string name="token_info"></string>
-    <string name="token_id_info"></string>
-    <string name="iduser_info"></string>
-    <string name="version_info"></string>
-    <string name="username_info"></string>
-    <string name="nombrecompletousuario_info"></string>
 
 </resources>

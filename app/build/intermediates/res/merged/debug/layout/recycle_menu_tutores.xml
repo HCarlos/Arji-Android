@@ -18,6 +18,7 @@
         >
 
         <ImageView
+            android:id="@+id/idimgmenututores"
             android:src="@mipmap/ic_student"
             android:layout_width="@dimen/em24"
             android:layout_height="@dimen/em24"

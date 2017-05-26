@@ -72,7 +72,7 @@ public class dbHijos {
             @Override
             public void onResponse(String response) {
                 Utl.hideDialog();
-
+                Log.d(TAG, "Hijos Response: " + response.toString());
                 try {
                     JSONArray jObj = new JSONArray(response);
                     JSONObject rec = jObj.getJSONObject(0);
@@ -93,6 +93,7 @@ public class dbHijos {
                             int idgrualu = rec.getInt("idgrualu");
                             int IsBoleta = rec.getInt("IsBoleta");
                             int Clave_Nivel = 0;// rec.getInt("clave_nivel");
+                            int Genero = rec.getInt("genero");
                             String urlBoleta = rec.getString("urlBoleta");
                             String logoEmp = rec.getString("logoEmp");
                             String logoIB = rec.getString("logoIB");
@@ -100,7 +101,7 @@ public class dbHijos {
 
                             Log.e(TAG,String.valueOf(idgrualu));
 
-                            MM.add( new Hijos( idalu,nombreAlu,grupo,msg,iduseralu, urlBoleta, logoEmp, logoIB, IsBoleta, idgrualu, Clave_Nivel) );
+                            MM.add( new Hijos( idalu,nombreAlu,grupo,msg,iduseralu, urlBoleta, logoEmp, logoIB, IsBoleta, idgrualu, Clave_Nivel, Genero) );
                         }
 
                         Singleton.setRsHijos(MM);

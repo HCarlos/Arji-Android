@@ -19,6 +19,7 @@
         >
 
         <ImageView
+            android:id="@+id/idhijo"
             android:src="@mipmap/ic_student"
             android:layout_width="@dimen/em24"
             android:layout_height="@dimen/em24"

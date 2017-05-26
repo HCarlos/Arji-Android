@@ -9,6 +9,7 @@ import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -54,6 +55,8 @@ public class AdapterHijos extends RecyclerView.Adapter<AdapterHijos.AdapterHijos
 
         final Hijos mm = MM.get(position);
 
+        Log.e("Hijo: ", String.valueOf(mm));
+
         cvh.tvHijo.setText(mm.getLabel());
         cvh.data = mm.getData();
         cvh.tvGrupo.setText(mm.getGrupo());
@@ -63,10 +66,16 @@ public class AdapterHijos extends RecyclerView.Adapter<AdapterHijos.AdapterHijos
         cvh.logoEmp = mm.getLogoEmp();
         cvh.logoIB = mm.getLogoIB();
         cvh.IsBoleta = mm.getIsBoleta();
+        cvh.Genero = mm.getGenero();
 
-        // Log.e("IsBoleta: ", String.valueOf(cvh.IsBoleta));
-
-        // Log.e("IdGruAlu cvh: ", String.valueOf(mm.getIdGruAlu()));
+        switch (cvh.Genero){
+            case 0:
+                cvh.ivIdHijo.setImageResource(R.mipmap.icon_user_female);
+                break;
+            case 1:
+                cvh.ivIdHijo.setImageResource(R.mipmap.icon_user_male);
+                break;
+        }
 
         cvh.lyHijos.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -110,6 +119,8 @@ public class AdapterHijos extends RecyclerView.Adapter<AdapterHijos.AdapterHijos
         String logoIB;
         int IsBoleta;
         int IdGruAlu;
+        int Genero;
+        ImageView ivIdHijo;
 
         public AdapterHijosViewHolder(View itemView) {
             super(itemView);
@@ -120,9 +131,11 @@ public class AdapterHijos extends RecyclerView.Adapter<AdapterHijos.AdapterHijos
             logoIB = "";
             IsBoleta = 0;
             IdGruAlu = 0;
+            Genero = 0;
             tvHijo = (TextView) itemView.findViewById(R.id.tvHijo);
             tvGrupo = (TextView) itemView.findViewById(R.id.tvGrupo);
             lyHijos = (LinearLayout) itemView.findViewById(R.id.lyHijos);
+            ivIdHijo = (ImageView) itemView.findViewById(R.id.idhijo);
 
         }
 

@@ -61,7 +61,7 @@ public class NotificationService extends FirebaseMessagingService {
         if ( Titulo.isEmpty() ) Titulo = getString(R.string.app_name);
 
         NotificationCompat.Builder notificacion = new NotificationCompat.Builder(this)
-                .setSmallIcon(R.drawable.icon_notification)
+                .setSmallIcon(R.drawable.icon_notification_transparent)
                 .setContentTitle(Titulo)
                 .setContentText(remoteMessage.getNotification().getBody())
                 .setAutoCancel(true)

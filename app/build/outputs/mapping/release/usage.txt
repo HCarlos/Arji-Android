@@ -14052,19 +14052,20 @@ mx.com.logydes.colegioarji.MenuHijos:
     private android.content.Context context
     private mx.com.logydes.colegioarji.Adapter.AdapterHijos mad
 mx.com.logydes.colegioarji.Pojos.Hijos:
-    38:39:public void setData(int)
-    46:47:public void setLabel(java.lang.String)
-    54:55:public void setGrupo(java.lang.String)
-    58:58:public java.lang.String getMsg()
-    62:63:public void setMsg(java.lang.String)
-    70:71:public void setIdUserAlu(int)
-    78:79:public void setUrlBoleta(java.lang.String)
-    86:87:public void setLogoEmp(java.lang.String)
-    94:95:public void setLogoIB(java.lang.String)
-    102:103:public void setIsBoleta(int)
-    110:111:public void setIdGruAlu(int)
-    114:114:public int getClave_Nivel()
-    118:119:public void setClave_Nivel(int)
+    40:41:public void setData(int)
+    48:49:public void setLabel(java.lang.String)
+    56:57:public void setGrupo(java.lang.String)
+    60:60:public java.lang.String getMsg()
+    64:65:public void setMsg(java.lang.String)
+    72:73:public void setIdUserAlu(int)
+    80:81:public void setUrlBoleta(java.lang.String)
+    88:89:public void setLogoEmp(java.lang.String)
+    96:97:public void setLogoIB(java.lang.String)
+    104:105:public void setIsBoleta(int)
+    112:113:public void setIdGruAlu(int)
+    116:116:public int getClave_Nivel()
+    120:121:public void setClave_Nivel(int)
+    128:129:public void setGenero(int)
 mx.com.logydes.colegioarji.Pojos.Lista_Elementos:
     private int IdObjAlu
     private int IdObjMenu

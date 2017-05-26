@@ -172,12 +172,12 @@
         "source": "/home/devch/.android/build-cache/6047e3fee7a5e86be85e7a94f566878375d91074/output/res/drawable-xhdpi-v4/powered_by_google_light.png"
     },
     {
-        "merged": "/home/devch/AndroidStudioProjects/ColegioArji/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/ic_media_route_on_06_light.png",
-        "source": "/home/devch/.android/build-cache/7f92580b55284743e9dd029bd37d8273d99aef23/output/res/drawable-xhdpi-v4/ic_media_route_on_06_light.png"
-    },
-    {
         "merged": "/home/devch/AndroidStudioProjects/ColegioArji/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/ic_speaker_group_light.png",
         "source": "/home/devch/.android/build-cache/7f92580b55284743e9dd029bd37d8273d99aef23/output/res/drawable-xhdpi-v4/ic_speaker_group_light.png"
+    },
+    {
+        "merged": "/home/devch/AndroidStudioProjects/ColegioArji/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/ic_media_route_on_06_light.png",
+        "source": "/home/devch/.android/build-cache/7f92580b55284743e9dd029bd37d8273d99aef23/output/res/drawable-xhdpi-v4/ic_media_route_on_06_light.png"
     },
     {
         "merged": "/home/devch/AndroidStudioProjects/ColegioArji/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/ic_media_route_on_17_light.png",

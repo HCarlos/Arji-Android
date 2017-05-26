@@ -4,12 +4,15 @@ import android.app.Activity;
 import android.app.ProgressDialog;
 import android.content.Context;
 import android.content.Intent;
+import android.graphics.Bitmap;
+import android.graphics.BitmapFactory;
 import android.net.Uri;
 import android.support.v7.widget.RecyclerView;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -104,6 +107,27 @@ public class Adapter_Menu_Tutores extends RecyclerView.Adapter<Adapter_Menu_Tuto
         cvh.tvMenu.setText(mm.getMenu() );
         cvh.idmenu = mm.getIdmenu();
 
+        switch (cvh.idmenu){
+            case 0:
+                cvh.idimgmenututores.setImageResource(R.mipmap.icon_tareas);
+                break;
+            case 1:
+                cvh.idimgmenututores.setImageResource(R.mipmap.icon_circulares);
+                break;
+            case 2:
+                cvh.idimgmenututores.setImageResource(R.mipmap.icon_facturas);
+                break;
+            case 3:
+                cvh.idimgmenututores.setImageResource(R.mipmap.icon_pagos);
+                break;
+            case 4:
+                cvh.idimgmenututores.setImageResource(R.mipmap.icon_boletas);
+                break;
+            case 5:
+                cvh.idimgmenututores.setImageResource(R.mipmap.icon_calendario);
+                break;
+        }
+
         // Log.e(TAG,mm.getGrupo());en
 
         cvh.lyTutores.setOnClickListener(new View.OnClickListener() {
@@ -191,6 +215,7 @@ public class Adapter_Menu_Tutores extends RecyclerView.Adapter<Adapter_Menu_Tuto
 
         LinearLayout lyTutores;
         TextView tvMenu;
+        ImageView idimgmenututores;
         int idmenu;
 
         public Adapter_Menu_TutoresViewHolder(View itemView) {
@@ -198,6 +223,7 @@ public class Adapter_Menu_Tutores extends RecyclerView.Adapter<Adapter_Menu_Tuto
             idmenu = 0;
             tvMenu = (TextView) itemView.findViewById(R.id.tvMenu);
             lyTutores = (LinearLayout) itemView.findViewById(R.id.lyTutores);
+            idimgmenututores = (ImageView) itemView.findViewById(R.id.idimgmenututores);
 
         }
 

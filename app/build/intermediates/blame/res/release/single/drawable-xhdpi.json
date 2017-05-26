@@ -4,22 +4,6 @@
         "source": "/home/devch/AndroidStudioProjects/ColegioArji/app/src/main/res/drawable-xhdpi/ic_system.png"
     },
     {
-        "merged": "/home/devch/AndroidStudioProjects/ColegioArji/app/build/intermediates/res/merged/release/drawable-xhdpi/ic_boletin.png",
-        "source": "/home/devch/AndroidStudioProjects/ColegioArji/app/src/main/res/drawable-xhdpi/ic_boletin.png"
-    },
-    {
-        "merged": "/home/devch/AndroidStudioProjects/ColegioArji/app/build/intermediates/res/merged/release/drawable-xhdpi/logo_arji_android_460x460.png",
-        "source": "/home/devch/AndroidStudioProjects/ColegioArji/app/src/main/res/drawable-xhdpi/logo_arji_android_460x460.png"
-    },
-    {
-        "merged": "/home/devch/AndroidStudioProjects/ColegioArji/app/build/intermediates/res/merged/release/drawable-xhdpi/ic_launcher.png",
-        "source": "/home/devch/AndroidStudioProjects/ColegioArji/app/src/main/res/drawable-xhdpi/ic_launcher.png"
-    },
-    {
-        "merged": "/home/devch/AndroidStudioProjects/ColegioArji/app/build/intermediates/res/merged/release/drawable-xhdpi/icon_notification.png",
-        "source": "/home/devch/AndroidStudioProjects/ColegioArji/app/src/main/res/drawable-xhdpi/icon_notification.png"
-    },
-    {
         "merged": "/home/devch/AndroidStudioProjects/ColegioArji/app/build/intermediates/res/merged/release/drawable-xhdpi/background_2_arji.png",
         "source": "/home/devch/AndroidStudioProjects/ColegioArji/app/src/main/res/drawable-xhdpi/background_2_arji.png"
     },

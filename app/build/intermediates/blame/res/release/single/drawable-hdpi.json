@@ -1,17 +1,5 @@
 [
     {
-        "merged": "/home/devch/AndroidStudioProjects/ColegioArji/app/build/intermediates/res/merged/release/drawable-hdpi/ic_launcher.png",
-        "source": "/home/devch/AndroidStudioProjects/ColegioArji/app/src/main/res/drawable-hdpi/ic_launcher.png"
-    },
-    {
-        "merged": "/home/devch/AndroidStudioProjects/ColegioArji/app/build/intermediates/res/merged/release/drawable-hdpi/ic_boletin.png",
-        "source": "/home/devch/AndroidStudioProjects/ColegioArji/app/src/main/res/drawable-hdpi/ic_boletin.png"
-    },
-    {
-        "merged": "/home/devch/AndroidStudioProjects/ColegioArji/app/build/intermediates/res/merged/release/drawable-hdpi/ic_cloud_black_48dp.png",
-        "source": "/home/devch/AndroidStudioProjects/ColegioArji/app/src/main/res/drawable-hdpi/ic_cloud_black_48dp.png"
-    },
-    {
         "merged": "/home/devch/AndroidStudioProjects/ColegioArji/app/build/intermediates/res/merged/release/drawable-hdpi/logo_arji.png",
         "source": "/home/devch/AndroidStudioProjects/ColegioArji/app/src/main/res/drawable-hdpi/logo_arji.png"
     },
@@ -20,16 +8,8 @@
         "source": "/home/devch/AndroidStudioProjects/ColegioArji/app/src/main/res/drawable-hdpi/ic_system.png"
     },
     {
-        "merged": "/home/devch/AndroidStudioProjects/ColegioArji/app/build/intermediates/res/merged/release/drawable-hdpi/icon_notification.png",
-        "source": "/home/devch/AndroidStudioProjects/ColegioArji/app/src/main/res/drawable-hdpi/icon_notification.png"
-    },
-    {
         "merged": "/home/devch/AndroidStudioProjects/ColegioArji/app/build/intermediates/res/merged/release/drawable-hdpi/background_2_arji.png",
         "source": "/home/devch/AndroidStudioProjects/ColegioArji/app/src/main/res/drawable-hdpi/background_2_arji.png"
-    },
-    {
-        "merged": "/home/devch/AndroidStudioProjects/ColegioArji/app/build/intermediates/res/merged/release/drawable-hdpi/logo_arji_android_460x460.png",
-        "source": "/home/devch/AndroidStudioProjects/ColegioArji/app/src/main/res/drawable-hdpi/logo_arji_android_460x460.png"
     },
     {
         "merged": "/home/devch/AndroidStudioProjects/ColegioArji/app/build/intermediates/res/merged/release/drawable-hdpi/background_1_arji.png",

@@ -7,58 +7,47 @@
     <color name="colorBackground">#e9dbb7</color>
 
     <color name="bg_login">#26ae90</color>
-    <color name="bg_register">#2e3237</color>
-    <color name="bg_main">#428bca</color>
     <color name="white">#ffffff</color>
-    <color name="input_login">#222222</color>
-    <color name="input_login_hint">#999999</color>
-    <color name="input_register">#888888</color>
-    <color name="input_register_bg">#3b4148</color>
     <color name="input_register_hint">#5e6266</color>
     <color name="backgroud_text">#ff6861</color>
-    <color name="btn_login">#26ae90</color>
-    <color name="btn_login_bg">#eceef1</color>
-    <color name="lbl_name">#333333</color>
-    <color name="btn_logut_bg">#ff6861</color>
     <color name="primary_light">#ffecb3</color>
-    <color name="secondary_text">#727272</color>
 
-<!--
+    <!--
 
-    <color name="backgroud_text">#ff6861</color>
+        <color name="backgroud_text">#ff6861</color>
 
-    <color name="colorPrimary">#3F51B5</color>
-    <color name="colorPrimaryDark">#303F9F</color>
-    <color name="colorAccent">#FF4081</color>
-    <color name="colorBackground">#e9dbb7</color>
+        <color name="colorPrimary">#3F51B5</color>
+        <color name="colorPrimaryDark">#303F9F</color>
+        <color name="colorAccent">#FF4081</color>
+        <color name="colorBackground">#e9dbb7</color>
 
-    <color name="bg_login">#26ae90</color>
-    <color name="bg_register">#2e3237</color>
-    <color name="bg_main">#428bca</color>
-    <color name="white">#ffffff</color>
-    <color name="input_login">#222222</color>
-    <color name="input_login_hint">#999999</color>
-    <color name="input_register">#888888</color>
-    <color name="input_register_bg">#3b4148</color>
-    <color name="input_register_hint">#5e6266</color>
-    <color name="btn_login">#26ae90</color>
-    <color name="btn_login_bg">#eceef1</color>
-    <color name="lbl_name">#333333</color>
-    <color name="btn_logut_bg">#ff6861</color>
-    <color name="colorVerde">#FF028708</color>
-    <color name="colorNaranja">#FFED6007</color>
+        <color name="bg_login">#26ae90</color>
+        <color name="bg_register">#2e3237</color>
+        <color name="bg_main">#428bca</color>
+        <color name="white">#ffffff</color>
+        <color name="input_login">#222222</color>
+        <color name="input_login_hint">#999999</color>
+        <color name="input_register">#888888</color>
+        <color name="input_register_bg">#3b4148</color>
+        <color name="input_register_hint">#5e6266</color>
+        <color name="btn_login">#26ae90</color>
+        <color name="btn_login_bg">#eceef1</color>
+        <color name="lbl_name">#333333</color>
+        <color name="btn_logut_bg">#ff6861</color>
+        <color name="colorVerde">#FF028708</color>
+        <color name="colorNaranja">#FFED6007</color>
 
 
-    <color name="primary">#FFC107</color>
-    <color name="primary_dark">#FFA000</color>
-    <color name="primary_light">#FFECB3</color>
-    <color name="primary_me">#f7c83c</color>
-    <color name="accent">#7C4DFF</color>
-    <color name="primary_text">#212121</color>
-    <color name="secondary_text">#727272</color>
-    <color name="icons">#212121</color>
-    <color name="divider">#B6B6B6</color>
+        <color name="primary">#FFC107</color>
+        <color name="primary_dark">#FFA000</color>
+        <color name="primary_light">#FFECB3</color>
+        <color name="primary_me">#f7c83c</color>
+        <color name="accent">#7C4DFF</color>
+        <color name="primary_text">#212121</color>
+        <color name="secondary_text">#727272</color>
+        <color name="icons">#212121</color>
+        <color name="divider">#B6B6B6</color>
 
--->
+    -->
 
 </resources>
