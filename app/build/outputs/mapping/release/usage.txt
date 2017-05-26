@@ -1162,7 +1162,6 @@ android.support.v4.app.NotificationCompat$Builder:
     1224:1225:public android.support.v4.app.NotificationCompat$Builder setContent(android.widget.RemoteViews)
     1272:1274:public android.support.v4.app.NotificationCompat$Builder setFullScreenIntent(android.app.PendingIntent,boolean)
     1292:1294:public android.support.v4.app.NotificationCompat$Builder setTicker(java.lang.CharSequence,android.widget.RemoteViews)
-    1301:1302:public android.support.v4.app.NotificationCompat$Builder setLargeIcon(android.graphics.Bitmap)
     1331:1333:public android.support.v4.app.NotificationCompat$Builder setSound(android.net.Uri,int)
     1348:1349:public android.support.v4.app.NotificationCompat$Builder setVibrate(long[])
     1358:1364:public android.support.v4.app.NotificationCompat$Builder setLights(int,int,int)
@@ -14145,6 +14144,7 @@ mx.com.logydes.colegioarji.Utils.NotificacionIDTokenService:
     public static final java.lang.String TAG
 mx.com.logydes.colegioarji.Utils.NotificationService:
     public static final java.lang.String TAG
+    private android.app.Activity activity
 mx.com.logydes.colegioarji.Utils.NotificationsListenerService
 mx.com.logydes.colegioarji.Utils.RegistrationService
 mx.com.logydes.colegioarji.Utils.TokenRefreshListenerService

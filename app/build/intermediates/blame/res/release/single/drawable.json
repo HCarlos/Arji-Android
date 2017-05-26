@@ -304,12 +304,12 @@
         "source": "/home/devch/.android/build-cache/9684020d023eb53bccb8d1174ff361e15fa20fc1/output/res/drawable/common_google_signin_btn_text_light_focused.xml"
     },
     {
-        "merged": "/home/devch/AndroidStudioProjects/ColegioArji/app/build/intermediates/res/merged/release/drawable/cast_ic_mini_controller_play.xml",
-        "source": "/home/devch/.android/build-cache/6caced23444a67e08e80761f4942e33603160eba/output/res/drawable/cast_ic_mini_controller_play.xml"
-    },
-    {
         "merged": "/home/devch/AndroidStudioProjects/ColegioArji/app/build/intermediates/res/merged/release/drawable/mr_ic_pause_dark.xml",
         "source": "/home/devch/.android/build-cache/7f92580b55284743e9dd029bd37d8273d99aef23/output/res/drawable/mr_ic_pause_dark.xml"
+    },
+    {
+        "merged": "/home/devch/AndroidStudioProjects/ColegioArji/app/build/intermediates/res/merged/release/drawable/cast_ic_mini_controller_play.xml",
+        "source": "/home/devch/.android/build-cache/6caced23444a67e08e80761f4942e33603160eba/output/res/drawable/cast_ic_mini_controller_play.xml"
     },
     {
         "merged": "/home/devch/AndroidStudioProjects/ColegioArji/app/build/intermediates/res/merged/release/drawable/design_snackbar_background.xml",

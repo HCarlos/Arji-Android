@@ -1,13 +1,17 @@
 package mx.com.logydes.colegioarji.Utils;
 
+import android.app.Activity;
 import android.app.NotificationManager;
 import android.app.PendingIntent;
 import android.content.Context;
 import android.content.Intent;
+import android.graphics.Bitmap;
+import android.graphics.BitmapFactory;
 import android.media.RingtoneManager;
 import android.net.Uri;
 import android.support.v4.app.NotificationCompat;
 import android.util.Log;
+import android.widget.ImageView;
 
 import com.google.firebase.messaging.FirebaseMessaging;
 import com.google.firebase.messaging.FirebaseMessagingService;
@@ -22,6 +26,7 @@ import mx.com.logydes.colegioarji.R;
 
 public class NotificationService extends FirebaseMessagingService {
     public static final String TAG = "NOTIF: ";
+    private Activity activity;
     @Override
     public void onMessageReceived(RemoteMessage remoteMessage) {
         // super.onMessageReceived(remoteMessage);
@@ -58,10 +63,13 @@ public class NotificationService extends FirebaseMessagingService {
 
         String Titulo = remoteMessage.getNotification().getTitle();
 
+        Bitmap bm = BitmapFactory.decodeResource(getResources(), R.drawable.icon_notification_transparent);
+
         if ( Titulo.isEmpty() ) Titulo = getString(R.string.app_name);
 
         NotificationCompat.Builder notificacion = new NotificationCompat.Builder(this)
                 .setSmallIcon(R.drawable.icon_notification_transparent)
+                .setLargeIcon(bm)
                 .setContentTitle(Titulo)
                 .setContentText(remoteMessage.getNotification().getBody())
                 .setAutoCancel(true)

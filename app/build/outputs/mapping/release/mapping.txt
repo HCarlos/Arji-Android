@@ -5024,6 +5024,7 @@ android.support.v4.app.NotificationCompat$Builder -> android.support.v4.app.ah$d
     1237:1238:android.support.v4.app.NotificationCompat$Builder setContentIntent(android.app.PendingIntent) -> a
     1249:1250:android.support.v4.app.NotificationCompat$Builder setDeleteIntent(android.app.PendingIntent) -> b
     1282:1283:android.support.v4.app.NotificationCompat$Builder setTicker(java.lang.CharSequence) -> c
+    1301:1302:android.support.v4.app.NotificationCompat$Builder setLargeIcon(android.graphics.Bitmap) -> a
     1314:1316:android.support.v4.app.NotificationCompat$Builder setSound(android.net.Uri) -> a
     1399:1400:android.support.v4.app.NotificationCompat$Builder setAutoCancel(boolean) -> a
     1410:1411:android.support.v4.app.NotificationCompat$Builder setLocalOnly(boolean) -> b
@@ -48418,9 +48419,9 @@ mx.com.logydes.colegioarji.Utils.NotificacionIDTokenService -> mx.com.logydes.co
     20:26:void onTokenRefresh() -> a
     40:42:void sendRegistrationToServer(java.lang.String) -> a
 mx.com.logydes.colegioarji.Utils.NotificationService -> mx.com.logydes.colegioarji.Utils.NotificationService:
-    23:23:void <init>() -> <init>
-    31:47:void onMessageReceived(com.google.firebase.messaging.RemoteMessage) -> a
-    54:74:void enviarNotificacion(com.google.firebase.messaging.RemoteMessage) -> b
+    27:27:void <init>() -> <init>
+    36:52:void onMessageReceived(com.google.firebase.messaging.RemoteMessage) -> a
+    59:82:void enviarNotificacion(com.google.firebase.messaging.RemoteMessage) -> b
 mx.com.logydes.colegioarji.Utils.Utilidades -> mx.com.logydes.colegioarji.Utils.b:
     android.app.ProgressDialog pDialog -> a
     14:16:void <init>(android.app.ProgressDialog) -> <init>
