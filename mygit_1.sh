@@ -11,7 +11,7 @@ git status
 
 git add .
 
-git commit -m "Arjí - Update 16(1.16) Alfa"
+git commit -m "Arjí - Update 17(1.17) Alfa"
 
 git push -u origin master --force
 

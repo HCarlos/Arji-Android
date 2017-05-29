@@ -1,0 +1,7 @@
+#Mon May 29 09:58:38 CDT 2017
+base.0=/home/devch/AndroidStudioProjects/ColegioArji/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_7678204e3ef58cd805402e5665e3052976e72621
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=/home/devch/AndroidStudioProjects/ColegioArji/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_02c837b69ebfbb408aa99ef4a8ed70edb13ac698/classes.dex
+base.1=/home/devch/AndroidStudioProjects/ColegioArji/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_02c837b69ebfbb408aa99ef4a8ed70edb13ac698
+file.0=/home/devch/AndroidStudioProjects/ColegioArji/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_7678204e3ef58cd805402e5665e3052976e72621/classes.dex

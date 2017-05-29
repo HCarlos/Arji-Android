@@ -48403,7 +48403,7 @@ mx.com.logydes.colegioarji.Utils.AppConfig -> mx.com.logydes.colegioarji.Utils.a
     int URL_CALENDARIO_TYPE -> C
     java.lang.String URL_AVISO_PRIVACIDAD -> D
     int URL_AVISO_PRIVACIDAD_TYPE -> E
-    9:57:void <clinit>() -> <clinit>
+    9:58:void <clinit>() -> <clinit>
 mx.com.logydes.colegioarji.Utils.AppController -> mx.com.logydes.colegioarji.Utils.AppController:
     java.lang.String TAG -> a
     com.android.volley.RequestQueue mRequestQueue -> b
