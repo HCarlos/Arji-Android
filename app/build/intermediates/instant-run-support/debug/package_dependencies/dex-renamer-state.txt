@@ -1,4 +1,4 @@
-#Mon May 29 09:58:35 CDT 2017
+#Tue Jun 13 12:38:17 CDT 2017
 file.78=/home/devch/AndroidStudioProjects/ColegioArji/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.0.0_b7aa808246223372d9fef6ad81a361f143256d4f/classes.dex
 file.77=/home/devch/AndroidStudioProjects/ColegioArji/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_92cee2101ed02dac96a015928cd127cb5aec54de/classes.dex
 file.76=/home/devch/AndroidStudioProjects/ColegioArji/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_701b63e266da7c7d789a3e3eb185ebb0634cae31/classes.dex

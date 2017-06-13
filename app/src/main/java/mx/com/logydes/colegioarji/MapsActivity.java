@@ -46,8 +46,8 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
         mMap = googleMap;
         mMap.setMapType(mMap.MAP_TYPE_SATELLITE);
         // Add a marker in Villahermosa and move the camera
-        LatLng sydney = new LatLng(17.968599, -92.949938);
-        mMap.addMarker(new MarkerOptions().position(sydney).title("Colegio Arjí, A.C."));
-        mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(sydney, 18));
+        LatLng vhsa = new LatLng(17.968599, -92.949938);
+        mMap.addMarker(new MarkerOptions().position(vhsa).title("Colegio Arjí, A.C."));
+        mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(vhsa, 18));
     }
 }

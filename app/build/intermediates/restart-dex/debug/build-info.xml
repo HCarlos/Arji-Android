@@ -6,31 +6,25 @@
     density="xxhdpi"
     format="10"
     plugin-version="2.3.2"
-    timestamp="1496069867608"
+    timestamp="1497375464212"
     token="160330917825941602"
     verifier="FULL_BUILD_REQUESTED" >
 
     <task
         name="javac"
-        duration="0" />
+        duration="7415" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="2250" />
+        duration="270" />
     <task
         name="verifier"
-        duration="96" />
+        duration="76" />
 
     <artifact
         location="/home/devch/AndroidStudioProjects/ColegioArji/app/build/intermediates/split-apk/debug/dep/dependencies.apk"
-        type="SPLIT" />
-    <artifact
-        location="/home/devch/AndroidStudioProjects/ColegioArji/app/build/intermediates/split-apk/debug/slices/slice_9.apk"
-        type="SPLIT" />
-    <artifact
-        location="/home/devch/AndroidStudioProjects/ColegioArji/app/build/intermediates/split-apk/debug/slices/slice_2.apk"
         type="SPLIT" />
     <artifact
         location="/home/devch/AndroidStudioProjects/ColegioArji/app/build/intermediates/split-apk/debug/slices/slice_0.apk"
@@ -39,19 +33,25 @@
         location="/home/devch/AndroidStudioProjects/ColegioArji/app/build/intermediates/split-apk/debug/slices/slice_1.apk"
         type="SPLIT" />
     <artifact
-        location="/home/devch/AndroidStudioProjects/ColegioArji/app/build/intermediates/split-apk/debug/slices/slice_5.apk"
+        location="/home/devch/AndroidStudioProjects/ColegioArji/app/build/intermediates/split-apk/debug/slices/slice_2.apk"
         type="SPLIT" />
     <artifact
-        location="/home/devch/AndroidStudioProjects/ColegioArji/app/build/intermediates/split-apk/debug/slices/slice_4.apk"
-        type="SPLIT" />
-    <artifact
-        location="/home/devch/AndroidStudioProjects/ColegioArji/app/build/intermediates/split-apk/debug/slices/slice_8.apk"
+        location="/home/devch/AndroidStudioProjects/ColegioArji/app/build/intermediates/split-apk/debug/slices/slice_9.apk"
         type="SPLIT" />
     <artifact
         location="/home/devch/AndroidStudioProjects/ColegioArji/app/build/intermediates/split-apk/debug/slices/slice_6.apk"
         type="SPLIT" />
     <artifact
+        location="/home/devch/AndroidStudioProjects/ColegioArji/app/build/intermediates/split-apk/debug/slices/slice_5.apk"
+        type="SPLIT" />
+    <artifact
+        location="/home/devch/AndroidStudioProjects/ColegioArji/app/build/intermediates/split-apk/debug/slices/slice_8.apk"
+        type="SPLIT" />
+    <artifact
         location="/home/devch/AndroidStudioProjects/ColegioArji/app/build/intermediates/split-apk/debug/slices/slice_3.apk"
+        type="SPLIT" />
+    <artifact
+        location="/home/devch/AndroidStudioProjects/ColegioArji/app/build/intermediates/split-apk/debug/slices/slice_4.apk"
         type="SPLIT" />
     <artifact
         location="/home/devch/AndroidStudioProjects/ColegioArji/app/build/intermediates/split-apk/debug/slices/slice_7.apk"
@@ -62,16 +62,10 @@
 
     <build
         build-mode="FULL"
-        timestamp="1496069867608"
+        timestamp="1497375464212"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
             location="/home/devch/AndroidStudioProjects/ColegioArji/app/build/intermediates/split-apk/debug/dep/dependencies.apk"
-            type="SPLIT" />
-        <artifact
-            location="/home/devch/AndroidStudioProjects/ColegioArji/app/build/intermediates/split-apk/debug/slices/slice_9.apk"
-            type="SPLIT" />
-        <artifact
-            location="/home/devch/AndroidStudioProjects/ColegioArji/app/build/intermediates/split-apk/debug/slices/slice_2.apk"
             type="SPLIT" />
         <artifact
             location="/home/devch/AndroidStudioProjects/ColegioArji/app/build/intermediates/split-apk/debug/slices/slice_0.apk"
@@ -80,19 +74,25 @@
             location="/home/devch/AndroidStudioProjects/ColegioArji/app/build/intermediates/split-apk/debug/slices/slice_1.apk"
             type="SPLIT" />
         <artifact
-            location="/home/devch/AndroidStudioProjects/ColegioArji/app/build/intermediates/split-apk/debug/slices/slice_5.apk"
+            location="/home/devch/AndroidStudioProjects/ColegioArji/app/build/intermediates/split-apk/debug/slices/slice_2.apk"
             type="SPLIT" />
         <artifact
-            location="/home/devch/AndroidStudioProjects/ColegioArji/app/build/intermediates/split-apk/debug/slices/slice_4.apk"
-            type="SPLIT" />
-        <artifact
-            location="/home/devch/AndroidStudioProjects/ColegioArji/app/build/intermediates/split-apk/debug/slices/slice_8.apk"
+            location="/home/devch/AndroidStudioProjects/ColegioArji/app/build/intermediates/split-apk/debug/slices/slice_9.apk"
             type="SPLIT" />
         <artifact
             location="/home/devch/AndroidStudioProjects/ColegioArji/app/build/intermediates/split-apk/debug/slices/slice_6.apk"
             type="SPLIT" />
         <artifact
+            location="/home/devch/AndroidStudioProjects/ColegioArji/app/build/intermediates/split-apk/debug/slices/slice_5.apk"
+            type="SPLIT" />
+        <artifact
+            location="/home/devch/AndroidStudioProjects/ColegioArji/app/build/intermediates/split-apk/debug/slices/slice_8.apk"
+            type="SPLIT" />
+        <artifact
             location="/home/devch/AndroidStudioProjects/ColegioArji/app/build/intermediates/split-apk/debug/slices/slice_3.apk"
+            type="SPLIT" />
+        <artifact
+            location="/home/devch/AndroidStudioProjects/ColegioArji/app/build/intermediates/split-apk/debug/slices/slice_4.apk"
             type="SPLIT" />
         <artifact
             location="/home/devch/AndroidStudioProjects/ColegioArji/app/build/intermediates/split-apk/debug/slices/slice_7.apk"
