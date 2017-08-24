@@ -1,4 +1,4 @@
-#Tue Jun 13 12:38:18 CDT 2017
+#Tue Aug 22 15:51:53 CDT 2017
 base.0=/home/devch/AndroidStudioProjects/ColegioArji/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_9
 renamed.0=classes.dex
 file.0=/home/devch/AndroidStudioProjects/ColegioArji/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_9/classes.dex

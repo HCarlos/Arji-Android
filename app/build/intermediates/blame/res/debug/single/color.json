@@ -32,12 +32,12 @@
         "source": "/home/devch/.android/build-cache/59f2315c01240a226ab37afdfae3f5e0397da19b/output/res/color/abc_primary_text_disable_only_material_dark.xml"
     },
     {
-        "merged": "/home/devch/AndroidStudioProjects/ColegioArji/app/build/intermediates/res/merged/debug/color/abc_tint_switch_thumb.xml",
-        "source": "/home/devch/.android/build-cache/59f2315c01240a226ab37afdfae3f5e0397da19b/output/res/color/abc_tint_switch_thumb.xml"
-    },
-    {
         "merged": "/home/devch/AndroidStudioProjects/ColegioArji/app/build/intermediates/res/merged/debug/color/switch_thumb_material_dark.xml",
         "source": "/home/devch/.android/build-cache/59f2315c01240a226ab37afdfae3f5e0397da19b/output/res/color/switch_thumb_material_dark.xml"
+    },
+    {
+        "merged": "/home/devch/AndroidStudioProjects/ColegioArji/app/build/intermediates/res/merged/debug/color/abc_tint_switch_thumb.xml",
+        "source": "/home/devch/.android/build-cache/59f2315c01240a226ab37afdfae3f5e0397da19b/output/res/color/abc_tint_switch_thumb.xml"
     },
     {
         "merged": "/home/devch/AndroidStudioProjects/ColegioArji/app/build/intermediates/res/merged/debug/color/abc_hint_foreground_material_dark.xml",
@@ -53,7 +53,7 @@
     },
     {
         "merged": "/home/devch/AndroidStudioProjects/ColegioArji/app/build/intermediates/res/merged/debug/color/common_google_signin_btn_text_dark.xml",
-        "source": "/home/devch/.android/build-cache/9684020d023eb53bccb8d1174ff361e15fa20fc1/output/res/color/common_google_signin_btn_text_dark.xml"
+        "source": "/home/devch/.android/build-cache/908598633a6a2ad724f0748d192f2084b505db67/output/res/color/common_google_signin_btn_text_dark.xml"
     },
     {
         "merged": "/home/devch/AndroidStudioProjects/ColegioArji/app/build/intermediates/res/merged/debug/color/abc_primary_text_material_light.xml",
@@ -69,11 +69,11 @@
     },
     {
         "merged": "/home/devch/AndroidStudioProjects/ColegioArji/app/build/intermediates/res/merged/debug/color/wallet_primary_text_holo_light.xml",
-        "source": "/home/devch/.android/build-cache/223f3973062ea0a85976c192ca13965b9372750b/output/res/color/wallet_primary_text_holo_light.xml"
+        "source": "/home/devch/.android/build-cache/c4d0a66effae30b65b7396231e7414e630ab5de5/output/res/color/wallet_primary_text_holo_light.xml"
     },
     {
         "merged": "/home/devch/AndroidStudioProjects/ColegioArji/app/build/intermediates/res/merged/debug/color/common_google_signin_btn_text_light.xml",
-        "source": "/home/devch/.android/build-cache/9684020d023eb53bccb8d1174ff361e15fa20fc1/output/res/color/common_google_signin_btn_text_light.xml"
+        "source": "/home/devch/.android/build-cache/908598633a6a2ad724f0748d192f2084b505db67/output/res/color/common_google_signin_btn_text_light.xml"
     },
     {
         "merged": "/home/devch/AndroidStudioProjects/ColegioArji/app/build/intermediates/res/merged/debug/color/abc_tint_edittext.xml",
@@ -97,7 +97,7 @@
     },
     {
         "merged": "/home/devch/AndroidStudioProjects/ColegioArji/app/build/intermediates/res/merged/debug/color/wallet_secondary_text_holo_dark.xml",
-        "source": "/home/devch/.android/build-cache/223f3973062ea0a85976c192ca13965b9372750b/output/res/color/wallet_secondary_text_holo_dark.xml"
+        "source": "/home/devch/.android/build-cache/c4d0a66effae30b65b7396231e7414e630ab5de5/output/res/color/wallet_secondary_text_holo_dark.xml"
     },
     {
         "merged": "/home/devch/AndroidStudioProjects/ColegioArji/app/build/intermediates/res/merged/debug/color/abc_secondary_text_material_light.xml",

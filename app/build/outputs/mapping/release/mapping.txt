@@ -48376,33 +48376,32 @@ mx.com.logydes.colegioarji.Utils.AppConfig -> mx.com.logydes.colegioarji.Utils.a
     java.lang.String UTF_8 -> b
     java.lang.String URL_HOME -> c
     java.lang.String URL_LOGIN -> d
-    java.lang.String URL_REGISTER -> e
-    java.lang.String URL_BOLETIN -> f
-    int URL_BOLETIN_TYPE -> g
-    java.lang.String URL_QUIENES_SOMOS -> h
-    int URL_QUIENES_SOMOS_TYPE -> i
-    java.lang.String URL_CERTIFICACIONES -> j
-    int URL_CERTIFICACIONES_TYPE -> k
-    java.lang.String URL_DIRECTORIO -> l
-    int URL_DIRECTORIO_TYPE -> m
-    java.lang.String URL_PROCESO_ADMISION -> n
-    int URL_PROCESO_ADMISION_TYPE -> o
-    java.lang.String URL_MAPA -> p
-    int URL_MAPA_TYPE -> q
-    java.lang.String URL_BENEFICIOS -> r
-    int URL_BENEFICIOS_TYPE -> s
-    java.lang.String URL_DESARROLLADOR -> t
-    int URL_DESARROLLADOR_TYPE -> u
-    java.lang.String URL_GET_HIJOS -> v
-    java.lang.String URL_TAREAS_CIRCULARES -> w
-    java.lang.String URL_TAREA -> x
-    java.lang.String URL_CIRCULARES -> y
-    java.lang.String URL_VIEW_PAGOS -> z
-    java.lang.String URL_VIEW_BOLETAS -> A
-    java.lang.String URL_CALENDARIO -> B
-    int URL_CALENDARIO_TYPE -> C
-    java.lang.String URL_AVISO_PRIVACIDAD -> D
-    int URL_AVISO_PRIVACIDAD_TYPE -> E
+    java.lang.String URL_BOLETIN -> e
+    int URL_BOLETIN_TYPE -> f
+    java.lang.String URL_QUIENES_SOMOS -> g
+    int URL_QUIENES_SOMOS_TYPE -> h
+    java.lang.String URL_CERTIFICACIONES -> i
+    int URL_CERTIFICACIONES_TYPE -> j
+    java.lang.String URL_DIRECTORIO -> k
+    int URL_DIRECTORIO_TYPE -> l
+    java.lang.String URL_PROCESO_ADMISION -> m
+    int URL_PROCESO_ADMISION_TYPE -> n
+    java.lang.String URL_MAPA -> o
+    int URL_MAPA_TYPE -> p
+    java.lang.String URL_BENEFICIOS -> q
+    int URL_BENEFICIOS_TYPE -> r
+    java.lang.String URL_DESARROLLADOR -> s
+    int URL_DESARROLLADOR_TYPE -> t
+    java.lang.String URL_GET_HIJOS -> u
+    java.lang.String URL_TAREAS_CIRCULARES -> v
+    java.lang.String URL_TAREA -> w
+    java.lang.String URL_CIRCULARES -> x
+    java.lang.String URL_VIEW_PAGOS -> y
+    java.lang.String URL_VIEW_BOLETAS -> z
+    java.lang.String URL_CALENDARIO -> A
+    int URL_CALENDARIO_TYPE -> B
+    java.lang.String URL_AVISO_PRIVACIDAD -> C
+    int URL_AVISO_PRIVACIDAD_TYPE -> D
     9:58:void <clinit>() -> <clinit>
 mx.com.logydes.colegioarji.Utils.AppController -> mx.com.logydes.colegioarji.Utils.AppController:
     java.lang.String TAG -> a

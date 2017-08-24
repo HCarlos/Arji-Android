@@ -1,7 +1,7 @@
 [
     {
         "merged": "/home/devch/AndroidStudioProjects/ColegioArji/app/build/intermediates/res/merged/release/layout/place_autocomplete_item_prediction.xml",
-        "source": "/home/devch/.android/build-cache/6047e3fee7a5e86be85e7a94f566878375d91074/output/res/layout/place_autocomplete_item_prediction.xml"
+        "source": "/home/devch/.android/build-cache/4f13582b351a5568a486008e47b783b17ac108ef/output/res/layout/place_autocomplete_item_prediction.xml"
     },
     {
         "merged": "/home/devch/AndroidStudioProjects/ColegioArji/app/build/intermediates/res/merged/release/layout/notification_template_part_chronometer.xml",
@@ -37,7 +37,7 @@
     },
     {
         "merged": "/home/devch/AndroidStudioProjects/ColegioArji/app/build/intermediates/res/merged/release/layout/cast_expanded_controller_activity.xml",
-        "source": "/home/devch/.android/build-cache/6caced23444a67e08e80761f4942e33603160eba/output/res/layout/cast_expanded_controller_activity.xml"
+        "source": "/home/devch/.android/build-cache/8066b6eeb1c2aeca2bdc02278ae4daba6bbe542b/output/res/layout/cast_expanded_controller_activity.xml"
     },
     {
         "merged": "/home/devch/AndroidStudioProjects/ColegioArji/app/build/intermediates/res/merged/release/layout/design_menu_item_action_area.xml",
@@ -73,7 +73,7 @@
     },
     {
         "merged": "/home/devch/AndroidStudioProjects/ColegioArji/app/build/intermediates/res/merged/release/layout/cast_mini_controller.xml",
-        "source": "/home/devch/.android/build-cache/6caced23444a67e08e80761f4942e33603160eba/output/res/layout/cast_mini_controller.xml"
+        "source": "/home/devch/.android/build-cache/8066b6eeb1c2aeca2bdc02278ae4daba6bbe542b/output/res/layout/cast_mini_controller.xml"
     },
     {
         "merged": "/home/devch/AndroidStudioProjects/ColegioArji/app/build/intermediates/res/merged/release/layout/app_bar_main.xml",
@@ -213,7 +213,7 @@
     },
     {
         "merged": "/home/devch/AndroidStudioProjects/ColegioArji/app/build/intermediates/res/merged/release/layout/cast_tracks_chooser_dialog_layout.xml",
-        "source": "/home/devch/.android/build-cache/6caced23444a67e08e80761f4942e33603160eba/output/res/layout/cast_tracks_chooser_dialog_layout.xml"
+        "source": "/home/devch/.android/build-cache/8066b6eeb1c2aeca2bdc02278ae4daba6bbe542b/output/res/layout/cast_tracks_chooser_dialog_layout.xml"
     },
     {
         "merged": "/home/devch/AndroidStudioProjects/ColegioArji/app/build/intermediates/res/merged/release/layout/abc_action_menu_layout.xml",
@@ -273,7 +273,7 @@
     },
     {
         "merged": "/home/devch/AndroidStudioProjects/ColegioArji/app/build/intermediates/res/merged/release/layout/place_autocomplete_item_powered_by_google.xml",
-        "source": "/home/devch/.android/build-cache/6047e3fee7a5e86be85e7a94f566878375d91074/output/res/layout/place_autocomplete_item_powered_by_google.xml"
+        "source": "/home/devch/.android/build-cache/4f13582b351a5568a486008e47b783b17ac108ef/output/res/layout/place_autocomplete_item_powered_by_google.xml"
     },
     {
         "merged": "/home/devch/AndroidStudioProjects/ColegioArji/app/build/intermediates/res/merged/release/layout/activity_maps.xml",
@@ -285,15 +285,15 @@
     },
     {
         "merged": "/home/devch/AndroidStudioProjects/ColegioArji/app/build/intermediates/res/merged/release/layout/cast_intro_overlay.xml",
-        "source": "/home/devch/.android/build-cache/6caced23444a67e08e80761f4942e33603160eba/output/res/layout/cast_intro_overlay.xml"
+        "source": "/home/devch/.android/build-cache/8066b6eeb1c2aeca2bdc02278ae4daba6bbe542b/output/res/layout/cast_intro_overlay.xml"
     },
     {
         "merged": "/home/devch/AndroidStudioProjects/ColegioArji/app/build/intermediates/res/merged/release/layout/place_autocomplete_fragment.xml",
-        "source": "/home/devch/.android/build-cache/6047e3fee7a5e86be85e7a94f566878375d91074/output/res/layout/place_autocomplete_fragment.xml"
+        "source": "/home/devch/.android/build-cache/4f13582b351a5568a486008e47b783b17ac108ef/output/res/layout/place_autocomplete_fragment.xml"
     },
     {
         "merged": "/home/devch/AndroidStudioProjects/ColegioArji/app/build/intermediates/res/merged/release/layout/place_autocomplete_progress.xml",
-        "source": "/home/devch/.android/build-cache/6047e3fee7a5e86be85e7a94f566878375d91074/output/res/layout/place_autocomplete_progress.xml"
+        "source": "/home/devch/.android/build-cache/4f13582b351a5568a486008e47b783b17ac108ef/output/res/layout/place_autocomplete_progress.xml"
     },
     {
         "merged": "/home/devch/AndroidStudioProjects/ColegioArji/app/build/intermediates/res/merged/release/layout/abc_screen_content_include.xml",
@@ -309,7 +309,7 @@
     },
     {
         "merged": "/home/devch/AndroidStudioProjects/ColegioArji/app/build/intermediates/res/merged/release/layout/cast_tracks_chooser_dialog_row_layout.xml",
-        "source": "/home/devch/.android/build-cache/6caced23444a67e08e80761f4942e33603160eba/output/res/layout/cast_tracks_chooser_dialog_row_layout.xml"
+        "source": "/home/devch/.android/build-cache/8066b6eeb1c2aeca2bdc02278ae4daba6bbe542b/output/res/layout/cast_tracks_chooser_dialog_row_layout.xml"
     },
     {
         "merged": "/home/devch/AndroidStudioProjects/ColegioArji/app/build/intermediates/res/merged/release/layout/mr_controller_material_dialog_b.xml",
@@ -317,7 +317,7 @@
     },
     {
         "merged": "/home/devch/AndroidStudioProjects/ColegioArji/app/build/intermediates/res/merged/release/layout/cast_help_text.xml",
-        "source": "/home/devch/.android/build-cache/6caced23444a67e08e80761f4942e33603160eba/output/res/layout/cast_help_text.xml"
+        "source": "/home/devch/.android/build-cache/8066b6eeb1c2aeca2bdc02278ae4daba6bbe542b/output/res/layout/cast_help_text.xml"
     },
     {
         "merged": "/home/devch/AndroidStudioProjects/ColegioArji/app/build/intermediates/res/merged/release/layout/abc_action_mode_close_item_material.xml",
