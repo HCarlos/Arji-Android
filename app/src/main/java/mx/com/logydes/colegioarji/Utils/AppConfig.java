@@ -31,7 +31,7 @@ public class AppConfig {
     public static String URL_PROCESO_ADMISION = URL_HOME + "getProcesoAdmision/";
     public static int URL_PROCESO_ADMISION_TYPE = 4;
 
-    public static String URL_MAPA = "https://www.google.com/maps?q=17.968768,-92.949937";
+    public static String URL_MAPA = "https://www.google.com/maps/place/17%C2%B058'07.6%22N+92%C2%B056'59.8%22W/@17.968768,-92.9521257,17z/data=!3m1!4b1!4m5!3m4!1s0x0:0x0!8m2!3d17.968768!4d-92.949937";
     // https://maps.googleapis.com/maps/api/staticmap?center=47.5952,-122.3316&zoom=16&size=640x400&path=weight:3%7Ccolor:blue%7Cenc:{coaHnetiVjM??_SkM??~R&key=YOUR_API_KEY
     public static int URL_MAPA_TYPE = 5;
 

@@ -129,102 +129,102 @@
 # view res/layout/abc_screen_simple_overlay_action_mode.xml #generated:32
 -keep class android.support.v7.widget.ViewStubCompat { <init>(...); }
 
-# view AndroidManifest.xml #generated:202
+# view AndroidManifest.xml #generated:206
 -keep class com.google.android.gms.ads.AdActivity { <init>(...); }
 
-# view AndroidManifest.xml #generated:206
+# view AndroidManifest.xml #generated:210
 -keep class com.google.android.gms.ads.purchase.InAppPurchaseActivity { <init>(...); }
 
-# view AndroidManifest.xml #generated:209
+# view AndroidManifest.xml #generated:213
 -keep class com.google.android.gms.appinvite.PreviewActivity { <init>(...); }
 
-# view AndroidManifest.xml #generated:228
+# view AndroidManifest.xml #generated:232
 -keep class com.google.android.gms.auth.api.signin.RevocationBoundService { <init>(...); }
 
-# view AndroidManifest.xml #generated:219
+# view AndroidManifest.xml #generated:223
 -keep class com.google.android.gms.auth.api.signin.internal.SignInHubActivity { <init>(...); }
 
-# view AndroidManifest.xml #generated:236
+# view AndroidManifest.xml #generated:240
 -keep class com.google.android.gms.cast.framework.ReconnectionService { <init>(...); }
 
 # view res/layout/cast_help_text.xml #generated:2
 -keep class com.google.android.gms.cast.framework.internal.featurehighlight.HelpTextView { <init>(...); }
 
-# view AndroidManifest.xml #generated:233
+# view AndroidManifest.xml #generated:237
 -keep class com.google.android.gms.cast.framework.media.MediaIntentReceiver { <init>(...); }
 
-# view AndroidManifest.xml #generated:235
+# view AndroidManifest.xml #generated:239
 -keep class com.google.android.gms.cast.framework.media.MediaNotificationService { <init>(...); }
 
-# view AndroidManifest.xml #generated:254
+# view AndroidManifest.xml #generated:258
 -keep class com.google.android.gms.common.api.GoogleApiActivity { <init>(...); }
 
 # view res/layout/activity_maps.xml #generated:28
 -keep class com.google.android.gms.maps.SupportMapFragment { <init>(...); }
 
-# view AndroidManifest.xml #generated:275
+# view AndroidManifest.xml #generated:279
 -keep class com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver { <init>(...); }
 
-# view AndroidManifest.xml #generated:270
+# view AndroidManifest.xml #generated:274
 -keep class com.google.android.gms.measurement.AppMeasurementReceiver { <init>(...); }
 
-# view AndroidManifest.xml #generated:284
+# view AndroidManifest.xml #generated:288
 -keep class com.google.android.gms.measurement.AppMeasurementService { <init>(...); }
 
-# view AndroidManifest.xml #generated:242
+# view AndroidManifest.xml #generated:246
 -keep class com.google.android.gms.tagmanager.TagManagerPreviewActivity { <init>(...); }
 
-# view AndroidManifest.xml #generated:237
+# view AndroidManifest.xml #generated:241
 -keep class com.google.android.gms.tagmanager.TagManagerService { <init>(...); }
 
-# view AndroidManifest.xml #generated:304
+# view AndroidManifest.xml #generated:308
 -keep class com.google.firebase.iid.FirebaseInstanceIdInternalReceiver { <init>(...); }
 
-# view AndroidManifest.xml #generated:289
+# view AndroidManifest.xml #generated:293
 -keep class com.google.firebase.iid.FirebaseInstanceIdReceiver { <init>(...); }
 
-# view AndroidManifest.xml #generated:311
+# view AndroidManifest.xml #generated:315
 -keep class com.google.firebase.iid.FirebaseInstanceIdService { <init>(...); }
 
-# view AndroidManifest.xml #generated:262
+# view AndroidManifest.xml #generated:266
 -keep class com.google.firebase.messaging.FirebaseMessagingService { <init>(...); }
 
-# view AndroidManifest.xml #generated:319
+# view AndroidManifest.xml #generated:323
 -keep class com.google.firebase.provider.FirebaseInitProvider { <init>(...); }
 
-# view AndroidManifest.xml #generated:130
+# view AndroidManifest.xml #generated:132
 -keep class mx.com.logydes.colegioarji.Boleta { <init>(...); }
 
-# view AndroidManifest.xml #generated:85
+# view AndroidManifest.xml #generated:87
 -keep class mx.com.logydes.colegioarji.BoletinActivity { <init>(...); }
 
-# view AndroidManifest.xml #generated:123
+# view AndroidManifest.xml #generated:125
 -keep class mx.com.logydes.colegioarji.Elemento { <init>(...); }
 
-# view AndroidManifest.xml #generated:114
+# view AndroidManifest.xml #generated:116
 -keep class mx.com.logydes.colegioarji.ListaElementos { <init>(...); }
 
-# view AndroidManifest.xml #generated:74
+# view AndroidManifest.xml #generated:76
 -keep class mx.com.logydes.colegioarji.LoginActivity { <init>(...); }
 
-# view AndroidManifest.xml #generated:63
+# view AndroidManifest.xml #generated:65
 -keep class mx.com.logydes.colegioarji.MainActivity { <init>(...); }
 
-# view AndroidManifest.xml #generated:149
+# view AndroidManifest.xml #generated:153
 -keep class mx.com.logydes.colegioarji.MapsActivity { <init>(...); }
 
-# view AndroidManifest.xml #generated:105
+# view AndroidManifest.xml #generated:107
 -keep class mx.com.logydes.colegioarji.MenuHijos { <init>(...); }
 
-# view AndroidManifest.xml #generated:158
+# view AndroidManifest.xml #generated:162
 -keep class mx.com.logydes.colegioarji.SystemActivity { <init>(...); }
 
-# view AndroidManifest.xml #generated:56
+# view AndroidManifest.xml #generated:58
 -keep class mx.com.logydes.colegioarji.Utils.AppController { <init>(...); }
 
-# view AndroidManifest.xml #generated:173
+# view AndroidManifest.xml #generated:177
 -keep class mx.com.logydes.colegioarji.Utils.NotificacionIDTokenService { <init>(...); }
 
-# view AndroidManifest.xml #generated:168
+# view AndroidManifest.xml #generated:172
 -keep class mx.com.logydes.colegioarji.Utils.NotificationService { <init>(...); }
 

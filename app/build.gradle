@@ -15,8 +15,9 @@ android {
         applicationId "mx.com.logydes.colegioarji"
         minSdkVersion 15
         targetSdkVersion 25
-        versionCode 21
-        versionName "1.21"
+        versionCode 23
+        versionName "1.23"
+        multiDexEnabled true
     }
     buildTypes {
         release {

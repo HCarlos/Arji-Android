@@ -1144,7 +1144,7 @@
     <string name="google_app_id" translatable="false">1:880665345615:android:70a566e1fbef71c0</string>
     <string name="google_crash_reporting_api_key" translatable="false">AIzaSyBHGfzQkNvpHJIHYryXD1lr0pOa8_Cvh-k</string>
     <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">
-        AIzaSyDVat6KZP8-usKZPO9X5jAjIxXTU7ujcio
+         AIzaSyCcX39VgPvqQ-5N7D8TJywLrjNcc_DsYc4
     </string>
     <string name="google_storage_bucket" translatable="false">colegio-arji-app-mobile.appspot.com</string>
     <string name="idalu">data</string>

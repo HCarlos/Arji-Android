@@ -1,4 +1,4 @@
-#Fri Aug 18 07:18:47 CDT 2017
+#Fri Sep 08 08:11:29 CDT 2017
 base.0=/home/devch/AndroidStudioProjects/ColegioArji/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_7678204e3ef58cd805402e5665e3052976e72621
 renamed.1=classes.dex
 renamed.0=classes2.dex

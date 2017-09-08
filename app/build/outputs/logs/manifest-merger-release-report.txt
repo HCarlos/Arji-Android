@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /home/devch/AndroidStudioProjects/ColegioArji/app/src/main/AndroidManifest.xml:2:1-181:12
+ADDED from /home/devch/AndroidStudioProjects/ColegioArji/app/src/main/AndroidManifest.xml:2:1-185:12
 	package
 		ADDED from /home/devch/AndroidStudioProjects/ColegioArji/app/src/main/AndroidManifest.xml:3:5-41
 		INJECTED from /home/devch/AndroidStudioProjects/ColegioArji/app/src/main/AndroidManifest.xml
@@ -29,12 +29,16 @@ MERGED from [com.google.firebase:firebase-analytics-impl:9.8.0] /home/devch/.and
 MERGED from [com.google.firebase:firebase-iid:9.8.0] /home/devch/.android/build-cache/b74d5601e4ab3d790ea88bdfd05b1b51bb5584dc/output/AndroidManifest.xml:20:5-66
 	android:name
 		ADDED from /home/devch/AndroidStudioProjects/ColegioArji/app/src/main/AndroidManifest.xml:6:22-64
-uses-permission#android.permission.ACCESS_FINE_LOCATION
-ADDED from /home/devch/AndroidStudioProjects/ColegioArji/app/src/main/AndroidManifest.xml:13:5-79
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from /home/devch/AndroidStudioProjects/ColegioArji/app/src/main/AndroidManifest.xml:14:5-81
 	android:name
-		ADDED from /home/devch/AndroidStudioProjects/ColegioArji/app/src/main/AndroidManifest.xml:13:22-76
+		ADDED from /home/devch/AndroidStudioProjects/ColegioArji/app/src/main/AndroidManifest.xml:14:22-78
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from /home/devch/AndroidStudioProjects/ColegioArji/app/src/main/AndroidManifest.xml:15:5-79
+	android:name
+		ADDED from /home/devch/AndroidStudioProjects/ColegioArji/app/src/main/AndroidManifest.xml:15:22-76
 application
-ADDED from /home/devch/AndroidStudioProjects/ColegioArji/app/src/main/AndroidManifest.xml:33:5-179:19
+ADDED from /home/devch/AndroidStudioProjects/ColegioArji/app/src/main/AndroidManifest.xml:36:5-183:19
 MERGED from [com.android.support:design:25.3.1] /home/devch/.android/build-cache/faffc0ff55de3161b12a9a31c4cf2f49bd6376b2/output/AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:transition:25.3.1] /home/devch/.android/build-cache/1e48c265dddd67dad554f3b827790838d8c34639/output/AndroidManifest.xml:26:5-20
 MERGED from [com.android.support:cardview-v7:25.3.1] /home/devch/.android/build-cache/2eabd510cac3d0bd49c284388c4fa9a278e25576/output/AndroidManifest.xml:26:5-20
@@ -93,150 +97,151 @@ MERGED from [com.android.support:support-core-ui:25.3.1] /home/devch/.android/bu
 MERGED from [com.android.support:support-core-utils:25.3.1] /home/devch/.android/build-cache/a342661f43c00f0e187d9d678f0ecc320a908530/output/AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:support-compat:25.3.1] /home/devch/.android/build-cache/e2b037411b9a4f48d471bb806c5864aaf74c2369/output/AndroidManifest.xml:29:5-20
 	android:label
-		ADDED from /home/devch/AndroidStudioProjects/ColegioArji/app/src/main/AndroidManifest.xml:37:9-41
+		ADDED from /home/devch/AndroidStudioProjects/ColegioArji/app/src/main/AndroidManifest.xml:40:9-41
 	android:supportsRtl
-		ADDED from /home/devch/AndroidStudioProjects/ColegioArji/app/src/main/AndroidManifest.xml:38:9-35
+		ADDED from /home/devch/AndroidStudioProjects/ColegioArji/app/src/main/AndroidManifest.xml:41:9-35
 	android:allowBackup
-		ADDED from /home/devch/AndroidStudioProjects/ColegioArji/app/src/main/AndroidManifest.xml:35:9-35
+		ADDED from /home/devch/AndroidStudioProjects/ColegioArji/app/src/main/AndroidManifest.xml:38:9-35
 	android:icon
-		ADDED from /home/devch/AndroidStudioProjects/ColegioArji/app/src/main/AndroidManifest.xml:36:9-43
+		ADDED from /home/devch/AndroidStudioProjects/ColegioArji/app/src/main/AndroidManifest.xml:39:9-43
 	android:theme
-		ADDED from /home/devch/AndroidStudioProjects/ColegioArji/app/src/main/AndroidManifest.xml:39:9-40
+		ADDED from /home/devch/AndroidStudioProjects/ColegioArji/app/src/main/AndroidManifest.xml:42:9-40
 	android:name
-		ADDED from /home/devch/AndroidStudioProjects/ColegioArji/app/src/main/AndroidManifest.xml:34:9-44
+		ADDED from /home/devch/AndroidStudioProjects/ColegioArji/app/src/main/AndroidManifest.xml:37:9-44
 activity#mx.com.logydes.colegioarji.MainActivity
-ADDED from /home/devch/AndroidStudioProjects/ColegioArji/app/src/main/AndroidManifest.xml:40:9-50:20
+ADDED from /home/devch/AndroidStudioProjects/ColegioArji/app/src/main/AndroidManifest.xml:43:9-53:20
 	android:screenOrientation
-		ADDED from /home/devch/AndroidStudioProjects/ColegioArji/app/src/main/AndroidManifest.xml:43:13-49
+		ADDED from /home/devch/AndroidStudioProjects/ColegioArji/app/src/main/AndroidManifest.xml:46:13-49
 	android:label
-		ADDED from /home/devch/AndroidStudioProjects/ColegioArji/app/src/main/AndroidManifest.xml:42:13-45
+		ADDED from /home/devch/AndroidStudioProjects/ColegioArji/app/src/main/AndroidManifest.xml:45:13-45
 	android:theme
-		ADDED from /home/devch/AndroidStudioProjects/ColegioArji/app/src/main/AndroidManifest.xml:44:13-56
+		ADDED from /home/devch/AndroidStudioProjects/ColegioArji/app/src/main/AndroidManifest.xml:47:13-56
 	android:name
-		ADDED from /home/devch/AndroidStudioProjects/ColegioArji/app/src/main/AndroidManifest.xml:41:13-41
+		ADDED from /home/devch/AndroidStudioProjects/ColegioArji/app/src/main/AndroidManifest.xml:44:13-41
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from /home/devch/AndroidStudioProjects/ColegioArji/app/src/main/AndroidManifest.xml:45:13-49:29
+ADDED from /home/devch/AndroidStudioProjects/ColegioArji/app/src/main/AndroidManifest.xml:48:13-52:29
 action#android.intent.action.MAIN
-ADDED from /home/devch/AndroidStudioProjects/ColegioArji/app/src/main/AndroidManifest.xml:46:17-69
+ADDED from /home/devch/AndroidStudioProjects/ColegioArji/app/src/main/AndroidManifest.xml:49:17-69
 	android:name
-		ADDED from /home/devch/AndroidStudioProjects/ColegioArji/app/src/main/AndroidManifest.xml:46:25-66
+		ADDED from /home/devch/AndroidStudioProjects/ColegioArji/app/src/main/AndroidManifest.xml:49:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /home/devch/AndroidStudioProjects/ColegioArji/app/src/main/AndroidManifest.xml:48:17-77
+ADDED from /home/devch/AndroidStudioProjects/ColegioArji/app/src/main/AndroidManifest.xml:51:17-77
 	android:name
-		ADDED from /home/devch/AndroidStudioProjects/ColegioArji/app/src/main/AndroidManifest.xml:48:27-74
+		ADDED from /home/devch/AndroidStudioProjects/ColegioArji/app/src/main/AndroidManifest.xml:51:27-74
 activity#mx.com.logydes.colegioarji.LoginActivity
-ADDED from /home/devch/AndroidStudioProjects/ColegioArji/app/src/main/AndroidManifest.xml:51:9-61:20
+ADDED from /home/devch/AndroidStudioProjects/ColegioArji/app/src/main/AndroidManifest.xml:54:9-64:20
 	android:screenOrientation
-		ADDED from /home/devch/AndroidStudioProjects/ColegioArji/app/src/main/AndroidManifest.xml:55:13-49
+		ADDED from /home/devch/AndroidStudioProjects/ColegioArji/app/src/main/AndroidManifest.xml:58:13-49
 	android:label
-		ADDED from /home/devch/AndroidStudioProjects/ColegioArji/app/src/main/AndroidManifest.xml:53:13-57
+		ADDED from /home/devch/AndroidStudioProjects/ColegioArji/app/src/main/AndroidManifest.xml:56:13-57
 	android:parentActivityName
-		ADDED from /home/devch/AndroidStudioProjects/ColegioArji/app/src/main/AndroidManifest.xml:54:13-55
+		ADDED from /home/devch/AndroidStudioProjects/ColegioArji/app/src/main/AndroidManifest.xml:57:13-55
 	android:name
-		ADDED from /home/devch/AndroidStudioProjects/ColegioArji/app/src/main/AndroidManifest.xml:52:13-42
+		ADDED from /home/devch/AndroidStudioProjects/ColegioArji/app/src/main/AndroidManifest.xml:55:13-42
 meta-data#android.support.PARENT_ACTIVITY
-ADDED from /home/devch/AndroidStudioProjects/ColegioArji/app/src/main/AndroidManifest.xml:58:13-60:49
+ADDED from /home/devch/AndroidStudioProjects/ColegioArji/app/src/main/AndroidManifest.xml:61:13-63:49
 	android:value
-		ADDED from /home/devch/AndroidStudioProjects/ColegioArji/app/src/main/AndroidManifest.xml:60:17-46
+		ADDED from /home/devch/AndroidStudioProjects/ColegioArji/app/src/main/AndroidManifest.xml:63:17-46
 	android:name
-		ADDED from /home/devch/AndroidStudioProjects/ColegioArji/app/src/main/AndroidManifest.xml:59:17-63
+		ADDED from /home/devch/AndroidStudioProjects/ColegioArji/app/src/main/AndroidManifest.xml:62:17-63
 activity#mx.com.logydes.colegioarji.BoletinActivity
-ADDED from /home/devch/AndroidStudioProjects/ColegioArji/app/src/main/AndroidManifest.xml:62:9-72:20
+ADDED from /home/devch/AndroidStudioProjects/ColegioArji/app/src/main/AndroidManifest.xml:65:9-75:20
 	android:screenOrientation
-		ADDED from /home/devch/AndroidStudioProjects/ColegioArji/app/src/main/AndroidManifest.xml:66:13-49
+		ADDED from /home/devch/AndroidStudioProjects/ColegioArji/app/src/main/AndroidManifest.xml:69:13-49
 	android:label
-		ADDED from /home/devch/AndroidStudioProjects/ColegioArji/app/src/main/AndroidManifest.xml:64:13-59
+		ADDED from /home/devch/AndroidStudioProjects/ColegioArji/app/src/main/AndroidManifest.xml:67:13-59
 	android:parentActivityName
-		ADDED from /home/devch/AndroidStudioProjects/ColegioArji/app/src/main/AndroidManifest.xml:65:13-55
+		ADDED from /home/devch/AndroidStudioProjects/ColegioArji/app/src/main/AndroidManifest.xml:68:13-55
 	android:name
-		ADDED from /home/devch/AndroidStudioProjects/ColegioArji/app/src/main/AndroidManifest.xml:63:13-44
+		ADDED from /home/devch/AndroidStudioProjects/ColegioArji/app/src/main/AndroidManifest.xml:66:13-44
 meta-data#com.google.android.gms.version
-ADDED from /home/devch/AndroidStudioProjects/ColegioArji/app/src/main/AndroidManifest.xml:78:9-80:69
+ADDED from /home/devch/AndroidStudioProjects/ColegioArji/app/src/main/AndroidManifest.xml:81:9-83:69
 MERGED from [com.google.android.gms:play-services-basement:9.8.0] /home/devch/.android/build-cache/c1a7ee281e849086a87d2d4a9af05e572dcea383/output/AndroidManifest.xml:20:9-121
 	android:value
-		ADDED from /home/devch/AndroidStudioProjects/ColegioArji/app/src/main/AndroidManifest.xml:80:13-66
+		ADDED from /home/devch/AndroidStudioProjects/ColegioArji/app/src/main/AndroidManifest.xml:83:13-66
 	android:name
-		ADDED from /home/devch/AndroidStudioProjects/ColegioArji/app/src/main/AndroidManifest.xml:79:13-58
+		ADDED from /home/devch/AndroidStudioProjects/ColegioArji/app/src/main/AndroidManifest.xml:82:13-58
 activity#mx.com.logydes.colegioarji.MenuHijos
-ADDED from /home/devch/AndroidStudioProjects/ColegioArji/app/src/main/AndroidManifest.xml:82:9-90:20
+ADDED from /home/devch/AndroidStudioProjects/ColegioArji/app/src/main/AndroidManifest.xml:85:9-93:20
 	android:screenOrientation
-		ADDED from /home/devch/AndroidStudioProjects/ColegioArji/app/src/main/AndroidManifest.xml:86:13-49
+		ADDED from /home/devch/AndroidStudioProjects/ColegioArji/app/src/main/AndroidManifest.xml:89:13-49
 	android:label
-		ADDED from /home/devch/AndroidStudioProjects/ColegioArji/app/src/main/AndroidManifest.xml:84:13-57
+		ADDED from /home/devch/AndroidStudioProjects/ColegioArji/app/src/main/AndroidManifest.xml:87:13-57
 	android:parentActivityName
-		ADDED from /home/devch/AndroidStudioProjects/ColegioArji/app/src/main/AndroidManifest.xml:85:13-55
+		ADDED from /home/devch/AndroidStudioProjects/ColegioArji/app/src/main/AndroidManifest.xml:88:13-55
 	android:name
-		ADDED from /home/devch/AndroidStudioProjects/ColegioArji/app/src/main/AndroidManifest.xml:83:13-38
+		ADDED from /home/devch/AndroidStudioProjects/ColegioArji/app/src/main/AndroidManifest.xml:86:13-38
 activity#mx.com.logydes.colegioarji.ListaElementos
-ADDED from /home/devch/AndroidStudioProjects/ColegioArji/app/src/main/AndroidManifest.xml:91:9-99:20
+ADDED from /home/devch/AndroidStudioProjects/ColegioArji/app/src/main/AndroidManifest.xml:94:9-102:20
 	android:screenOrientation
-		ADDED from /home/devch/AndroidStudioProjects/ColegioArji/app/src/main/AndroidManifest.xml:95:13-49
+		ADDED from /home/devch/AndroidStudioProjects/ColegioArji/app/src/main/AndroidManifest.xml:98:13-49
 	android:label
-		ADDED from /home/devch/AndroidStudioProjects/ColegioArji/app/src/main/AndroidManifest.xml:93:13-57
+		ADDED from /home/devch/AndroidStudioProjects/ColegioArji/app/src/main/AndroidManifest.xml:96:13-57
 	android:parentActivityName
-		ADDED from /home/devch/AndroidStudioProjects/ColegioArji/app/src/main/AndroidManifest.xml:94:13-52
+		ADDED from /home/devch/AndroidStudioProjects/ColegioArji/app/src/main/AndroidManifest.xml:97:13-52
 	android:name
-		ADDED from /home/devch/AndroidStudioProjects/ColegioArji/app/src/main/AndroidManifest.xml:92:13-43
+		ADDED from /home/devch/AndroidStudioProjects/ColegioArji/app/src/main/AndroidManifest.xml:95:13-43
 activity#mx.com.logydes.colegioarji.Elemento
-ADDED from /home/devch/AndroidStudioProjects/ColegioArji/app/src/main/AndroidManifest.xml:100:9-106:20
+ADDED from /home/devch/AndroidStudioProjects/ColegioArji/app/src/main/AndroidManifest.xml:103:9-109:20
 	android:screenOrientation
-		ADDED from /home/devch/AndroidStudioProjects/ColegioArji/app/src/main/AndroidManifest.xml:102:13-49
+		ADDED from /home/devch/AndroidStudioProjects/ColegioArji/app/src/main/AndroidManifest.xml:105:13-49
 	android:name
-		ADDED from /home/devch/AndroidStudioProjects/ColegioArji/app/src/main/AndroidManifest.xml:101:13-37
+		ADDED from /home/devch/AndroidStudioProjects/ColegioArji/app/src/main/AndroidManifest.xml:104:13-37
 activity#mx.com.logydes.colegioarji.Boleta
-ADDED from /home/devch/AndroidStudioProjects/ColegioArji/app/src/main/AndroidManifest.xml:107:9-113:20
+ADDED from /home/devch/AndroidStudioProjects/ColegioArji/app/src/main/AndroidManifest.xml:110:9-116:20
 	android:screenOrientation
-		ADDED from /home/devch/AndroidStudioProjects/ColegioArji/app/src/main/AndroidManifest.xml:109:13-49
+		ADDED from /home/devch/AndroidStudioProjects/ColegioArji/app/src/main/AndroidManifest.xml:112:13-49
 	android:name
-		ADDED from /home/devch/AndroidStudioProjects/ColegioArji/app/src/main/AndroidManifest.xml:108:13-35
+		ADDED from /home/devch/AndroidStudioProjects/ColegioArji/app/src/main/AndroidManifest.xml:111:13-35
 meta-data#com.google.android.geo.API_KEY
-ADDED from /home/devch/AndroidStudioProjects/ColegioArji/app/src/main/AndroidManifest.xml:122:9-124:55
+ADDED from /home/devch/AndroidStudioProjects/ColegioArji/app/src/main/AndroidManifest.xml:127:9-129:55
 	android:value
-		ADDED from /home/devch/AndroidStudioProjects/ColegioArji/app/src/main/AndroidManifest.xml:124:13-52
+		ADDED from /home/devch/AndroidStudioProjects/ColegioArji/app/src/main/AndroidManifest.xml:129:13-52
 	android:name
-		ADDED from /home/devch/AndroidStudioProjects/ColegioArji/app/src/main/AndroidManifest.xml:123:13-58
-activity#mx.com.logydes.colegioarji.MapsActivity
-ADDED from /home/devch/AndroidStudioProjects/ColegioArji/app/src/main/AndroidManifest.xml:126:9-134:20
-	android:screenOrientation
-		ADDED from /home/devch/AndroidStudioProjects/ColegioArji/app/src/main/AndroidManifest.xml:130:13-49
-	android:label
 		ADDED from /home/devch/AndroidStudioProjects/ColegioArji/app/src/main/AndroidManifest.xml:128:13-58
-	android:parentActivityName
-		ADDED from /home/devch/AndroidStudioProjects/ColegioArji/app/src/main/AndroidManifest.xml:129:13-55
-	android:name
-		ADDED from /home/devch/AndroidStudioProjects/ColegioArji/app/src/main/AndroidManifest.xml:127:13-41
-activity#mx.com.logydes.colegioarji.SystemActivity
-ADDED from /home/devch/AndroidStudioProjects/ColegioArji/app/src/main/AndroidManifest.xml:136:9-144:20
+activity#mx.com.logydes.colegioarji.MapsActivity
+ADDED from /home/devch/AndroidStudioProjects/ColegioArji/app/src/main/AndroidManifest.xml:131:9-139:20
 	android:screenOrientation
-		ADDED from /home/devch/AndroidStudioProjects/ColegioArji/app/src/main/AndroidManifest.xml:140:13-49
+		ADDED from /home/devch/AndroidStudioProjects/ColegioArji/app/src/main/AndroidManifest.xml:135:13-49
 	android:label
-		ADDED from /home/devch/AndroidStudioProjects/ColegioArji/app/src/main/AndroidManifest.xml:138:13-57
+		ADDED from /home/devch/AndroidStudioProjects/ColegioArji/app/src/main/AndroidManifest.xml:133:13-58
 	android:parentActivityName
-		ADDED from /home/devch/AndroidStudioProjects/ColegioArji/app/src/main/AndroidManifest.xml:139:13-55
+		ADDED from /home/devch/AndroidStudioProjects/ColegioArji/app/src/main/AndroidManifest.xml:134:13-55
 	android:name
-		ADDED from /home/devch/AndroidStudioProjects/ColegioArji/app/src/main/AndroidManifest.xml:137:13-43
+		ADDED from /home/devch/AndroidStudioProjects/ColegioArji/app/src/main/AndroidManifest.xml:132:13-41
+activity#mx.com.logydes.colegioarji.SystemActivity
+ADDED from /home/devch/AndroidStudioProjects/ColegioArji/app/src/main/AndroidManifest.xml:141:9-149:20
+	android:screenOrientation
+		ADDED from /home/devch/AndroidStudioProjects/ColegioArji/app/src/main/AndroidManifest.xml:145:13-49
+	android:label
+		ADDED from /home/devch/AndroidStudioProjects/ColegioArji/app/src/main/AndroidManifest.xml:143:13-57
+	android:parentActivityName
+		ADDED from /home/devch/AndroidStudioProjects/ColegioArji/app/src/main/AndroidManifest.xml:144:13-55
+	android:name
+		ADDED from /home/devch/AndroidStudioProjects/ColegioArji/app/src/main/AndroidManifest.xml:142:13-43
 service#mx.com.logydes.colegioarji.Utils.NotificationService
-ADDED from /home/devch/AndroidStudioProjects/ColegioArji/app/src/main/AndroidManifest.xml:147:9-151:19
+ADDED from /home/devch/AndroidStudioProjects/ColegioArji/app/src/main/AndroidManifest.xml:151:9-155:19
 	android:name
-		ADDED from /home/devch/AndroidStudioProjects/ColegioArji/app/src/main/AndroidManifest.xml:147:18-59
+		ADDED from /home/devch/AndroidStudioProjects/ColegioArji/app/src/main/AndroidManifest.xml:151:18-59
 intent-filter#com.google.firebase.MESSAGING_EVENT
-ADDED from /home/devch/AndroidStudioProjects/ColegioArji/app/src/main/AndroidManifest.xml:148:13-150:29
+ADDED from /home/devch/AndroidStudioProjects/ColegioArji/app/src/main/AndroidManifest.xml:152:13-154:29
 action#com.google.firebase.MESSAGING_EVENT
-ADDED from /home/devch/AndroidStudioProjects/ColegioArji/app/src/main/AndroidManifest.xml:149:17-78
+ADDED from /home/devch/AndroidStudioProjects/ColegioArji/app/src/main/AndroidManifest.xml:153:17-78
 	android:name
-		ADDED from /home/devch/AndroidStudioProjects/ColegioArji/app/src/main/AndroidManifest.xml:149:25-75
+		ADDED from /home/devch/AndroidStudioProjects/ColegioArji/app/src/main/AndroidManifest.xml:153:25-75
 service#mx.com.logydes.colegioarji.Utils.NotificacionIDTokenService
-ADDED from /home/devch/AndroidStudioProjects/ColegioArji/app/src/main/AndroidManifest.xml:152:9-156:19
+ADDED from /home/devch/AndroidStudioProjects/ColegioArji/app/src/main/AndroidManifest.xml:156:9-160:19
 	android:name
-		ADDED from /home/devch/AndroidStudioProjects/ColegioArji/app/src/main/AndroidManifest.xml:152:18-66
+		ADDED from /home/devch/AndroidStudioProjects/ColegioArji/app/src/main/AndroidManifest.xml:156:18-66
 intent-filter#com.google.firebase.INSTANCE_ID_EVENT
-ADDED from /home/devch/AndroidStudioProjects/ColegioArji/app/src/main/AndroidManifest.xml:153:13-155:29
+ADDED from /home/devch/AndroidStudioProjects/ColegioArji/app/src/main/AndroidManifest.xml:157:13-159:29
 action#com.google.firebase.INSTANCE_ID_EVENT
-ADDED from /home/devch/AndroidStudioProjects/ColegioArji/app/src/main/AndroidManifest.xml:154:17-80
+ADDED from /home/devch/AndroidStudioProjects/ColegioArji/app/src/main/AndroidManifest.xml:158:17-80
 	android:name
-		ADDED from /home/devch/AndroidStudioProjects/ColegioArji/app/src/main/AndroidManifest.xml:154:25-77
+		ADDED from /home/devch/AndroidStudioProjects/ColegioArji/app/src/main/AndroidManifest.xml:158:25-77
 uses-sdk
 INJECTED from /home/devch/AndroidStudioProjects/ColegioArji/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support:multidex:1.0.1] /home/devch/.android/build-cache/9842dd7432667fc2446749037c28813e0ef16723/output/AndroidManifest.xml:18:5-42
 MERGED from [com.android.support:design:25.3.1] /home/devch/.android/build-cache/faffc0ff55de3161b12a9a31c4cf2f49bd6376b2/output/AndroidManifest.xml:21:5-23:62
 MERGED from [com.android.support:transition:25.3.1] /home/devch/.android/build-cache/1e48c265dddd67dad554f3b827790838d8c34639/output/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:cardview-v7:25.3.1] /home/devch/.android/build-cache/2eabd510cac3d0bd49c284388c4fa9a278e25576/output/AndroidManifest.xml:20:5-43

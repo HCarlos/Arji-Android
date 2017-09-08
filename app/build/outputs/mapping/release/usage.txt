@@ -564,6 +564,17 @@ android.support.graphics.drawable.animated.BuildConfig
 android.support.graphics.drawable.animated.R
 android.support.mediacompat.BuildConfig
 android.support.mediacompat.R
+android.support.multidex.BuildConfig
+android.support.multidex.MultiDex
+android.support.multidex.MultiDex$V14
+android.support.multidex.MultiDex$V19
+android.support.multidex.MultiDex$V4
+android.support.multidex.MultiDexApplication
+android.support.multidex.MultiDexExtractor
+android.support.multidex.MultiDexExtractor$1
+android.support.multidex.R
+android.support.multidex.ZipUtil
+android.support.multidex.ZipUtil$CentralDirectory
 android.support.transition.AutoTransition
 android.support.transition.AutoTransitionPort
 android.support.transition.BuildConfig
