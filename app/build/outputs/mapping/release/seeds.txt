@@ -8415,10 +8415,15 @@ mx.com.logydes.colegioarji.LoginActivity
 mx.com.logydes.colegioarji.LoginActivity: LoginActivity()
 mx.com.logydes.colegioarji.MainActivity
 mx.com.logydes.colegioarji.MainActivity: MainActivity()
+mx.com.logydes.colegioarji.MainActivity: void MensajesClick(android.view.View)
+mx.com.logydes.colegioarji.MainActivity: void CircularesClick(android.view.View)
+mx.com.logydes.colegioarji.MainActivity: void FacturasClick(android.view.View)
 mx.com.logydes.colegioarji.MapsActivity
 mx.com.logydes.colegioarji.MapsActivity: MapsActivity()
 mx.com.logydes.colegioarji.MenuHijos
 mx.com.logydes.colegioarji.MenuHijos: MenuHijos()
+mx.com.logydes.colegioarji.NotificacionesActivity
+mx.com.logydes.colegioarji.NotificacionesActivity: NotificacionesActivity()
 mx.com.logydes.colegioarji.R$anim: int abc_fade_in
 mx.com.logydes.colegioarji.R$anim: int abc_fade_out
 mx.com.logydes.colegioarji.R$anim: int abc_grow_fade_in_from_bottom
@@ -9249,6 +9254,7 @@ mx.com.logydes.colegioarji.R$dimen: int em4
 mx.com.logydes.colegioarji.R$dimen: int em40
 mx.com.logydes.colegioarji.R$dimen: int em6
 mx.com.logydes.colegioarji.R$dimen: int em8
+mx.com.logydes.colegioarji.R$dimen: int fab_margin
 mx.com.logydes.colegioarji.R$dimen: int highlight_alpha_material_colored
 mx.com.logydes.colegioarji.R$dimen: int highlight_alpha_material_dark
 mx.com.logydes.colegioarji.R$dimen: int highlight_alpha_material_light
@@ -9726,6 +9732,7 @@ mx.com.logydes.colegioarji.R$id: int action_menu_presenter
 mx.com.logydes.colegioarji.R$id: int action_mode_bar
 mx.com.logydes.colegioarji.R$id: int action_mode_bar_stub
 mx.com.logydes.colegioarji.R$id: int action_mode_close_button
+mx.com.logydes.colegioarji.R$id: int action_settings
 mx.com.logydes.colegioarji.R$id: int action_text
 mx.com.logydes.colegioarji.R$id: int actions
 mx.com.logydes.colegioarji.R$id: int activity_chooser_view_content
@@ -9846,6 +9853,9 @@ mx.com.logydes.colegioarji.R$id: int icon_group
 mx.com.logydes.colegioarji.R$id: int icon_only
 mx.com.logydes.colegioarji.R$id: int icon_uri
 mx.com.logydes.colegioarji.R$id: int icon_view
+mx.com.logydes.colegioarji.R$id: int idImageCirculares
+mx.com.logydes.colegioarji.R$id: int idImageFacruras
+mx.com.logydes.colegioarji.R$id: int idImageNotificaciones
 mx.com.logydes.colegioarji.R$id: int idhijo
 mx.com.logydes.colegioarji.R$id: int idimgmenututores
 mx.com.logydes.colegioarji.R$id: int iduser_info
@@ -9872,6 +9882,8 @@ mx.com.logydes.colegioarji.R$id: int listMode
 mx.com.logydes.colegioarji.R$id: int list_item
 mx.com.logydes.colegioarji.R$id: int live_stream_indicator
 mx.com.logydes.colegioarji.R$id: int live_stream_seek_bar
+mx.com.logydes.colegioarji.R$id: int llListaElementos
+mx.com.logydes.colegioarji.R$id: int llMensajes
 mx.com.logydes.colegioarji.R$id: int loading_indicator
 mx.com.logydes.colegioarji.R$id: int login
 mx.com.logydes.colegioarji.R$id: int login_form
@@ -10045,6 +10057,9 @@ mx.com.logydes.colegioarji.R$id: int tvHijo
 mx.com.logydes.colegioarji.R$id: int tvMenu
 mx.com.logydes.colegioarji.R$id: int tvMenuHijos
 mx.com.logydes.colegioarji.R$id: int txtBienvenida
+mx.com.logydes.colegioarji.R$id: int txtCirculares
+mx.com.logydes.colegioarji.R$id: int txtMensajes
+mx.com.logydes.colegioarji.R$id: int txtfacturas
 mx.com.logydes.colegioarji.R$id: int up
 mx.com.logydes.colegioarji.R$id: int url
 mx.com.logydes.colegioarji.R$id: int useLogo
@@ -10109,6 +10124,7 @@ mx.com.logydes.colegioarji.R$layout: int activity_login
 mx.com.logydes.colegioarji.R$layout: int activity_main
 mx.com.logydes.colegioarji.R$layout: int activity_maps
 mx.com.logydes.colegioarji.R$layout: int activity_menu_hijos
+mx.com.logydes.colegioarji.R$layout: int activity_notificaciones
 mx.com.logydes.colegioarji.R$layout: int activity_system
 mx.com.logydes.colegioarji.R$layout: int app_bar_main
 mx.com.logydes.colegioarji.R$layout: int cast_expanded_controller_activity
@@ -10164,8 +10180,10 @@ mx.com.logydes.colegioarji.R$layout: int recycle_menu_tutores
 mx.com.logydes.colegioarji.R$layout: int select_dialog_item_material
 mx.com.logydes.colegioarji.R$layout: int select_dialog_multichoice_material
 mx.com.logydes.colegioarji.R$layout: int select_dialog_singlechoice_material
+mx.com.logydes.colegioarji.R$layout: int shape
 mx.com.logydes.colegioarji.R$layout: int support_simple_spinner_dropdown_item
 mx.com.logydes.colegioarji.R$menu: int activity_main_drawer
+mx.com.logydes.colegioarji.R$menu: int menu_notificaciones
 mx.com.logydes.colegioarji.R$mipmap: int ic_aviso_privacidad
 mx.com.logydes.colegioarji.R$mipmap: int ic_beneficios
 mx.com.logydes.colegioarji.R$mipmap: int ic_boletin
@@ -10182,8 +10200,11 @@ mx.com.logydes.colegioarji.R$mipmap: int ic_quinesomos
 mx.com.logydes.colegioarji.R$mipmap: int ic_student
 mx.com.logydes.colegioarji.R$mipmap: int icon_boletas
 mx.com.logydes.colegioarji.R$mipmap: int icon_calendario
+mx.com.logydes.colegioarji.R$mipmap: int icon_circular
 mx.com.logydes.colegioarji.R$mipmap: int icon_circulares
+mx.com.logydes.colegioarji.R$mipmap: int icon_factura
 mx.com.logydes.colegioarji.R$mipmap: int icon_facturas
+mx.com.logydes.colegioarji.R$mipmap: int icon_notifications
 mx.com.logydes.colegioarji.R$mipmap: int icon_pagos
 mx.com.logydes.colegioarji.R$mipmap: int icon_tareas
 mx.com.logydes.colegioarji.R$mipmap: int icon_user_female
@@ -10195,6 +10216,7 @@ mx.com.logydes.colegioarji.R$string: int FechaPago
 mx.com.logydes.colegioarji.R$string: int IdConcepto
 mx.com.logydes.colegioarji.R$string: int IdEmp
 mx.com.logydes.colegioarji.R$string: int IdGruAlu
+mx.com.logydes.colegioarji.R$string: int IdMobileMensaje
 mx.com.logydes.colegioarji.R$string: int IdUser
 mx.com.logydes.colegioarji.R$string: int IdUserAlu
 mx.com.logydes.colegioarji.R$string: int IsBoleta
@@ -10247,6 +10269,7 @@ mx.com.logydes.colegioarji.R$string: int action_inicio
 mx.com.logydes.colegioarji.R$string: int action_mapa_ubicacion
 mx.com.logydes.colegioarji.R$string: int action_proceso_admision
 mx.com.logydes.colegioarji.R$string: int action_quienes_somos
+mx.com.logydes.colegioarji.R$string: int action_settings
 mx.com.logydes.colegioarji.R$string: int action_sign_in
 mx.com.logydes.colegioarji.R$string: int action_sign_in_short
 mx.com.logydes.colegioarji.R$string: int action_system
@@ -10323,6 +10346,7 @@ mx.com.logydes.colegioarji.R$string: int debug_menu_troubleshooting
 mx.com.logydes.colegioarji.R$string: int decline
 mx.com.logydes.colegioarji.R$string: int default_web_client_id
 mx.com.logydes.colegioarji.R$string: int elemento
+mx.com.logydes.colegioarji.R$string: int fecha
 mx.com.logydes.colegioarji.R$string: int firebase_database_url
 mx.com.logydes.colegioarji.R$string: int gcm_defaultSenderId
 mx.com.logydes.colegioarji.R$string: int google_api_key
@@ -10337,6 +10361,7 @@ mx.com.logydes.colegioarji.R$string: int idmenu
 mx.com.logydes.colegioarji.R$string: int iduser_info_label
 mx.com.logydes.colegioarji.R$string: int logoEmp
 mx.com.logydes.colegioarji.R$string: int logoIB
+mx.com.logydes.colegioarji.R$string: int mensaje
 mx.com.logydes.colegioarji.R$string: int menu
 mx.com.logydes.colegioarji.R$string: int menuelemento
 mx.com.logydes.colegioarji.R$string: int mr_button_content_description
@@ -10379,6 +10404,7 @@ mx.com.logydes.colegioarji.R$string: int tipoelemento
 mx.com.logydes.colegioarji.R$string: int title_activity_boletin
 mx.com.logydes.colegioarji.R$string: int title_activity_hijos
 mx.com.logydes.colegioarji.R$string: int title_activity_login
+mx.com.logydes.colegioarji.R$string: int title_activity_notificaciones
 mx.com.logydes.colegioarji.R$string: int title_bar_mapa_ubicacion
 mx.com.logydes.colegioarji.R$string: int token_id_info_label
 mx.com.logydes.colegioarji.R$string: int token_info_header_label

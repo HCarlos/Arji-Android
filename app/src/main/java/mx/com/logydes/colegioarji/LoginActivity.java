@@ -201,6 +201,12 @@ public class LoginActivity extends AppCompatActivity {
                 params.put("tD", "2");
                 params.put("device_token", token);
 
+                Log.e(TAG,"username: "+email);
+                Log.e(TAG,"passwordL: "+password);
+                Log.e(TAG,"UUID: "+uuid);
+                Log.e(TAG,"username: "+'2');
+                Log.e(TAG,"device_token: "+token);
+
                 return params;
             }
 

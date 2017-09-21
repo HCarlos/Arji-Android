@@ -2,5 +2,9 @@
     {
         "merged": "/home/devch/AndroidStudioProjects/ColegioArji/app/build/intermediates/res/merged/release/menu/activity_main_drawer.xml",
         "source": "/home/devch/AndroidStudioProjects/ColegioArji/app/src/main/res/menu/activity_main_drawer.xml"
+    },
+    {
+        "merged": "/home/devch/AndroidStudioProjects/ColegioArji/app/build/intermediates/res/merged/release/menu/menu_notificaciones.xml",
+        "source": "/home/devch/AndroidStudioProjects/ColegioArji/app/src/main/res/menu/menu_notificaciones.xml"
     }
 ]

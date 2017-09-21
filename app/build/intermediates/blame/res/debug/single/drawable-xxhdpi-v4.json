@@ -32,12 +32,12 @@
         "source": "/home/devch/.android/build-cache/8066b6eeb1c2aeca2bdc02278ae4daba6bbe542b/output/res/drawable-xxhdpi-v4/quantum_ic_play_arrow_white_24.png"
     },
     {
-        "merged": "/home/devch/AndroidStudioProjects/ColegioArji/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/ic_media_route_connecting_12_light.png",
-        "source": "/home/devch/.android/build-cache/7f92580b55284743e9dd029bd37d8273d99aef23/output/res/drawable-xxhdpi-v4/ic_media_route_connecting_12_light.png"
-    },
-    {
         "merged": "/home/devch/AndroidStudioProjects/ColegioArji/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/ic_media_route_on_19_light.png",
         "source": "/home/devch/.android/build-cache/7f92580b55284743e9dd029bd37d8273d99aef23/output/res/drawable-xxhdpi-v4/ic_media_route_on_19_light.png"
+    },
+    {
+        "merged": "/home/devch/AndroidStudioProjects/ColegioArji/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/ic_media_route_connecting_12_light.png",
+        "source": "/home/devch/.android/build-cache/7f92580b55284743e9dd029bd37d8273d99aef23/output/res/drawable-xxhdpi-v4/ic_media_route_connecting_12_light.png"
     },
     {
         "merged": "/home/devch/AndroidStudioProjects/ColegioArji/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/ic_close_dark.png",

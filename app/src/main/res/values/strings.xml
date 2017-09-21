@@ -24,21 +24,14 @@
     <string name="title_activity_login">Ingresar al Sistema</string>
     <string name="title_activity_boletin">Boletín Oficial</string>
     <string name="title_activity_hijos">Alumnos</string>
+    <string name="title_activity_notificaciones">Notificaciones</string>
 
     <!-- Strings related to login -->
     <string name="prompt_email">Username</string>
     <string name="prompt_password">Password</string>
     <string name="action_sign_in">Login</string>
     <string name="action_sign_in_short">Login</string>
-    <!--
-    <string name="error_invalid_email">This email address is invalid</string>
-    <string name="error_invalid_password">This password is too short</string>
-    <string name="error_incorrect_password">This password is incorrect</string>
-    <string name="error_field_required">This field is required</string>
-    <string name="permission_rationale">"Contacts permissions are needed for providing email
-        completions."
-    </string>
-    -->
+
     <!-- Cardview Hijos-->
     <string name="nombreAlumno">label</string>
     <string name="idalu">data</string>
@@ -75,8 +68,9 @@
     <string name="IsBoleta">IsBoleta</string>
     <string name="action_mapa_ubicacion">Mapa de Ubicación</string>
     <string name="title_bar_mapa_ubicacion">Av. México Núm. 2, Col. del Bosque, Villahermosa, Tabasco, MX. CP. 86160</string>
-    <!-- <string name="gcm_defaultSenderId">1071598435992</string> -->
-
+    <string name="IdMobileMensaje">IdMobileMensaje</string>
+    <string name="fecha">Fechsa</string>
+    <string name="mensaje">Mensaje</string>
 
     <!-- Sistem Info -->
     <string name="token_info_header_label">DATOS IMPORTANTES DEL SISTEMA</string>
@@ -86,5 +80,6 @@
     <string name="version_info_label">VERSION</string>
     <string name="username_info_label">USERNAME</string>
     <string name="nombrecompletousuario_info_label">USER</string>
+    <string name="action_settings">Settings</string>
 
 </resources>

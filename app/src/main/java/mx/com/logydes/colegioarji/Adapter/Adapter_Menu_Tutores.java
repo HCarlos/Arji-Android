@@ -30,6 +30,8 @@ import mx.com.logydes.colegioarji.R;
 import mx.com.logydes.colegioarji.Utils.AppConfig;
 import mx.com.logydes.colegioarji.Utils.Utilidades;
 
+import static mx.com.logydes.colegioarji.Utils.AppConfig.INDICE_NOTIFICACIONES;
+
 /**
  * Created by devch on 24/06/16.
  */
@@ -53,13 +55,15 @@ public class Adapter_Menu_Tutores extends RecyclerView.Adapter<Adapter_Menu_Tuto
 
         if ( Singleton.getIdUserNivelAcceso() == 7 ) {
             MM.add(new Menu_Tutores(0, "Tareas"));
-            MM.add(new Menu_Tutores(1, "Circulares"));
-            MM.add(new Menu_Tutores(2, "Facturas"));
+//            MM.add(new Menu_Tutores(1, "Circulares"));
+//            MM.add(new Menu_Tutores(2, "Facturas"));
             MM.add(new Menu_Tutores(3, "Pagos"));
             MM.add(new Menu_Tutores(4, "Boletas"));
             MM.add(new Menu_Tutores(5, "Calendario"));
+//            MM.add(new Menu_Tutores(6, "Mensajes"));
         }
 
+/*
         if (
                 Singleton.getIdUserNivelAcceso() == 3 ||
                 Singleton.getIdUserNivelAcceso() == 6 ||
@@ -68,14 +72,17 @@ public class Adapter_Menu_Tutores extends RecyclerView.Adapter<Adapter_Menu_Tuto
             ) {
 
             MM.add(new Menu_Tutores(1, "Circulares"));
+            MM.add(new Menu_Tutores(6, "Mensajes"));
 
         }
+*/
 
         if ( Singleton.getIdUserNivelAcceso() == 5 ) {
             MM.add(new Menu_Tutores(0, "Tareas"));
-            MM.add(new Menu_Tutores(1, "Circulares"));
+//            MM.add(new Menu_Tutores(1, "Circulares"));
             MM.add(new Menu_Tutores(4, "Boletas"));
             MM.add(new Menu_Tutores(5, "Calendario"));
+//            MM.add(new Menu_Tutores(6, "Mensajes"));
             Singleton.setIdGruAlu( Singleton.getIdUser() );
             Singleton.setIdUserAlu( Singleton.getIdUser() );
             Singleton.setIsBoleta(1);
@@ -83,9 +90,10 @@ public class Adapter_Menu_Tutores extends RecyclerView.Adapter<Adapter_Menu_Tuto
 
         if ( Singleton.getIdUserNivelAcceso() == 25 ) {
             MM.add(new Menu_Tutores(0, "Tareas"));
-            MM.add(new Menu_Tutores(1, "Circulares"));
+//            MM.add(new Menu_Tutores(1, "Circulares"));
             MM.add(new Menu_Tutores(4, "Boletas"));
             MM.add(new Menu_Tutores(5, "Calendario"));
+//            MM.add(new Menu_Tutores(6, "Mensajes"));
         }
 
 
@@ -111,12 +119,6 @@ public class Adapter_Menu_Tutores extends RecyclerView.Adapter<Adapter_Menu_Tuto
             case 0:
                 cvh.idimgmenututores.setImageResource(R.mipmap.icon_tareas);
                 break;
-            case 1:
-                cvh.idimgmenututores.setImageResource(R.mipmap.icon_circulares);
-                break;
-            case 2:
-                cvh.idimgmenututores.setImageResource(R.mipmap.icon_facturas);
-                break;
             case 3:
                 cvh.idimgmenututores.setImageResource(R.mipmap.icon_pagos);
                 break;
@@ -135,8 +137,6 @@ public class Adapter_Menu_Tutores extends RecyclerView.Adapter<Adapter_Menu_Tuto
             public void onClick(View view) {
                 if (
                         cvh.idmenu == 0 ||
-                                cvh.idmenu == 1 ||
-                                cvh.idmenu == 2 ||
                                 cvh.idmenu == 3
                         ) {
                     Intent intent = new Intent(activity, ListaElementos.class);
@@ -147,7 +147,7 @@ public class Adapter_Menu_Tutores extends RecyclerView.Adapter<Adapter_Menu_Tuto
                 if (cvh.idmenu == 4) {
                     if (Singleton.getIsBoleta() > 0) {
 
-                        String url = "http://platsource.mx/php/01/mobile/boletas_layout.php?idgrualu="+Singleton.getIdUserAlu()+"&user="+Singleton.getUsername()+"&iduser="+Singleton.getIdUser()+"&idemp="+Singleton.getIdEmp();
+                        String url = "https://platsource.mx/php/01/mobile/boletas_layout.php?idgrualu="+Singleton.getIdUserAlu()+"&user="+Singleton.getUsername()+"&iduser="+Singleton.getIdUser()+"&idemp="+Singleton.getIdEmp();
 
                         // String url = Singleton.getUrlBoleta();
 

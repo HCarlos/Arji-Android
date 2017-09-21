@@ -22,6 +22,7 @@ import mx.com.logydes.colegioarji.Helper.Singleton;
 public class MenuHijos extends AppCompatActivity {
 
     private Context context;
+    private RecyclerView listaMM0;
     private RecyclerView listaMM;
     private AdapterHijos mad;
 

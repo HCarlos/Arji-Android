@@ -1,8 +1,14 @@
 package mx.com.logydes.colegioarji;
 
+import android.app.Activity;
+import android.app.Notification;
+import android.app.NotificationManager;
+import android.app.PendingIntent;
+import android.content.Context;
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
+import android.os.Vibrator;
 import android.support.design.widget.NavigationView;
 import android.support.v4.view.GravityCompat;
 import android.support.v4.widget.DrawerLayout;
@@ -15,7 +21,9 @@ import android.support.v7.widget.Toolbar;
 import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
 import android.webkit.WebView;
+import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -33,6 +41,14 @@ import mx.com.logydes.colegioarji.Inside.DocumentInside;
 import mx.com.logydes.colegioarji.Pojos.Sistema_Info;
 import mx.com.logydes.colegioarji.Utils.AppConfig;
 
+import static android.R.id.message;
+import static mx.com.logydes.colegioarji.R.attr.icon;
+import static mx.com.logydes.colegioarji.R.attr.title;
+import static mx.com.logydes.colegioarji.R.styleable.View;
+import static mx.com.logydes.colegioarji.Utils.AppConfig.INDICE_CIRCULAR;
+import static mx.com.logydes.colegioarji.Utils.AppConfig.INDICE_FACTURAS;
+import static mx.com.logydes.colegioarji.Utils.AppConfig.INDICE_NOTIFICACIONES;
+
 public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
 
@@ -45,9 +61,11 @@ public class MainActivity extends AppCompatActivity
 
     private GoogleApiClient client;
     private Singleton singleton;
-    private TextView tv;
+    private TextView tvBienvenida;
+    private LinearLayout llMensajes;
     private RecyclerView listaMM;
     private Sistema_Info sinfo;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -68,12 +86,11 @@ public class MainActivity extends AppCompatActivity
 
         db = new SQLiteHandler(getApplicationContext());
         session = new SessionManager(getApplicationContext());
-        tv = (TextView) findViewById(R.id.txtBienvenida);
-
+        tvBienvenida = (TextView) findViewById(R.id.txtBienvenida);
+        llMensajes = (LinearLayout) findViewById(R.id.llMensajes);
         if (session.isLoggedIn() && singleton.getRsHijosSize() <= 0) {
             db.getUserDetails();
             String nc = singleton.getNombreCompletoUsuario() ;
-            // tv.setText( "Bienvenid@ " + nc );
         }
 
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
@@ -83,14 +100,16 @@ public class MainActivity extends AppCompatActivity
         DrawerLayout dl = (DrawerLayout) findViewById(R.id.drawer_layout);
 
         if (!session.isLoggedIn()){
-            if ( tv != null ) {
-                tv.setVisibility(tv.INVISIBLE);
+            if ( tvBienvenida != null ) {
+                tvBienvenida.setVisibility(tvBienvenida.INVISIBLE);
+                llMensajes.setVisibility(llMensajes.INVISIBLE);
                 // dl.setBackgroundResource(R.color.colorBackground);
                 dl.setBackgroundResource(R.drawable.background_2_arji);
             }
         }else{
-            if ( tv != null ) {
-                tv.setVisibility(tv.VISIBLE);
+            if ( tvBienvenida != null ) {
+                tvBienvenida.setVisibility(tvBienvenida.VISIBLE);
+                llMensajes.setVisibility(llMensajes.VISIBLE);
                 dl.setBackgroundResource(R.drawable.background_1_arji);
             }
         }
@@ -108,6 +127,27 @@ public class MainActivity extends AppCompatActivity
 
         navigationView = (NavigationView) findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);
+
+
+/*
+        NotificationManager notificationManager = (NotificationManager)
+                getSystemService(NOTIFICATION_SERVICE);
+        Notification notification = new Notification(R.drawable.icon_notification_transparent,
+                "message", System.currentTimeMillis());
+        // Hide the notification after its selected
+        notification.flags |= Notification.FLAG_AUTO_CANCEL;
+        Vibrator vibrator = (Vibrator)getSystemService(Context.VIBRATOR_SERVICE);
+        long[] pattern = { 0, 100, 600, 100, 700};
+        vibrator.vibrate(pattern, -1);
+        Intent intent = new Intent(this, ListaElementos.class);
+        PendingIntent activity = PendingIntent.getActivity(this, 0, intent, 0);
+        String sms = getSharedPreferences("SMSPREF", MODE_PRIVATE).getString("incoming", "EMPTY");
+//        notification.setLatestEventInfo(this, "message" ,
+//                sms, activity);
+        notification.number += 1;
+        notificationManager.notify(0, notification);
+*/
+
 
         // Intent i = new Intent(this, RegistrationService.class);
         // startService(i);
@@ -143,7 +183,7 @@ public class MainActivity extends AppCompatActivity
                                         singleton.getIdUserNivelAcceso() == 25
                                     ) ) { // Tutores
             //getMenuInflater().inflate(R.menu.menu_tutores, menu);
-            tv.setText( "Bienvenid@ " + singleton.getNombreCompletoUsuario() );
+            tvBienvenida.setText( "Bienvenid@ " + singleton.getNombreCompletoUsuario() );
             dbHijos cm = new dbHijos(this, this);
 
             if ( singleton.getRsHijosSize() <= 0) {
@@ -156,13 +196,11 @@ public class MainActivity extends AppCompatActivity
                 (singleton.getIdUserNivelAcceso() == 6 ||
                         singleton.getIdUserNivelAcceso() == 18 ||
                         singleton.getIdUserNivelAcceso() == 23 ) ) {
-            tv.setText( singleton.getNombreCompletoUsuario() + " "  );
-
+            tvBienvenida.setText( singleton.getNombreCompletoUsuario() + " "  );
             callAdapter(true);
 
         }else if ( session.isLoggedIn() && singleton.getIdUserNivelAcceso() == 5) { // Alu
-            tv.setText( singleton.getNombreCompletoUsuario() + " "  );
-            // getMenuInflater().inflate(R.menu.menu_alumnos, menu);
+            tvBienvenida.setText( singleton.getNombreCompletoUsuario() + " "  );
             callAdapter(true);
         }
 
@@ -190,13 +228,6 @@ public class MainActivity extends AppCompatActivity
     public boolean onOptionsItemSelected(MenuItem item) {
 
         Log.e("ENTRO??","SI 10");
-        /*
-        int id = item.getItemId();
-        if (id == R.id.action_tareas) {
-            Toast.makeText(this, "Lista_Elementos", Toast.LENGTH_SHORT).show();
-            return true;
-        }
-        */
         return super.onOptionsItemSelected(item);
     }
 
@@ -237,9 +268,6 @@ public class MainActivity extends AppCompatActivity
                 Type = AppConfig.URL_PROCESO_ADMISION_TYPE;
                 break;
             case R.id.nav_mapa:
-                // URL = AppConfig.URL_MAPA;
-                // Type = AppConfig.URL_MAPA_TYPE;
-                // break;
                 Intent intentMap = new Intent(MainActivity.this, MapsActivity.class);
                 startActivity(intentMap);
                 return true;
@@ -262,6 +290,31 @@ public class MainActivity extends AppCompatActivity
         }
         drawer.closeDrawer(GravityCompat.START);
         return  bi.onCreateObject(URL, Type);
+
+    }
+
+
+    public void MensajesClick(View v){
+        Intent intent = new Intent(this, ListaElementos.class);
+        intent.putExtra(this.getString(R.string.menu), "NOTIFICACIONES");
+        intent.putExtra(this.getString(R.string.idmenu), INDICE_NOTIFICACIONES);
+        this.startActivity(intent);
+
+    }
+
+    public void CircularesClick(View v){
+        Intent intent = new Intent(this, ListaElementos.class);
+        intent.putExtra(this.getString(R.string.menu), "CIRCULAR");
+        intent.putExtra(this.getString(R.string.idmenu), INDICE_CIRCULAR);
+        this.startActivity(intent);
+
+    }
+
+    public void FacturasClick(View v){
+        Intent intent = new Intent(this, ListaElementos.class);
+        intent.putExtra(this.getString(R.string.menu), "FACTURAS");
+        intent.putExtra(this.getString(R.string.idmenu), INDICE_FACTURAS);
+        this.startActivity(intent);
 
     }
 

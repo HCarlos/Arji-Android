@@ -6,8 +6,6 @@ import android.content.Context;
 import android.content.Intent;
 import android.graphics.Typeface;
 import android.support.v7.widget.RecyclerView;
-import android.util.Log;
-import android.util.TypedValue;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -59,15 +57,23 @@ public class Adapter_Lista_Elementos extends RecyclerView.Adapter<Adapter_Lista_
             boolean primerElemento = false;
             int elementoEncontrado = -1;
 
+            // cvh.setBackgroundColor(Color.parseColor("#ffffff"));
+
             cvh.TipoElemento = mm.getTipo();
             switch (cvh.TipoElemento){
                 case 0:
+                    if ( mm.getStatus_Read() == 0 ){
+                        cvh.llListaElementos.setBackgroundColor(R.color.colorBackground);
+                    }
                     cvh.tvElemento.setText(mm.getLabel() );
                     cvh.IdElemento = mm.getIdTarea();
                     cvh.IdElementoDestinatario = mm.getIdTareaDestinatario();
                     cvh.tvElemento_Detail.setText(mm.getProfesor() );
                     break;
                 case 1:
+                    if ( mm.getStatus_Read() == 0 ){
+                        cvh.llListaElementos.setBackgroundColor(R.color.colorBackground);
+                    }
                     cvh.tvElemento.setText(mm.getLabel() );
                     cvh.IdElemento = mm.getIdComMensaje();
                     cvh.IdElementoDestinatario = mm.getIdComMensajeDestinatario();
@@ -121,6 +127,19 @@ public class Adapter_Lista_Elementos extends RecyclerView.Adapter<Adapter_Lista_
                     cvh.Mes = mm.getMes();
                     cvh.FechaPago = mm.getFechaPago();
                     break;
+                case 6:
+
+                    if ( mm.getStatus_Read() == 0 ){
+                        cvh.llListaElementos.setBackgroundColor(R.color.colorBackground);
+                    }
+                    cvh.tvElemento.setText(mm.getLabel() );
+                    cvh.IdElemento = mm.getIdMobileMensaje();
+                    cvh.tvElemento_Detail.setText(mm.getFecha() );
+                    cvh.IdMobileMensaje = mm.getIdMobileMensaje();
+                    cvh.Fecha = mm.getFecha();
+                    cvh.Mensaje = mm.getMensaje();
+                    cvh.Status_Read = mm.getStatus_Read();
+                    break;
             }
 
 
@@ -131,6 +150,9 @@ public class Adapter_Lista_Elementos extends RecyclerView.Adapter<Adapter_Lista_
                     intent.putExtra(activity.getString(R.string.elemento), cvh.tvElemento.getText() );
                     intent.putExtra(activity.getString(R.string.idelemento), cvh.IdElemento );
                     intent.putExtra(activity.getString(R.string.idelementodestinatario), cvh.IdElementoDestinatario );
+                    intent.putExtra(activity.getString(R.string.IdMobileMensaje), cvh.IdMobileMensaje );
+                    intent.putExtra(activity.getString(R.string.fecha), cvh.Fecha );
+                    intent.putExtra(activity.getString(R.string.mensaje), cvh.Mensaje );
                     intent.putExtra(activity.getString(R.string.menuelemento), cvh.Menu );
                     intent.putExtra(activity.getString(R.string.tipoelemento), cvh.TipoElemento );
                     intent.putExtra(activity.getString(R.string.PDF), cvh.PDF );
@@ -175,6 +197,13 @@ public class Adapter_Lista_Elementos extends RecyclerView.Adapter<Adapter_Lista_
             int PagosDiv;
             String lblProfesor;
             String lblDirector;
+            LinearLayout llListaElementos;
+            int IdMobileMensaje;
+            String Fecha;
+            String Mensaje;
+            int Status_Read;
+
+            // this.setBackgroundColor(Color.parseColor("#ffffff"));
 
             public AdapterElementosViewHolder(View itemView, String _menu) {
                 super(itemView);
@@ -193,10 +222,15 @@ public class Adapter_Lista_Elementos extends RecyclerView.Adapter<Adapter_Lista_
                 Vencido = 0;
                 IdConcepto = 0;
                 PagosDiv = 0;
+                IdMobileMensaje = 0;
+                Fecha = "";
+                Mensaje = "";
+                Status_Read = 0;
                 tvElemento = (TextView) itemView.findViewById(R.id.tvElemento);
                 lyElementos = (LinearLayout) itemView.findViewById(R.id.lyElementos);
                 imgRightElements = (ImageView) itemView.findViewById(R.id.imgRightElements);
                 tvElemento_Detail = (TextView) itemView.findViewById(R.id.tvElemento_Detail);
+                llListaElementos = (LinearLayout) itemView.findViewById(R.id.llListaElementos);
 
             }
 

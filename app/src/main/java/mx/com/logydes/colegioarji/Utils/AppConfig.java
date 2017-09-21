@@ -57,4 +57,15 @@ public class AppConfig {
     public static String URL_AVISO_PRIVACIDAD = URL_HOME + "getAvisoPrivacidad/";
     public static int URL_AVISO_PRIVACIDAD_TYPE = 9;
 
+    public static String URL_NOTIFICACIONES = URL_HOME + "getMensajes/";
+    public static int URL_NOTIFICACIONES_TYPE = 10;
+
+    public static String URL_NOTIFICACION = URL_HOME + "getMensaje/";
+    public static int URL_NOTIFICACION_TYPE = 11;
+
+    public static int INDICE_CIRCULAR = 1;
+    public static int INDICE_FACTURAS = 2;
+    public static int INDICE_NOTIFICACIONES = 6;
+
+
 }

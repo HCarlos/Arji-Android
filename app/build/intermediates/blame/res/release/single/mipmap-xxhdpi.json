@@ -4,10 +4,6 @@
         "source": "/home/devch/AndroidStudioProjects/ColegioArji/app/src/main/res/mipmap-xxhdpi/ic_flecha_derecha.png"
     },
     {
-        "merged": "/home/devch/AndroidStudioProjects/ColegioArji/app/build/intermediates/res/merged/release/mipmap-xxhdpi/ic_directorio.png",
-        "source": "/home/devch/AndroidStudioProjects/ColegioArji/app/src/main/res/mipmap-xxhdpi/ic_directorio.png"
-    },
-    {
         "merged": "/home/devch/AndroidStudioProjects/ColegioArji/app/build/intermediates/res/merged/release/mipmap-xxhdpi/ic_certificaciones.png",
         "source": "/home/devch/AndroidStudioProjects/ColegioArji/app/src/main/res/mipmap-xxhdpi/ic_certificaciones.png"
     },
@@ -28,32 +24,20 @@
         "source": "/home/devch/AndroidStudioProjects/ColegioArji/app/src/main/res/mipmap-xxhdpi/ic_boletin.png"
     },
     {
-        "merged": "/home/devch/AndroidStudioProjects/ColegioArji/app/build/intermediates/res/merged/release/mipmap-xxhdpi/ic_mapa.png",
-        "source": "/home/devch/AndroidStudioProjects/ColegioArji/app/src/main/res/mipmap-xxhdpi/ic_mapa.png"
-    },
-    {
         "merged": "/home/devch/AndroidStudioProjects/ColegioArji/app/build/intermediates/res/merged/release/mipmap-xxhdpi/ic_quinesomos.png",
         "source": "/home/devch/AndroidStudioProjects/ColegioArji/app/src/main/res/mipmap-xxhdpi/ic_quinesomos.png"
-    },
-    {
-        "merged": "/home/devch/AndroidStudioProjects/ColegioArji/app/build/intermediates/res/merged/release/mipmap-xxhdpi/icon_tareas.png",
-        "source": "/home/devch/AndroidStudioProjects/ColegioArji/app/src/main/res/mipmap-xxhdpi/icon_tareas.png"
     },
     {
         "merged": "/home/devch/AndroidStudioProjects/ColegioArji/app/build/intermediates/res/merged/release/mipmap-xxhdpi/ic_logout.png",
         "source": "/home/devch/AndroidStudioProjects/ColegioArji/app/src/main/res/mipmap-xxhdpi/ic_logout.png"
     },
     {
-        "merged": "/home/devch/AndroidStudioProjects/ColegioArji/app/build/intermediates/res/merged/release/mipmap-xxhdpi/ic_launcher.png",
-        "source": "/home/devch/AndroidStudioProjects/ColegioArji/app/src/main/res/mipmap-xxhdpi/ic_launcher.png"
+        "merged": "/home/devch/AndroidStudioProjects/ColegioArji/app/build/intermediates/res/merged/release/mipmap-xxhdpi/icon_notifications.png",
+        "source": "/home/devch/AndroidStudioProjects/ColegioArji/app/src/main/res/mipmap-xxhdpi/icon_notifications.png"
     },
     {
         "merged": "/home/devch/AndroidStudioProjects/ColegioArji/app/build/intermediates/res/merged/release/mipmap-xxhdpi/ic_student.png",
         "source": "/home/devch/AndroidStudioProjects/ColegioArji/app/src/main/res/mipmap-xxhdpi/ic_student.png"
-    },
-    {
-        "merged": "/home/devch/AndroidStudioProjects/ColegioArji/app/build/intermediates/res/merged/release/mipmap-xxhdpi/ic_aviso_privacidad.png",
-        "source": "/home/devch/AndroidStudioProjects/ColegioArji/app/src/main/res/mipmap-xxhdpi/ic_aviso_privacidad.png"
     },
     {
         "merged": "/home/devch/AndroidStudioProjects/ColegioArji/app/build/intermediates/res/merged/release/mipmap-xxhdpi/ic_beneficios.png",
@@ -64,27 +48,55 @@
         "source": "/home/devch/AndroidStudioProjects/ColegioArji/app/src/main/res/mipmap-xxhdpi/ic_login.png"
     },
     {
-        "merged": "/home/devch/AndroidStudioProjects/ColegioArji/app/build/intermediates/res/merged/release/mipmap-xxhdpi/icon_user_male.png",
-        "source": "/home/devch/AndroidStudioProjects/ColegioArji/app/src/main/res/mipmap-xxhdpi/icon_user_male.png"
+        "merged": "/home/devch/AndroidStudioProjects/ColegioArji/app/build/intermediates/res/merged/release/mipmap-xxhdpi/icon_factura.png",
+        "source": "/home/devch/AndroidStudioProjects/ColegioArji/app/src/main/res/mipmap-xxhdpi/icon_factura.png"
+    },
+    {
+        "merged": "/home/devch/AndroidStudioProjects/ColegioArji/app/build/intermediates/res/merged/release/mipmap-xxhdpi/icon_circular.png",
+        "source": "/home/devch/AndroidStudioProjects/ColegioArji/app/src/main/res/mipmap-xxhdpi/icon_circular.png"
     },
     {
         "merged": "/home/devch/AndroidStudioProjects/ColegioArji/app/build/intermediates/res/merged/release/mipmap-xxhdpi/icon_circulares.png",
         "source": "/home/devch/AndroidStudioProjects/ColegioArji/app/src/main/res/mipmap-xxhdpi/icon_circulares.png"
     },
     {
-        "merged": "/home/devch/AndroidStudioProjects/ColegioArji/app/build/intermediates/res/merged/release/mipmap-xxhdpi/icon_boletas.png",
-        "source": "/home/devch/AndroidStudioProjects/ColegioArji/app/src/main/res/mipmap-xxhdpi/icon_boletas.png"
-    },
-    {
         "merged": "/home/devch/AndroidStudioProjects/ColegioArji/app/build/intermediates/res/merged/release/mipmap-xxhdpi/icon_pagos.png",
         "source": "/home/devch/AndroidStudioProjects/ColegioArji/app/src/main/res/mipmap-xxhdpi/icon_pagos.png"
     },
     {
-        "merged": "/home/devch/AndroidStudioProjects/ColegioArji/app/build/intermediates/res/merged/release/mipmap-xxhdpi/icon_calendario.png",
-        "source": "/home/devch/AndroidStudioProjects/ColegioArji/app/src/main/res/mipmap-xxhdpi/icon_calendario.png"
-    },
-    {
         "merged": "/home/devch/AndroidStudioProjects/ColegioArji/app/build/intermediates/res/merged/release/mipmap-xxhdpi/ic_proceso_admision.png",
         "source": "/home/devch/AndroidStudioProjects/ColegioArji/app/src/main/res/mipmap-xxhdpi/ic_proceso_admision.png"
+    },
+    {
+        "merged": "/home/devch/AndroidStudioProjects/ColegioArji/app/build/intermediates/res/merged/release/mipmap-xxhdpi/ic_directorio.png",
+        "source": "/home/devch/AndroidStudioProjects/ColegioArji/app/src/main/res/mipmap-xxhdpi/ic_directorio.png"
+    },
+    {
+        "merged": "/home/devch/AndroidStudioProjects/ColegioArji/app/build/intermediates/res/merged/release/mipmap-xxhdpi/ic_mapa.png",
+        "source": "/home/devch/AndroidStudioProjects/ColegioArji/app/src/main/res/mipmap-xxhdpi/ic_mapa.png"
+    },
+    {
+        "merged": "/home/devch/AndroidStudioProjects/ColegioArji/app/build/intermediates/res/merged/release/mipmap-xxhdpi/icon_tareas.png",
+        "source": "/home/devch/AndroidStudioProjects/ColegioArji/app/src/main/res/mipmap-xxhdpi/icon_tareas.png"
+    },
+    {
+        "merged": "/home/devch/AndroidStudioProjects/ColegioArji/app/build/intermediates/res/merged/release/mipmap-xxhdpi/ic_launcher.png",
+        "source": "/home/devch/AndroidStudioProjects/ColegioArji/app/src/main/res/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/home/devch/AndroidStudioProjects/ColegioArji/app/build/intermediates/res/merged/release/mipmap-xxhdpi/ic_aviso_privacidad.png",
+        "source": "/home/devch/AndroidStudioProjects/ColegioArji/app/src/main/res/mipmap-xxhdpi/ic_aviso_privacidad.png"
+    },
+    {
+        "merged": "/home/devch/AndroidStudioProjects/ColegioArji/app/build/intermediates/res/merged/release/mipmap-xxhdpi/icon_user_male.png",
+        "source": "/home/devch/AndroidStudioProjects/ColegioArji/app/src/main/res/mipmap-xxhdpi/icon_user_male.png"
+    },
+    {
+        "merged": "/home/devch/AndroidStudioProjects/ColegioArji/app/build/intermediates/res/merged/release/mipmap-xxhdpi/icon_boletas.png",
+        "source": "/home/devch/AndroidStudioProjects/ColegioArji/app/src/main/res/mipmap-xxhdpi/icon_boletas.png"
+    },
+    {
+        "merged": "/home/devch/AndroidStudioProjects/ColegioArji/app/build/intermediates/res/merged/release/mipmap-xxhdpi/icon_calendario.png",
+        "source": "/home/devch/AndroidStudioProjects/ColegioArji/app/src/main/res/mipmap-xxhdpi/icon_calendario.png"
     }
 ]

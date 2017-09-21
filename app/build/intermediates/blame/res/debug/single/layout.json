@@ -8,12 +8,12 @@
         "source": "/home/devch/.android/build-cache/59f2315c01240a226ab37afdfae3f5e0397da19b/output/res/layout/select_dialog_singlechoice_material.xml"
     },
     {
-        "merged": "/home/devch/AndroidStudioProjects/ColegioArji/app/build/intermediates/res/merged/debug/layout/abc_expanded_menu_layout.xml",
-        "source": "/home/devch/.android/build-cache/59f2315c01240a226ab37afdfae3f5e0397da19b/output/res/layout/abc_expanded_menu_layout.xml"
-    },
-    {
         "merged": "/home/devch/AndroidStudioProjects/ColegioArji/app/build/intermediates/res/merged/debug/layout/design_navigation_menu_item.xml",
         "source": "/home/devch/.android/build-cache/faffc0ff55de3161b12a9a31c4cf2f49bd6376b2/output/res/layout/design_navigation_menu_item.xml"
+    },
+    {
+        "merged": "/home/devch/AndroidStudioProjects/ColegioArji/app/build/intermediates/res/merged/debug/layout/abc_expanded_menu_layout.xml",
+        "source": "/home/devch/.android/build-cache/59f2315c01240a226ab37afdfae3f5e0397da19b/output/res/layout/abc_expanded_menu_layout.xml"
     },
     {
         "merged": "/home/devch/AndroidStudioProjects/ColegioArji/app/build/intermediates/res/merged/debug/layout/abc_search_view.xml",
@@ -98,6 +98,10 @@
     {
         "merged": "/home/devch/AndroidStudioProjects/ColegioArji/app/build/intermediates/res/merged/debug/layout/recycle_elementos.xml",
         "source": "/home/devch/AndroidStudioProjects/ColegioArji/app/src/main/res/layout/recycle_elementos.xml"
+    },
+    {
+        "merged": "/home/devch/AndroidStudioProjects/ColegioArji/app/build/intermediates/res/merged/debug/layout/activity_notificaciones.xml",
+        "source": "/home/devch/AndroidStudioProjects/ColegioArji/app/src/main/res/layout/activity_notificaciones.xml"
     },
     {
         "merged": "/home/devch/AndroidStudioProjects/ColegioArji/app/build/intermediates/res/merged/debug/layout/cast_expanded_controller_activity.xml",
@@ -322,6 +326,10 @@
     {
         "merged": "/home/devch/AndroidStudioProjects/ColegioArji/app/build/intermediates/res/merged/debug/layout/place_autocomplete_item_powered_by_google.xml",
         "source": "/home/devch/.android/build-cache/4f13582b351a5568a486008e47b783b17ac108ef/output/res/layout/place_autocomplete_item_powered_by_google.xml"
+    },
+    {
+        "merged": "/home/devch/AndroidStudioProjects/ColegioArji/app/build/intermediates/res/merged/debug/layout/shape.xml",
+        "source": "/home/devch/AndroidStudioProjects/ColegioArji/app/src/main/res/layout/shape.xml"
     },
     {
         "merged": "/home/devch/AndroidStudioProjects/ColegioArji/app/build/intermediates/res/merged/debug/layout/notification_action.xml",

@@ -47856,18 +47856,18 @@ mx.com.logydes.colegioarji.Adapter.Adapter_Lista_Elementos -> mx.com.logydes.col
     java.util.ArrayList MM -> a
     android.app.Activity activity -> b
     java.lang.String menu -> c
-    41:46:void <init>(android.app.Activity,java.lang.String) -> <init>
-    51:52:mx.com.logydes.colegioarji.Adapter.Adapter_Lista_Elementos$AdapterElementosViewHolder onCreateViewHolder(android.view.ViewGroup,int) -> a
-    58:149:void onBindViewHolder(mx.com.logydes.colegioarji.Adapter.Adapter_Lista_Elementos$AdapterElementosViewHolder,int) -> a
-    152:152:int getItemCount() -> a
-    29:29:void onBindViewHolder(android.support.v7.widget.RecyclerView$ViewHolder,int) -> a
-    29:29:android.support.v7.widget.RecyclerView$ViewHolder onCreateViewHolder(android.view.ViewGroup,int) -> b
-    29:29:android.app.Activity access$000(mx.com.logydes.colegioarji.Adapter.Adapter_Lista_Elementos) -> a
+    39:44:void <init>(android.app.Activity,java.lang.String) -> <init>
+    49:50:mx.com.logydes.colegioarji.Adapter.Adapter_Lista_Elementos$AdapterElementosViewHolder onCreateViewHolder(android.view.ViewGroup,int) -> a
+    56:171:void onBindViewHolder(mx.com.logydes.colegioarji.Adapter.Adapter_Lista_Elementos$AdapterElementosViewHolder,int) -> a
+    174:174:int getItemCount() -> a
+    27:27:void onBindViewHolder(android.support.v7.widget.RecyclerView$ViewHolder,int) -> a
+    27:27:android.support.v7.widget.RecyclerView$ViewHolder onCreateViewHolder(android.view.ViewGroup,int) -> b
+    27:27:android.app.Activity access$000(mx.com.logydes.colegioarji.Adapter.Adapter_Lista_Elementos) -> a
 mx.com.logydes.colegioarji.Adapter.Adapter_Lista_Elementos$1 -> mx.com.logydes.colegioarji.a.b$1:
     mx.com.logydes.colegioarji.Adapter.Adapter_Lista_Elementos$AdapterElementosViewHolder val$cvh -> a
     mx.com.logydes.colegioarji.Adapter.Adapter_Lista_Elementos this$0 -> b
-    127:127:void <init>(mx.com.logydes.colegioarji.Adapter.Adapter_Lista_Elementos,mx.com.logydes.colegioarji.Adapter.Adapter_Lista_Elementos$AdapterElementosViewHolder) -> <init>
-    130:147:void onClick(android.view.View) -> onClick
+    146:146:void <init>(mx.com.logydes.colegioarji.Adapter.Adapter_Lista_Elementos,mx.com.logydes.colegioarji.Adapter.Adapter_Lista_Elementos$AdapterElementosViewHolder) -> <init>
+    149:169:void onClick(android.view.View) -> onClick
 mx.com.logydes.colegioarji.Adapter.Adapter_Lista_Elementos$AdapterElementosViewHolder -> mx.com.logydes.colegioarji.a.b$a:
     android.widget.LinearLayout lyElementos -> n
     android.widget.TextView tvElemento -> o
@@ -47888,23 +47888,28 @@ mx.com.logydes.colegioarji.Adapter.Adapter_Lista_Elementos$AdapterElementosViewH
     int Vencido -> D
     int IdConcepto -> E
     int PagosDiv -> F
-    180:201:void <init>(android.view.View,java.lang.String) -> <init>
+    android.widget.LinearLayout llListaElementos -> G
+    int IdMobileMensaje -> H
+    java.lang.String Fecha -> I
+    java.lang.String Mensaje -> J
+    int Status_Read -> K
+    209:235:void <init>(android.view.View,java.lang.String) -> <init>
 mx.com.logydes.colegioarji.Adapter.Adapter_Menu_Tutores -> mx.com.logydes.colegioarji.a.c:
     java.util.ArrayList MM -> a
     android.app.Activity activity -> b
-    48:93:void <init>(android.app.Activity) -> <init>
-    98:99:mx.com.logydes.colegioarji.Adapter.Adapter_Menu_Tutores$Adapter_Menu_TutoresViewHolder onCreateViewHolder(android.view.ViewGroup,int) -> a
-    105:198:void onBindViewHolder(mx.com.logydes.colegioarji.Adapter.Adapter_Menu_Tutores$Adapter_Menu_TutoresViewHolder,int) -> a
+    50:101:void <init>(android.app.Activity) -> <init>
+    106:107:mx.com.logydes.colegioarji.Adapter.Adapter_Menu_Tutores$Adapter_Menu_TutoresViewHolder onCreateViewHolder(android.view.ViewGroup,int) -> a
+    113:198:void onBindViewHolder(mx.com.logydes.colegioarji.Adapter.Adapter_Menu_Tutores$Adapter_Menu_TutoresViewHolder,int) -> a
     211:211:int getItemCount() -> a
-    37:37:void onBindViewHolder(android.support.v7.widget.RecyclerView$ViewHolder,int) -> a
-    37:37:android.support.v7.widget.RecyclerView$ViewHolder onCreateViewHolder(android.view.ViewGroup,int) -> b
-    37:37:android.app.Activity access$000(mx.com.logydes.colegioarji.Adapter.Adapter_Menu_Tutores) -> a
+    39:39:void onBindViewHolder(android.support.v7.widget.RecyclerView$ViewHolder,int) -> a
+    39:39:android.support.v7.widget.RecyclerView$ViewHolder onCreateViewHolder(android.view.ViewGroup,int) -> b
+    39:39:android.app.Activity access$000(mx.com.logydes.colegioarji.Adapter.Adapter_Menu_Tutores) -> a
 mx.com.logydes.colegioarji.Adapter.Adapter_Menu_Tutores$1 -> mx.com.logydes.colegioarji.a.c$1:
     mx.com.logydes.colegioarji.Adapter.Adapter_Menu_Tutores$Adapter_Menu_TutoresViewHolder val$cvh -> a
     mx.com.logydes.colegioarji.Pojos.Menu_Tutores val$mm -> b
     mx.com.logydes.colegioarji.Adapter.Adapter_Menu_Tutores this$0 -> c
-    133:133:void <init>(mx.com.logydes.colegioarji.Adapter.Adapter_Menu_Tutores,mx.com.logydes.colegioarji.Adapter.Adapter_Menu_Tutores$Adapter_Menu_TutoresViewHolder,mx.com.logydes.colegioarji.Pojos.Menu_Tutores) -> <init>
-    136:195:void onClick(android.view.View) -> onClick
+    135:135:void <init>(mx.com.logydes.colegioarji.Adapter.Adapter_Menu_Tutores,mx.com.logydes.colegioarji.Adapter.Adapter_Menu_Tutores$Adapter_Menu_TutoresViewHolder,mx.com.logydes.colegioarji.Pojos.Menu_Tutores) -> <init>
+    138:195:void onClick(android.view.View) -> onClick
 mx.com.logydes.colegioarji.Adapter.Adapter_Menu_Tutores$Adapter_Menu_TutoresViewHolder -> mx.com.logydes.colegioarji.a.c$a:
     android.widget.LinearLayout lyTutores -> n
     android.widget.TextView tvMenu -> o
@@ -47985,8 +47990,8 @@ mx.com.logydes.colegioarji.DB.dbHijos -> mx.com.logydes.colegioarji.b.a:
     android.app.Activity activity -> e
     mx.com.logydes.colegioarji.Adapter.AdapterHijos mad -> f
     50:57:void <init>(android.content.Context,android.app.Activity) -> <init>
-    60:149:void obtenerDatos() -> a
-    152:154:void resfreshHijos() -> b
+    60:151:void obtenerDatos() -> a
+    154:156:void resfreshHijos() -> b
     40:40:mx.com.logydes.colegioarji.Utils.Utilidades access$000(mx.com.logydes.colegioarji.DB.dbHijos) -> a
     40:40:mx.com.logydes.colegioarji.Adapter.AdapterHijos access$102(mx.com.logydes.colegioarji.DB.dbHijos,mx.com.logydes.colegioarji.Adapter.AdapterHijos) -> a
     40:40:android.app.Activity access$200(mx.com.logydes.colegioarji.DB.dbHijos) -> b
@@ -47996,16 +48001,16 @@ mx.com.logydes.colegioarji.DB.dbHijos -> mx.com.logydes.colegioarji.b.a:
 mx.com.logydes.colegioarji.DB.dbHijos$1 -> mx.com.logydes.colegioarji.b.a$1:
     mx.com.logydes.colegioarji.DB.dbHijos this$0 -> a
     70:70:void <init>(mx.com.logydes.colegioarji.DB.dbHijos) -> <init>
-    74:123:void onResponse(java.lang.String) -> a
+    74:125:void onResponse(java.lang.String) -> a
     70:70:void onResponse(java.lang.Object) -> a
 mx.com.logydes.colegioarji.DB.dbHijos$2 -> mx.com.logydes.colegioarji.b.a$2:
     mx.com.logydes.colegioarji.DB.dbHijos this$0 -> a
-    124:124:void <init>(mx.com.logydes.colegioarji.DB.dbHijos) -> <init>
-    128:132:void onErrorResponse(com.android.volley.VolleyError) -> a
+    126:126:void <init>(mx.com.logydes.colegioarji.DB.dbHijos) -> <init>
+    130:134:void onErrorResponse(com.android.volley.VolleyError) -> a
 mx.com.logydes.colegioarji.DB.dbHijos$3 -> mx.com.logydes.colegioarji.b.a$3:
     mx.com.logydes.colegioarji.DB.dbHijos this$0 -> a
-    133:133:void <init>(mx.com.logydes.colegioarji.DB.dbHijos,int,java.lang.String,com.android.volley.Response$Listener,com.android.volley.Response$ErrorListener) -> <init>
-    138:141:java.util.Map getParams() -> l
+    135:135:void <init>(mx.com.logydes.colegioarji.DB.dbHijos,int,java.lang.String,com.android.volley.Response$Listener,com.android.volley.Response$ErrorListener) -> <init>
+    140:143:java.util.Map getParams() -> l
 mx.com.logydes.colegioarji.DB.dbLista_Elementos -> mx.com.logydes.colegioarji.b.b:
     android.app.ProgressDialog pDialog -> a
     mx.com.logydes.colegioarji.Utils.Utilidades Utl -> b
@@ -48015,29 +48020,29 @@ mx.com.logydes.colegioarji.DB.dbLista_Elementos -> mx.com.logydes.colegioarji.b.
     mx.com.logydes.colegioarji.Adapter.Adapter_Lista_Elementos mad -> f
     int Type -> g
     java.lang.String Menu -> h
-    55:63:void <init>(android.content.Context,android.app.Activity,java.lang.String) -> <init>
-    67:220:void obtenerDatos(java.lang.String,int) -> a
-    43:43:mx.com.logydes.colegioarji.Utils.Utilidades access$000(mx.com.logydes.colegioarji.DB.dbLista_Elementos) -> a
-    43:43:int access$100(mx.com.logydes.colegioarji.DB.dbLista_Elementos) -> b
-    43:43:mx.com.logydes.colegioarji.Adapter.Adapter_Lista_Elementos access$202(mx.com.logydes.colegioarji.DB.dbLista_Elementos,mx.com.logydes.colegioarji.Adapter.Adapter_Lista_Elementos) -> a
-    43:43:android.app.Activity access$300(mx.com.logydes.colegioarji.DB.dbLista_Elementos) -> c
-    43:43:java.lang.String access$400(mx.com.logydes.colegioarji.DB.dbLista_Elementos) -> d
-    43:43:mx.com.logydes.colegioarji.Adapter.Adapter_Lista_Elementos access$200(mx.com.logydes.colegioarji.DB.dbLista_Elementos) -> e
-    43:43:android.support.v7.widget.RecyclerView access$500(mx.com.logydes.colegioarji.DB.dbLista_Elementos) -> f
-    43:43:android.content.Context access$600(mx.com.logydes.colegioarji.DB.dbLista_Elementos) -> g
+    57:65:void <init>(android.content.Context,android.app.Activity,java.lang.String) -> <init>
+    69:255:void obtenerDatos(java.lang.String,int) -> a
+    45:45:mx.com.logydes.colegioarji.Utils.Utilidades access$000(mx.com.logydes.colegioarji.DB.dbLista_Elementos) -> a
+    45:45:int access$100(mx.com.logydes.colegioarji.DB.dbLista_Elementos) -> b
+    45:45:mx.com.logydes.colegioarji.Adapter.Adapter_Lista_Elementos access$202(mx.com.logydes.colegioarji.DB.dbLista_Elementos,mx.com.logydes.colegioarji.Adapter.Adapter_Lista_Elementos) -> a
+    45:45:android.app.Activity access$300(mx.com.logydes.colegioarji.DB.dbLista_Elementos) -> c
+    45:45:java.lang.String access$400(mx.com.logydes.colegioarji.DB.dbLista_Elementos) -> d
+    45:45:mx.com.logydes.colegioarji.Adapter.Adapter_Lista_Elementos access$200(mx.com.logydes.colegioarji.DB.dbLista_Elementos) -> e
+    45:45:android.support.v7.widget.RecyclerView access$500(mx.com.logydes.colegioarji.DB.dbLista_Elementos) -> f
+    45:45:android.content.Context access$600(mx.com.logydes.colegioarji.DB.dbLista_Elementos) -> g
 mx.com.logydes.colegioarji.DB.dbLista_Elementos$1 -> mx.com.logydes.colegioarji.b.b$1:
     mx.com.logydes.colegioarji.DB.dbLista_Elementos this$0 -> a
-    78:78:void <init>(mx.com.logydes.colegioarji.DB.dbLista_Elementos) -> <init>
-    82:182:void onResponse(java.lang.String) -> a
-    78:78:void onResponse(java.lang.Object) -> a
+    80:80:void <init>(mx.com.logydes.colegioarji.DB.dbLista_Elementos) -> <init>
+    84:207:void onResponse(java.lang.String) -> a
+    80:80:void onResponse(java.lang.Object) -> a
 mx.com.logydes.colegioarji.DB.dbLista_Elementos$2 -> mx.com.logydes.colegioarji.b.b$2:
     mx.com.logydes.colegioarji.DB.dbLista_Elementos this$0 -> a
-    183:183:void <init>(mx.com.logydes.colegioarji.DB.dbLista_Elementos) -> <init>
-    187:191:void onErrorResponse(com.android.volley.VolleyError) -> a
+    208:208:void <init>(mx.com.logydes.colegioarji.DB.dbLista_Elementos) -> <init>
+    212:216:void onErrorResponse(com.android.volley.VolleyError) -> a
 mx.com.logydes.colegioarji.DB.dbLista_Elementos$3 -> mx.com.logydes.colegioarji.b.b$3:
     mx.com.logydes.colegioarji.DB.dbLista_Elementos this$0 -> a
-    192:192:void <init>(mx.com.logydes.colegioarji.DB.dbLista_Elementos,int,java.lang.String,com.android.volley.Response$Listener,com.android.volley.Response$ErrorListener) -> <init>
-    197:212:java.util.Map getParams() -> l
+    217:217:void <init>(mx.com.logydes.colegioarji.DB.dbLista_Elementos,int,java.lang.String,com.android.volley.Response$Listener,com.android.volley.Response$ErrorListener) -> <init>
+    222:247:java.util.Map getParams() -> l
 mx.com.logydes.colegioarji.Elemento -> mx.com.logydes.colegioarji.Elemento:
     android.app.ProgressDialog pDialog -> m
     mx.com.logydes.colegioarji.Utils.Utilidades Utl -> n
@@ -48056,23 +48061,26 @@ mx.com.logydes.colegioarji.Elemento -> mx.com.logydes.colegioarji.Elemento:
     int IdConcepto -> A
     int PagosDiv -> B
     java.lang.String postData -> C
-    android.webkit.WebView webview -> D
-    android.app.Activity context -> E
-    27:27:void <init>() -> <init>
-    52:90:void onCreate(android.os.Bundle) -> onCreate
-    94:201:boolean getDocuments() -> k
-    226:233:boolean onOptionsItemSelected(android.view.MenuItem) -> onOptionsItemSelected
-    27:27:java.lang.String access$000(mx.com.logydes.colegioarji.Elemento) -> a
-    27:27:android.app.ProgressDialog access$100(mx.com.logydes.colegioarji.Elemento) -> b
-    27:27:mx.com.logydes.colegioarji.Utils.Utilidades access$202(mx.com.logydes.colegioarji.Elemento,mx.com.logydes.colegioarji.Utils.Utilidades) -> a
-    27:27:mx.com.logydes.colegioarji.Utils.Utilidades access$200(mx.com.logydes.colegioarji.Elemento) -> c
-    27:27:int access$300(mx.com.logydes.colegioarji.Elemento) -> d
+    int IdMobileMensaje -> D
+    java.lang.String Fecha -> E
+    java.lang.String Mensaje -> F
+    android.webkit.WebView webview -> G
+    android.app.Activity context -> H
+    29:29:void <init>() -> <init>
+    57:103:void onCreate(android.os.Bundle) -> onCreate
+    107:220:boolean getDocuments() -> k
+    245:252:boolean onOptionsItemSelected(android.view.MenuItem) -> onOptionsItemSelected
+    29:29:java.lang.String access$000(mx.com.logydes.colegioarji.Elemento) -> a
+    29:29:android.app.ProgressDialog access$100(mx.com.logydes.colegioarji.Elemento) -> b
+    29:29:mx.com.logydes.colegioarji.Utils.Utilidades access$202(mx.com.logydes.colegioarji.Elemento,mx.com.logydes.colegioarji.Utils.Utilidades) -> a
+    29:29:mx.com.logydes.colegioarji.Utils.Utilidades access$200(mx.com.logydes.colegioarji.Elemento) -> c
+    29:29:int access$300(mx.com.logydes.colegioarji.Elemento) -> d
 mx.com.logydes.colegioarji.Elemento$1 -> mx.com.logydes.colegioarji.Elemento$1:
     mx.com.logydes.colegioarji.Elemento this$0 -> a
-    147:147:void <init>(mx.com.logydes.colegioarji.Elemento) -> <init>
-    151:157:void onPageStarted(android.webkit.WebView,java.lang.String,android.graphics.Bitmap) -> onPageStarted
-    161:165:void onPageFinished(android.webkit.WebView,java.lang.String) -> onPageFinished
-    170:194:boolean shouldOverrideUrlLoading(android.webkit.WebView,java.lang.String) -> shouldOverrideUrlLoading
+    166:166:void <init>(mx.com.logydes.colegioarji.Elemento) -> <init>
+    170:176:void onPageStarted(android.webkit.WebView,java.lang.String,android.graphics.Bitmap) -> onPageStarted
+    180:184:void onPageFinished(android.webkit.WebView,java.lang.String) -> onPageFinished
+    189:213:boolean shouldOverrideUrlLoading(android.webkit.WebView,java.lang.String) -> shouldOverrideUrlLoading
 mx.com.logydes.colegioarji.Helper.SQLiteHandler -> mx.com.logydes.colegioarji.c.a:
     java.lang.String TAG -> a
     52:53:void <init>(android.content.Context) -> <init>
@@ -48193,8 +48201,8 @@ mx.com.logydes.colegioarji.ListaElementos -> mx.com.logydes.colegioarji.ListaEle
     java.lang.String Menu -> n
     android.webkit.WebView webview -> o
     19:19:void <init>() -> <init>
-    25:53:void onCreate(android.os.Bundle) -> onCreate
-    57:64:boolean onOptionsItemSelected(android.view.MenuItem) -> onOptionsItemSelected
+    25:58:void onCreate(android.os.Bundle) -> onCreate
+    62:69:boolean onOptionsItemSelected(android.view.MenuItem) -> onOptionsItemSelected
 mx.com.logydes.colegioarji.LoginActivity -> mx.com.logydes.colegioarji.LoginActivity:
     android.widget.Button btnLogin -> m
     android.widget.EditText inputEmail -> n
@@ -48205,12 +48213,12 @@ mx.com.logydes.colegioarji.LoginActivity -> mx.com.logydes.colegioarji.LoginActi
     com.google.android.gms.common.api.GoogleApiClient client -> s
     39:39:void <init>() -> <init>
     56:111:void onCreate(android.os.Bundle) -> onCreate
-    118:211:void checkLogin(java.lang.String,java.lang.String) -> a
-    214:216:void showDialog() -> k
-    219:221:void hideDialog() -> l
-    225:241:void onStart() -> onStart
-    245:261:void onStop() -> onStop
-    267:271:boolean onKeyDown(int,android.view.KeyEvent) -> onKeyDown
+    118:217:void checkLogin(java.lang.String,java.lang.String) -> a
+    220:222:void showDialog() -> k
+    225:227:void hideDialog() -> l
+    231:247:void onStart() -> onStart
+    251:267:void onStop() -> onStop
+    273:277:boolean onKeyDown(int,android.view.KeyEvent) -> onKeyDown
     39:39:android.widget.EditText access$000(mx.com.logydes.colegioarji.LoginActivity) -> a
     39:39:android.widget.EditText access$100(mx.com.logydes.colegioarji.LoginActivity) -> b
     39:39:void access$200(mx.com.logydes.colegioarji.LoginActivity,java.lang.String,java.lang.String) -> a
@@ -48235,7 +48243,7 @@ mx.com.logydes.colegioarji.LoginActivity$4 -> mx.com.logydes.colegioarji.LoginAc
     java.lang.String val$password -> b
     mx.com.logydes.colegioarji.LoginActivity this$0 -> c
     184:184:void <init>(mx.com.logydes.colegioarji.LoginActivity,int,java.lang.String,com.android.volley.Response$Listener,com.android.volley.Response$ErrorListener,java.lang.String,java.lang.String) -> <init>
-    191:204:java.util.Map getParams() -> l
+    191:210:java.util.Map getParams() -> l
 mx.com.logydes.colegioarji.MainActivity -> mx.com.logydes.colegioarji.MainActivity:
     android.support.v4.widget.DrawerLayout drawer -> m
     android.support.design.widget.NavigationView navigationView -> n
@@ -48244,20 +48252,24 @@ mx.com.logydes.colegioarji.MainActivity -> mx.com.logydes.colegioarji.MainActivi
     android.webkit.WebView webview -> q
     com.google.android.gms.common.api.GoogleApiClient client -> r
     mx.com.logydes.colegioarji.Helper.Singleton singleton -> s
-    android.widget.TextView tv -> t
-    android.support.v7.widget.RecyclerView listaMM -> u
-    mx.com.logydes.colegioarji.Pojos.Sistema_Info sinfo -> v
-    36:36:void <init>() -> <init>
-    54:118:void onCreate(android.os.Bundle) -> onCreate
-    122:132:void onBackPressed() -> onBackPressed
-    137:169:boolean onCreateOptionsMenu(android.view.Menu) -> onCreateOptionsMenu
-    175:187:void callAdapter(boolean) -> b
-    192:200:boolean onOptionsItemSelected(android.view.MenuItem) -> onOptionsItemSelected
-    207:264:boolean onNavigationItemSelected(android.view.MenuItem) -> a
-    269:275:void logoutUser() -> k
-    279:295:void onStart() -> onStart
-    299:315:void onStop() -> onStop
-    320:322:void onResume() -> onResume
+    android.widget.TextView tvBienvenida -> t
+    android.widget.LinearLayout llMensajes -> u
+    android.support.v7.widget.RecyclerView listaMM -> v
+    mx.com.logydes.colegioarji.Pojos.Sistema_Info sinfo -> w
+    52:52:void <init>() -> <init>
+    72:158:void onCreate(android.os.Bundle) -> onCreate
+    162:172:void onBackPressed() -> onBackPressed
+    177:207:boolean onCreateOptionsMenu(android.view.Menu) -> onCreateOptionsMenu
+    213:225:void callAdapter(boolean) -> b
+    230:231:boolean onOptionsItemSelected(android.view.MenuItem) -> onOptionsItemSelected
+    238:292:boolean onNavigationItemSelected(android.view.MenuItem) -> a
+    298:303:void MensajesClick(android.view.View) -> MensajesClick
+    306:311:void CircularesClick(android.view.View) -> CircularesClick
+    314:319:void FacturasClick(android.view.View) -> FacturasClick
+    322:328:void logoutUser() -> k
+    332:348:void onStart() -> onStart
+    352:368:void onStop() -> onStop
+    373:375:void onResume() -> onResume
 mx.com.logydes.colegioarji.MapsActivity -> mx.com.logydes.colegioarji.MapsActivity:
     com.google.android.gms.maps.GoogleMap mMap -> m
     15:15:void <init>() -> <init>
@@ -48266,9 +48278,39 @@ mx.com.logydes.colegioarji.MapsActivity -> mx.com.logydes.colegioarji.MapsActivi
 mx.com.logydes.colegioarji.MenuHijos -> mx.com.logydes.colegioarji.MenuHijos:
     android.support.v7.widget.RecyclerView listaMM -> m
     22:22:void <init>() -> <init>
-    30:64:void onCreate(android.os.Bundle) -> onCreate
-    68:69:void onResume() -> onResume
-    75:79:boolean onKeyDown(int,android.view.KeyEvent) -> onKeyDown
+    31:65:void onCreate(android.os.Bundle) -> onCreate
+    69:70:void onResume() -> onResume
+    76:80:boolean onKeyDown(int,android.view.KeyEvent) -> onKeyDown
+mx.com.logydes.colegioarji.NotificacionesActivity -> mx.com.logydes.colegioarji.NotificacionesActivity:
+    android.app.ProgressDialog pDialog -> m
+    mx.com.logydes.colegioarji.Utils.Utilidades Utl -> n
+    android.webkit.WebView webview -> o
+    34:34:void <init>() -> <init>
+    44:58:void onCreate(android.os.Bundle) -> onCreate
+    63:139:void getDocument(java.lang.String,int) -> a
+    172:176:boolean onKeyDown(int,android.view.KeyEvent) -> onKeyDown
+    34:34:mx.com.logydes.colegioarji.Utils.Utilidades access$100(mx.com.logydes.colegioarji.NotificacionesActivity) -> a
+    34:34:android.webkit.WebView access$200(mx.com.logydes.colegioarji.NotificacionesActivity) -> b
+mx.com.logydes.colegioarji.NotificacionesActivity$1 -> mx.com.logydes.colegioarji.NotificacionesActivity$1:
+    int val$Type -> a
+    mx.com.logydes.colegioarji.NotificacionesActivity this$0 -> b
+    69:69:void <init>(mx.com.logydes.colegioarji.NotificacionesActivity,int) -> <init>
+    73:114:void onResponse(java.lang.String) -> a
+    69:69:void onResponse(java.lang.Object) -> a
+mx.com.logydes.colegioarji.NotificacionesActivity$2 -> mx.com.logydes.colegioarji.NotificacionesActivity$2:
+    mx.com.logydes.colegioarji.NotificacionesActivity this$0 -> a
+    115:115:void <init>(mx.com.logydes.colegioarji.NotificacionesActivity) -> <init>
+    119:123:void onErrorResponse(com.android.volley.VolleyError) -> a
+mx.com.logydes.colegioarji.NotificacionesActivity$3 -> mx.com.logydes.colegioarji.NotificacionesActivity$3:
+    mx.com.logydes.colegioarji.NotificacionesActivity this$0 -> a
+    124:124:void <init>(mx.com.logydes.colegioarji.NotificacionesActivity,int,java.lang.String,com.android.volley.Response$Listener,com.android.volley.Response$ErrorListener) -> <init>
+    129:131:java.util.Map getParams() -> l
+mx.com.logydes.colegioarji.NotificacionesActivity$Callback -> mx.com.logydes.colegioarji.NotificacionesActivity$a:
+    mx.com.logydes.colegioarji.NotificacionesActivity this$0 -> a
+    142:142:void <init>(mx.com.logydes.colegioarji.NotificacionesActivity) -> <init>
+    153:154:void onPageStarted(android.webkit.WebView,java.lang.String,android.graphics.Bitmap) -> onPageStarted
+    160:161:boolean shouldOverrideUrlLoading(android.webkit.WebView,java.lang.String) -> shouldOverrideUrlLoading
+    142:142:void <init>(mx.com.logydes.colegioarji.NotificacionesActivity,mx.com.logydes.colegioarji.NotificacionesActivity$1) -> <init>
 mx.com.logydes.colegioarji.Pojos.Hijos -> mx.com.logydes.colegioarji.e.a:
     int data -> c
     java.lang.String label -> d
@@ -48301,46 +48343,55 @@ mx.com.logydes.colegioarji.Pojos.Lista_Elementos -> mx.com.logydes.colegioarji.e
     int IdEdoCta -> e
     int IdComMensaje -> f
     int IdComMensajeDestinatario -> g
-    java.lang.String label -> h
-    java.lang.String Profesor -> i
-    java.lang.String Director -> j
-    java.lang.String Directorio -> k
-    java.lang.String PDF -> l
-    java.lang.String XML -> m
-    java.lang.String Mes -> n
-    java.lang.String Concepto -> o
-    java.lang.String FechaPago -> p
-    java.lang.String Vencimiento -> q
-    int Vencido -> r
-    int status_movto -> s
-    int IdConcepto -> t
-    int PagosDiv -> u
-    int Tipo -> v
-    40:40:int getIdElemento() -> a
-    43:44:void <init>() -> <init>
-    51:57:void <init>(java.lang.String,java.lang.String,int,int,int) -> <init>
-    59:65:void <init>(int,int,java.lang.String,java.lang.String,int) -> <init>
-    68:68:int getIdTareaDestinatario() -> b
-    77:77:int getIdComMensajeDestinatario() -> c
-    84:90:void <init>(java.lang.String,java.lang.String,java.lang.String,int,int) -> <init>
-    92:105:void <init>(int,int,java.lang.String,java.lang.String,java.lang.String,java.lang.String,int,int,int,int) -> <init>
-    136:136:int getIdTarea() -> d
-    144:144:int getIdComMensaje() -> e
-    168:168:java.lang.String getLabel() -> f
-    176:176:int getTipo() -> g
-    184:184:int getIdFactura() -> h
-    200:200:java.lang.String getPDF() -> i
-    208:208:java.lang.String getXML() -> j
-    216:216:java.lang.String getDirectorio() -> k
-    224:224:java.lang.String getMes() -> l
-    232:232:java.lang.String getConcepto() -> m
-    240:240:java.lang.String getFechaPago() -> n
-    248:248:int getVencido() -> o
-    256:256:java.lang.String getVencimiento() -> p
-    264:264:int getStatus_movto() -> q
-    272:272:int getIdConcepto() -> r
-    288:288:java.lang.String getProfesor() -> s
-    296:296:java.lang.String getDirector() -> t
+    int IdMobileMensaje -> h
+    int Status_Read -> i
+    java.lang.String label -> j
+    java.lang.String Profesor -> k
+    java.lang.String Director -> l
+    java.lang.String Directorio -> m
+    java.lang.String PDF -> n
+    java.lang.String XML -> o
+    java.lang.String Mes -> p
+    java.lang.String Concepto -> q
+    java.lang.String FechaPago -> r
+    java.lang.String Fecha -> s
+    java.lang.String Mensaje -> t
+    java.lang.String Vencimiento -> u
+    int Vencido -> v
+    int status_movto -> w
+    int IdConcepto -> x
+    int PagosDiv -> y
+    int Tipo -> z
+    42:42:int getIdElemento() -> a
+    45:46:void <init>() -> <init>
+    53:60:void <init>(java.lang.String,java.lang.String,int,int,int,int) -> <init>
+    62:69:void <init>(int,int,java.lang.String,java.lang.String,int,int) -> <init>
+    71:79:void <init>(int,int,int,java.lang.String,java.lang.String,java.lang.String,int) -> <init>
+    83:83:int getIdTareaDestinatario() -> b
+    92:92:int getIdComMensajeDestinatario() -> c
+    99:105:void <init>(java.lang.String,java.lang.String,java.lang.String,int,int) -> <init>
+    107:120:void <init>(int,int,java.lang.String,java.lang.String,java.lang.String,java.lang.String,int,int,int,int) -> <init>
+    151:151:int getIdTarea() -> d
+    159:159:int getIdComMensaje() -> e
+    183:183:java.lang.String getLabel() -> f
+    191:191:int getTipo() -> g
+    199:199:int getIdFactura() -> h
+    215:215:java.lang.String getPDF() -> i
+    223:223:java.lang.String getXML() -> j
+    231:231:java.lang.String getDirectorio() -> k
+    239:239:java.lang.String getMes() -> l
+    247:247:java.lang.String getConcepto() -> m
+    255:255:java.lang.String getFechaPago() -> n
+    263:263:int getVencido() -> o
+    271:271:java.lang.String getVencimiento() -> p
+    279:279:int getStatus_movto() -> q
+    287:287:int getIdConcepto() -> r
+    303:303:java.lang.String getProfesor() -> s
+    311:311:java.lang.String getDirector() -> t
+    318:318:int getIdMobileMensaje() -> u
+    322:322:int getStatus_Read() -> v
+    326:326:java.lang.String getFecha() -> w
+    330:330:java.lang.String getMensaje() -> x
 mx.com.logydes.colegioarji.Pojos.Menu_Tutores -> mx.com.logydes.colegioarji.e.c:
     int idmenu -> a
     java.lang.String menu -> b
@@ -48402,7 +48453,14 @@ mx.com.logydes.colegioarji.Utils.AppConfig -> mx.com.logydes.colegioarji.Utils.a
     int URL_CALENDARIO_TYPE -> B
     java.lang.String URL_AVISO_PRIVACIDAD -> C
     int URL_AVISO_PRIVACIDAD_TYPE -> D
-    9:58:void <clinit>() -> <clinit>
+    java.lang.String URL_NOTIFICACIONES -> E
+    int URL_NOTIFICACIONES_TYPE -> F
+    java.lang.String URL_NOTIFICACION -> G
+    int URL_NOTIFICACION_TYPE -> H
+    int INDICE_CIRCULAR -> I
+    int INDICE_FACTURAS -> J
+    int INDICE_NOTIFICACIONES -> K
+    9:68:void <clinit>() -> <clinit>
 mx.com.logydes.colegioarji.Utils.AppController -> mx.com.logydes.colegioarji.Utils.AppController:
     java.lang.String TAG -> a
     com.android.volley.RequestQueue mRequestQueue -> b
@@ -48418,14 +48476,19 @@ mx.com.logydes.colegioarji.Utils.NotificacionIDTokenService -> mx.com.logydes.co
     20:26:void onTokenRefresh() -> a
     40:42:void sendRegistrationToServer(java.lang.String) -> a
 mx.com.logydes.colegioarji.Utils.NotificationService -> mx.com.logydes.colegioarji.Utils.NotificationService:
-    27:27:void <init>() -> <init>
-    36:52:void onMessageReceived(com.google.firebase.messaging.RemoteMessage) -> a
-    59:82:void enviarNotificacion(com.google.firebase.messaging.RemoteMessage) -> b
+    android.content.Context activity -> c
+    30:30:void <init>() -> <init>
+    37:77:void onMessageReceived(com.google.firebase.messaging.RemoteMessage) -> a
+    84:107:void enviarNotificacion(com.google.firebase.messaging.RemoteMessage) -> b
 mx.com.logydes.colegioarji.Utils.Utilidades -> mx.com.logydes.colegioarji.Utils.b:
     android.app.ProgressDialog pDialog -> a
-    14:16:void <init>(android.app.ProgressDialog) -> <init>
-    19:21:void showDialog() -> a
-    24:26:void hideDialog() -> b
+    java.lang.String FechaFrancesa -> b
+    15:15:void <init>() -> <init>
+    17:19:void <init>(android.app.ProgressDialog) -> <init>
+    22:24:void showDialog() -> a
+    27:29:void hideDialog() -> b
+    32:37:java.lang.String getFechaFrancesa() -> c
+    41:42:void setFechaFrancesa(java.lang.String) -> a
 org.apache.http.FormattedHeader -> org.apache.a.a:
     org.apache.http.util.CharArrayBuffer getBuffer() -> a
 org.apache.http.Header -> org.apache.a.b:

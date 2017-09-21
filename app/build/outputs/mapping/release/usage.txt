@@ -13992,8 +13992,8 @@ mx.com.logydes.colegioarji.DB.dbHijos:
 mx.com.logydes.colegioarji.DB.dbLista_Elementos:
     private static final java.lang.String TAG
     private java.util.ArrayList mm
-    223:225:public void resfresh_Lista_Elementos()
-    228:263:public void obtenerDatosRetroFit(java.lang.String,int)
+    258:260:public void resfresh_Lista_Elementos()
+    263:298:public void obtenerDatosRetroFit(java.lang.String,int)
 mx.com.logydes.colegioarji.DB.dbLista_Elementos$4
 mx.com.logydes.colegioarji.Elemento:
     private static final java.lang.String TAG
@@ -14060,7 +14060,11 @@ mx.com.logydes.colegioarji.Manifest
 mx.com.logydes.colegioarji.Manifest$permission
 mx.com.logydes.colegioarji.MenuHijos:
     private android.content.Context context
+    private android.support.v7.widget.RecyclerView listaMM0
     private mx.com.logydes.colegioarji.Adapter.AdapterHijos mad
+mx.com.logydes.colegioarji.NotificacionesActivity:
+    private static final java.lang.String TAG
+    private android.app.Activity context
 mx.com.logydes.colegioarji.Pojos.Hijos:
     40:41:public void setData(int)
     48:49:public void setLabel(java.lang.String)
@@ -14082,41 +14086,45 @@ mx.com.logydes.colegioarji.Pojos.Lista_Elementos:
     private int IdObj
     private java.lang.String urlWeb
     private java.lang.String body
-    46:49:public Lista_Elementos(int,java.lang.String)
-    73:74:public void setIdTareaDestinatario(int)
-    81:82:public void setIdComMensajeDestinatario(int)
-    108:109:public void setIdElemento(int)
-    112:112:public int getIdObjAlu()
-    116:117:public void setIdObjAlu(int)
-    120:120:public int getIdObjMenu()
-    124:125:public void setIdObjMenu(int)
-    128:128:public int getIdObj()
-    132:133:public void setIdObj(int)
-    140:141:public void setIdTarea(int)
-    148:149:public void setIdComMensaje(int)
-    152:152:public java.lang.String getUrlWeb()
-    156:157:public void setUrlWeb(java.lang.String)
-    160:160:public java.lang.String getBody()
-    164:165:public void setBody(java.lang.String)
-    172:173:public void setLabel(java.lang.String)
-    180:181:public void setTipo(int)
-    188:189:public void setIdFactura(int)
-    192:192:public int getIdEdoCta()
-    196:197:public void setIdEdoCta(int)
-    204:205:public void setPDF(java.lang.String)
-    212:213:public void setXML(java.lang.String)
-    220:221:public void setDirectorio(java.lang.String)
-    228:229:public void setMes(java.lang.String)
-    236:237:public void setConcepto(java.lang.String)
-    244:245:public void setFechaPago(java.lang.String)
-    252:253:public void setVencido(int)
-    260:261:public void setVencimiento(java.lang.String)
-    268:269:public void setStatus_movto(int)
-    276:277:public void setIdConcepto(int)
-    280:280:public int getPagosDiv()
-    284:285:public void setPagosDiv(int)
-    292:293:public void setProfesor(java.lang.String)
-    300:301:public void setDirector(java.lang.String)
+    48:51:public Lista_Elementos(int,java.lang.String)
+    88:89:public void setIdTareaDestinatario(int)
+    96:97:public void setIdComMensajeDestinatario(int)
+    123:124:public void setIdElemento(int)
+    127:127:public int getIdObjAlu()
+    131:132:public void setIdObjAlu(int)
+    135:135:public int getIdObjMenu()
+    139:140:public void setIdObjMenu(int)
+    143:143:public int getIdObj()
+    147:148:public void setIdObj(int)
+    155:156:public void setIdTarea(int)
+    163:164:public void setIdComMensaje(int)
+    167:167:public java.lang.String getUrlWeb()
+    171:172:public void setUrlWeb(java.lang.String)
+    175:175:public java.lang.String getBody()
+    179:180:public void setBody(java.lang.String)
+    187:188:public void setLabel(java.lang.String)
+    195:196:public void setTipo(int)
+    203:204:public void setIdFactura(int)
+    207:207:public int getIdEdoCta()
+    211:212:public void setIdEdoCta(int)
+    219:220:public void setPDF(java.lang.String)
+    227:228:public void setXML(java.lang.String)
+    235:236:public void setDirectorio(java.lang.String)
+    243:244:public void setMes(java.lang.String)
+    251:252:public void setConcepto(java.lang.String)
+    259:260:public void setFechaPago(java.lang.String)
+    267:268:public void setVencido(int)
+    275:276:public void setVencimiento(java.lang.String)
+    283:284:public void setStatus_movto(int)
+    291:292:public void setIdConcepto(int)
+    295:295:public int getPagosDiv()
+    299:300:public void setPagosDiv(int)
+    307:308:public void setProfesor(java.lang.String)
+    315:316:public void setDirector(java.lang.String)
+    320:320:public void setIdMobileMensaje(int)
+    324:324:public void setStatus_Read(int)
+    328:328:public void setFecha(java.lang.String)
+    332:332:public void setMensaje(java.lang.String)
 mx.com.logydes.colegioarji.Pojos.Menu_Tutores:
     20:21:public void setIdmenu(int)
     28:29:public void setMenu(java.lang.String)
@@ -14155,12 +14163,12 @@ mx.com.logydes.colegioarji.Utils.NotificacionIDTokenService:
     public static final java.lang.String TAG
 mx.com.logydes.colegioarji.Utils.NotificationService:
     public static final java.lang.String TAG
-    private android.app.Activity activity
 mx.com.logydes.colegioarji.Utils.NotificationsListenerService
 mx.com.logydes.colegioarji.Utils.RegistrationService
 mx.com.logydes.colegioarji.Utils.TokenRefreshListenerService
 mx.com.logydes.colegioarji.Utils.Utilidades:
     private static final java.lang.String TAG
+    45:48:public java.lang.String FechaFrancesa(java.lang.String)
 okhttp3.Address
 okhttp3.Authenticator
 okhttp3.Authenticator$1

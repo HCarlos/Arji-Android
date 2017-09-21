@@ -86,22 +86,24 @@ public class dbHijos {
                         ArrayList<Hijos> MM = new ArrayList<Hijos>();
                         for (int i = 0;  i < jObj.length(); i++ ) {
                             rec = jObj.getJSONObject(i);
-                            int idalu = rec.getInt("data");
-                            String nombreAlu = rec.getString("label");
-                            String grupo = rec.getString("grupo");
                             int iduseralu = rec.getInt("iduseralu");
-                            int idgrualu = rec.getInt("idgrualu");
-                            int IsBoleta = rec.getInt("IsBoleta");
-                            int Clave_Nivel = 0;// rec.getInt("clave_nivel");
-                            int Genero = rec.getInt("genero");
-                            String urlBoleta = rec.getString("urlBoleta");
-                            String logoEmp = rec.getString("logoEmp");
-                            String logoIB = rec.getString("logoIB");
-                            msg = rec.getString("msg");
+                            if (iduseralu > 0) {
+                                int idalu = rec.getInt("data");
+                                String nombreAlu = rec.getString("label");
+                                String grupo = rec.getString("grupo");
+                                int idgrualu = rec.getInt("idgrualu");
+                                int IsBoleta = rec.getInt("IsBoleta");
+                                int Clave_Nivel = 0;// rec.getInt("clave_nivel");
+                                int Genero = rec.getInt("genero");
+                                String urlBoleta = rec.getString("urlBoleta");
+                                String logoEmp = rec.getString("logoEmp");
+                                String logoIB = rec.getString("logoIB");
+                                msg = rec.getString("msg");
 
-                            Log.e(TAG,String.valueOf(idgrualu));
+                                Log.e(TAG, String.valueOf(idgrualu));
 
-                            MM.add( new Hijos( idalu,nombreAlu,grupo,msg,iduseralu, urlBoleta, logoEmp, logoIB, IsBoleta, idgrualu, Clave_Nivel, Genero) );
+                                MM.add(new Hijos(idalu, nombreAlu, grupo, msg, iduseralu, urlBoleta, logoEmp, logoIB, IsBoleta, idgrualu, Clave_Nivel, Genero));
+                            }
                         }
 
                         Singleton.setRsHijos(MM);

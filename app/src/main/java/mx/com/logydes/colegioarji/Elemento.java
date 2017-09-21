@@ -15,6 +15,8 @@ import android.webkit.WebView;
 import android.webkit.WebViewClient;
 import android.widget.LinearLayout;
 
+import com.google.firebase.iid.FirebaseInstanceId;
+
 import org.apache.http.util.EncodingUtils;
 
 import java.net.URISyntaxException;
@@ -43,6 +45,9 @@ public class Elemento extends AppCompatActivity {
     private int IdConcepto;
     private int PagosDiv;
     private String postData;
+    private int IdMobileMensaje;
+    private String Fecha;
+    private String Mensaje;
 
     private WebView webview;
     private Activity context;
@@ -51,7 +56,6 @@ public class Elemento extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_elemento);
-        // setContentView(R.layout.activity_lista_elementos);
         this.context = this;
         this.webview = (WebView) findViewById(R.id.wvEle);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
@@ -73,18 +77,27 @@ public class Elemento extends AppCompatActivity {
         Vencido = params.getInt(getResources().getString(R.string.Vencido));
         IdConcepto = params.getInt(getResources().getString(R.string.IdConcepto));
         PagosDiv = params.getInt(getResources().getString(R.string.PagosDiv));
+        IdMobileMensaje = params.getInt(getResources().getString(R.string.IdMobileMensaje));
+        Fecha = params.getString(getResources().getString(R.string.fecha));
+        Mensaje = params.getString(getResources().getString(R.string.mensaje));
 
-        //Log.e(TAG,Menu);
+        Log.e("TIPO ELEMENTO: ", String.valueOf(TipoElemento));
+        Log.e("MENU: ",Menu);
+
         this.setTitle(Menu);
 
         if ( TipoElemento <= 3) {
             getDocuments();
         }
 
-        if ( TipoElemento == 5) {
+        if ( TipoElemento == 5 ) {
             DocumentInside bi = new DocumentInside(webview,this);
             String url = AppConfig.URL_CALENDARIO + Singleton.getIdUserAlu() + "/";
             bi.onGetRootDocument(url, AppConfig.URL_CALENDARIO_TYPE);
+        }
+
+        if ( TipoElemento == 6 ) {
+            getDocuments();
         }
 
     }
@@ -118,6 +131,11 @@ public class Elemento extends AppCompatActivity {
                         "&idconcepto="+String.valueOf(IdConcepto);
                 url = AppConfig.URL_VIEW_PAGOS;
                 break;
+            case 6:
+                    url = AppConfig.URL_NOTIFICACION+String.valueOf(IdMobileMensaje)+"/"+
+                                    String.valueOf(Singleton.getIdUser())+"/"+
+                                    String.valueOf(Singleton.getIdEmp())+"/";
+                break;
         }
 
         Log.e(TAG,url+postData);
@@ -138,6 +156,7 @@ public class Elemento extends AppCompatActivity {
             case 0:
             case 1:
             case 3:
+            case 6:
                 this.webview.postUrl(url, EncodingUtils.getBytes(postData, "BASE64"));
                 break;
             case 2:
@@ -181,7 +200,7 @@ public class Elemento extends AppCompatActivity {
                     return true;
                 }else{
 
-                    if (TipoElemento == 0 || TipoElemento == 1) {
+                    if (TipoElemento == 0 || TipoElemento == 1 || TipoElemento == 6) {
                         Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse(url));
                         view.getContext().startActivity(intent);
                     }else{

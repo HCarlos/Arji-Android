@@ -17,8 +17,11 @@ import com.google.firebase.messaging.FirebaseMessaging;
 import com.google.firebase.messaging.FirebaseMessagingService;
 import com.google.firebase.messaging.RemoteMessage;
 
+import mx.com.logydes.colegioarji.ListaElementos;
 import mx.com.logydes.colegioarji.MainActivity;
 import mx.com.logydes.colegioarji.R;
+
+import static mx.com.logydes.colegioarji.Utils.AppConfig.INDICE_NOTIFICACIONES;
 
 /**
  * Created by devch on 6/10/16.
@@ -26,10 +29,12 @@ import mx.com.logydes.colegioarji.R;
 
 public class NotificationService extends FirebaseMessagingService {
     public static final String TAG = "NOTIF: ";
-    private Activity activity;
+    private Context activity;
+
     @Override
     public void onMessageReceived(RemoteMessage remoteMessage) {
         // super.onMessageReceived(remoteMessage);
+        activity = getApplicationContext();
 
         // TODO(developer): Handle FCM messages here.
         // Not getting messages here? See why this may be: https://goo.gl/39bRNJ
@@ -43,11 +48,31 @@ public class NotificationService extends FirebaseMessagingService {
         // Check if message contains a notification payload.
         if (remoteMessage.getNotification() != null) {
             Log.e(TAG, "Message Notification Body: " + remoteMessage.getNotification().getBody());
+
+
+/*
+            NotificationCompat.Builder notificationBuilder = new NotificationCompat.Builder(
+                    activity).setSmallIcon(R.drawable.icon_notification_transparent)
+                    .setContentTitle("Test Notification")
+                    .setContentText("This is test notification ");
+            Intent myIntent = new Intent(activity, ListaElementos.class);
+            PendingIntent intent2 = PendingIntent.getBroadcast(activity, 1,
+                    myIntent, PendingIntent.FLAG_UPDATE_CURRENT);
+            notificationBuilder.setContentIntent(intent2);
+            NotificationManager mNotificationManager = (NotificationManager) activity
+                    .getSystemService(Context.NOTIFICATION_SERVICE);
+
+            mNotificationManager.notify(1, notificationBuilder.build());
+*/
+
+
         }
 
         // FirebaseMessaging.getInstance().subscribeToTopic("AndroidMessage");
 
-        enviarNotificacion(remoteMessage);
+       enviarNotificacion(remoteMessage);
+
+
 
     }
 

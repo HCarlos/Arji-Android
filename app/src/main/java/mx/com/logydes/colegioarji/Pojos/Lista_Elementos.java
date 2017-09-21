@@ -1,7 +1,5 @@
 package mx.com.logydes.colegioarji.Pojos;
 
-import java.util.PriorityQueue;
-
 /**
  * Created by devch on 22/06/16.
  */
@@ -16,6 +14,8 @@ public class Lista_Elementos {
     private int IdEdoCta;
     private int IdComMensaje;
     private int IdComMensajeDestinatario;
+    private int IdMobileMensaje;
+    private int Status_Read;
     private String urlWeb;
     private String body;
     private String label;
@@ -27,6 +27,8 @@ public class Lista_Elementos {
     private String Mes;
     private String Concepto;
     private String FechaPago;
+    private String Fecha;
+    private String Mensaje;
     private String Vencimiento;
     private int Vencido;
     private int status_movto;
@@ -48,21 +50,34 @@ public class Lista_Elementos {
         label = _label;
     }
 
-    public Lista_Elementos(String label, String profesor, int idTarea, int idTareaDestinatario, int tipo) {
+    public Lista_Elementos(String label, String profesor, int idTarea, int idTareaDestinatario, int tipo, int status_read) {
         this.label = label;
         IdTarea = idTarea;
         IdTareaDestinatario = idTareaDestinatario;
         Tipo = tipo;
         Profesor = profesor;
+        Status_Read = status_read;
     }
 
-    public Lista_Elementos(int idComMensaje, int idComMensajeDestinatario, String label, String Remitente, int tipo) {
+    public Lista_Elementos(int idComMensaje, int idComMensajeDestinatario, String label, String Remitente, int tipo, int status_Read) {
         IdComMensaje = idComMensaje;
         IdComMensajeDestinatario = idComMensajeDestinatario;
         this.label = label;
         Tipo = tipo;
         Director = Remitente;
+        Status_Read = status_Read;
     }
+
+    public Lista_Elementos(int idElemento, int IdMobileMensaje, int Status_Read, String fecha, String mensaje, String _label, int tipo) {
+        IdElemento = idElemento;
+        this.IdMobileMensaje = IdMobileMensaje;
+        this.Status_Read = Status_Read;
+        Fecha = fecha;
+        Mensaje = mensaje;
+        label = _label;
+        Tipo = tipo;
+    }
+
 
     public int getIdTareaDestinatario() {
         return IdTareaDestinatario;
@@ -299,4 +314,20 @@ public class Lista_Elementos {
     public void setDirector(String director) {
         Director = director;
     }
+
+    public int getIdMobileMensaje() { return IdMobileMensaje;}
+
+    public void setIdMobileMensaje(int IdMobileMensaje) {this.IdMobileMensaje = IdMobileMensaje;}
+
+    public int getStatus_Read() {return Status_Read;}
+
+    public void setStatus_Read(int status_Read) {this.Status_Read = status_Read;}
+
+    public String getFecha() {return Fecha;}
+
+    public void setFecha(String fecha) {Fecha = fecha;}
+
+    public String getMensaje() {return Mensaje;}
+
+    public void setMensaje(String mensaje) {Mensaje = mensaje;}
 }

@@ -43,4 +43,184 @@
         android:layout_height="wrap_content"
         />
 
+
+    <LinearLayout
+        android:id="@+id/llMensajes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:gravity="bottom"
+        android:layout_marginBottom="@dimen/em8"
+        >
+
+        <!-- MENSAJES -->
+        <LinearLayout
+            android:id="@+id/txtMensajes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@layout/shape"
+            android:orientation="horizontal"
+            android:padding="@dimen/em10"
+            android:layout_marginRight="@dimen/em8"
+            android:layout_marginLeft="@dimen/em8"
+            android:layout_marginBottom="@dimen/cvBottomMarginHijos"
+            android:clickable="true"
+            android:onClick="MensajesClick"
+            >
+
+            <ImageView
+                android:id="@+id/idImageNotificaciones"
+                android:layout_width="@dimen/em24"
+                android:layout_height="@dimen/em24"
+                android:layout_weight="0.01"
+                android:layout_gravity="center_vertical"
+                android:layout_marginRight="@dimen/em6"
+                android:src="@mipmap/icon_notifications"
+                />
+
+            <LinearLayout
+                android:layout_width="@dimen/em196"
+                android:layout_height="wrap_content"
+                android:layout_weight="@string/cvTextHijo"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/em16"
+                    android:textColor="@color/input_register_hint"
+                    android:textStyle="bold"
+                    android:layout_gravity="center_vertical"
+                    android:text="NOTIFICACIONES"
+                    android:layout_weight="@string/cvImgLeftHijos"
+
+                    />
+
+            </LinearLayout>
+
+            <ImageView
+                android:src="@mipmap/ic_flecha_derecha"
+                android:layout_width="@dimen/em24"
+                android:layout_height="@dimen/em24"
+                android:layout_weight="0.01"
+                android:layout_gravity="center_vertical"
+                />
+
+        </LinearLayout>
+
+
+        <!-- CIRCULARES -->
+        <LinearLayout
+            android:id="@+id/txtCirculares"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@layout/shape"
+            android:orientation="horizontal"
+            android:padding="@dimen/em10"
+            android:layout_marginRight="@dimen/em8"
+            android:layout_marginLeft="@dimen/em8"
+            android:layout_marginBottom="@dimen/cvBottomMarginHijos"
+            android:clickable="true"
+            android:onClick="CircularesClick"
+            >
+
+            <ImageView
+                android:id="@+id/idImageCirculares"
+                android:layout_width="@dimen/em24"
+                android:layout_height="@dimen/em24"
+                android:layout_weight="0.01"
+                android:layout_gravity="center_vertical"
+                android:layout_marginRight="@dimen/em6"
+                android:src="@mipmap/icon_circular"
+                />
+
+            <LinearLayout
+                android:layout_width="@dimen/em196"
+                android:layout_height="wrap_content"
+                android:layout_weight="@string/cvTextHijo"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/em16"
+                    android:textColor="@color/input_register_hint"
+                    android:textStyle="bold"
+                    android:layout_gravity="center_vertical"
+                    android:text="CIRCULARES"
+                    android:layout_weight="@string/cvImgLeftHijos"
+
+                    />
+
+            </LinearLayout>
+
+            <ImageView
+                android:src="@mipmap/ic_flecha_derecha"
+                android:layout_width="@dimen/em24"
+                android:layout_height="@dimen/em24"
+                android:layout_weight="0.01"
+                android:layout_gravity="center_vertical"
+                />
+
+        </LinearLayout>
+
+        <!-- FACTURAS -->
+        <LinearLayout
+            android:id="@+id/txtfacturas"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@layout/shape"
+            android:orientation="horizontal"
+            android:padding="@dimen/em10"
+            android:layout_marginRight="@dimen/em8"
+            android:layout_marginLeft="@dimen/em8"
+            android:layout_marginBottom="@dimen/cvBottomMarginHijos"
+            android:clickable="true"
+            android:onClick="FacturasClick"
+            >
+
+            <ImageView
+                android:id="@+id/idImageFacruras"
+                android:layout_width="@dimen/em24"
+                android:layout_height="@dimen/em24"
+                android:layout_weight="0.01"
+                android:layout_gravity="center_vertical"
+                android:layout_marginRight="@dimen/em6"
+                android:src="@mipmap/icon_factura"
+                />
+
+            <LinearLayout
+                android:layout_width="@dimen/em196"
+                android:layout_height="wrap_content"
+                android:layout_weight="@string/cvTextHijo"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/em16"
+                    android:textColor="@color/input_register_hint"
+                    android:textStyle="bold"
+                    android:layout_gravity="center_vertical"
+                    android:text="FACTURAS"
+                    android:layout_weight="@string/cvImgLeftHijos"
+
+                    />
+
+            </LinearLayout>
+
+            <ImageView
+                android:src="@mipmap/ic_flecha_derecha"
+                android:layout_width="@dimen/em24"
+                android:layout_height="@dimen/em24"
+                android:layout_weight="0.01"
+                android:layout_gravity="center_vertical"
+                />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
 </LinearLayout>

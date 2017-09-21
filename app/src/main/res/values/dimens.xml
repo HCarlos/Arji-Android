@@ -31,5 +31,6 @@
     <!-- Cardview Menu -->
     <dimen name="cvBottomMarginMenu">4dp</dimen>
     <dimen name="cvTopPaddingMenu">6dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
 
 </resources>

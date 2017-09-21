@@ -129,102 +129,114 @@
 # view res/layout/abc_screen_simple_overlay_action_mode.xml #generated:32
 -keep class android.support.v7.widget.ViewStubCompat { <init>(...); }
 
-# view AndroidManifest.xml #generated:206
+# view AndroidManifest.xml #generated:160
 -keep class com.google.android.gms.ads.AdActivity { <init>(...); }
 
-# view AndroidManifest.xml #generated:210
+# view AndroidManifest.xml #generated:164
 -keep class com.google.android.gms.ads.purchase.InAppPurchaseActivity { <init>(...); }
 
-# view AndroidManifest.xml #generated:213
+# view AndroidManifest.xml #generated:167
 -keep class com.google.android.gms.appinvite.PreviewActivity { <init>(...); }
 
-# view AndroidManifest.xml #generated:232
+# view AndroidManifest.xml #generated:186
 -keep class com.google.android.gms.auth.api.signin.RevocationBoundService { <init>(...); }
 
-# view AndroidManifest.xml #generated:223
+# view AndroidManifest.xml #generated:177
 -keep class com.google.android.gms.auth.api.signin.internal.SignInHubActivity { <init>(...); }
 
-# view AndroidManifest.xml #generated:240
+# view AndroidManifest.xml #generated:194
 -keep class com.google.android.gms.cast.framework.ReconnectionService { <init>(...); }
 
 # view res/layout/cast_help_text.xml #generated:2
 -keep class com.google.android.gms.cast.framework.internal.featurehighlight.HelpTextView { <init>(...); }
 
-# view AndroidManifest.xml #generated:237
+# view AndroidManifest.xml #generated:191
 -keep class com.google.android.gms.cast.framework.media.MediaIntentReceiver { <init>(...); }
 
-# view AndroidManifest.xml #generated:239
+# view AndroidManifest.xml #generated:193
 -keep class com.google.android.gms.cast.framework.media.MediaNotificationService { <init>(...); }
 
-# view AndroidManifest.xml #generated:258
+# view AndroidManifest.xml #generated:212
 -keep class com.google.android.gms.common.api.GoogleApiActivity { <init>(...); }
 
 # view res/layout/activity_maps.xml #generated:28
 -keep class com.google.android.gms.maps.SupportMapFragment { <init>(...); }
 
-# view AndroidManifest.xml #generated:279
+# view AndroidManifest.xml #generated:233
 -keep class com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver { <init>(...); }
 
-# view AndroidManifest.xml #generated:274
+# view AndroidManifest.xml #generated:228
 -keep class com.google.android.gms.measurement.AppMeasurementReceiver { <init>(...); }
 
-# view AndroidManifest.xml #generated:288
+# view AndroidManifest.xml #generated:242
 -keep class com.google.android.gms.measurement.AppMeasurementService { <init>(...); }
 
-# view AndroidManifest.xml #generated:246
+# view AndroidManifest.xml #generated:200
 -keep class com.google.android.gms.tagmanager.TagManagerPreviewActivity { <init>(...); }
 
-# view AndroidManifest.xml #generated:241
+# view AndroidManifest.xml #generated:195
 -keep class com.google.android.gms.tagmanager.TagManagerService { <init>(...); }
 
-# view AndroidManifest.xml #generated:308
+# view AndroidManifest.xml #generated:262
 -keep class com.google.firebase.iid.FirebaseInstanceIdInternalReceiver { <init>(...); }
 
-# view AndroidManifest.xml #generated:293
+# view AndroidManifest.xml #generated:247
 -keep class com.google.firebase.iid.FirebaseInstanceIdReceiver { <init>(...); }
 
-# view AndroidManifest.xml #generated:315
+# view AndroidManifest.xml #generated:269
 -keep class com.google.firebase.iid.FirebaseInstanceIdService { <init>(...); }
 
-# view AndroidManifest.xml #generated:266
+# view AndroidManifest.xml #generated:220
 -keep class com.google.firebase.messaging.FirebaseMessagingService { <init>(...); }
 
-# view AndroidManifest.xml #generated:323
+# view AndroidManifest.xml #generated:277
 -keep class com.google.firebase.provider.FirebaseInitProvider { <init>(...); }
 
-# view AndroidManifest.xml #generated:132
+# view AndroidManifest.xml #generated:108
 -keep class mx.com.logydes.colegioarji.Boleta { <init>(...); }
 
-# view AndroidManifest.xml #generated:87
+# view AndroidManifest.xml #generated:63
 -keep class mx.com.logydes.colegioarji.BoletinActivity { <init>(...); }
 
-# view AndroidManifest.xml #generated:125
+# view AndroidManifest.xml #generated:101
 -keep class mx.com.logydes.colegioarji.Elemento { <init>(...); }
 
-# view AndroidManifest.xml #generated:116
+# view AndroidManifest.xml #generated:92
 -keep class mx.com.logydes.colegioarji.ListaElementos { <init>(...); }
 
-# view AndroidManifest.xml #generated:76
+# view AndroidManifest.xml #generated:52
 -keep class mx.com.logydes.colegioarji.LoginActivity { <init>(...); }
 
-# view AndroidManifest.xml #generated:65
+# view AndroidManifest.xml #generated:41
 -keep class mx.com.logydes.colegioarji.MainActivity { <init>(...); }
 
-# view AndroidManifest.xml #generated:153
+# view AndroidManifest.xml #generated:120
 -keep class mx.com.logydes.colegioarji.MapsActivity { <init>(...); }
 
-# view AndroidManifest.xml #generated:107
+# view AndroidManifest.xml #generated:83
 -keep class mx.com.logydes.colegioarji.MenuHijos { <init>(...); }
 
-# view AndroidManifest.xml #generated:162
+# view AndroidManifest.xml #generated:138
+-keep class mx.com.logydes.colegioarji.NotificacionesActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:129
 -keep class mx.com.logydes.colegioarji.SystemActivity { <init>(...); }
 
-# view AndroidManifest.xml #generated:58
+# view AndroidManifest.xml #generated:34
 -keep class mx.com.logydes.colegioarji.Utils.AppController { <init>(...); }
 
-# view AndroidManifest.xml #generated:177
+# view AndroidManifest.xml #generated:153
 -keep class mx.com.logydes.colegioarji.Utils.NotificacionIDTokenService { <init>(...); }
 
-# view AndroidManifest.xml #generated:172
+# view AndroidManifest.xml #generated:148
 -keep class mx.com.logydes.colegioarji.Utils.NotificationService { <init>(...); }
+
+# onClick res/layout/content_main.xml #generated:114
+-keepclassmembers class * { *** CircularesClick(...); }
+
+# onClick res/layout/content_main.xml #generated:169
+-keepclassmembers class * { *** FacturasClick(...); }
+
+# onClick res/layout/content_main.xml #generated:58
+-keepclassmembers class * { *** MensajesClick(...); }
 

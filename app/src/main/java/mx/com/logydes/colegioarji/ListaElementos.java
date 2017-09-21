@@ -46,6 +46,11 @@ public class ListaElementos extends AppCompatActivity {
                 cm.obtenerDatos(strURL,IdMenu);
                 // cm.obtenerDatosRetroFit(strURL,IdMenu);
                 break;
+            case 6:
+                strURL = AppConfig.URL_NOTIFICACIONES;
+                cm.obtenerDatos(strURL,IdMenu);
+                // cm.obtenerDatosRetroFit(strURL,IdMenu);
+                break;
 
         }
 

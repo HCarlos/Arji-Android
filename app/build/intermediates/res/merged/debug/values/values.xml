@@ -911,6 +911,7 @@
     <dimen name="em40">40dp</dimen>
     <dimen name="em6">6dp</dimen>
     <dimen name="em8">8dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
     <item format="float" name="highlight_alpha_material_colored" type="dimen">0.26</item>
     <item format="float" name="highlight_alpha_material_dark" type="dimen">0.20</item>
     <item format="float" name="highlight_alpha_material_light" type="dimen">0.12</item>
@@ -1010,6 +1011,7 @@
     <string name="IdConcepto">idconcepto</string>
     <string name="IdEmp">IdEmp</string>
     <string name="IdGruAlu">IdGruAlu</string>
+    <string name="IdMobileMensaje">IdMobileMensaje</string>
     <string name="IdUser">IdUser</string>
     <string name="IdUserAlu">IdUserAlu</string>
     <string name="IsBoleta">IsBoleta</string>
@@ -1062,6 +1064,7 @@
     <string name="action_mapa_ubicacion">Mapa de Ubicación</string>
     <string name="action_proceso_admision">Proceso de Admisión</string>
     <string name="action_quienes_somos">Quienes Somos</string>
+    <string name="action_settings">Settings</string>
     <string name="action_sign_in">Login</string>
     <string name="action_sign_in_short">Login</string>
     <string name="action_system">Sistema</string>
@@ -1138,6 +1141,7 @@
     <string name="decline">Decline</string>
     <string name="default_web_client_id" translatable="false">880665345615-ph9stu3lphjsjt69ib1o6jqifqspmq34.apps.googleusercontent.com</string>
     <string name="elemento">Elemento</string>
+    <string name="fecha">Fechsa</string>
     <string name="firebase_database_url" translatable="false">https://colegio-arji-app-mobile.firebaseio.com</string>
     <string name="gcm_defaultSenderId" translatable="false">880665345615</string>
     <string name="google_api_key" translatable="false">AIzaSyBHGfzQkNvpHJIHYryXD1lr0pOa8_Cvh-k</string>
@@ -1154,6 +1158,7 @@
     <string name="iduser_info_label">ID USER</string>
     <string name="logoEmp">logoEmp</string>
     <string name="logoIB">logoIB</string>
+    <string name="mensaje">Mensaje</string>
     <string name="menu">.</string>
     <string name="menuelemento">MenuElemento</string>
     <string name="mr_button_content_description">Cast button</string>
@@ -1196,6 +1201,7 @@
     <string name="title_activity_boletin">Boletín Oficial</string>
     <string name="title_activity_hijos">Alumnos</string>
     <string name="title_activity_login">Ingresar al Sistema</string>
+    <string name="title_activity_notificaciones">Notificaciones</string>
     <string name="title_bar_mapa_ubicacion">Av. México Núm. 2, Col. del Bosque, Villahermosa, Tabasco, MX. CP. 86160</string>
     <string name="token_id_info_label">TOKEN ID</string>
     <string name="token_info_header_label">DATOS IMPORTANTES DEL SISTEMA</string>

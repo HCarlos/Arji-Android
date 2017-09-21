@@ -13,6 +13,7 @@ import com.android.volley.Request;
 import com.android.volley.Response;
 import com.android.volley.VolleyError;
 import com.android.volley.toolbox.StringRequest;
+import com.google.firebase.iid.FirebaseInstanceId;
 import com.google.gson.Gson;
 
 import org.json.JSONArray;
@@ -31,6 +32,7 @@ import mx.com.logydes.colegioarji.R;
 import mx.com.logydes.colegioarji.RestAPI.Adapter.RestAPIAdapter;
 import mx.com.logydes.colegioarji.RestAPI.EndPointsAPI;
 import mx.com.logydes.colegioarji.RestAPI.Model.TareasResponse;
+import mx.com.logydes.colegioarji.Utils.AppConfig;
 import mx.com.logydes.colegioarji.Utils.AppController;
 import mx.com.logydes.colegioarji.Utils.Utilidades;
 import retrofit2.Call;
@@ -102,25 +104,31 @@ public class dbLista_Elementos {
                             rec = jObj.getJSONObject(i);
                             int idelemento = 0;
                             int idelementodestinatario = 0;
+                            int idmobilemensaje = 0;
                             int counter = 0;
+                            int status_read = 0;
                             String label = "";
                             String lblProfesor = "";
                             String lblDirector = "";
                             String xml = "";
+                            String fecha = "";
+                            String mensaje = "";
                             switch (Type){
                                 case 0:
                                     idelemento = rec.getInt("idtarea");
                                     idelementodestinatario = rec.getInt("idtareadestinatario");
                                     label = rec.getString("titulo_tarea");
                                     lblProfesor = rec.getString("profesor");
-                                    MM.add( new Lista_Elementos(label,lblProfesor,idelemento,idelementodestinatario,Type) );
+                                    status_read = rec.getInt("isleida");
+                                    MM.add( new Lista_Elementos(label,lblProfesor,idelemento,idelementodestinatario,Type, status_read) );
                                     break;
                                 case 1:
                                     idelemento = rec.getInt("idcommensaje");
                                     idelementodestinatario = rec.getInt("idcommensajedestinatario");
                                     label = rec.getString("titulo_mensaje");
                                     lblDirector = rec.getString("nombre_remitente");
-                                    MM.add( new Lista_Elementos(idelemento,idelementodestinatario,label,lblDirector,Type) );
+                                    status_read = rec.getInt("isleida");
+                                    MM.add( new Lista_Elementos(idelemento,idelementodestinatario,label,lblDirector,Type, status_read) );
                                     break;
                                 case 2:
                                     label             = rec.getString("pdf");
@@ -159,6 +167,23 @@ public class dbLista_Elementos {
 
                                     MM.add( new Lista_Elementos(status_movto,Vencido,FechaPago,Vencimiento,conepto,mes,idelemento,Type, PagosDiv, IdConcepto) );
                                     break;
+
+                                case 6:
+                                    idelemento = rec.getInt("idmobilemensaje");
+                                    idmobilemensaje = rec.getInt("idmobilemensaje");
+                                    if ( rec.getString("mensaje").length() > 35 ){
+                                        label = rec.getString("mensaje").substring(0,35)+"...";
+                                    }else{
+                                        label = rec.getString("mensaje");
+                                    }
+                                    mensaje = rec.getString("mensaje");
+                                    status_read = rec.getInt("status_read");
+                                    Utilidades ut = new Utilidades();
+                                    ut.setFechaFrancesa(rec.getString("fecha"));
+                                    fecha = ut.getFechaFrancesa();
+                                    MM.add( new Lista_Elementos(idelemento,idmobilemensaje,status_read,fecha,mensaje, label, Type) );
+                                    break;
+
                             }
 
                         }
@@ -208,7 +233,17 @@ public class dbLista_Elementos {
                         params.put("iduseralu", String.valueOf( Singleton.getIdUserAlu() ) );
                         params.put("tipoconsulta", String.valueOf( Type ) );
                         break;
+                    case 6:
+                        String token = FirebaseInstanceId.getInstance().getToken();
+                        params.put("sts", "-1");
+                        params.put("iduser", String.valueOf( Singleton.getIdUser() ) );
+                        params.put("device", token );
+                        params.put("type", "2" );
+                        break;
+
                 }
+                Log.e("PARAMS: ",String.valueOf(params));
+
                 return params;
 
             }
