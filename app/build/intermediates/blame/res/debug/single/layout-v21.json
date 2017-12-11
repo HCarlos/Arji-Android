@@ -1,11 +1,11 @@
 [
     {
         "merged": "/home/devch/AndroidStudioProjects/ColegioArji/app/build/intermediates/res/merged/debug/layout-v21/notification_template_custom_big.xml",
-        "source": "/home/devch/.android/build-cache/59f2315c01240a226ab37afdfae3f5e0397da19b/output/res/layout-v21/notification_template_custom_big.xml"
+        "source": "/home/devch/.android/build-cache/6c308c27f23aa3a07bc56ed9cac7c7c050c0a8f7/output/res/layout-v21/notification_template_custom_big.xml"
     },
     {
         "merged": "/home/devch/AndroidStudioProjects/ColegioArji/app/build/intermediates/res/merged/debug/layout-v21/notification_action_tombstone.xml",
-        "source": "/home/devch/.android/build-cache/59f2315c01240a226ab37afdfae3f5e0397da19b/output/res/layout-v21/notification_action_tombstone.xml"
+        "source": "/home/devch/.android/build-cache/6c308c27f23aa3a07bc56ed9cac7c7c050c0a8f7/output/res/layout-v21/notification_action_tombstone.xml"
     },
     {
         "merged": "/home/devch/AndroidStudioProjects/ColegioArji/app/build/intermediates/res/merged/debug/layout-v21/place_autocomplete_fragment.xml",
@@ -13,10 +13,10 @@
     },
     {
         "merged": "/home/devch/AndroidStudioProjects/ColegioArji/app/build/intermediates/res/merged/debug/layout-v21/notification_template_icon_group.xml",
-        "source": "/home/devch/.android/build-cache/59f2315c01240a226ab37afdfae3f5e0397da19b/output/res/layout-v21/notification_template_icon_group.xml"
+        "source": "/home/devch/.android/build-cache/6c308c27f23aa3a07bc56ed9cac7c7c050c0a8f7/output/res/layout-v21/notification_template_icon_group.xml"
     },
     {
         "merged": "/home/devch/AndroidStudioProjects/ColegioArji/app/build/intermediates/res/merged/debug/layout-v21/notification_action.xml",
-        "source": "/home/devch/.android/build-cache/59f2315c01240a226ab37afdfae3f5e0397da19b/output/res/layout-v21/notification_action.xml"
+        "source": "/home/devch/.android/build-cache/6c308c27f23aa3a07bc56ed9cac7c7c050c0a8f7/output/res/layout-v21/notification_action.xml"
     }
 ]

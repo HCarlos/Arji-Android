@@ -1,5 +1,6 @@
 package mx.com.logydes.colegioarji.Adapter;
 
+import android.annotation.SuppressLint;
 import android.app.Activity;
 import android.app.ProgressDialog;
 import android.content.Context;
@@ -50,6 +51,7 @@ public class Adapter_Lista_Elementos extends RecyclerView.Adapter<Adapter_Lista_
             return new AdapterElementosViewHolder(v,this.menu);
         }
 
+        @SuppressLint("ResourceAsColor")
         @Override
         public void onBindViewHolder(final AdapterElementosViewHolder cvh, int position) {
 
@@ -58,12 +60,15 @@ public class Adapter_Lista_Elementos extends RecyclerView.Adapter<Adapter_Lista_
             int elementoEncontrado = -1;
 
             // cvh.setBackgroundColor(Color.parseColor("#ffffff"));
-
+            int colorUnRead = Integer.parseInt("bdbdbd", 16)+0xFF000000;
+            int colorRead = Integer.parseInt("bdbdbd", 16)+0xFFFFFFFF;
             cvh.TipoElemento = mm.getTipo();
             switch (cvh.TipoElemento){
                 case 0:
                     if ( mm.getStatus_Read() == 0 ){
-                        cvh.llListaElementos.setBackgroundColor(R.color.colorBackground);
+                        cvh.llListaElementos.setBackgroundColor(colorUnRead);
+                    }else{
+                        cvh.llListaElementos.setBackgroundColor(colorRead);
                     }
                     cvh.tvElemento.setText(mm.getLabel() );
                     cvh.IdElemento = mm.getIdTarea();
@@ -72,7 +77,9 @@ public class Adapter_Lista_Elementos extends RecyclerView.Adapter<Adapter_Lista_
                     break;
                 case 1:
                     if ( mm.getStatus_Read() == 0 ){
-                        cvh.llListaElementos.setBackgroundColor(R.color.colorBackground);
+                        cvh.llListaElementos.setBackgroundColor(colorUnRead);
+                    }else{
+                        cvh.llListaElementos.setBackgroundColor(colorRead);
                     }
                     cvh.tvElemento.setText(mm.getLabel() );
                     cvh.IdElemento = mm.getIdComMensaje();
@@ -130,7 +137,9 @@ public class Adapter_Lista_Elementos extends RecyclerView.Adapter<Adapter_Lista_
                 case 6:
 
                     if ( mm.getStatus_Read() == 0 ){
-                        cvh.llListaElementos.setBackgroundColor(R.color.colorBackground);
+                        cvh.llListaElementos.setBackgroundColor(colorUnRead);
+                    }else{
+                        cvh.llListaElementos.setBackgroundColor(colorRead);
                     }
                     cvh.tvElemento.setText(mm.getLabel() );
                     cvh.IdElemento = mm.getIdMobileMensaje();

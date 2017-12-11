@@ -1,0 +1,3 @@
+# view AndroidManifest.xml #generated:29
+-keep class mx.com.logydes.colegioarji.Utils.AppController { <init>(...); }
+

@@ -8,7 +8,21 @@
     tools:context="mx.com.logydes.colegioarji.ListaElementos"
     android:orientation="vertical"
     android:background="@drawable/background_1_arji"
+    android:name=".PointsScreen"
+    app:popupTheme="@style/AppTheme.PopupOverlay"
     >
+
+    <include android:id="@+id/miActionBar2" layout="@layout/action_bar" />
+
+<!--
+    <android.support.v4.widget.SwipeRefreshLayout android:id="@+id/srlRefresh"
+        android:layout_width="match_parent" android:layout_height="match_parent"
+        android:layout_above="@id/miActionBar2"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"/>
+-->
 
     <TextView
         android:id="@+id/tvMenuHijos"
@@ -24,8 +38,8 @@
         android:textColor="@color/white"
         android:gravity="left"
         android:textStyle="bold"
+        android:layout_below="@id/miActionBar2"
         android:text="OPCIONES"
-
         />
 
     <android.support.v7.widget.RecyclerView

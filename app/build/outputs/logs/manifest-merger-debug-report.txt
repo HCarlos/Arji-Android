@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /home/devch/AndroidStudioProjects/ColegioArji/app/src/main/AndroidManifest.xml:2:1-138:12
+ADDED from /home/devch/AndroidStudioProjects/ColegioArji/app/src/main/AndroidManifest.xml:2:1-141:12
 	package
 		ADDED from /home/devch/AndroidStudioProjects/ColegioArji/app/src/main/AndroidManifest.xml:3:5-41
 		INJECTED from /home/devch/AndroidStudioProjects/ColegioArji/app/src/main/AndroidManifest.xml
@@ -38,10 +38,11 @@ ADDED from /home/devch/AndroidStudioProjects/ColegioArji/app/src/main/AndroidMan
 	android:name
 		ADDED from /home/devch/AndroidStudioProjects/ColegioArji/app/src/main/AndroidManifest.xml:8:22-76
 application
-ADDED from /home/devch/AndroidStudioProjects/ColegioArji/app/src/main/AndroidManifest.xml:10:5-136:19
-MERGED from [com.android.support:design:25.3.1] /home/devch/.android/build-cache/faffc0ff55de3161b12a9a31c4cf2f49bd6376b2/output/AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:transition:25.3.1] /home/devch/.android/build-cache/1e48c265dddd67dad554f3b827790838d8c34639/output/AndroidManifest.xml:26:5-20
-MERGED from [com.android.support:cardview-v7:25.3.1] /home/devch/.android/build-cache/2eabd510cac3d0bd49c284388c4fa9a278e25576/output/AndroidManifest.xml:26:5-20
+ADDED from /home/devch/AndroidStudioProjects/ColegioArji/app/src/main/AndroidManifest.xml:10:5-139:19
+MERGED from [com.android.support:design:26.0.2] /home/devch/.android/build-cache/849c8b746284fd45151003aeefa48fc1cb06e5c1/output/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:transition:26.0.2] /home/devch/.android/build-cache/3df91ed814a2cb0fba392b52d4a3212f13ddfd5b/output/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:cardview-v7:26.0.2] /home/devch/.android/build-cache/bb0b8d7dc2c5e3be3f0aea3f4261faeefe8cf9c9/output/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:recyclerview-v7:26.0.2] /home/devch/.android/build-cache/9f96484b2050dfe9709193d17f7438ac420f5287/output/AndroidManifest.xml:22:5-26:19
 MERGED from [com.mcxiaoke.volley:library-aar:1.0.0] /home/devch/.android/build-cache/c25cde9ed8bd7798c4d4cc56a7418910e74c2c41/output/AndroidManifest.xml:5:5-19
 MERGED from [com.google.android.gms:play-services:9.8.0] /home/devch/.android/build-cache/499af9d6ec713f6c031d7c9bc7a747754fe02bb4/output/AndroidManifest.xml:5:5-20
 MERGED from [com.google.android.gms:play-services-ads-lite:9.8.0] /home/devch/.android/build-cache/131f6c753471f54498e0c33443e688373d70dd19/output/AndroidManifest.xml:23:5-27:19
@@ -52,9 +53,9 @@ MERGED from [com.google.android.gms:play-services-cast-framework:9.8.0] /home/de
 MERGED from [com.google.android.gms:play-services-cast:9.8.0] /home/devch/.android/build-cache/8cbce7ac77a64d7d92be0bbb505ee4dc1330bb76/output/AndroidManifest.xml:18:5-19
 MERGED from [com.android.support:mediarouter-v7:24.0.0] /home/devch/.android/build-cache/7f92580b55284743e9dd029bd37d8273d99aef23/output/AndroidManifest.xml:22:5-20
 MERGED from [com.android.support:palette-v7:24.0.0] /home/devch/.android/build-cache/758965136f21bef23f8ba38ad8a904cc1da1255c/output/AndroidManifest.xml:22:5-23:19
-MERGED from [com.android.support:appcompat-v7:25.3.1] /home/devch/.android/build-cache/59f2315c01240a226ab37afdfae3f5e0397da19b/output/AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:animated-vector-drawable:25.3.1] /home/devch/.android/build-cache/c3e0656ec9a2083f7a8e347aaedcf2ca10bbb64d/output/AndroidManifest.xml:26:5-20
-MERGED from [com.android.support:support-vector-drawable:25.3.1] /home/devch/.android/build-cache/345611460c375d4d57479a1b907ed38715354387/output/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:appcompat-v7:26.0.2] /home/devch/.android/build-cache/1a22003640e4e6812b2bffe925314820b3856161/output/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:animated-vector-drawable:26.0.2] /home/devch/.android/build-cache/5651ee1f1fb166867e206e48172b77b57ce936e7/output/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-vector-drawable:26.0.2] /home/devch/.android/build-cache/77d8ce3862ef032711ecc94abf23d2e5bd0361e5/output/AndroidManifest.xml:22:5-26:19
 MERGED from [com.google.android.gms:play-services-clearcut:9.8.0] /home/devch/.android/build-cache/cc44738e30bbf04621c85dbc51f01a8567f482c6/output/AndroidManifest.xml:18:5-19
 MERGED from [com.google.firebase:firebase-config:9.8.0] /home/devch/.android/build-cache/18f8a11b4f8cf28ee48a43885a399a5dfb95ada8/output/AndroidManifest.xml:18:5-19
 MERGED from [com.google.android.gms:play-services-awareness:9.8.0] /home/devch/.android/build-cache/4ecdc29a91788ab56426540692287e81bde372d8/output/AndroidManifest.xml:18:5-19
@@ -90,12 +91,12 @@ MERGED from [com.google.firebase:firebase-iid:9.8.0] /home/devch/.android/build-
 MERGED from [com.google.firebase:firebase-common:9.8.0] /home/devch/.android/build-cache/f301d86516f76fd5f904fe2c4d9a3e59d4effb92/output/AndroidManifest.xml:4:5-7:19
 MERGED from [com.google.android.gms:play-services-tasks:9.8.0] /home/devch/.android/build-cache/d78c171c786a2b230f169b4889f6e6c11f4f92a3/output/AndroidManifest.xml:4:5-19
 MERGED from [com.google.android.gms:play-services-basement:9.8.0] /home/devch/.android/build-cache/c1a7ee281e849086a87d2d4a9af05e572dcea383/output/AndroidManifest.xml:19:5-21:19
-MERGED from [com.android.support:support-v4:25.3.1] /home/devch/.android/build-cache/197b387ed54caf850649a5bf9f959b4c91432963/output/AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-fragment:25.3.1] /home/devch/.android/build-cache/2077c104877c7ca4c851056c76e75a58fa580299/output/AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-media-compat:25.3.1] /home/devch/.android/build-cache/a5fa7a553b3e8c02158389275c523a0c2de2b8df/output/AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-core-ui:25.3.1] /home/devch/.android/build-cache/4ee644bb5b9ebc3c423f1803f06d9e5782979b30/output/AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-core-utils:25.3.1] /home/devch/.android/build-cache/a342661f43c00f0e187d9d678f0ecc320a908530/output/AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-compat:25.3.1] /home/devch/.android/build-cache/e2b037411b9a4f48d471bb806c5864aaf74c2369/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-v4:26.0.2] /home/devch/.android/build-cache/41fd4698d9708d0910ab97ce523a640433b9f69b/output/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:26.0.2] /home/devch/.android/build-cache/1b8cd8bf322b7ebde2a43256ebfb16b157d26466/output/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-fragment:26.0.2] /home/devch/.android/build-cache/17ce4cc1f65b801704949d254cd6e9f7f54e28f6/output/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-ui:26.0.2] /home/devch/.android/build-cache/b63e2951150c0d213fa4c09823a18264dfd2ee16/output/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-utils:26.0.2] /home/devch/.android/build-cache/c4939ae77f32db7a8714408a34376a1e8437697c/output/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-compat:26.0.2] /home/devch/.android/build-cache/6c308c27f23aa3a07bc56ed9cac7c7c050c0a8f7/output/AndroidManifest.xml:25:5-29:19
 	android:label
 		ADDED from /home/devch/AndroidStudioProjects/ColegioArji/app/src/main/AndroidManifest.xml:14:9-41
 	android:supportsRtl
@@ -172,89 +173,94 @@ ADDED from /home/devch/AndroidStudioProjects/ColegioArji/app/src/main/AndroidMan
 	android:name
 		ADDED from /home/devch/AndroidStudioProjects/ColegioArji/app/src/main/AndroidManifest.xml:60:13-38
 activity#mx.com.logydes.colegioarji.ListaElementos
-ADDED from /home/devch/AndroidStudioProjects/ColegioArji/app/src/main/AndroidManifest.xml:68:9-76:20
+ADDED from /home/devch/AndroidStudioProjects/ColegioArji/app/src/main/AndroidManifest.xml:68:9-79:20
 	android:screenOrientation
 		ADDED from /home/devch/AndroidStudioProjects/ColegioArji/app/src/main/AndroidManifest.xml:72:13-49
 	android:label
 		ADDED from /home/devch/AndroidStudioProjects/ColegioArji/app/src/main/AndroidManifest.xml:70:13-57
 	android:parentActivityName
 		ADDED from /home/devch/AndroidStudioProjects/ColegioArji/app/src/main/AndroidManifest.xml:71:13-52
+	android:colorMode
+		ADDED from /home/devch/AndroidStudioProjects/ColegioArji/app/src/main/AndroidManifest.xml:74:13-40
+	android:theme
+		ADDED from /home/devch/AndroidStudioProjects/ColegioArji/app/src/main/AndroidManifest.xml:73:13-56
 	android:name
 		ADDED from /home/devch/AndroidStudioProjects/ColegioArji/app/src/main/AndroidManifest.xml:69:13-43
 activity#mx.com.logydes.colegioarji.Elemento
-ADDED from /home/devch/AndroidStudioProjects/ColegioArji/app/src/main/AndroidManifest.xml:77:9-83:20
+ADDED from /home/devch/AndroidStudioProjects/ColegioArji/app/src/main/AndroidManifest.xml:80:9-86:20
 	android:screenOrientation
-		ADDED from /home/devch/AndroidStudioProjects/ColegioArji/app/src/main/AndroidManifest.xml:79:13-49
+		ADDED from /home/devch/AndroidStudioProjects/ColegioArji/app/src/main/AndroidManifest.xml:82:13-49
 	android:name
-		ADDED from /home/devch/AndroidStudioProjects/ColegioArji/app/src/main/AndroidManifest.xml:78:13-37
+		ADDED from /home/devch/AndroidStudioProjects/ColegioArji/app/src/main/AndroidManifest.xml:81:13-37
 activity#mx.com.logydes.colegioarji.Boleta
-ADDED from /home/devch/AndroidStudioProjects/ColegioArji/app/src/main/AndroidManifest.xml:84:9-90:20
+ADDED from /home/devch/AndroidStudioProjects/ColegioArji/app/src/main/AndroidManifest.xml:87:9-93:20
 	android:screenOrientation
-		ADDED from /home/devch/AndroidStudioProjects/ColegioArji/app/src/main/AndroidManifest.xml:86:13-49
+		ADDED from /home/devch/AndroidStudioProjects/ColegioArji/app/src/main/AndroidManifest.xml:89:13-49
 	android:name
-		ADDED from /home/devch/AndroidStudioProjects/ColegioArji/app/src/main/AndroidManifest.xml:85:13-35
+		ADDED from /home/devch/AndroidStudioProjects/ColegioArji/app/src/main/AndroidManifest.xml:88:13-35
 meta-data#com.google.android.geo.API_KEY
-ADDED from /home/devch/AndroidStudioProjects/ColegioArji/app/src/main/AndroidManifest.xml:92:9-94:55
+ADDED from /home/devch/AndroidStudioProjects/ColegioArji/app/src/main/AndroidManifest.xml:95:9-97:55
 	android:value
-		ADDED from /home/devch/AndroidStudioProjects/ColegioArji/app/src/main/AndroidManifest.xml:94:13-52
+		ADDED from /home/devch/AndroidStudioProjects/ColegioArji/app/src/main/AndroidManifest.xml:97:13-52
 	android:name
-		ADDED from /home/devch/AndroidStudioProjects/ColegioArji/app/src/main/AndroidManifest.xml:93:13-58
+		ADDED from /home/devch/AndroidStudioProjects/ColegioArji/app/src/main/AndroidManifest.xml:96:13-58
 activity#mx.com.logydes.colegioarji.MapsActivity
-ADDED from /home/devch/AndroidStudioProjects/ColegioArji/app/src/main/AndroidManifest.xml:96:9-104:20
+ADDED from /home/devch/AndroidStudioProjects/ColegioArji/app/src/main/AndroidManifest.xml:99:9-107:20
 	android:screenOrientation
-		ADDED from /home/devch/AndroidStudioProjects/ColegioArji/app/src/main/AndroidManifest.xml:100:13-49
+		ADDED from /home/devch/AndroidStudioProjects/ColegioArji/app/src/main/AndroidManifest.xml:103:13-49
 	android:label
-		ADDED from /home/devch/AndroidStudioProjects/ColegioArji/app/src/main/AndroidManifest.xml:98:13-58
+		ADDED from /home/devch/AndroidStudioProjects/ColegioArji/app/src/main/AndroidManifest.xml:101:13-58
 	android:parentActivityName
-		ADDED from /home/devch/AndroidStudioProjects/ColegioArji/app/src/main/AndroidManifest.xml:99:13-55
+		ADDED from /home/devch/AndroidStudioProjects/ColegioArji/app/src/main/AndroidManifest.xml:102:13-55
 	android:name
-		ADDED from /home/devch/AndroidStudioProjects/ColegioArji/app/src/main/AndroidManifest.xml:97:13-41
+		ADDED from /home/devch/AndroidStudioProjects/ColegioArji/app/src/main/AndroidManifest.xml:100:13-41
 activity#mx.com.logydes.colegioarji.SystemActivity
-ADDED from /home/devch/AndroidStudioProjects/ColegioArji/app/src/main/AndroidManifest.xml:105:9-113:20
+ADDED from /home/devch/AndroidStudioProjects/ColegioArji/app/src/main/AndroidManifest.xml:108:9-116:20
 	android:screenOrientation
-		ADDED from /home/devch/AndroidStudioProjects/ColegioArji/app/src/main/AndroidManifest.xml:109:13-49
+		ADDED from /home/devch/AndroidStudioProjects/ColegioArji/app/src/main/AndroidManifest.xml:112:13-49
 	android:label
-		ADDED from /home/devch/AndroidStudioProjects/ColegioArji/app/src/main/AndroidManifest.xml:107:13-57
+		ADDED from /home/devch/AndroidStudioProjects/ColegioArji/app/src/main/AndroidManifest.xml:110:13-57
 	android:parentActivityName
-		ADDED from /home/devch/AndroidStudioProjects/ColegioArji/app/src/main/AndroidManifest.xml:108:13-55
+		ADDED from /home/devch/AndroidStudioProjects/ColegioArji/app/src/main/AndroidManifest.xml:111:13-55
 	android:name
-		ADDED from /home/devch/AndroidStudioProjects/ColegioArji/app/src/main/AndroidManifest.xml:106:13-43
+		ADDED from /home/devch/AndroidStudioProjects/ColegioArji/app/src/main/AndroidManifest.xml:109:13-43
 activity#mx.com.logydes.colegioarji.NotificacionesActivity
-ADDED from /home/devch/AndroidStudioProjects/ColegioArji/app/src/main/AndroidManifest.xml:115:9-123:20
+ADDED from /home/devch/AndroidStudioProjects/ColegioArji/app/src/main/AndroidManifest.xml:118:9-126:20
 	android:screenOrientation
-		ADDED from /home/devch/AndroidStudioProjects/ColegioArji/app/src/main/AndroidManifest.xml:119:13-49
+		ADDED from /home/devch/AndroidStudioProjects/ColegioArji/app/src/main/AndroidManifest.xml:122:13-49
 	android:label
-		ADDED from /home/devch/AndroidStudioProjects/ColegioArji/app/src/main/AndroidManifest.xml:117:13-66
+		ADDED from /home/devch/AndroidStudioProjects/ColegioArji/app/src/main/AndroidManifest.xml:120:13-66
 	android:parentActivityName
-		ADDED from /home/devch/AndroidStudioProjects/ColegioArji/app/src/main/AndroidManifest.xml:118:13-55
+		ADDED from /home/devch/AndroidStudioProjects/ColegioArji/app/src/main/AndroidManifest.xml:121:13-55
 	android:name
-		ADDED from /home/devch/AndroidStudioProjects/ColegioArji/app/src/main/AndroidManifest.xml:116:13-51
+		ADDED from /home/devch/AndroidStudioProjects/ColegioArji/app/src/main/AndroidManifest.xml:119:13-51
 service#mx.com.logydes.colegioarji.Utils.NotificationService
-ADDED from /home/devch/AndroidStudioProjects/ColegioArji/app/src/main/AndroidManifest.xml:125:9-129:19
+ADDED from /home/devch/AndroidStudioProjects/ColegioArji/app/src/main/AndroidManifest.xml:128:9-132:19
 	android:name
-		ADDED from /home/devch/AndroidStudioProjects/ColegioArji/app/src/main/AndroidManifest.xml:125:18-59
+		ADDED from /home/devch/AndroidStudioProjects/ColegioArji/app/src/main/AndroidManifest.xml:128:18-59
 intent-filter#com.google.firebase.MESSAGING_EVENT
-ADDED from /home/devch/AndroidStudioProjects/ColegioArji/app/src/main/AndroidManifest.xml:126:13-128:29
+ADDED from /home/devch/AndroidStudioProjects/ColegioArji/app/src/main/AndroidManifest.xml:129:13-131:29
 action#com.google.firebase.MESSAGING_EVENT
-ADDED from /home/devch/AndroidStudioProjects/ColegioArji/app/src/main/AndroidManifest.xml:127:17-78
+ADDED from /home/devch/AndroidStudioProjects/ColegioArji/app/src/main/AndroidManifest.xml:130:17-78
 	android:name
-		ADDED from /home/devch/AndroidStudioProjects/ColegioArji/app/src/main/AndroidManifest.xml:127:25-75
+		ADDED from /home/devch/AndroidStudioProjects/ColegioArji/app/src/main/AndroidManifest.xml:130:25-75
 service#mx.com.logydes.colegioarji.Utils.NotificacionIDTokenService
-ADDED from /home/devch/AndroidStudioProjects/ColegioArji/app/src/main/AndroidManifest.xml:130:9-134:19
+ADDED from /home/devch/AndroidStudioProjects/ColegioArji/app/src/main/AndroidManifest.xml:133:9-137:19
 	android:name
-		ADDED from /home/devch/AndroidStudioProjects/ColegioArji/app/src/main/AndroidManifest.xml:130:18-66
+		ADDED from /home/devch/AndroidStudioProjects/ColegioArji/app/src/main/AndroidManifest.xml:133:18-66
 intent-filter#com.google.firebase.INSTANCE_ID_EVENT
-ADDED from /home/devch/AndroidStudioProjects/ColegioArji/app/src/main/AndroidManifest.xml:131:13-133:29
+ADDED from /home/devch/AndroidStudioProjects/ColegioArji/app/src/main/AndroidManifest.xml:134:13-136:29
 action#com.google.firebase.INSTANCE_ID_EVENT
-ADDED from /home/devch/AndroidStudioProjects/ColegioArji/app/src/main/AndroidManifest.xml:132:17-80
+ADDED from /home/devch/AndroidStudioProjects/ColegioArji/app/src/main/AndroidManifest.xml:135:17-80
 	android:name
-		ADDED from /home/devch/AndroidStudioProjects/ColegioArji/app/src/main/AndroidManifest.xml:132:25-77
+		ADDED from /home/devch/AndroidStudioProjects/ColegioArji/app/src/main/AndroidManifest.xml:135:25-77
 uses-sdk
 INJECTED from /home/devch/AndroidStudioProjects/ColegioArji/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
-MERGED from [com.android.support:design:25.3.1] /home/devch/.android/build-cache/faffc0ff55de3161b12a9a31c4cf2f49bd6376b2/output/AndroidManifest.xml:21:5-23:62
-MERGED from [com.android.support:transition:25.3.1] /home/devch/.android/build-cache/1e48c265dddd67dad554f3b827790838d8c34639/output/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:cardview-v7:25.3.1] /home/devch/.android/build-cache/2eabd510cac3d0bd49c284388c4fa9a278e25576/output/AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:recyclerview-v7:25.3.1] /home/devch/.android/build-cache/7338e16eb0afb41341409f1c8f6f907a4277b0fd/output/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:multidex:1.0.1] /home/devch/.android/build-cache/9842dd7432667fc2446749037c28813e0ef16723/output/AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:design:26.0.2] /home/devch/.android/build-cache/849c8b746284fd45151003aeefa48fc1cb06e5c1/output/AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:transition:26.0.2] /home/devch/.android/build-cache/3df91ed814a2cb0fba392b52d4a3212f13ddfd5b/output/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:26.0.2] /home/devch/.android/build-cache/bb0b8d7dc2c5e3be3f0aea3f4261faeefe8cf9c9/output/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:26.0.2] /home/devch/.android/build-cache/9f96484b2050dfe9709193d17f7438ac420f5287/output/AndroidManifest.xml:20:5-44
 MERGED from [com.mcxiaoke.volley:library-aar:1.0.0] /home/devch/.android/build-cache/c25cde9ed8bd7798c4d4cc56a7418910e74c2c41/output/AndroidManifest.xml:3:5-72
 MERGED from [com.google.android.gms:play-services:9.8.0] /home/devch/.android/build-cache/499af9d6ec713f6c031d7c9bc7a747754fe02bb4/output/AndroidManifest.xml:4:5-42
 MERGED from [com.google.android.gms:play-services-ads:9.8.0] /home/devch/.android/build-cache/8f0eb763fdd4c3b34c366ffc18b1faabd1377b55/output/AndroidManifest.xml:17:5-42
@@ -267,9 +273,9 @@ MERGED from [com.google.android.gms:play-services-cast-framework:9.8.0] /home/de
 MERGED from [com.google.android.gms:play-services-cast:9.8.0] /home/devch/.android/build-cache/8cbce7ac77a64d7d92be0bbb505ee4dc1330bb76/output/AndroidManifest.xml:17:5-42
 MERGED from [com.android.support:mediarouter-v7:24.0.0] /home/devch/.android/build-cache/7f92580b55284743e9dd029bd37d8273d99aef23/output/AndroidManifest.xml:20:5-43
 MERGED from [com.android.support:palette-v7:24.0.0] /home/devch/.android/build-cache/758965136f21bef23f8ba38ad8a904cc1da1255c/output/AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:appcompat-v7:25.3.1] /home/devch/.android/build-cache/59f2315c01240a226ab37afdfae3f5e0397da19b/output/AndroidManifest.xml:21:5-23:78
-MERGED from [com.android.support:animated-vector-drawable:25.3.1] /home/devch/.android/build-cache/c3e0656ec9a2083f7a8e347aaedcf2ca10bbb64d/output/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:25.3.1] /home/devch/.android/build-cache/345611460c375d4d57479a1b907ed38715354387/output/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:appcompat-v7:26.0.2] /home/devch/.android/build-cache/1a22003640e4e6812b2bffe925314820b3856161/output/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:animated-vector-drawable:26.0.2] /home/devch/.android/build-cache/5651ee1f1fb166867e206e48172b77b57ce936e7/output/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:26.0.2] /home/devch/.android/build-cache/77d8ce3862ef032711ecc94abf23d2e5bd0361e5/output/AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-clearcut:9.8.0] /home/devch/.android/build-cache/cc44738e30bbf04621c85dbc51f01a8567f482c6/output/AndroidManifest.xml:17:5-42
 MERGED from [com.google.firebase:firebase-config:9.8.0] /home/devch/.android/build-cache/18f8a11b4f8cf28ee48a43885a399a5dfb95ada8/output/AndroidManifest.xml:17:5-42
 MERGED from [com.google.android.gms:play-services-awareness:9.8.0] /home/devch/.android/build-cache/4ecdc29a91788ab56426540692287e81bde372d8/output/AndroidManifest.xml:17:5-42
@@ -313,14 +319,14 @@ MERGED from [com.google.firebase:firebase-iid:9.8.0] /home/devch/.android/build-
 MERGED from [com.google.firebase:firebase-common:9.8.0] /home/devch/.android/build-cache/f301d86516f76fd5f904fe2c4d9a3e59d4effb92/output/AndroidManifest.xml:3:5-42
 MERGED from [com.google.android.gms:play-services-tasks:9.8.0] /home/devch/.android/build-cache/d78c171c786a2b230f169b4889f6e6c11f4f92a3/output/AndroidManifest.xml:3:5-42
 MERGED from [com.google.android.gms:play-services-basement:9.8.0] /home/devch/.android/build-cache/c1a7ee281e849086a87d2d4a9af05e572dcea383/output/AndroidManifest.xml:17:5-42
-MERGED from [com.android.support:support-v4:25.3.1] /home/devch/.android/build-cache/197b387ed54caf850649a5bf9f959b4c91432963/output/AndroidManifest.xml:21:5-23:54
-MERGED from [com.android.support:support-fragment:25.3.1] /home/devch/.android/build-cache/2077c104877c7ca4c851056c76e75a58fa580299/output/AndroidManifest.xml:21:5-23:60
-MERGED from [com.android.support:support-media-compat:25.3.1] /home/devch/.android/build-cache/a5fa7a553b3e8c02158389275c523a0c2de2b8df/output/AndroidManifest.xml:21:5-23:63
-MERGED from [com.android.support:support-core-ui:25.3.1] /home/devch/.android/build-cache/4ee644bb5b9ebc3c423f1803f06d9e5782979b30/output/AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-core-utils:25.3.1] /home/devch/.android/build-cache/a342661f43c00f0e187d9d678f0ecc320a908530/output/AndroidManifest.xml:21:5-23:61
-MERGED from [com.android.support:support-compat:25.3.1] /home/devch/.android/build-cache/e2b037411b9a4f48d471bb806c5864aaf74c2369/output/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-v4:26.0.2] /home/devch/.android/build-cache/41fd4698d9708d0910ab97ce523a640433b9f69b/output/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-media-compat:26.0.2] /home/devch/.android/build-cache/1b8cd8bf322b7ebde2a43256ebfb16b157d26466/output/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-fragment:26.0.2] /home/devch/.android/build-cache/17ce4cc1f65b801704949d254cd6e9f7f54e28f6/output/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-core-ui:26.0.2] /home/devch/.android/build-cache/b63e2951150c0d213fa4c09823a18264dfd2ee16/output/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:26.0.2] /home/devch/.android/build-cache/c4939ae77f32db7a8714408a34376a1e8437697c/output/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-compat:26.0.2] /home/devch/.android/build-cache/6c308c27f23aa3a07bc56ed9cac7c7c050c0a8f7/output/AndroidManifest.xml:21:5-23:58
 	tools:overrideLibrary
-		ADDED from [com.android.support:design:25.3.1] /home/devch/.android/build-cache/faffc0ff55de3161b12a9a31c4cf2f49bd6376b2/output/AndroidManifest.xml:23:9-59
+		ADDED from [com.android.support:design:26.0.2] /home/devch/.android/build-cache/849c8b746284fd45151003aeefa48fc1cb06e5c1/output/AndroidManifest.xml:23:9-59
 	android:targetSdkVersion
 		INJECTED from /home/devch/AndroidStudioProjects/ColegioArji/app/src/main/AndroidManifest.xml
 		INJECTED from /home/devch/AndroidStudioProjects/ColegioArji/app/src/main/AndroidManifest.xml
@@ -328,23 +334,23 @@ MERGED from [com.android.support:support-compat:25.3.1] /home/devch/.android/bui
 		INJECTED from /home/devch/AndroidStudioProjects/ColegioArji/app/src/main/AndroidManifest.xml
 		INJECTED from /home/devch/AndroidStudioProjects/ColegioArji/app/src/main/AndroidManifest.xml
 meta-data#android.support.VERSION
-ADDED from [com.android.support:design:25.3.1] /home/devch/.android/build-cache/faffc0ff55de3161b12a9a31c4cf2f49bd6376b2/output/AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:transition:25.3.1] /home/devch/.android/build-cache/1e48c265dddd67dad554f3b827790838d8c34639/output/AndroidManifest.xml:22:5-24:34
-MERGED from [com.android.support:cardview-v7:25.3.1] /home/devch/.android/build-cache/2eabd510cac3d0bd49c284388c4fa9a278e25576/output/AndroidManifest.xml:22:5-24:34
-MERGED from [com.android.support:recyclerview-v7:25.3.1] /home/devch/.android/build-cache/7338e16eb0afb41341409f1c8f6f907a4277b0fd/output/AndroidManifest.xml:22:5-24:34
-MERGED from [com.android.support:appcompat-v7:25.3.1] /home/devch/.android/build-cache/59f2315c01240a226ab37afdfae3f5e0397da19b/output/AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:animated-vector-drawable:25.3.1] /home/devch/.android/build-cache/c3e0656ec9a2083f7a8e347aaedcf2ca10bbb64d/output/AndroidManifest.xml:22:5-24:34
-MERGED from [com.android.support:support-vector-drawable:25.3.1] /home/devch/.android/build-cache/345611460c375d4d57479a1b907ed38715354387/output/AndroidManifest.xml:22:5-24:34
-MERGED from [com.android.support:support-v4:25.3.1] /home/devch/.android/build-cache/197b387ed54caf850649a5bf9f959b4c91432963/output/AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-fragment:25.3.1] /home/devch/.android/build-cache/2077c104877c7ca4c851056c76e75a58fa580299/output/AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-media-compat:25.3.1] /home/devch/.android/build-cache/a5fa7a553b3e8c02158389275c523a0c2de2b8df/output/AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-core-ui:25.3.1] /home/devch/.android/build-cache/4ee644bb5b9ebc3c423f1803f06d9e5782979b30/output/AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-core-utils:25.3.1] /home/devch/.android/build-cache/a342661f43c00f0e187d9d678f0ecc320a908530/output/AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-compat:25.3.1] /home/devch/.android/build-cache/e2b037411b9a4f48d471bb806c5864aaf74c2369/output/AndroidManifest.xml:25:5-27:34
+ADDED from [com.android.support:design:26.0.2] /home/devch/.android/build-cache/849c8b746284fd45151003aeefa48fc1cb06e5c1/output/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:transition:26.0.2] /home/devch/.android/build-cache/3df91ed814a2cb0fba392b52d4a3212f13ddfd5b/output/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:cardview-v7:26.0.2] /home/devch/.android/build-cache/bb0b8d7dc2c5e3be3f0aea3f4261faeefe8cf9c9/output/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:recyclerview-v7:26.0.2] /home/devch/.android/build-cache/9f96484b2050dfe9709193d17f7438ac420f5287/output/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:appcompat-v7:26.0.2] /home/devch/.android/build-cache/1a22003640e4e6812b2bffe925314820b3856161/output/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:animated-vector-drawable:26.0.2] /home/devch/.android/build-cache/5651ee1f1fb166867e206e48172b77b57ce936e7/output/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-vector-drawable:26.0.2] /home/devch/.android/build-cache/77d8ce3862ef032711ecc94abf23d2e5bd0361e5/output/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-v4:26.0.2] /home/devch/.android/build-cache/41fd4698d9708d0910ab97ce523a640433b9f69b/output/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:26.0.2] /home/devch/.android/build-cache/1b8cd8bf322b7ebde2a43256ebfb16b157d26466/output/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-fragment:26.0.2] /home/devch/.android/build-cache/17ce4cc1f65b801704949d254cd6e9f7f54e28f6/output/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-ui:26.0.2] /home/devch/.android/build-cache/b63e2951150c0d213fa4c09823a18264dfd2ee16/output/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-utils:26.0.2] /home/devch/.android/build-cache/c4939ae77f32db7a8714408a34376a1e8437697c/output/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-compat:26.0.2] /home/devch/.android/build-cache/6c308c27f23aa3a07bc56ed9cac7c7c050c0a8f7/output/AndroidManifest.xml:26:9-28:38
 	android:value
-		ADDED from [com.android.support:design:25.3.1] /home/devch/.android/build-cache/faffc0ff55de3161b12a9a31c4cf2f49bd6376b2/output/AndroidManifest.xml:27:9-31
+		ADDED from [com.android.support:design:26.0.2] /home/devch/.android/build-cache/849c8b746284fd45151003aeefa48fc1cb06e5c1/output/AndroidManifest.xml:28:13-35
 	android:name
-		ADDED from [com.android.support:design:25.3.1] /home/devch/.android/build-cache/faffc0ff55de3161b12a9a31c4cf2f49bd6376b2/output/AndroidManifest.xml:26:9-47
+		ADDED from [com.android.support:design:26.0.2] /home/devch/.android/build-cache/849c8b746284fd45151003aeefa48fc1cb06e5c1/output/AndroidManifest.xml:27:13-51
 uses-permission#android.permission.ACCESS_NETWORK_STATE
 ADDED from [com.google.android.gms:play-services-ads-lite:9.8.0] /home/devch/.android/build-cache/131f6c753471f54498e0c33443e688373d70dd19/output/AndroidManifest.xml:20:5-78
 MERGED from [com.google.android.gms:play-services-analytics:9.8.0] /home/devch/.android/build-cache/ffe52a8bac38b370e2adafe85d2caafb68a4d740/output/AndroidManifest.xml:21:5-78

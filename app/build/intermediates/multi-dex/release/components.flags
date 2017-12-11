@@ -1,7 +1,7 @@
 -injars /home/devch/AndroidStudioProjects/ColegioArji/app/build/intermediates/transforms/proguard/release/jars/3/1f/main.jar
 -outjars /home/devch/AndroidStudioProjects/ColegioArji/app/build/intermediates/multi-dex/release/componentClasses.jar
 
--libraryjars /home/devch/Android/Sdk/build-tools/25.0.0/lib/shrinkedAndroid.jar
+-libraryjars /home/devch/Android/Sdk/build-tools/26.0.2/lib/shrinkedAndroid.jar
 
 -forceprocessing
 -dontoptimize
@@ -12,6 +12,11 @@
 -dontwarn **
 -printconfiguration /home/devch/AndroidStudioProjects/ColegioArji/app/build/intermediates/multi-dex/release/components.flags
 
+
+# view AndroidManifest.xml #generated:29
+-keep class mx.com.logydes.colegioarji.Utils.AppController {
+    <init>(...);
+}
 
 -keep public class * extends android.app.Instrumentation {
     <init>();

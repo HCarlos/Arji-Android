@@ -69,7 +69,10 @@
             android:name=".ListaElementos"
             android:label="@string/title_activity_hijos"
             android:parentActivityName=".MenuHijos"
-            android:screenOrientation="portrait">
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:colorMode="default"
+            >
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".MenuHijos" />

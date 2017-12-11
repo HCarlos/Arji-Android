@@ -19,11 +19,12 @@
     <dimen name="em16">16dp</dimen>
     <dimen name="em24">24dp</dimen>
     <dimen name="em32">32dp</dimen>
+    <dimen name="em64">32dp</dimen>
     <dimen name="em40">40dp</dimen>
     <dimen name="em196">196dp</dimen>
     <dimen name="padding8dp">8dp</dimen>
     <dimen name="tamanoImgHeader">100dp</dimen>
-
+    <!-- ?attr/actionBarSize -->
     <!-- Cardview Hijos -->
     <dimen name="cvBottomMarginHijos">4dp</dimen>
     <dimen name="cvRadioCornerHijos">8dp</dimen>

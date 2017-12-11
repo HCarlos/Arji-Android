@@ -41,9 +41,9 @@ public class AppConfig {
     public static String URL_DESARROLLADOR = URL_HOME + "getContacto/";
     public static int URL_DESARROLLADOR_TYPE = 7;
 
-    public static String URL_GET_HIJOS = URL_HOME + "getListaHijos/";
+    public static String URL_GET_HIJOS = URL_HOME + "getListaHijosAndroid/";
 
-    public static String URL_TAREAS_CIRCULARES = URL_HOME + "getListaTutorTareas/";
+    public static String URL_TAREAS_CIRCULARES = URL_HOME + "getListaTutorTareasAndroid/";
 
     public static String URL_TAREA = URL_HOME + "getHTMLTemplateAndroid/";
     public static String URL_CIRCULARES = URL_HOME + "getCircularesHTMLTemplateAndroid/";
@@ -57,10 +57,10 @@ public class AppConfig {
     public static String URL_AVISO_PRIVACIDAD = URL_HOME + "getAvisoPrivacidad/";
     public static int URL_AVISO_PRIVACIDAD_TYPE = 9;
 
-    public static String URL_NOTIFICACIONES = URL_HOME + "getMensajes/";
+    public static String URL_NOTIFICACIONES = URL_HOME + "getMensajesAndroid/";
     public static int URL_NOTIFICACIONES_TYPE = 10;
 
-    public static String URL_NOTIFICACION = URL_HOME + "getMensaje/";
+    public static String URL_NOTIFICACION = URL_HOME + "getMensajeAndroid/";
     public static int URL_NOTIFICACION_TYPE = 11;
 
     public static int INDICE_CIRCULAR = 1;

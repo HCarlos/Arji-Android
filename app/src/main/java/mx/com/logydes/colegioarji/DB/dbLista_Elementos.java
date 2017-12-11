@@ -76,13 +76,15 @@ public class dbLista_Elementos {
         Utl = new Utilidades(pDialog);
         Utl.showDialog();
 
+        Log.e(TAG, strURL);
+
         StringRequest strReq = new StringRequest(Request.Method.POST,
                 strURL, new Response.Listener<String>() {
 
             @Override
             public void onResponse(String response) {
                 Utl.hideDialog();
-                Log.e(TAG, response );
+                Log.e("RESPUESTA JSON: ", response );
                 try {
                     JSONArray jObj = new JSONArray(response);
                     JSONObject rec = jObj.getJSONObject(0);
@@ -118,16 +120,18 @@ public class dbLista_Elementos {
                                     idelemento = rec.getInt("idtarea");
                                     idelementodestinatario = rec.getInt("idtareadestinatario");
                                     label = rec.getString("titulo_tarea");
-                                    lblProfesor = rec.getString("profesor");
-                                    status_read = rec.getInt("isleida");
+                                    lblProfesor = rec.getString("profesor");;
+                                    status_read = rec.getInt("isleida");;
+                                    Log.d("Status Read ", String.valueOf(status_read));
                                     MM.add( new Lista_Elementos(label,lblProfesor,idelemento,idelementodestinatario,Type, status_read) );
                                     break;
                                 case 1:
                                     idelemento = rec.getInt("idcommensaje");
                                     idelementodestinatario = rec.getInt("idcommensajedestinatario");
                                     label = rec.getString("titulo_mensaje");
-                                    lblDirector = rec.getString("nombre_remitente");
-                                    status_read = rec.getInt("isleida");
+                                    lblDirector = "";
+                                    status_read = 1;
+                                    Log.d("Status Read ", String.valueOf(status_read));
                                     MM.add( new Lista_Elementos(idelemento,idelementodestinatario,label,lblDirector,Type, status_read) );
                                     break;
                                 case 2:
@@ -196,7 +200,7 @@ public class dbLista_Elementos {
 
                     } else {
                         Toast.makeText(context,
-                                msg, Toast.LENGTH_LONG).show();
+                                "Error:. " +msg, Toast.LENGTH_LONG).show();
                     }
 
                 } catch (JSONException e) {
@@ -211,7 +215,7 @@ public class dbLista_Elementos {
             public void onErrorResponse(VolleyError error) {
                 Log.e(TAG, "Data Error: " + error.getMessage());
                 Toast.makeText(context,
-                        error.getMessage(), Toast.LENGTH_LONG).show();
+                        "Data Error:... "+error.getMessage(), Toast.LENGTH_LONG).show();
                 Utl.hideDialog();
             }
         }) {
@@ -220,7 +224,7 @@ public class dbLista_Elementos {
             protected Map<String, String> getParams() {
 
                 Map<String, String> params = new HashMap<String, String>();
-                /// Log.e(TAG,String.valueOf(Type));
+                Log.e(TAG,Singleton.getUsername());
                 Log.e(TAG,String.valueOf(Singleton.getIdAlu()));
                 Log.e(TAG,Singleton.getUsername());
                 switch (Type){
@@ -232,6 +236,7 @@ public class dbLista_Elementos {
                         params.put("sts", "-1");
                         params.put("iduseralu", String.valueOf( Singleton.getIdUserAlu() ) );
                         params.put("tipoconsulta", String.valueOf( Type ) );
+                        params.put("fuente", "2" );
                         break;
                     case 6:
                         String token = FirebaseInstanceId.getInstance().getToken();
